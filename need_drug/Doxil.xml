@@ -1,0 +1,2914 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="17206b15-725c-410d-838d-ccb228c6ea2b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use DOXIL safely and effectively. See full prescribing information for DOXIL.<br/>
+      <br/>DOXIL<sup>®</sup> (doxorubicin hydrochloride liposome injection), for intravenous use<br/>Initial U.S. Approval: 1995</title>
+   <effectiveTime value="20171103"/>
+   <setId root="21d9c619-7e94-49e2-ac41-31e9ea96554a"/>
+   <versionNumber value="22"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="804684207" root="1.3.6.1.4.1.519.1"/>
+            <name>Janssen Products, LP</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="695400580" root="1.3.6.1.4.1.519.1"/>
+                        <name>Meiji Seika Pharma Co., Ltd.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C82401" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="API MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="59676-960" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="658865659" root="1.3.6.1.4.1.519.1"/>
+                        <name>TTY Biopharm Company Limited (Chung-Li Factory)</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="59676-960" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="338471078" root="1.3.6.1.4.1.519.1"/>
+                        <name>GlaxoSmithKline</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="59676-960" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="370005019" root="1.3.6.1.4.1.519.1"/>
+                        <name>Janssen Pharmaceutica NV</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="59676-960" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="248de225-8378-45c9-bfe9-e8ebb58834d9"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20170401"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59676-960" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>DOXIL</name>
+                        <formCode code="C42951" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SUSPENSION, LIPOSOMAL"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>doxorubicin hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="2" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="82F2G7BL4E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>doxorubicin hydrochloride</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="80168379AG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>doxorubicin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="3.19" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3L6NN8ZZKU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM N-(CARBONYL-METHOXYPOLYETHYLENE GLYCOL 2000)-1,2-DISTEAROYL-SN-GLYCERO-3-PHOSPHOETHANOLAMINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="9.58" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="H1109Z9J4N" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>hydrogenated soybean lecithin</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="3.19" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="97C5T2UQ7J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>cholesterol</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="0.6" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="SU46BAM238" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ammonium sulfate</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4QD397987E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>histidine</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>hydrochloric acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sodium hydroxide</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C151H8M554" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>sucrose</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-USE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="59676-960-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19951117"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="25" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-USE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="59676-960-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19951117"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA050718" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19951117"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="BOX">
+               <id root="da898d4f-f05f-4b0d-b0b5-38ef6aab9700"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>
+                  <content styleCode="emphasis">WARNING:	CARDIOMYOPATHY and INFUSION-RELATED REACTIONS</content>
+               </title>
+               <text>
+                  <list listType="unordered" styleCode="disc">
+                     <item>
+                        <content styleCode="bold">DOXIL (doxorubicin HCl liposome injection) can cause myocardial damage, including congestive heart failure, as the total cumulative dose of doxorubicin HCl approaches 550 mg/m<sup>2</sup>. In a clinical study of 250 patients with advanced cancer who were treated with DOXIL, the risk of cardiotoxicity was 11% when the cumulative anthracycline dose was between 450–550 mg/m<sup>2</sup>. Prior use of other anthracyclines or anthracenediones should be included in calculations of total cumulative dosage. The risk of cardiomyopathy may be increased at lower cumulative doses in patients with prior mediastinal irradiation <content styleCode="italics">[see <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]</content>.</content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Acute infusion-related reactions consisting of, but not limited to, flushing, shortness of breath, facial swelling, headache, chills, back pain, tightness in the chest or throat, and/or hypotension occurred in 11% of patients with solid tumors treated with DOXIL. Serious, life-threatening and fatal infusion reactions have been reported <content styleCode="italics">[see <linkHtml href="#S2.6">Dosage and Administration (2.6)</linkHtml> and <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]</content>.</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20170401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">WARNING:	CARDIOMYOPATHY and INFUSION-RELATED REACTIONS</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold italics">See full prescribing information for complete boxed warning.</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="bold">Myocardial damage may lead to congestive heart failure and may occur as the total cumulative dose of doxorubicin HCl approaches 550 mg/m<sup>2</sup>. The risk of cardiomyopathy may be increased at lower cumulative doses with mediastinal irradiation (<linkHtml href="#S5.1">5.1</linkHtml>).</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Acute infusion-related reactions occurred in 11% of patients with solid tumors. Serious, life-threatening, and fatal infusion reactions have been reported. Medications/emergency equipment to treat such reactions should be available for immediate use (<linkHtml href="#S5.2">5.2</linkHtml>).</content>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S1">
+               <id root="04f866d2-b397-44d1-aca9-799456f0c4ac"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <effectiveTime value="20170401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>DOXIL is an anthracycline topoisomerase II inhibitor indicated for:</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="bold">Ovarian cancer (<linkHtml href="#S1.1">1.1</linkHtml>)</content>
+                              <br/>After failure of platinum-based chemotherapy.</item>
+                           <item>
+                              <content styleCode="bold">AIDS-related Kaposi's Sarcoma (<linkHtml href="#S1.2">1.2</linkHtml>)</content>
+                              <br/>After failure of prior systemic chemotherapy or intolerance to such therapy.</item>
+                           <item>
+                              <content styleCode="bold">Multiple Myeloma (<linkHtml href="#S1.3">1.3</linkHtml>)</content>
+                              <br/>In combination with bortezomib in patients who have not previously received bortezomib and have received at least one prior therapy.</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S1.1">
+                     <id root="53e89d5b-da56-4260-95fb-05da007902fc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>1.1 Ovarian Cancer</title>
+                     <text>
+                        <paragraph>DOXIL is indicated for the treatment of patients with ovarian cancer whose disease has progressed or recurred after platinum-based chemotherapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S1.2">
+                     <id root="89555ac6-403e-42f4-8c34-8bbf8be3bc20"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>1.2 AIDS-Related Kaposi's Sarcoma</title>
+                     <text>
+                        <paragraph>DOXIL is indicated for the treatment of AIDS-related Kaposi's sarcoma in patients after failure of prior systemic chemotherapy or intolerance to such therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S1.3">
+                     <id root="43ef76b8-365c-401f-b30a-f97f01546964"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>1.3 Multiple Myeloma</title>
+                     <text>
+                        <paragraph>DOXIL, in combination with bortezomib, is indicated for the treatment of patients with multiple myeloma who have not previously received bortezomib and have received at least one prior therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S2">
+               <id root="52d69e36-734d-4eb7-a5ab-5c41b1b3494a"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20170401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Administer DOXIL at an initial rate of 1 mg/min to minimize the risk of infusion reactions. If no infusion related reactions occur, increase rate of infusion to complete administration over 1 hour. Do not administer as bolus injection or undiluted solution (<linkHtml href="#S2">2</linkHtml>).</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <content styleCode="bold">Ovarian cancer: </content>50 mg/m<sup>2</sup> IV every 4 weeks (<linkHtml href="#S2.2">2.2</linkHtml>)</item>
+                           <item>
+                              <content styleCode="bold">AIDS-related Kaposi's Sarcoma: </content>20 mg/m<sup>2</sup> IV every 3 weeks (<linkHtml href="#S2.3">2.3</linkHtml>)</item>
+                           <item>
+                              <content styleCode="bold">Multiple Myeloma: </content>30 mg/m<sup>2</sup> IV on day 4 following bortezomib (<linkHtml href="#S2.4">2.4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S2.1">
+                     <id root="41d58bd1-ce6a-4114-9dd8-075940fe1c02"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1  Important Use Information</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">										Do not substitute </content> DOXIL for doxorubicin HCl injection.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">										Do not administer </content> as an undiluted suspension or as an intravenous bolus <content styleCode="italics">[see <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.2">
+                     <id root="1c033b18-966a-4de5-983e-9c3653504968"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2	Ovarian Cancer</title>
+                     <text>
+                        <paragraph>                           The recommended dose of DOXIL is 50 mg/m<sup>2</sup> intravenously over 60 minutes every 28 days until disease progression or unacceptable toxicity.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.3">
+                     <id root="6fd1ba37-6ab1-4a4f-abf3-64fad698c1d3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3	AIDS-Related Kaposi's Sarcoma</title>
+                     <text>
+                        <paragraph>                          The recommended dose of DOXIL is 20 mg/m<sup>2</sup> intravenously over 60 minutes every 21 days until disease progression or unacceptable toxicity.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.4">
+                     <id root="853fc7e4-3ade-41c8-8823-e12c06d90319"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.4	Multiple Myeloma</title>
+                     <text>
+                        <paragraph>                           The recommended dose of DOXIL is 30 mg/m<sup>2</sup> intravenously over 60 minutes on day 4 of each 21-day cycle for eight cycles or until disease progression or unacceptable toxicity. Administer DOXIL after bortezomib on day 4 of each cycle <content styleCode="italics">[see <linkHtml href="#S14.3">Clinical Studies (14.3)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.5">
+                     <id root="39d21eaf-a77c-46fe-bee1-3265d210acbc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.5	Dose Modifications for Adverse Reactions</title>
+                     <text>
+                        <paragraph>                          Do not increase DOXIL after a dose reduction for toxicity.</paragraph>
+                        <table ID="table1" width="75%">
+                           <caption>Table 1:	Recommended Dose Modifications for Hand-Foot Syndrome, Stomatitis, or Hematologic Adverse Reactions</caption>
+                           <col width="30%" align="left" valign="top"/>
+                           <col width="70%" align="left" valign="top"/>
+                           <thead>
+                              <tr styleCode="Botrule">
+                                 <th styleCode="Lrule Rrule">                                    Toxicity</th>
+                                 <th styleCode="Rrule">Dose Adjustment</th>
+                              </tr>
+                              <tr>
+                                 <th styleCode="Lrule Rrule" colspan="2">Hand-Foot Syndrome (HFS)</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">                                    Grade 1: Mild erythema, swelling, or desquamation not interfering with daily activities</td>
+                                 <td styleCode="Rrule">
+                                    <list listType="unordered">
+                                       <item>If no previous Grade 3 or 4 HFS: no dose adjustment.</item>
+                                       <item>If previous Grade 3 or 4 HFS: delay dose up to 2 weeks, then decrease dose by 25%.</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">                                   Grade 2: Erythema, desquamation, or swelling interfering with, but not precluding normal physical activities; small blisters or ulcerations less than 2 cm in diameter</td>
+                                 <td styleCode="Rrule">
+                                    <list listType="unordered">
+                                       <item>
+                                          <content styleCode="bold">Delay dosing up to 2 weeks or until resolved to Grade 0–1.</content>
+                                       </item>
+                                       <item>Discontinue DOXIL if no resolution after 2 weeks.</item>
+                                       <item>If resolved to Grade 0–1 within 2 weeks: 												<list listType="unordered" styleCode="circle">
+                                             <item>
+                                                <content styleCode="underline">And</content> no previous Grade 3 or 4 HFS: continue treatment at previous dose.</item>
+                                             <item>
+                                                <content styleCode="underline">And</content> previous Grade 3 or 4 toxicity: decrease dose by 25%.</item>
+                                          </list>
+                                       </item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">                                    Grade 3: Blistering, ulceration, or swelling interfering with walking or normal daily activities; cannot wear regular clothing</td>
+                                 <td styleCode="Rrule">
+                                    <list listType="unordered">
+                                       <item>
+                                          <content styleCode="bold">Delay dosing up to 2 weeks or until resolved to Grade 0–1, </content> then decrease dose by 25%.</item>
+                                       <item>Discontinue DOXIL if no resolution after 2 weeks.</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">                                   Grade 4: Diffuse or local process causing infectious complications, or a bed ridden state or hospitalization</td>
+                                 <td styleCode="Rrule">
+                                    <list listType="unordered">
+                                       <item>
+                                          <content styleCode="bold">Delay dosing up to 2 weeks or until resolved to Grade 0–1, </content> then decrease dose by 25%.</item>
+                                       <item>Discontinue DOXIL if no resolution after 2 weeks.</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="2">
+                                    <content styleCode="bold">Stomatitis</content>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">                                    Grade 1: Painless ulcers, erythema, or mild soreness</td>
+                                 <td styleCode="Rrule">
+                                    <list listType="unordered">
+                                       <item>If no previous Grade 3 or 4 toxicity: no dose adjustment.</item>
+                                       <item>If previous Grade 3 or 4 toxicity: delay up to 2 weeks then decrease dose by 25%.</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">                                    Grade 2: Painful erythema, edema, or ulcers, but can eat</td>
+                                 <td styleCode="Rrule">
+                                    <list listType="unordered">
+                                       <item>
+                                          <content styleCode="bold">Delay dosing up to 2 weeks or until resolved to Grade 0–1.</content>
+                                       </item>
+                                       <item>Discontinue DOXIL if there is no resolution after 2 weeks.</item>
+                                       <item>If resolved to Grade 0–1 within 2 weeks: 												<list listType="unordered" styleCode="Circle">
+                                             <item>
+                                                <content styleCode="underline">And</content> no previous Grade 3 or 4 stomatitis: resume treatment at previous dose.</item>
+                                             <item>
+                                                <content styleCode="underline">And</content> previous Grade 3 or 4 toxicity: decrease dose by 25%.</item>
+                                          </list>
+                                       </item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">                                    Grade 3: Painful erythema, edema, or ulcers, and cannot eat</td>
+                                 <td styleCode="Rrule">
+                                    <list listType="unordered">
+                                       <item>
+                                          <content styleCode="bold">Delay dosing up to 2 weeks or until resolved to Grade 0–1. </content> Decrease dose by 25% and return to original dose interval.</item>
+                                       <item>If after 2 weeks there is no resolution, discontinue DOXIL.</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">                                    Grade 4: Requires parenteral or enteral support</td>
+                                 <td styleCode="Rrule">
+                                    <list listType="unordered">
+                                       <item>
+                                          <content styleCode="bold">Delay dosing up to 2 weeks or until resolved to Grade 0–1. </content> Decrease dose by 25% and return to original dose interval.</item>
+                                       <item>If after 2 weeks there is no resolution, discontinue DOXIL.</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" colspan="2">
+                                    <content styleCode="bold">Neutropenia or Thrombocytopenia</content>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">                                    Grade 1</td>
+                                 <td styleCode="Rrule">No dose reduction</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">                                    Grade 2</td>
+                                 <td styleCode="Rrule">Delay until ANC ≥ 1,500 and platelets ≥ 75,000; resume treatment at previous dose</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">                                    Grade 3</td>
+                                 <td styleCode="Rrule">Delay until ANC ≥ 1,500 and platelets ≥ 75,000; resume treatment at previous dose</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">                                    Grade 4</td>
+                                 <td styleCode="Rrule">Delay until ANC ≥ 1,500 and platelets ≥ 75,000; resume at 25% dose reduction or continue previous dose with prophylactic granulocyte growth factor</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <table ID="table2" width="75%">
+                           <caption>Table 2:	Recommended Dose Modifications of DOXIL for Toxicity When Administered in Combination With Bortezomib</caption>
+                           <col width="35%" align="left" valign="top"/>
+                           <col width="65%" align="left" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule">Toxicity</th>
+                                 <th styleCode="Rrule">DOXIL</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">                                    Fever ≥38°C and ANC &lt;1,000/mm<sup>3</sup>
+                                 </td>
+                                 <td styleCode="Rrule">
+                                    <list listType="unordered">
+                                       <item>Withhold dose for this cycle if before Day 4;</item>
+                                       <item>Decrease dose by 25%, if after Day 4 of previous cycle.</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">                                    On any day of drug administration after Day 1 of each cycle:<list listType="unordered">
+                                       <item>Platelet count &lt;25,000/mm<sup>3</sup>
+                                       </item>
+                                       <item>Hemoglobin &lt;8 g/dL</item>
+                                       <item>ANC &lt;500/mm<sup>3</sup>
+                                       </item>
+                                    </list>
+                                 </td>
+                                 <td styleCode="Rrule">
+                                    <list listType="unordered">
+                                       <item>Withhold dose for this cycle if before Day 4;</item>
+                                       <item>Decrease dose by 25%, if after Day 4 of previous cycle AND if bortezomib is reduced for hematologic toxicity.</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">                                   Grade 3 or 4 non-hematologic drug related toxicity</td>
+                                 <td styleCode="Rrule">Do not dose until recovered to Grade &lt;2, then reduce dose by 25%.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>                           For neuropathic pain or peripheral neuropathy, no dosage adjustments are required for DOXIL. Refer to bortezomib manufacturer's prescribing information.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.6">
+                     <id root="bc09a929-1137-46fc-9697-238e6731f025"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.6	Preparation and Administration</title>
+                     <effectiveTime value="20170401"/>
+                     <component>
+                        <section>
+                           <id root="e12e8acc-4050-4af0-b378-e27d667c0323"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>                                Preparation</paragraph>
+                              <paragraph>                                 Dilute DOXIL doses up to 90 mg in 250 mL of 5% Dextrose Injection, USP prior to administration. Dilute doses exceeding 90 mg in 500 mL of 5% Dextrose Injection, USP prior to administration. Refrigerate diluted DOXIL at 2°C to 8°C (36°F to 46°F) and administer within 24 hours.</paragraph>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="80b4ce4b-d13f-41a4-b67c-79865ba8168a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>                                Administration</paragraph>
+                              <paragraph>                                 Inspect parenteral drug products visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Do not use if a precipitate or foreign matter is present.</paragraph>
+                              <paragraph>                                 Do not use with in-line filters.</paragraph>
+                              <paragraph>                                 Administer the first dose of DOXIL at an initial rate of 1 mg/min. If no infusion-related adverse reactions are observed, increase the infusion rate to complete the administration of the drug over one hour <content styleCode="italics">[see <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>].</content> Do not rapidly flush the infusion line.</paragraph>
+                              <paragraph>                                 Do not mix DOXIL with other drugs.</paragraph>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="97041389-05e2-43da-ab46-694c75c75e3d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>                                 Management of Suspected Extravasation</paragraph>
+                              <paragraph>                                Discontinue DOXIL for burning or stinging sensation or other evidence indicating perivenous infiltration or extravasation. Manage confirmed or suspected extravasation as follows:</paragraph>
+                              <list listType="unordered">
+                                 <item>                                    Do not remove the needle until attempts are made to aspirate extravasated fluid</item>
+                                 <item>                                    Do not flush the line</item>
+                                 <item>                                   Avoid applying pressure to the site</item>
+                                 <item>                                  Apply ice to the site intermittently for 15 min 4 times a day for 3 days</item>
+                                 <item>                                If the extravasation is in an extremity, elevate the extremity</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.7">
+                     <id root="904ab3da-26f9-40c7-a6c1-f6f578ef8883"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.7	Procedure for Proper Handling and Disposal</title>
+                     <text>
+                        <paragraph>                          DOXIL is a cytotoxic drug. Follow applicable special handling and disposal procedures.<sup>1</sup>  If DOXIL comes into contact with skin or mucosa, immediately wash thoroughly with soap and water. 									</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S3">
+               <id root="54cdcccc-bf38-4a0c-8ff6-eb628a76133a"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>DOXIL: doxorubicin HCl liposomal injection: single use vials contain 20 mg/10 mL and 50 mg/25 mL doxorubicin HCl as a translucent, red liposomal dispersion.</paragraph>
+               </text>
+               <effectiveTime value="20170401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Doxorubicin hydrochloride (HCl) liposomal injection: Single use vials: 20 mg/10 mL and 50 mg/25 mL (<linkHtml href="#S3">3</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S4">
+               <id root="606ed1da-f48a-4430-98ef-f34a4a366f55"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>                    DOXIL is contraindicated in patients who have a history of severe hypersensitivity reactions, including anaphylaxis, to doxorubicin HCl <content styleCode="italics">[see <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>].</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20170401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Hypersensitivity reactions to doxorubicin HCl or the components of DOXIL (<linkHtml href="#S4">4</linkHtml>, <linkHtml href="#S5.2">5.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S5">
+               <id root="ccb644bb-7550-446d-b8a8-e198832e4bb2"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20170401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Hand-Foot Syndrome may occur. Dose modification or discontinuation may be required (<linkHtml href="#S5.3">5.3</linkHtml>)</item>
+                           <item>Embryofetal Toxicity: Can cause fetal harm. Advise of potential risk to a fetus. Use effective contraception (<linkHtml href="#S5.5">5.5</linkHtml>, <linkHtml href="#S8.1">8.1</linkHtml>, <linkHtml href="#S8.3">8.3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S5.1">
+                     <id root="f5e3733a-cf58-4ded-bea0-6c59b10290bc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1	Cardiomyopathy</title>
+                     <text>
+                        <paragraph>                           Doxorubicin HCl can result in myocardial damage, including acute left ventricular failure. The risk of cardiomyopathy with doxorubicin HCl is generally proportional to the cumulative exposure. The relationship between cumulative DOXIL dose and the risk of cardiac toxicity has not been determined.</paragraph>
+                        <paragraph>                           In a clinical study in 250 patients with advanced cancer who were treated with DOXIL, the risk of cardiotoxicity was 11% when the cumulative anthracycline dose was between 450–550 mg/m<sup>2</sup>. Cardiotoxicity was defined as &gt;20% decrease in resting left ventricular ejection fraction (LVEF) from baseline where LVEF remained in the normal range or a &gt;10% decrease in LVEF from baseline where LVEF was less than the institutional lower limit of normal. Two percent of patients developed signs and symptoms of congestive heart failure without documented evidence of cardiotoxicity.</paragraph>
+                        <paragraph>                           Assess left ventricular cardiac function (e.g. MUGA or echocardiogram) prior to initiation of DOXIL, during treatment to detect acute changes, and after treatment to detect delayed cardiotoxicity. Administer DOXIL to patients with a history of cardiovascular disease only when the potential benefit of treatment outweighs the risk.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.2">
+                     <id root="5ed3e59a-3f76-4e17-b3b2-a0ec5a125232"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2	Infusion-Related Reactions</title>
+                     <text>
+                        <paragraph>                           Serious and sometimes life-threatening infusion-related reactions characterized by one or more of the following symptoms can occur with DOXIL: flushing, shortness of breath, facial swelling, headache, chills, chest pain, back pain, tightness in the chest and throat, fever, tachycardia, pruritus, rash, cyanosis, syncope, bronchospasm, asthma, apnea, and hypotension. The majority of infusion-related events occurred during the first infusion. Of 239 patients with ovarian cancer treated with DOXIL in Trial 4, 7% of patients experienced acute infusion-related reactions resulting in dose interruption. All occurred during cycle 1 and none during subsequent cycles. Across multiple studies of DOXIL monotherapy including this and other studies enrolling 760 patients with various solid tumors, 11% of patients had infusion-related reactions.</paragraph>
+                        <paragraph>                           Ensure that medications to treat infusion-related reactions and cardiopulmonary resuscitative equipment are available for immediate use prior to initiation of DOXIL. Initiate DOXIL infusions at a rate of 1 mg/min and increase rate as tolerated <content styleCode="italics">[see <linkHtml href="#S2.6">Dosage and Administration (2.6)</linkHtml>]</content>. In the event of an infusion-related reaction, temporarily stop the drug until resolution then resume at a reduced infusion rate. Discontinue DOXIL infusion for serious or life-threatening infusion-related reactions.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.3">
+                     <id root="289e83c5-20a2-4060-a0f6-e02f11625358"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3	Hand-Foot Syndrome (HFS)</title>
+                     <text>
+                        <paragraph>                           In Trial 4, the incidence of HFS was 51% of patients in the DOXIL arm and 0.9% of patients in the topotecan arm, including 24% Grade 3 or 4 cases of HFS in DOXIL-treated patients and no Grade 3 or 4 cases in topotecan-treated patients. HFS or other skin toxicity required discontinuation of DOXIL in 4.2% of patients.</paragraph>
+                        <paragraph>                          HFS was generally observed after 2 or 3 cycles of treatment but may occur earlier. Delay DOXIL for the first episode of Grade 2 or greater HFS <content styleCode="italics">[see <linkHtml href="#S2.5">Dosage and Administration (2.5)</linkHtml>]</content>. Discontinue DOXIL if HFS is severe and debilitating.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.4">
+                     <id root="f645d4ee-1a50-4c32-81e3-4fa898ebfa05"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4	Secondary Oral Neoplasms</title>
+                     <text>
+                        <paragraph>Secondary oral cancers, primarily squamous cell carcinoma, have been reported from post-marketing experience in patients with long-term (more than one year) exposure to DOXIL. These malignancies were diagnosed both during treatment with DOXIL and up to 6 years after the last dose. Examine patients at regular intervals for the presence of oral ulceration or with any oral discomfort that may be indicative of secondary oral cancer. 								</paragraph>
+                        <paragraph>The altered pharmacokinetics and preferential tissue distribution of liposomal doxorubicin that contributes to enhanced skin toxicity and mucositis compared to free doxorubicin may play a role in the development of oral secondary malignancies with long-term use. 								</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.5">
+                     <id root="5f3abf10-78c5-495d-9277-b065b17295aa"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5	Embryofetal Toxicity</title>
+                     <text>
+                        <paragraph>                           Based on animal data, DOXIL can cause fetal harm when administered to a pregnant woman. At doses approximately 0.12 times the recommended clinical dose, DOXIL was embryotoxic and abortifacient in rabbits. Advise pregnant women of the potential risk to a fetus. Advise females and males of reproductive potential to use effective contraception during and for 6 months after treatment with DOXIL <content styleCode="italics">[see <linkHtml href="#S8.1">Use in Specific Populations (8.1)</linkHtml> and <linkHtml href="#S8.3">(8.3)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S6">
+               <id root="bb60cb37-e579-40b1-b73e-6ab12761f15c"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions are discussed in more detail in other sections of the labeling.</paragraph>
+                  <list listType="unordered">
+                     <item>Cardiomyopathy <content styleCode="italics">[see <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]</content>
+                     </item>
+                     <item>Infusion-Related Reactions <content styleCode="italics"> [see <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]</content>
+                     </item>
+                     <item>Hand-Foot Syndrome <content styleCode="italics"> [see <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>]</content>
+                     </item>
+                     <item>Secondary Oral Neoplasms <content styleCode="italics"> [see <linkHtml href="#S5.4">Warnings and Precautions (5.4)</linkHtml>]</content>
+                     </item>
+                  </list>
+                  <paragraph>The most common adverse reactions (&gt;20%) observed with DOXIL are asthenia, fatigue, fever, nausea, stomatitis, vomiting, diarrhea, constipation, anorexia, hand-foot syndrome, rash and neutropenia, thrombocytopenia and anemia.</paragraph>
+               </text>
+               <effectiveTime value="20170401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (&gt;20%) are asthenia, fatigue, fever, anorexia, nausea, vomiting, stomatitis, diarrhea, constipation, hand-foot syndrome, rash, neutropenia, thrombocytopenia, and anemia  (<linkHtml href="#S6">6</linkHtml>).</paragraph>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS contact Janssen Products, LP at 1-800-JANSSEN (1-800-526-7736) or FDA at 1-800-FDA-1088 or <content styleCode="italics">www.fda.gov/medwatch</content>.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S6.1">
+                     <id root="34abf8db-a090-44e5-9472-229bd731487b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1	Adverse Reactions in Clinical Trials</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, the adverse reaction rates observed cannot be directly compared to rates on other clinical trials and may not reflect the rates observed in clinical practice.</paragraph>
+                        <paragraph>The safety data reflect exposure to DOXIL in 1310 patients including: 239 patients with ovarian cancer, 753 patients with AIDS-related Kaposi's sarcoma, and 318 patients with multiple myeloma.</paragraph>
+                        <paragraph>The following tables present adverse reactions from clinical trials of single-agent DOXIL in ovarian cancer and AIDS-Related Kaposi's sarcoma.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                     <component>
+                        <section>
+                           <id root="dd91dbe3-2a61-4ccd-8237-72c3937e99fc"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Patients With Ovarian Cancer</paragraph>
+                              <paragraph>The safety data described below are from Trial 4, which included 239 patients with ovarian cancer treated with DOXIL 50 mg/m<sup>2</sup> once every 4 weeks for a minimum of four courses in a randomized, multicenter, open-label study. In this trial, patients received DOXIL for a median number of 3.2 months (range 1 day to 25.8 months). The median age of the patients is 60 years (range 27 to 87), with 91% Caucasian, 6% Black, and 3% Hispanic or Other.</paragraph>
+                              <paragraph>Table 3 presents the hematologic adverse reactions from Trial 4.</paragraph>
+                              <table ID="table3" width="75%">
+                                 <caption>Table 3:	Hematologic Adverse Reactions in Trial 4</caption>
+                                 <col width="40%" align="left" valign="top"/>
+                                 <col width="30%" align="center" valign="top"/>
+                                 <col width="30%" align="center" valign="top"/>
+                                 <thead>
+                                    <tr>
+                                       <th/>
+                                       <th>DOXIL Patients <br/>(n=239)</th>
+                                       <th>Topotecan Patients <br/>(n=235)</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>Neutropenia</td>
+                                       <td/>
+                                       <td/>
+                                    </tr>
+                                    <tr>
+                                       <td>  500 – &lt;1000/mm<sup>3</sup>
+                                       </td>
+                                       <td>8%</td>
+                                       <td>14%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>  &lt;500/mm<sup>3</sup>
+                                       </td>
+                                       <td>4.2%</td>
+                                       <td>62%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Anemia</td>
+                                       <td/>
+                                       <td/>
+                                    </tr>
+                                    <tr>
+                                       <td>  6.5 – &lt;8 g/dL</td>
+                                       <td>5%</td>
+                                       <td>25%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>  &lt; 6.5 g/dL</td>
+                                       <td>0.4%</td>
+                                       <td>4.3%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Thrombocytopenia</td>
+                                       <td/>
+                                       <td/>
+                                    </tr>
+                                    <tr>
+                                       <td>  10,000 – &lt;50,000/mm<sup>3</sup>
+                                       </td>
+                                       <td>1.3%</td>
+                                       <td>17%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>  &lt;10,000/mm<sup>3</sup>
+                                       </td>
+                                       <td>0.0%</td>
+                                       <td>17%</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>Table 4 presents the non-hematologic adverse reactions from Trial 4.</paragraph>
+                              <table ID="table4" width="75%">
+                                 <caption>Table 4:	Non-Hematologic Adverse Reactions in Trial 4</caption>
+                                 <col width="40%" align="left" valign="top"/>
+                                 <col width="15%" align="center" valign="top"/>
+                                 <col width="15%" align="center" valign="top"/>
+                                 <col width="15%" align="center" valign="top"/>
+                                 <col width="15%" align="center" valign="top"/>
+                                 <thead>
+                                    <tr styleCode="Botrule">
+                                       <th>Non-Hematologic Adverse Reaction 10% or Greater</th>
+                                       <th colspan="2">DOXIL (%) treated<br/>(n=239)</th>
+                                       <th colspan="2">Topotecan (%) treated<br/>(n=235)</th>
+                                    </tr>
+                                    <tr>
+                                       <th/>
+                                       <th>All grades</th>
+                                       <th>Grades 3–4</th>
+                                       <th>All grades</th>
+                                       <th>Grades 3–4</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td align="left" colspan="5">
+                                          <content styleCode="bold italics">  Body as a Whole</content>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Asthenia</td>
+                                       <td>40</td>
+                                       <td>7</td>
+                                       <td>52</td>
+                                       <td>8</td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Fever</td>
+                                       <td>21</td>
+                                       <td>0.8</td>
+                                       <td>31</td>
+                                       <td>6</td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Mucous Membrane Disorder</td>
+                                       <td>14</td>
+                                       <td>3.8</td>
+                                       <td>3.4</td>
+                                       <td>0</td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Back Pain</td>
+                                       <td>12</td>
+                                       <td>1.7</td>
+                                       <td>10</td>
+                                       <td>0.9</td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Infection</td>
+                                       <td>12</td>
+                                       <td>2.1</td>
+                                       <td>6</td>
+                                       <td>0.9</td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Headache</td>
+                                       <td>11</td>
+                                       <td>0.8</td>
+                                       <td>15</td>
+                                       <td>0</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" colspan="5">
+                                          <content styleCode="bold italics">  Digestive</content>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Nausea</td>
+                                       <td>46</td>
+                                       <td>5</td>
+                                       <td>63</td>
+                                       <td>8</td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Stomatitis</td>
+                                       <td>41</td>
+                                       <td>8</td>
+                                       <td>15</td>
+                                       <td>0.4</td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Vomiting</td>
+                                       <td>33</td>
+                                       <td>8</td>
+                                       <td>44</td>
+                                       <td>10</td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Diarrhea</td>
+                                       <td>21</td>
+                                       <td>2.5</td>
+                                       <td>35</td>
+                                       <td>4.2</td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Anorexia</td>
+                                       <td>20</td>
+                                       <td>2.5</td>
+                                       <td>22</td>
+                                       <td>1.3</td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Dyspepsia</td>
+                                       <td>12</td>
+                                       <td>0.8</td>
+                                       <td>14</td>
+                                       <td>0</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" colspan="5">
+                                          <content styleCode="bold italics">  Nervous</content>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Dizziness</td>
+                                       <td>4.2</td>
+                                       <td>0</td>
+                                       <td>10</td>
+                                       <td>0</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" colspan="5">
+                                          <content styleCode="bold italics">  Respiratory</content>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Pharyngitis</td>
+                                       <td>16</td>
+                                       <td>0</td>
+                                       <td>18</td>
+                                       <td>0.4</td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Dyspnea</td>
+                                       <td>15</td>
+                                       <td>4.1</td>
+                                       <td>23</td>
+                                       <td>4.3</td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Cough increased</td>
+                                       <td>10</td>
+                                       <td>0</td>
+                                       <td>12</td>
+                                       <td>0</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="left" colspan="5">
+                                          <content styleCode="bold italics">  Skin and Appendages</content>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Hand-foot syndrome</td>
+                                       <td>51</td>
+                                       <td>24</td>
+                                       <td>0.9</td>
+                                       <td>0</td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Rash</td>
+                                       <td>29</td>
+                                       <td>4.2</td>
+                                       <td>12</td>
+                                       <td>0.4</td>
+                                    </tr>
+                                    <tr>
+                                       <td>    Alopecia</td>
+                                       <td>19</td>
+                                       <td>N/A</td>
+                                       <td>52</td>
+                                       <td>N/A</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>The following additional adverse reactions were observed in patients with ovarian cancer with doses administered every four weeks (Trial 4).</paragraph>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="2144eca0-1621-4560-ba56-33def530ecfc"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Incidence 1% to 10%</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Cardiovascular: </content> vasodilation, tachycardia, deep vein thrombosis, hypotension, cardiac arrest.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Digestive: </content> oral moniliasis, mouth ulceration, esophagitis, dysphagia, rectal bleeding, ileus.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Hematologic and Lymphatic: </content> ecchymosis.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Metabolic and Nutritional: </content> dehydration, weight loss, hyperbilirubinemia, hypokalemia, hypercalcemia, hyponatremia.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Nervous: </content> somnolence, dizziness, depression.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Respiratory: </content> rhinitis, pneumonia, sinusitis, epistaxis.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Skin and Appendages: </content> pruritus, skin discoloration, vesiculobullous rash, maculopapular rash, exfoliative dermatitis, herpes zoster, dry skin, herpes simplex, fungal dermatitis, furunculosis, acne.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Special Senses: </content> conjunctivitis, taste perversion, dry eyes.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Urinary: </content> urinary tract infection, hematuria, vaginal moniliasis.</paragraph>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="d9986946-51bb-42eb-8566-8e48d16ce4d1"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Patients With AIDS-Related Kaposi's Sarcoma</paragraph>
+                              <paragraph>The safety data described is based on the experience reported in 753 patients with AIDS-related Kaposi's sarcoma (KS) enrolled in four open-label, uncontrolled trials of DOXIL administered at doses ranging from 10 to 40 mg/m<sup>2</sup> every 2 to 3 weeks. Demographics of the population were: median age 38.7 years (range 24–70); 99% male; 88% Caucasian, 6% Hispanic, 4% Black, and 2% Asian/other/unknown. The majority of patients were treated with 20 mg/m<sup>2</sup> of DOXIL every 2 to 3 weeks with a median exposure of 4.2 months (range 1 day to 26.6 months). The median cumulative dose was 120 mg/m<sup>2</sup> (range 3.3 to 798.6 mg/m<sup>2</sup>); 3% received cumulative doses of greater than 450 mg/m<sup>2</sup>.</paragraph>
+                              <paragraph>Disease characteristics were: 61% poor risk for KS tumor burden, 91% poor risk for immune system, and 47% poor risk for systemic illness; 36% were poor risk for all three categories; median CD4 count 21 cells/mm<sup>3</sup> (51% less than 50 cells/mm<sup>3</sup>); mean absolute neutrophil count at study entry approximately 3,000 cells/mm<sup>3</sup>.</paragraph>
+                              <paragraph>Of the 693 patients with concomitant medication information, 59% were on one or more antiretroviral medications [35% zidovudine (AZT), 21% didanosine (ddI), 16% zalcitabine (ddC), and 10% stavudine (D4T)]; 85% received PCP prophylaxis (54% sulfamethoxazole/trimethoprim); 85% received antifungal medications (76% fluconazole); 72% received antivirals (56% acyclovir, 29% ganciclovir, and 16% foscarnet) and 48% patients received colony-stimulating factors (sargramostim/filgrastim) during their course of treatment.</paragraph>
+                              <paragraph>Adverse reactions led to discontinuation of treatment in 5% of patients with AIDS-related Kaposi's sarcoma and included myelosuppression, cardiac adverse reactions, infusion-related reactions, toxoplasmosis, HFS, pneumonia, cough/dyspnea, fatigue, optic neuritis, progression of a non-KS tumor, allergy to penicillin, and unspecified reasons. Tables 5 and 6 summarize adverse reactions reported in patients treated with DOXIL for AIDS-related Kaposi's sarcoma in a pooled analysis of the four trials.</paragraph>
+                              <table width="75%" ID="table5">
+                                 <caption>Table 5:	Hematologic Adverse Reactions Reported in Patients With AIDS-Related Kaposi's Sarcoma</caption>
+                                 <col width="34%" align="left" valign="top"/>
+                                 <col width="33%" align="center" valign="top"/>
+                                 <col width="33%" align="center" valign="top"/>
+                                 <thead>
+                                    <tr>
+                                       <th/>
+                                       <th>Patients With Refractory or Intolerant AIDS-Related Kaposi's Sarcoma<br/>(n=74<footnote>This includes a subset of subjects who were retrospectively identified as having disease progression on prior systemic combination chemotherapy (at least 2 cycles of a regimen containing at least 2 of 3 treatments: bleomycin, vincristine or vinblastine, or doxorubicin) or as being intolerant to such therapy.</footnote>)</th>
+                                       <th>Total Patients With AIDS-Related Kaposi's Sarcoma<br/>(n=720<footnote>This includes only subjects with AIDS-KS who had available data from the 4 pooled trials.</footnote>)</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td colspan="3" align="left">Neutropenia</td>
+                                    </tr>
+                                    <tr>
+                                       <td>  &lt; 1000/mm<sup>3</sup>
+                                       </td>
+                                       <td>46%</td>
+                                       <td>49%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>  &lt; 500/mm<sup>3</sup>
+                                       </td>
+                                       <td>11%</td>
+                                       <td>13%</td>
+                                    </tr>
+                                    <tr>
+                                       <td colspan="3" align="left">Anemia</td>
+                                    </tr>
+                                    <tr>
+                                       <td>  &lt; 10 g/dL</td>
+                                       <td>58%</td>
+                                       <td>55%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>  &lt; 8 g/dL</td>
+                                       <td>16%</td>
+                                       <td>18%</td>
+                                    </tr>
+                                    <tr>
+                                       <td colspan="3" align="left">Thrombocytopenia</td>
+                                    </tr>
+                                    <tr>
+                                       <td>  &lt; 150,000/mm<sup>3</sup>
+                                       </td>
+                                       <td>61%</td>
+                                       <td>61%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>  &lt; 25,000/mm<sup>3</sup>
+                                       </td>
+                                       <td>1.4%</td>
+                                       <td>4.2%</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <table width="75%" ID="table6">
+                                 <caption>Table 6:	Non-Hematologic Adverse Reactions Reported in ≥ 5% of Patients With AIDS-Related Kaposi's Sarcoma</caption>
+                                 <col width="34%" align="left" valign="top"/>
+                                 <col width="33%" align="center" valign="top"/>
+                                 <col width="33%" align="center" valign="top"/>
+                                 <thead>
+                                    <tr>
+                                       <th>Adverse Reactions</th>
+                                       <th>Patients With Refractory or Intolerant AIDS-Related Kaposi's Sarcoma<br/>(n=77<footnote>This includes a subset of subjects who were retrospectively identified as having disease progression on prior systemic combination chemotherapy (at least 2 cycles of a regimen containing at least 2 of 3 treatments: bleomycin, vincristine or vinblastine, or doxorubicin) or as being intolerant to such therapy.</footnote>)</th>
+                                       <th>Total Patients With AIDS-Related Kaposi's Sarcoma<br/>(n=705<footnote>This includes only subjects with AIDS-KS who had available adverse event data from the 4 pooled trials.</footnote>)</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>Nausea</td>
+                                       <td>18%</td>
+                                       <td>17%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Asthenia</td>
+                                       <td>7%</td>
+                                       <td>10%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Fever</td>
+                                       <td>8%</td>
+                                       <td>9%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Alopecia</td>
+                                       <td>9%</td>
+                                       <td>9%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Alkaline Phosphatase Increase</td>
+                                       <td>1.3%</td>
+                                       <td>8%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Vomiting</td>
+                                       <td>8%</td>
+                                       <td>8%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Diarrhea</td>
+                                       <td>5%</td>
+                                       <td>8%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Stomatitis</td>
+                                       <td>5%</td>
+                                       <td>7%</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Oral Moniliasis</td>
+                                       <td>1.3%</td>
+                                       <td>6%</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>The following additional adverse reactions were observed in 705 patients with AIDS-related Kaposi's sarcoma.</paragraph>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="d694bbbf-b8e2-4405-ac63-17db61594750"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Incidence 1% to 5%</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Body as a Whole: </content> headache, back pain, infection, allergic reaction, chills.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Cardiovascular: </content> chest pain, hypotension, tachycardia.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Cutaneous: </content> herpes simplex, rash, itching.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Digestive: </content> mouth ulceration, anorexia, dysphagia.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Metabolic and Nutritional: </content> SGPT increase, weight loss, hyperbilirubinemia.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Other: </content> dyspnea, pneumonia, dizziness, somnolence.</paragraph>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="02d6942c-1b83-4d9e-ae15-d0706542568c"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Incidence Less Than 1%</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Body As A Whole: </content> sepsis, moniliasis, cryptococcosis.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Cardiovascular: </content> thrombophlebitis, cardiomyopathy, palpitation, bundle branch block, congestive heart failure, heart arrest, thrombosis, ventricular arrhythmia.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Digestive: </content> hepatitis.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Metabolic and Nutritional Disorders: </content> dehydration.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Respiratory: </content> cough increase, pharyngitis.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Skin and Appendages: </content> maculopapular rash, herpes zoster.</paragraph>
+                              <paragraph>
+                                 <content styleCode="italics">Special Senses: </content> taste perversion, conjunctivitis.</paragraph>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="7eddac06-634f-4d6d-b195-91704c8143f7"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Patients With Multiple Myeloma</paragraph>
+                              <paragraph>The safety data described are from 318 patients treated with DOXIL (30 mg/m<sup>2</sup>) administered on day 4 following bortezomib (1.3 mg/m<sup>2</sup> i.v. bolus on days 1, 4, 8 and 11) every 3 weeks, in a randomized, open-label, multicenter study (Trial 6). In this trial, patients in the DOXIL + bortezomib combination group were treated for a median number of 4.5 months (range 21 days to 13.5 months). The population was 28 to 85 years of age (median age 61), 58% male, 90% Caucasian, 6% Black, and 4% Asian and Other. Table 7 lists adverse reactions reported in 10% or more of patients treated with DOXIL in combination with bortezomib for multiple myeloma.</paragraph>
+                              <table width="75%" ID="table7">
+                                 <caption>Table 7:	Frequency of Treatment-Emergent Adverse Reactions Reported in ≥10% Patients Treated for Multiple Myeloma With DOXIL in Combination With Bortezomib</caption>
+                                 <col width="40%" align="left" valign="top"/>
+                                 <col width="15%" align="center" valign="top"/>
+                                 <col width="15%" align="center" valign="top"/>
+                                 <col width="15%" align="center" valign="top"/>
+                                 <col width="15%" align="center" valign="top"/>
+                                 <thead>
+                                    <tr>
+                                       <th>Adverse Reaction</th>
+                                       <th colspan="2">DOXIL + bortezomib<br/>(n=318)</th>
+                                       <th colspan="2">Bortezomib<br/>(n=318)</th>
+                                    </tr>
+                                    <tr>
+                                       <th/>
+                                       <th>Any (%)</th>
+                                       <th>Grade 3–4</th>
+                                       <th>Any (%)</th>
+                                       <th>Grade 3–4</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>
+                                          <content styleCode="bold">Blood and lymphatic system disorders</content>
+                                       </td>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                    </tr>
+                                    <tr>
+                                       <td>Neutropenia</td>
+                                       <td>36</td>
+                                       <td>32</td>
+                                       <td>22</td>
+                                       <td>16</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Thrombocytopenia</td>
+                                       <td>33</td>
+                                       <td>24</td>
+                                       <td>28</td>
+                                       <td>17</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Anemia</td>
+                                       <td>25</td>
+                                       <td>9</td>
+                                       <td>21</td>
+                                       <td>9</td>
+                                    </tr>
+                                    <tr>
+                                       <td>
+                                          <content styleCode="bold">General disorders and administration site conditions</content>
+                                       </td>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                    </tr>
+                                    <tr>
+                                       <td>Fatigue</td>
+                                       <td>36</td>
+                                       <td>7</td>
+                                       <td>28</td>
+                                       <td>3</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Pyrexia</td>
+                                       <td>31</td>
+                                       <td>1</td>
+                                       <td>22</td>
+                                       <td>1</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Asthenia</td>
+                                       <td>22</td>
+                                       <td>6</td>
+                                       <td>18</td>
+                                       <td>4</td>
+                                    </tr>
+                                    <tr>
+                                       <td>
+                                          <content styleCode="bold">Gastrointestinal disorders</content>
+                                       </td>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                    </tr>
+                                    <tr>
+                                       <td>Nausea</td>
+                                       <td>48</td>
+                                       <td>3</td>
+                                       <td>40</td>
+                                       <td>1</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Diarrhea</td>
+                                       <td>46</td>
+                                       <td>7</td>
+                                       <td>39</td>
+                                       <td>5</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Vomiting</td>
+                                       <td>32</td>
+                                       <td>4</td>
+                                       <td>22</td>
+                                       <td>1</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Constipation</td>
+                                       <td>31</td>
+                                       <td>1</td>
+                                       <td>31</td>
+                                       <td>1</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Mucositis/Stomatitis</td>
+                                       <td>20</td>
+                                       <td>2</td>
+                                       <td>5</td>
+                                       <td>&lt;1</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Abdominal pain</td>
+                                       <td>11</td>
+                                       <td>1</td>
+                                       <td>8</td>
+                                       <td>1</td>
+                                    </tr>
+                                    <tr>
+                                       <td>
+                                          <content styleCode="bold">Infections and infestations</content>
+                                       </td>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                    </tr>
+                                    <tr>
+                                       <td>Herpes zoster</td>
+                                       <td>11</td>
+                                       <td>2</td>
+                                       <td>9</td>
+                                       <td>2</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Herpes simplex</td>
+                                       <td>10</td>
+                                       <td>0</td>
+                                       <td>6</td>
+                                       <td>1</td>
+                                    </tr>
+                                    <tr>
+                                       <td>
+                                          <content styleCode="bold">Investigations</content>
+                                       </td>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                    </tr>
+                                    <tr>
+                                       <td>Weight decreased</td>
+                                       <td>12</td>
+                                       <td>0</td>
+                                       <td>4</td>
+                                       <td>0</td>
+                                    </tr>
+                                    <tr>
+                                       <td>
+                                          <content styleCode="bold">Metabolism and Nutritional disorders</content>
+                                       </td>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                    </tr>
+                                    <tr>
+                                       <td>Anorexia</td>
+                                       <td>19</td>
+                                       <td>2</td>
+                                       <td>14</td>
+                                       <td>&lt;1</td>
+                                    </tr>
+                                    <tr>
+                                       <td>
+                                          <content styleCode="bold">Nervous system disorders</content>
+                                       </td>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                    </tr>
+                                    <tr>
+                                       <td>Peripheral Neuropathy<footnote>Peripheral neuropathy includes the following adverse reactions: peripheral sensory neuropathy, neuropathy peripheral, polyneuropathy, peripheral motor neuropathy, and neuropathy NOS.</footnote>
+                                       </td>
+                                       <td>42</td>
+                                       <td>7</td>
+                                       <td>45</td>
+                                       <td>11</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Neuralgia</td>
+                                       <td>17</td>
+                                       <td>3</td>
+                                       <td>20</td>
+                                       <td>4</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Paresthesia/dysesthesia</td>
+                                       <td>13</td>
+                                       <td>&lt;1</td>
+                                       <td>10</td>
+                                       <td>0</td>
+                                    </tr>
+                                    <tr>
+                                       <td>
+                                          <content styleCode="bold">Respiratory, thoracic and mediastinal disorders</content>
+                                       </td>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                    </tr>
+                                    <tr>
+                                       <td>Cough</td>
+                                       <td>18</td>
+                                       <td>0</td>
+                                       <td>12</td>
+                                       <td>0</td>
+                                    </tr>
+                                    <tr>
+                                       <td>
+                                          <content styleCode="bold">Skin and subcutaneous tissue disorders</content>
+                                       </td>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                       <td/>
+                                    </tr>
+                                    <tr>
+                                       <td>Rash<footnote>Rash includes the following adverse reactions: rash, rash erythematous, rash macular, rash maculo-papular, rash pruritic, exfoliative rash, and rash generalized.</footnote>
+                                       </td>
+                                       <td>22</td>
+                                       <td>1</td>
+                                       <td>18</td>
+                                       <td>1</td>
+                                    </tr>
+                                    <tr>
+                                       <td>Hand-foot syndrome</td>
+                                       <td>19</td>
+                                       <td>6</td>
+                                       <td>&lt;1</td>
+                                       <td>0</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S6.2">
+                     <id root="81b9471e-4776-4cb1-b4db-ca4c0f28c682"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.2	Postmarketing Experience</title>
+                     <text>
+                        <paragraph>The following additional adverse reactions have been identified during post approval use of DOXIL. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Musculoskeletal and Connective Tissue Disorders: </content> muscle spasms</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Respiratory, Thoracic and Mediastinal Disorders: </content> pulmonary embolism (in some cases fatal)</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hematologic disorders</content>: Secondary acute myelogenous leukemia</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Skin and subcutaneous tissue disorders: </content> erythema multiforme, Stevens-Johnson syndrome, toxic epidermal necrolysis</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Secondary oral neoplasms: [see <linkHtml href="#S5.4">Warnings and Precautions (5.4)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S7">
+               <id root="a1102256-74da-4783-b03f-fb85b6db8c8e"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>No formal drug interaction studies have been conducted with DOXIL.</paragraph>
+               </text>
+               <effectiveTime value="20170401"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S8">
+               <id root="af159d23-2c66-47f7-a0be-ab3f1886928f"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20170401"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Lactation: Discontinue breastfeeding (<linkHtml href="#S8.2">8.2</linkHtml>).</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S8.1">
+                     <id root="8f4d6ba2-f7ce-4584-ac80-5b7e564903c3"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <effectiveTime value="20170401"/>
+                     <component>
+                        <section>
+                           <id root="3801ac38-7683-4040-b04c-87c2c19dab18"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Risk Summary</paragraph>
+                              <paragraph>Based on findings in animals, DOXIL can cause fetal harm when administered to a pregnant woman. In animal reproduction studies, DOXIL was embryotoxic in rats and abortifacient in rabbits following intravenous administration during organogenesis at doses approximately 0.12 times the recommended clinical dose <content styleCode="italics">[see <linkHtml href="#data">Data</linkHtml>]</content>. There are no available human data informing the drug-associated risk. Advise pregnant women of the potential risk to a fetus.</paragraph>
+                              <paragraph>The background risk of major birth defects and miscarriage for the indicated populations are unknown. However, the background risk in the U.S. general population of major birth defects is 2–4% and of miscarriage is 15–20% of clinically recognized pregnancies.</paragraph>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="data">
+                           <id root="5075d34f-4042-4a9e-ac55-95a3fa802f3c"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Data</paragraph>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                           <component>
+                              <section>
+                                 <id root="76215feb-41c1-47ae-a31d-f48bb9d0fee3"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Animal Data</content>
+                                    </paragraph>
+                                    <paragraph>DOXIL was embryotoxic at doses of 1 mg/kg/day in rats and was embryotoxic and abortifacient at 0.5 mg/kg/day in rabbits (both doses are about 0.12 times the recommended dose of 50 mg/m<sup>2</sup> human dose on a mg/m<sup>2</sup> basis). Embryotoxicity was characterized by increased embryo-fetal deaths and reduced live litter sizes.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20170401"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.2">
+                     <id root="1e5033f3-e903-4864-b63f-a4b4f1a3b257"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.2	Lactation</title>
+                     <effectiveTime value="20170401"/>
+                     <component>
+                        <section>
+                           <id root="0b173e9e-ff15-4550-becb-a5fe1527e7ea"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Risk Summary</paragraph>
+                              <paragraph>It is not known whether DOXIL is present in human milk. Because many drugs, including anthracyclines, are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from DOXIL, discontinue breastfeeding during treatment with DOXIL.</paragraph>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.3">
+                     <id root="ce1cb3e0-1746-4eab-91e8-d076845c9a86"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.3	Females and Males of Reproductive Potential</title>
+                     <effectiveTime value="20170401"/>
+                     <component>
+                        <section>
+                           <id root="63348a9e-8c72-42af-b5c7-1ba1b692100d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Contraception</paragraph>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                           <component>
+                              <section>
+                                 <id root="e0dbfc42-fc12-411a-9b25-5115c81490a4"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Females</content>
+                                    </paragraph>
+                                    <paragraph>DOXIL can cause fetal harm when administered to a pregnant woman <content styleCode="italics">[see <linkHtml href="#S8.1">Use in Specific Populations (8.1)</linkHtml>]</content>. Advise females of reproductive potential to use effective contraception during and for 6 months after treatment with DOXIL.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20170401"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="0d608485-ed07-48ff-8c20-8b2b35a477cf"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Males</content>
+                                    </paragraph>
+                                    <paragraph>DOXIL may damage spermatozoa and testicular tissue, resulting in possible genetic fetal abnormalities. Males with female sexual partners of reproductive potential should use effective contraception during and for 6 months after treatment with DOXIL <content styleCode="italics">[see <linkHtml href="#S13.1">Non-clinical Toxicology (13.1)</linkHtml>].</content>
+                                    </paragraph>
+                                 </text>
+                                 <effectiveTime value="20170401"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="12299dfd-6d6d-4fde-8c66-5362fd59d1df"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Infertility</paragraph>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                           <component>
+                              <section>
+                                 <id root="27344a4a-2bb2-47b9-bdf6-f502ba0fa61b"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Females</content>
+                                    </paragraph>
+                                    <paragraph>In females of reproductive potential, DOXIL may cause infertility and result in amenorrhea. Premature menopause can occur with doxorubicin HCl. Recovery of menses and ovulation is related to age at treatment<content styleCode="italics">.</content>
+                                    </paragraph>
+                                 </text>
+                                 <effectiveTime value="20170401"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="b178e42f-9bd2-4612-994f-e5f5871a0071"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Males</content>
+                                    </paragraph>
+                                    <paragraph>DOXIL may result in oligospermia, azoospermia, and permanent loss of fertility. Sperm counts have been reported to return to normal levels in some men. This may occur several years after the end of therapy <content styleCode="italics">[see <linkHtml href="#S13.1">Non-clinical Toxicology (13.1)</linkHtml>]</content>.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20170401"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.4">
+                     <id root="aede24d0-1109-47e5-8626-2ebefbc48922"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of DOXIL in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.5">
+                     <id root="ef4a8e3a-be05-4804-a555-0bfe31b1a422"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of DOXIL conducted in patients with either epithelial ovarian cancer (Trial 4) or with AIDS-related Kaposi's sarcoma (Trial 5) did not contain sufficient numbers of patients aged 65 and over to determine whether they respond differently from younger subjects.</paragraph>
+                        <paragraph>In Trial 6, of 318 patients treated with DOXIL in combination with bortezomib for multiple myeloma, 37% were 65 years of age or older and 8% were 75 years of age or older. No overall differences in safety or efficacy were observed between these patients and younger patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.6">
+                     <id root="04900971-94cd-4a8b-b4b5-4419f8e2c45e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.6   Hepatic Impairment</title>
+                     <text>
+                        <paragraph>The pharmacokinetics of DOXIL has not been adequately evaluated in patients with hepatic impairment. Doxorubicin is eliminated in large part by the liver. Reduce DOXIL for serum bilirubin of 1.2 mg/dL or higher.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S10">
+               <id root="2b40a351-ef7a-4190-adab-34ca7cb20217"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Acute overdosage with doxorubicin HCl causes increased risk of severe mucositis, leukopenia, and thrombocytopenia.</paragraph>
+               </text>
+               <effectiveTime value="20170401"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S11">
+               <id root="f14a96a4-bdbe-4a9f-9a45-18054373d536"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>DOXIL (doxorubicin HCl liposome injection) is doxorubicin hydrochloride (HCl), an anthracycline topoisomerase II inhibitor, that is encapsulated in STEALTH<sup>®</sup> liposomes for intravenous use.</paragraph>
+                  <paragraph>The chemical name of doxorubicin HCl is (8S,10S)-10-[(3-amino-2,3,6-trideoxy-α-L-lyxo-hexopyranosyl)oxy]-8-glycolyl-7,8,9,10-tetrahydro-6,8,11-trihydroxy-1-methoxy-5,12-naphthacenedione hydrochloride. The molecular formula is C27-H29 -NO11∙HCl; its molecular weight is 579.99.</paragraph>
+                  <paragraph>The molecular structure is:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>DOXIL is a sterile, translucent, red liposomal dispersion in 10-mL or 30-mL glass, single use vials. Each vial contains 20 mg or 50 mg doxorubicin HCl at a concentration of 2 mg/mL and a pH of 6.5. The STEALTH liposome carriers are composed of cholesterol, 3.19 mg/mL; fully hydrogenated soy phosphatidylcholine (HSPC), 9.58 mg/mL; and N-(carbonyl-methoxypolyethylene glycol 2000)-1,2-distearoyl-sn-glycero-3-phosphoethanolamine sodium salt (MPEG-DSPE), 3.19 mg/mL. Each mL also contains ammonium sulfate, approximately 0.6 mg; histidine as a buffer; hydrochloric acid and/or sodium hydroxide for pH control; and sucrose to maintain isotonicity. Greater than 90% of the drug is encapsulated in the STEALTH liposomes.</paragraph>
+                  <paragraph>MPEG-DSPE has the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph>n = ca. 45</paragraph>
+                  <paragraph>HSPC has the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+                  <paragraph>m, n=14 or 16</paragraph>
+                  <paragraph>Representation of a STEALTH liposome:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM4"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20170401"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="doxil-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="doxil-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="doxil-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>Liposome</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="doxil-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S12">
+               <id root="b6b5c38d-cc65-417f-acdd-5675773dfc10"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20170401"/>
+               <component>
+                  <section ID="S12.1">
+                     <id root="12ab70fe-148a-4753-8ee2-919465393fd2"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>The active ingredient of DOXIL is doxorubicin HCl. The mechanism of action of doxorubicin HCl is thought to be related to its ability to bind DNA and inhibit nucleic acid synthesis. Cell structure studies have demonstrated rapid cell penetration and perinuclear chromatin binding, rapid inhibition of mitotic activity and nucleic acid synthesis, and induction of mutagenesis and chromosomal aberrations.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.3">
+                     <id root="88bdc752-5f26-4d4d-9a5b-e1e1f4f9400f"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>The pharmacokinetic parameters for total doxorubicin following a single dose of DOXIL infused over 30 minutes are presented in Table 8.</paragraph>
+                        <table width="80%" ID="table8">
+                           <caption>Table 8:	Pharmacokinetic Parameters of Total Doxorubicin from DOXIL in Patients With AIDS-Related Kaposi's Sarcoma</caption>
+                           <col width="50%" align="left" valign="top"/>
+                           <col width="25%" align="center" valign="top"/>
+                           <col width="25%" align="center" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th/>
+                                 <th colspan="2" styleCode="Botrule">Dose</th>
+                              </tr>
+                              <tr>
+                                 <th>Parameter (units)</th>
+                                 <th>10 mg/m<sup>2</sup>
+                                 </th>
+                                 <th>20 mg/m<sup>2</sup>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tfoot>
+                              <tr>
+                                 <td align="left" colspan="3">N=23<br/>Mean ± Standard Error</td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td>Peak Plasma Concentration (µg/mL)</td>
+                                 <td>4.12 ± 0.215</td>
+                                 <td>8.34 ± 0.49</td>
+                              </tr>
+                              <tr>
+                                 <td>Plasma Clearance (L/h/m<sup>2</sup>)</td>
+                                 <td>0.056 ± 0.01</td>
+                                 <td>0.041 ± 0.004</td>
+                              </tr>
+                              <tr>
+                                 <td>Steady State Volume of Distribution (L/m<sup>2</sup>)</td>
+                                 <td>2.83 ± 0.145</td>
+                                 <td>2.72 ± 0.120</td>
+                              </tr>
+                              <tr>
+                                 <td>AUC (µg/mL∙h)</td>
+                                 <td>277 ± 32.9</td>
+                                 <td>590 ± 58.7</td>
+                              </tr>
+                              <tr>
+                                 <td>First Phase (λ<sub>1</sub>) Half-Life (h)</td>
+                                 <td>4.7 ± 1.1</td>
+                                 <td>5.2 ± 1.4</td>
+                              </tr>
+                              <tr>
+                                 <td>Second Phase (λ<sub>1</sub>) Half-Life (h)</td>
+                                 <td>52.3 ± 5.6</td>
+                                 <td>55.0 ± 4.8</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>DOXIL displayed linear pharmacokinetics over the range of 10 to 20 mg/m<sup>2</sup>. Relative to DOXIL doses at or below 20 mg/m<sup>2</sup>, the pharmacokinetics of total doxorubicin following a 50 mg/m<sup>2</sup> DOXIL dose are nonlinear. At this dose, the elimination half-life of DOXIL is longer and the clearance lower compared to a 20 mg/m<sup>2</sup> dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                     <component>
+                        <section>
+                           <id root="4a34d9e8-0386-498b-9818-f234f544ac5a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Distribution</paragraph>
+                              <paragraph>Direct measurement of liposomal doxorubicin shows that at least 90% of the drug (the assay used cannot quantify less than 5–10% free doxorubicin) remains liposome-encapsulated during circulation.</paragraph>
+                              <paragraph>In contrast to doxorubicin, which displays a large volume of distribution (range 700 to 1100 L/m<sup>2</sup>), the small steady state volume of distribution of liposomal doxorubicin suggests that DOXIL is largely confined to vascular fluid. Doxorubicin becomes available after the liposomes are extravasated. Plasma protein binding of DOXIL has not been determined; the plasma protein binding of doxorubicin is approximately 70%.</paragraph>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="1647562d-e1c6-4025-8797-46329b7947e2"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Metabolism</paragraph>
+                              <paragraph>Doxorubicinol, the major metabolite of doxorubicin, was detected at concentrations of 0.8 to 26.2 ng/mL in the plasma of patients who received 10 or 20 mg/m<sup>2</sup> DOXIL.</paragraph>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="4554ac2f-64b4-49af-a758-3d21abc0401a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Elimination</paragraph>
+                              <paragraph>The plasma clearance of total doxorubicin from DOXIL was 0.041 L/h/m<sup>2</sup> at a dose of 20 mg/m<sup>2</sup>. Following administration of doxorubicin HCl, the plasma clearance of doxorubicin is 24 to 35 L/h/m<sup>2</sup>.</paragraph>
+                           </text>
+                           <effectiveTime value="20170401"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S13">
+               <id root="b826ea76-d205-4d08-833b-9208e1a7653a"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NON-CLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20170401"/>
+               <component>
+                  <section ID="S13.1">
+                     <id root="6afc6dd4-0142-469a-98fa-36658da57f18"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, and Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Mutagenicity or carcinogenicity studies have not been conducted with DOXIL, however doxorubicin was shown to be mutagenic in the <content styleCode="italics">in vitro</content> Ames assay, and clastogenic in multiple <content styleCode="italics">in vitro</content> assays (CHO cell, V79 hamster cell, human lymphoblast, and SCE assays) and the <content styleCode="italics">in vivo</content> mouse micronucleus assay. The possible adverse effects on fertility in animals have not been adequately evaluated. DOXIL resulted in mild to moderate ovarian and testicular atrophy in mice after administration of a single dose of 36 mg/kg (about 2 times the 50 mg/m<sup>2</sup> human dose on a mg/m<sup>2</sup> basis). Decreased testicular weights and hypospermia were observed in rats after repeat doses ≥ 0.25 mg/kg/day (about 0.03 times the 50 mg/m<sup>2</sup> human dose on a mg/m<sup>2</sup> basis), and diffuse degeneration of the seminiferous tubules and a marked decrease in spermatogenesis were observed in dogs after repeat doses of 1 mg/kg/day (about 0.4 times the 50 mg/m<sup>2</sup> human dose on a mg/m<sup>2</sup> basis).</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S14">
+               <id root="e2ffad2c-7dee-4cda-8a3e-ed5cca19fb13"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <effectiveTime value="20170401"/>
+               <component>
+                  <section ID="S14.1">
+                     <id root="9ff6b7f9-1733-46a8-8328-3d05ea512681"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.1  Ovarian Cancer</title>
+                     <text>
+                        <paragraph>DOXIL was studied in three open-label, single-arm, clinical studies of 176 patients with metastatic ovarian cancer (Trials 1, 2, and 3). One hundred forty-five of these patients were refractory to both paclitaxel- and platinum-based chemotherapy regimens, defined as disease progression while on treatment or relapse within 6 months of completing treatment. Patients received DOXIL at 50 mg/m<sup>2</sup> every 3 or 4 weeks for 3–6+ cycles in the absence of dose-limiting toxicity or disease progression.</paragraph>
+                        <paragraph>The median age at diagnosis ranged from 52 to 64 years in the 3 studies, and the range was 22 to 85. Most patients had International Federation of Obstetricians and Gynecologists (FIGO) stage III or IV disease (ranging from 83% to 93%). Approximately one third of the patients had three or more prior lines of therapy (ranging from 22% to 33%).</paragraph>
+                        <paragraph>The primary outcome measure was confirmed response rate based on Southwestern Oncology Group (SWOG) criteria for patients refractory to both paclitaxel- and a platinum-containing regimen. Secondary efficacy parameters were time to response, duration of response, and time to progression.</paragraph>
+                        <paragraph>The response rates for the individual single arm trials are given in Table 9 below.</paragraph>
+                        <table width="75%" ID="table9">
+                           <caption>Table 9:	Response Rates in Patients With Refractory Ovarian Cancer From Single Arm Ovarian Cancer Trials</caption>
+                           <col width="40%" align="left" valign="top"/>
+                           <col width="20%" align="center" valign="top"/>
+                           <col width="20%" align="center" valign="top"/>
+                           <col width="20%" align="center" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th/>
+                                 <th>Trial 1 (U.S.)<br/>N=27</th>
+                                 <th>Trial 2 (U.S.)<br/>N=82</th>
+                                 <th>Trial 3 (non-U.S.)<br/>N=36</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Response Rate</td>
+                                 <td>22.2%</td>
+                                 <td>17.1%</td>
+                                 <td>0%</td>
+                              </tr>
+                              <tr>
+                                 <td>95% Confidence Interval</td>
+                                 <td>8.6% – 42.3%</td>
+                                 <td>9.7% – 27.0%</td>
+                                 <td>0.0% – 9.7%</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>In a pooled analysis of Trials 1–3, the response rate for all patients refractory to paclitaxel and platinum agents was 13.8% (95% CI 8.1% to 19.3%). The median time to progression was 15.9 weeks, the median time to response was 17.6 weeks, and the duration of response was 39.4 weeks.</paragraph>
+                        <paragraph>In Trial 4, a randomized, multicenter, open-label, trial in 474 patients with epithelial ovarian cancer after platinum-based chemotherapy, patients were randomized to receive either DOXIL 50 mg/m<sup>2</sup> every 4 weeks (n=239) or topotecan 1.5 mg/m<sup>2</sup> daily for 5 consecutive days every 3 weeks (n=235). Patients were stratified according to platinum sensitivity (response to initial platinum-based therapy and a progression-free interval of greater than 6 months off treatment) and the presence of bulky disease (tumor mass greater than 5 cm in size). The primary outcome measure was time to progression (TTP). Other endpoints included overall survival and objective response rate.</paragraph>
+                        <paragraph>Of the 474 patients, the median age at diagnosis was 60 years (range 25 to 87), 90% were FIGO stage III and IV; 46% were platinum sensitive; and 45% had bulky disease.</paragraph>
+                        <paragraph>There was no statistically significant difference in TTP between the two arms. Results are provided in Table 10.</paragraph>
+                        <table width="75%" ID="table10">
+                           <caption>Table 10:	Results of Efficacy Analyses<footnote ID="t10f1">Analysis based on investigators' strata for protocol defined ITT population.</footnote>
+                           </caption>
+                           <col width="50%" align="left" valign="top"/>
+                           <col width="25%" align="center" valign="top"/>
+                           <col width="25%" align="center" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th/>
+                                 <th colspan="2" styleCode="Botrule">Protocol Defined ITT Population</th>
+                              </tr>
+                              <tr>
+                                 <th/>
+                                 <th>DOXIL<br/>(n=239)</th>
+                                 <th>Topotecan<br/>(n=235)</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">TTP </content> (Protocol Specified Primary Endpoint)</td>
+                                 <td/>
+                                 <td/>
+                              </tr>
+                              <tr>
+                                 <td>  Median (Months)<footnote ID="t10f2">Kaplan-Meier estimates.</footnote>
+                                 </td>
+                                 <td>4.1</td>
+                                 <td>4.2</td>
+                              </tr>
+                              <tr>
+                                 <td>  p-value<footnote ID="t10f3">p-value is based on the stratified log-rank test.</footnote>
+                                 </td>
+                                 <td colspan="2">0.62</td>
+                              </tr>
+                              <tr>
+                                 <td>  Hazard Ratio<footnote ID="t10f4">Hazard ratio is based on Cox proportional-hazard model with the treatment as single independent variable. A hazard ratio less than 1 indicates an advantage for DOXIL.</footnote>
+                                 </td>
+                                 <td colspan="2">0.96</td>
+                              </tr>
+                              <tr>
+                                 <td>  95% CI for Hazard Ratio</td>
+                                 <td colspan="2">(0.76, 1.20)</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Overall Survival</content>
+                                 </td>
+                                 <td/>
+                                 <td/>
+                              </tr>
+                              <tr>
+                                 <td>  Median (Months) <footnoteRef IDREF="t10f2"/>
+                                 </td>
+                                 <td>14.4</td>
+                                 <td>13.7</td>
+                              </tr>
+                              <tr>
+                                 <td>  p-value<footnote ID="t10f5">p-value not adjusted for multiple comparisons.</footnote>
+                                 </td>
+                                 <td colspan="2">0.05</td>
+                              </tr>
+                              <tr>
+                                 <td>  Hazard Ratio<footnoteRef IDREF="t10f4"/>
+                                 </td>
+                                 <td colspan="2">0.82</td>
+                              </tr>
+                              <tr>
+                                 <td>  95% CI for Hazard Ratio</td>
+                                 <td colspan="2">(0.68, 1.00)</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Response Rate</content>
+                                 </td>
+                                 <td/>
+                                 <td/>
+                              </tr>
+                              <tr>
+                                 <td>  Overall Response n (%)</td>
+                                 <td>47 (19.7)</td>
+                                 <td>40 (17.0)</td>
+                              </tr>
+                              <tr>
+                                 <td>  Complete Response n (%)</td>
+                                 <td>9 (3.8)</td>
+                                 <td>11 (4.7)</td>
+                              </tr>
+                              <tr>
+                                 <td>  Partial Response n (%)</td>
+                                 <td>38 (15.9)</td>
+                                 <td>29 (12.3)</td>
+                              </tr>
+                              <tr>
+                                 <td>  Median Duration of Response (Months) <footnoteRef IDREF="t10f2"/>
+                                 </td>
+                                 <td>6.9</td>
+                                 <td>5.9</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S14.2">
+                     <id root="a248963c-9dbb-4030-a3a6-00446b12da63"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.2  AIDS-Related Kaposi's Sarcoma</title>
+                     <text>
+                        <paragraph>DOXIL was studied in an open-label, single-arm, multicenter study at a dose of 20 mg/m<sup>2</sup> every 3 weeks, until disease progression or unacceptable toxicity (Trial 5).</paragraph>
+                        <paragraph>Data is described for a cohort of 77 patients retrospectively identified as having disease progression on prior systemic combination chemotherapy (at least two cycles of a regimen containing at least two of three treatments: bleomycin, vincristine or vinblastine, or doxorubicin) or as being intolerant to such therapy. Forty-nine of the 77 (64%) patients had received prior doxorubicin HCl.</paragraph>
+                        <paragraph>The median time on study was 5.1 months (range 1 day to 15 months). The median cumulative dose of DOXIL was 154 mg/m<sup>2</sup> (range 20 to 620 mg/m<sup>2</sup>). Among the 77 patients, mean age was 38 years (range 24 to 54); 87% were Caucasian, 5% Hispanic, 4% Black, and 4% Asian/Other/Unknown; median CD4 count was 10 cells/mm<sup>3</sup>; ACTG staging criteria were 78% poor risk for tumor burden, 96% poor risk for immune system, and 58% poor risk for systemic illness at baseline; and mean Karnofsky status score was 74%. All patients had cutaneous or subcutaneous lesions, 40% also had oral lesions, 26% pulmonary lesions, and 14% had lesions of the stomach/intestine.</paragraph>
+                        <paragraph>Two analyses of tumor response were used: one based on investigator assessment of changes in lesions based on modified ACTG criteria (partial response defined as no new lesions, sites of disease, or worsening edema; flattening of ≥50% of previously raised lesions or area of indicator lesions decreasing by ≥50%; and response lasting at least 21 days with no prior progression), and one based on changes in up to five prospectively indentified representative indicator lesions (partial response defined as flattening of ≥50% of previously raised indicator lesions, or &gt;50% decrease in the area of indicator lesions and lasting at least 21 days with no prior progression).</paragraph>
+                        <paragraph>Of the 77 patients, 34 were evaluable for investigator assessment and 42 were evaluable for indicator lesion assessment; analyses of tumor responses are shown in Table 11.</paragraph>
+                        <table ID="table11" width="75%">
+                           <caption>Table 11:	Response in Patients with Refractory<footnote ID="t11f1">Patients with disease that progressed on prior combination chemotherapy or who were intolerant to such therapy.</footnote> AIDS-Related Kaposi's Sarcoma</caption>
+                           <col width="34%" align="left" valign="top"/>
+                           <col width="33%" align="center" valign="top"/>
+                           <col width="33%" align="center" valign="top"/>
+                           <tbody>
+                              <tr styleCode="Toprule Botrule">
+                                 <td>Investigator Assessment</td>
+                                 <td>All Evaluable Patients<br/>(n=34)</td>
+                                 <td>Evaluable Patients Who Received Prior Doxorubicin<br/>(n=20)</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3">Response<footnote ID="t11f2">There were no complete responses in this population.</footnote>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>  Partial (PR)</td>
+                                 <td>27%</td>
+                                 <td>30%</td>
+                              </tr>
+                              <tr>
+                                 <td>  Stable</td>
+                                 <td>29%</td>
+                                 <td>40%</td>
+                              </tr>
+                              <tr>
+                                 <td>  Progression</td>
+                                 <td>44%</td>
+                                 <td>30%</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3">Duration of PR (Days)</td>
+                              </tr>
+                              <tr>
+                                 <td>  Median</td>
+                                 <td>73</td>
+                                 <td>89</td>
+                              </tr>
+                              <tr>
+                                 <td>  Range</td>
+                                 <td>42+ – 210+</td>
+                                 <td>42+ – 210+</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3">Time to PR (Days)</td>
+                              </tr>
+                              <tr>
+                                 <td>  Median</td>
+                                 <td>43</td>
+                                 <td>53</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td>  Range</td>
+                                 <td>15 – 133</td>
+                                 <td>15 – 109</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td>Indicator Lesion Assessment</td>
+                                 <td>All Evaluable Patients<br/>(n=42)</td>
+                                 <td>Evaluable Patients Who Received Prior Doxorubicin<br/>(n=23)</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3">Response<footnoteRef IDREF="t11f2"/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>  Partial (PR)</td>
+                                 <td>48%</td>
+                                 <td>52%</td>
+                              </tr>
+                              <tr>
+                                 <td>  Stable</td>
+                                 <td>26%</td>
+                                 <td>30%</td>
+                              </tr>
+                              <tr>
+                                 <td>  Progression</td>
+                                 <td>26%</td>
+                                 <td>17%</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3">Duration of PR (Days)</td>
+                              </tr>
+                              <tr>
+                                 <td>  Median</td>
+                                 <td>71</td>
+                                 <td>79</td>
+                              </tr>
+                              <tr>
+                                 <td>  Range</td>
+                                 <td>22+ – 210+</td>
+                                 <td>35 – 210+</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3">Time to PR (Days)</td>
+                              </tr>
+                              <tr>
+                                 <td>  Median</td>
+                                 <td>22</td>
+                                 <td>48</td>
+                              </tr>
+                              <tr>
+                                 <td>  Range</td>
+                                 <td>15 – 109</td>
+                                 <td>15 – 109</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Retrospective efficacy analyses were performed in two trials that had subsets of patients who received single-agent DOXIL and who were on stable antiretroviral therapy for at least 60 days prior to enrollment and until a response was demonstrated. In one trial, 7 of 17 (40%) patients had a durable response (median duration not reached but was longer than 11.6 months). In the second trial, 4 of 11 patients (40%) on a stable antiretroviral therapy demonstrated durable responses.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S14.3">
+                     <id root="eec73f00-1499-4eb9-89fa-5e56f0d34e03"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.3  Multiple Myeloma</title>
+                     <text>
+                        <paragraph>The efficacy of DOXIL in combination with bortezomib was evaluated in Trial 6, a randomized, open-label, international, multicenter study in 646 patients who had not previously received bortezomib and whose disease progressed during or after at least one prior therapy. Patients were randomized (1:1) to receive either DOXIL (30 mg/m<sup>2</sup>) administered IV on day 4 following bortezomib (1.3 mg/m<sup>2</sup> IV on days 1, 4, 8 and 11) or bortezomib alone every 3 weeks for up to 8 cycles or until disease progression or unacceptable toxicity. Patients who maintained a response were allowed to receive further treatment. The median number of cycles in each treatment arm was 5 (range 1–18).</paragraph>
+                        <paragraph>The baseline demographics and clinical characteristics of the patients with multiple myeloma were similar between treatment arms (Table 12).</paragraph>
+                        <table width="75%" ID="table12">
+                           <caption>Table 12: Summary of Baseline Patient and Disease Characteristics</caption>
+                           <col width="50%" align="left" valign="top"/>
+                           <col width="25%" align="center" valign="top"/>
+                           <col width="25%" align="center" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th valign="bottom">Patient Characteristics</th>
+                                 <th>DOXIL + bortezomib<br/>n=324</th>
+                                 <th>bortezomib<br/>n=322</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>  Median age in years (range)</td>
+                                 <td>61 (28, 85)</td>
+                                 <td>62 (34, 88)</td>
+                              </tr>
+                              <tr>
+                                 <td>  % Male/female </td>
+                                 <td>58 / 42</td>
+                                 <td>54 / 46</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td>  % Caucasian/Black/other </td>
+                                 <td>90 / 6 / 4</td>
+                                 <td>94 / 4 / 2</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Disease Characteristics</content>
+                                 </td>
+                                 <td/>
+                                 <td/>
+                              </tr>
+                              <tr>
+                                 <td>  % with IgG/IgA/Light chain </td>
+                                 <td>57 / 27 / 12</td>
+                                 <td>62 / 24 / 11</td>
+                              </tr>
+                              <tr>
+                                 <td>  % β<sub>2</sub>-microglobulin group</td>
+                                 <td/>
+                                 <td/>
+                              </tr>
+                              <tr>
+                                 <td>    ≤2.5 mg/L</td>
+                                 <td>14</td>
+                                 <td>14</td>
+                              </tr>
+                              <tr>
+                                 <td>    &gt;2.5 mg/L and ≤5.5 mg/L</td>
+                                 <td>56</td>
+                                 <td>55</td>
+                              </tr>
+                              <tr>
+                                 <td>    &gt;5.5 mg/L</td>
+                                 <td>30</td>
+                                 <td>31</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Serum M-protein (g/dL): Median (Range)</content>
+                                 </td>
+                                 <td>2.5 (0–10.0)</td>
+                                 <td>2.7 (0–10.0)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td>
+                                    <content styleCode="bold">Urine M-protein (mg/24 hours): Median (Range)</content>
+                                 </td>
+                                 <td>107 (0–24883)</td>
+                                 <td>66 (0–39657)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td>
+                                    <content styleCode="bold">Median Months Since Diagnosis</content>
+                                 </td>
+                                 <td>35.2</td>
+                                 <td>37.5</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">% Prior Therapy</content>
+                                 </td>
+                                 <td/>
+                                 <td/>
+                              </tr>
+                              <tr>
+                                 <td>  One</td>
+                                 <td>34</td>
+                                 <td>34</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td>  More than one</td>
+                                 <td>66</td>
+                                 <td>66</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Prior Systemic Therapies for Multiple Myeloma</content>
+                                 </td>
+                                 <td/>
+                                 <td/>
+                              </tr>
+                              <tr>
+                                 <td>  Corticosteroid (%)</td>
+                                 <td>99</td>
+                                 <td>&gt;99</td>
+                              </tr>
+                              <tr>
+                                 <td>  Anthracyclines</td>
+                                 <td>68</td>
+                                 <td>67</td>
+                              </tr>
+                              <tr>
+                                 <td>  Alkylating agent (%)</td>
+                                 <td>92</td>
+                                 <td>90</td>
+                              </tr>
+                              <tr>
+                                 <td>  Thalidomide/lenalidomide (%)</td>
+                                 <td>40</td>
+                                 <td>43</td>
+                              </tr>
+                              <tr>
+                                 <td>  Stem cell transplantation (%)</td>
+                                 <td>57</td>
+                                 <td>54</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>The primary outcome measure was time to progression (TTP). TTP was defined as the time from randomization to the first occurrence of progressive disease or death due to progressive disease. The combination arm demonstrated significant improvement in TTP. As the prespecified primary objective was achieved at the interim analysis, patients in the bortezomib monotherapy group were then allowed to receive the DOXIL + bortezomib combination. Efficacy results are as shown in Table 13 and Figure 1<content styleCode="bold">.</content>
+                        </paragraph>
+                        <table width="75%" ID="table13">
+                           <caption>Table 13:	Efficacy of DOXIL in Combination With Bortezomib in the Treatment of Patients With Multiple Myeloma</caption>
+                           <col width="50%" align="left" valign="top"/>
+                           <col width="25%" align="center" valign="top"/>
+                           <col width="25%" align="center" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th>Endpoint</th>
+                                 <th>DOXIL + bortezomib<br/>n=324</th>
+                                 <th>Bortezomib<br/>n=322</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Time to Progression<footnote>Kaplan Meier estimate.</footnote>
+                                    </content>
+                                 </td>
+                                 <td/>
+                                 <td/>
+                              </tr>
+                              <tr>
+                                 <td>Progression or death due to progression (n)</td>
+                                 <td>99</td>
+                                 <td>150</td>
+                              </tr>
+                              <tr>
+                                 <td>  Censored (n)</td>
+                                 <td>225</td>
+                                 <td>172</td>
+                              </tr>
+                              <tr>
+                                 <td>  Median in days (months)</td>
+                                 <td>282 (9.3)</td>
+                                 <td>197 (6.5)</td>
+                              </tr>
+                              <tr>
+                                 <td>  95% CI</td>
+                                 <td>250; 338</td>
+                                 <td>170; 217</td>
+                              </tr>
+                              <tr>
+                                 <td>  Hazard ratio<footnote>Hazard ratio based on stratified Cox proportional hazards regression. A hazard ratio &lt; 1 indicates an advantage for DOXIL+bortezomib.</footnote>
+                                 </td>
+                                 <td colspan="2">0.55</td>
+                              </tr>
+                              <tr>
+                                 <td>  (95% CI)</td>
+                                 <td colspan="2"> (0.43, 0.71)</td>
+                              </tr>
+                              <tr>
+                                 <td>  p-value<footnote>Stratified log-rank test.</footnote>
+                                 </td>
+                                 <td colspan="2">&lt;0.001</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Response (n)</content>
+                                    <footnote>RR as per EBMT criteria.</footnote>
+                                 </td>
+                                 <td>303</td>
+                                 <td>310</td>
+                              </tr>
+                              <tr>
+                                 <td>  % Complete Response (CR) </td>
+                                 <td>5</td>
+                                 <td>3</td>
+                              </tr>
+                              <tr>
+                                 <td>  % Partial Response (PR) </td>
+                                 <td>43</td>
+                                 <td>40</td>
+                              </tr>
+                              <tr>
+                                 <td>  % CR + PR</td>
+                                 <td>48</td>
+                                 <td>43</td>
+                              </tr>
+                              <tr>
+                                 <td>  p-value<footnote>Cochran-Mantel-Haenszel test adjusted for the stratification factors.</footnote>
+                                 </td>
+                                 <td colspan="2">0.25</td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Median Duration of Response (months)</content>
+                                 </td>
+                                 <td>10.2</td>
+                                 <td>7.0</td>
+                              </tr>
+                              <tr>
+                                 <td>(95% CI)</td>
+                                 <td>(10.2; 12.9)</td>
+                                 <td>(5.9; 8.3)</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <table width="100%" styleCode="Noautorules">
+                           <col width="100%" align="center" valign="middle"/>
+                           <tbody>
+                              <tr>
+                                 <td align="left">
+                                    <content styleCode="bold">Figure 1- Time to Progression Kaplan-Meier Curve</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center">
+                                    <renderMultiMedia referencedObject="MM5" ID="fig1"/>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>At the final analysis of survival, 78% of subjects in the DOXIL and bortezomib combination therapy group and 80% of subjects in the bortezomib monotherapy group had died after a median follow up of 8.6 years. The median survival was 33 months in the DOXIL and bortezomib combination therapy group and 31 months in the bortezomib monotherapy group. There was no difference observed in overall survival at the final analysis [HR for DOXIL + bortezomib vs. bortezomib = 0.96 (95% CI 0.80, 1.14)]. </paragraph>
+                        <paragraph>Seventy-eight percent of subjects in the DOXIL and bortezomib combination therapy group and 80% of subjects in the bortezomib monotherapy group had received subsequent therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                     <component>
+                        <observationMedia ID="MM5">
+                           <text>Figure 1</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="doxil-05.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S15">
+               <id root="3d110d2d-cd02-49a6-81df-090122582934"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>15 REFERENCES</title>
+               <text>
+                  <list listType="ordered" styleCode="arabic">
+                     <item>"Hazardous Drugs", <content styleCode="italics">OSHA, </content>  http://www.osha.gov/SLTC/hazardousdrugs/index.html</item>
+                  </list>
+               </text>
+               <effectiveTime value="20170401"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S16">
+               <id root="48ef3949-43ed-4dd0-9efb-cb811a485c2a"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16	HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>DOXIL is a sterile, translucent, red liposomal dispersion in 10-mL or 30-mL glass, single use vials.</paragraph>
+                  <paragraph>Each 10-mL vial contains 20 mg doxorubicin HCl at a concentration of 2 mg/mL.</paragraph>
+                  <paragraph>Each 30-mL vial contains 50 mg doxorubicin HCl at a concentration of 2 mg/mL.</paragraph>
+                  <paragraph>The following individually cartoned vials are available:</paragraph>
+                  <table width="80%" ID="table14">
+                     <caption>Table 14</caption>
+                     <col width="25%" align="left" valign="top"/>
+                     <col width="25%" align="left" valign="top"/>
+                     <col width="25%" align="left" valign="top"/>
+                     <col width="25%" align="left" valign="top"/>
+                     <thead>
+                        <tr>
+                           <th>mg in vial</th>
+                           <th>fill volume</th>
+                           <th>vial size</th>
+                           <th>NDC #s</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>20 mg vial</td>
+                           <td>10-mL</td>
+                           <td>10-mL</td>
+                           <td>59676-960-01</td>
+                        </tr>
+                        <tr>
+                           <td>50 mg vial</td>
+                           <td>25-mL</td>
+                           <td>30-mL</td>
+                           <td>59676-960-02</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20170401"/>
+               <component>
+                  <section>
+                     <id root="0f3acf87-8b32-4a10-83a0-fbe347eb8220"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>Refrigerate unopened vials of DOXIL at 2°– 8°C (36°– 46°F). Do not freeze.</paragraph>
+                        <paragraph>DOXIL is a cytotoxic drug. Follow applicable special handling and disposal procedures.<sup>1</sup>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S17">
+               <id root="044199d1-2e29-4589-be57-4831f1041a68"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <effectiveTime value="20170401"/>
+               <component>
+                  <section>
+                     <id root="0cb3e52b-3de3-4df9-8fea-55d9c1f626c9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Cardiomyopathy</content>
+                        </paragraph>
+                        <paragraph>Advise patients to contact their healthcare provider if they develop symptoms of heart failure <content styleCode="italics">[see <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4b9b69dd-1c22-442b-a31e-7d66b8848706"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Infusion-Related Reactions</content>
+                        </paragraph>
+                        <paragraph>Advise patients about the symptoms of infusion related reactions and to seek immediate medical attention if they develop any of these symptoms <content styleCode="italics">[see <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="67f4d686-98fc-48ea-90d9-e1098d69d575"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Myelosuppression</content>
+                        </paragraph>
+                        <paragraph>Advise patients to contact their healthcare provider for a new onset fever or symptoms of infection.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="d2f4b5a7-f99d-4555-9615-688a65162bdd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Hand-Foot Syndrome</content>
+                        </paragraph>
+                        <paragraph>Advise patients to notify their healthcare provider if they experience tingling or burning, redness, flaking, bothersome swelling, small blisters, or small sores on the palms of their hands or soles of their feet (symptoms of Hand-Foot Syndrome) <content styleCode="italics">[see <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="49bf0ae6-1e55-4b84-8c47-ce02faf2fa0e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Stomatitis</content>
+                        </paragraph>
+                        <paragraph>Advise patients to notify their healthcare provider if they develop painful redness, swelling, or sores in the mouth (symptoms of stomatitis).</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="70f4d45e-9fa0-4c67-ae32-24e6b08f7240"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Embryofetal Toxicity</content>
+                        </paragraph>
+                        <paragraph>Advise females of reproductive potential of the potential risk to a fetus and to inform their healthcare provider with a known or suspected pregnancy <content styleCode="italics">[see <linkHtml href="#S5.5">Warnings and Precautions (5.5)</linkHtml> and <linkHtml href="#S8.1">Use in Specific Populations (8.1)</linkHtml>].</content>
+                        </paragraph>
+                        <paragraph>Advise females and males of reproductive potential to use effective contraception during and for 6 months following treatment with DOXIL <content styleCode="italics">[see <linkHtml href="#S8.3">Use in Specific Populations (8.3)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="10f78990-cbb9-4c66-97b9-2d29bff120f1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Lactation</content>
+                        </paragraph>
+                        <paragraph>Advise females not to breastfeed during treatment with DOXIL <content styleCode="italics">[see <linkHtml href="#S8.2">Use in Specific Populations (8.2)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="28b2be9f-2dbb-4afe-b530-f567e3e85e0e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Infertility</content>
+                        </paragraph>
+                        <paragraph>Advise females and males of reproductive potential that DOXIL may cause temporary or permanent infertility <content styleCode="italics">[see <linkHtml href="#S8.3">Use in Specific Populations (8.3)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="66ca1cd1-b67f-42e7-b918-ccd68996593c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Discoloration of Urine and Body Fluids</content>
+                        </paragraph>
+                        <paragraph>Inform patients that following DOXIL administration, a reddish-orange color to the urine and other body fluids may be observed. This nontoxic reaction is due to the color of the product and will dissipate as the drug is eliminated from the body.</paragraph>
+                     </text>
+                     <effectiveTime value="20170401"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1e2114a5-ca44-4177-b548-19b43ff2b60d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured by:<br/>TTY Biopharm Company Limited<br/>Taoyuan City, 32069, Taiwan</paragraph>
+                  <paragraph>or</paragraph>
+                  <paragraph>GlaxoSmithKline Manufacturing S.p.A.<br/>Parma, Italy</paragraph>
+                  <paragraph>Manufactured for:<br/>Janssen Products, LP<br/>Horsham, PA 19044<br/>© Janssen Products, LP 2010<br/>
+                  </paragraph>
+                  <paragraph>An Alza Corporation STEALTH<sup>®</sup> Technology Product.</paragraph>
+                  <paragraph>STEALTH<sup>®</sup> and DOXIL<sup>®</sup> are registered trademarks of Alza Corporation.</paragraph>
+               </text>
+               <effectiveTime value="20170401"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5af957e4-ac80-467f-847a-7cb813c165e1"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 20 mg Vial Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 59676-960-01</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DOXIL</content>
+                     <sup>®</sup>
+                     <br/>
+                     <content styleCode="bold">(DOXOrubicin HCl<br/>liposome injection)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">20 mg in 10 mL<br/>(2 mg/mL)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Single-Use Vial. Discard unused portion.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">LIPOSOMAL FORMULATION -<br/>DO NOT SUBSTITUTE<br/>FOR DOXORUBICIN HCL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR INTRAVENOUS<br/>INFUSION ONLY</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Refrigerate, 2°-8°C<br/>(36°-46°F). Do Not Freeze.<br/>Cytotoxic</content>
+                  </paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">janssen</content>
+                  </paragraph>
+                  <paragraph>An Alza Corporation STEALTH®<br/>Technology Product</paragraph>
+                  <renderMultiMedia referencedObject="MM6"/>
+               </text>
+               <effectiveTime value="20170401"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>Principal Display Panel - 20 mg Vial Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="doxil-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9e225ee3-b13d-466b-90c4-a80e2564bfac"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 50 mg Vial Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 59676-960-02</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DOXIL</content>
+                     <sup>®</sup>
+                     <br/>
+                     <content styleCode="bold">(DOXOrubicin HCl<br/>liposome injection)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">50 mg in 25 mL<br/>(2 mg/mL)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Single-Use Vial. Discard unused portion.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">LIPOSOMAL FORMULATION -<br/>DO NOT SUBSTITUTE<br/>FOR DOXORUBICIN HCL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FOR INTRAVENOUS<br/>INFUSION ONLY</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Refrigerate, 2°-8°C<br/>(36°-46°F). Do Not Freeze.<br/>Cytotoxic</content>
+                  </paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">janssen</content>
+                  </paragraph>
+                  <paragraph>An Alza Corporation STEALTH®<br/>Technology Product</paragraph>
+                  <renderMultiMedia referencedObject="MM7"/>
+               </text>
+               <effectiveTime value="20170401"/>
+               <component>
+                  <observationMedia ID="MM7">
+                     <text>Principal Display Panel - 50 mg Vial Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="doxil-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

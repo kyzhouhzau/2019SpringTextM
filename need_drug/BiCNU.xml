@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="03f56de6-304f-4d8d-ae0b-162959a0b1c7"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use BiCNU safely and effectively. See full prescribing information for BiCNU.<br/>BiCNU (carmustine) for injection, for intravenous use<br/>Initial U.S. Approval: 1977</title>
+   <effectiveTime value="20170324"/>
+   <setId root="d6cbb63c-e0b1-43ee-ad6f-408da0772079"/>
+   <versionNumber value="9"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="780779901" root="1.3.6.1.4.1.519.1"/>
+            <name>Heritage Pharmaceuticals Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="916921919" root="1.3.6.1.4.1.519.1"/>
+                  <name>Emcure Pharmaceuticals Limited</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="862602830" root="1.3.6.1.4.1.519.1"/>
+                        <name>Emcure Pharmaceuticals Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-261" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-262" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-589" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="label"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-261" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="label"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-262" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="label"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-589" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-261" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-262" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-589" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pack"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-261" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pack"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-262" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pack"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="23155-589" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="2390c0f9-817d-4586-b42a-38b946d8765b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL Product Data Elements Section"/>
+               <effectiveTime value="20170324"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="23155-261" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>BiCNU
+								</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>CARMUSTINE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="23155-261-41" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20130404"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator value="3" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="23155-262" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>DEHYDRATED ALCOHOL
+										</name>
+                              <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>ALCOHOL</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALCOHOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="3" unit="mL"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="23155-262-31" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic classCode="OBS">
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA017422" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20130404"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="30" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="23155-589" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>BiCNU
+										</name>
+                              <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Carmustine</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator value="100" unit="mg"/>
+                                    <denominator value="30" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="U68WG3173Y" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CARMUSTINE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="U68WG3173Y" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>CARMUSTINE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="30" unit="mL"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="23155-589-31" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic classCode="OBS">
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA017422" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20130404"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA017422" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130404"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID233">
+               <id root="a57d0991-ae0e-4cd3-b452-aef939a27d04"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING: MYELOSUPPRESSION and PULMONARY TOXICITY</title>
+               <text>
+                  <paragraph ID="ID234">
+                     <content styleCode="bold">Myelosuppression</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BiCNU causes suppression of marrow function (including thrombocytopenia and leukopenia), which may contribute to bleeding and overwhelming infections. <content styleCode="italics">[see Warnings and Precautions <linkHtml href="#ID241">(5.1)</linkHtml> and Adverse Reactions <linkHtml href="#ID136">(6)</linkHtml>]</content>. Monitor blood counts weekly for at least 6 weeks after each dose. Adjust dosage based on nadir blood counts from the prior dose <content styleCode="italics">[see Dosage and Administration <linkHtml href="#ID124">(2.1)</linkHtml>]</content>. Do not administer a repeat course of BiCNU until blood counts recover.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pulmonary Toxicity</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BiCNU causes dose-related pulmonary toxicity. Patients receiving greater than 1400 mg/m<sup>2</sup>cumulative dose are at significantly higher risk than those receiving less. Delayed pulmonary toxicity can occur years after treatment, and can result in death, particularly in patients treated in childhood <content styleCode="italics">[see Adverse Reactions <linkHtml href="#ID136">(6)</linkHtml> and Use in Specific Populations <linkHtml href="#ID264">(8.4)</linkHtml>]</content>.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20170324"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph ID="ID236">
+                           <content styleCode="bold">WARNING: MYELOSUPPRESSION and PULMONARY TOXICITY</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">See full prescribing information for complete boxed warning</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>• <content styleCode="bold">Suppression of marrow function, notably thrombocytopenia and leukopenia, is the most common and severe of the toxic effects of BiCNU. Monitor blood counts. (5, 6).</content>
+                        </paragraph>
+                        <paragraph>• <content styleCode="bold">Pulmonary toxicity from BiCNU appears to be dose related. Patients receiving greater than 1400 mg/m<sup>2</sup> cumulative dose are at significantly higher risk than those receiving less (5, 6).</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID121">
+               <id root="bf55a8fd-4620-4ac8-8aa4-76cad201904b"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <effectiveTime value="20170324"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph ID="ID180">BiCNU is a nitrosourea indicated as palliative therapy as a single agent or in established combination therapy with other approved chemotherapeutic agents in the following:</paragraph>
+                        <list listType="ordered" ID="ID181">
+                           <item>Brain tumors glioblastoma, brainstem glioma, medulloblastoma, astrocytoma, ependymoma, and metastatic brain tumors (1)</item>
+                           <item>Multiple myeloma-in combination with prednisone (1)</item>
+                           <item>Relapsed or refractory Hodgkin's lymphoma in combination with other approved drugs (1)</item>
+                           <item>Relapsed or refractory Non-Hodgkin's lymphomas in combination with other approved drugs (1)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID198">
+                     <id root="dccd03ae-70ab-45c4-9113-98a1cafbb839"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph ID="ID199">BiCNU<sup>®</sup>(carmustine for injection) is indicated as palliative therapy as a single agent or in established combination therapy in the following:</paragraph>
+                        <list listType="unordered" ID="ID239" styleCode="Disc">
+                           <item>Brain tumors glioblastoma, brainstem glioma, medulloblastoma, astrocytoma, ependymoma, and metastatic brain tumors.</item>
+                           <item>Multiple myeloma in combination with prednisone.</item>
+                           <item>Relapsed or refractory Hodgkin's lymphoma in combination with other approved drugs.</item>
+                           <item>Relapsed or refractory Non-Hodgkin's lymphomas in combination with other approved drugs.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID123">
+               <id root="575ebe77-336a-48a7-8f00-d76a4441ce50"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20170324"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" ID="ID238" styleCode="Disc">
+                           <item>Recommended Dosage: As a single agent, 150 to 200 mg/m<sup>2</sup>BiCNU intravenously every 6 weeks as a single dose or divided into daily injections such as 75 to 100 mg/m<sup>2</sup>on 2 successive days. Adjust dose for combination therapy or in patients with reduced bone marrow reserve (2.1)</item>
+                           <item>Administer reconstituted solution only as a slow intravenous infusion over at least 2 hours. (2.2)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID124">
+                     <id root="d2509889-7314-477c-acc0-a7079c1f2612"/>
+                     <title>2.1 Dosage</title>
+                     <text>
+                        <paragraph ID="ID125">The recommended dose of BiCNU as a single agent in previously untreated patients is 150 to 200 mg/m<sup>2</sup> intravenously every 6 weeks. Administer as a single dose or divided into daily injections such as 75 to 100 mg/m<sup>2</sup> on two successive days. Lower the dose when BiCNU is used with other myelosuppressive drugs or in patients in whom bone marrow reserve is depleted. Administer BiCNU for the duration according to the established regimen. Premedicate each dose with anti-emetics.</paragraph>
+                        <paragraph>Adjust doses subsequent to the initial dose according to the hematologic response of the patient to the preceding dose. The following schedule is suggested as a guide to dosage adjustment:</paragraph>
+                        <table ID="ID126" width="100%">
+                           <col width="33%"/>
+                           <col width="34%"/>
+                           <col width="33%"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" valign="middle" colspan="2" styleCode=" Lrule Rrule Botrule Toprule">Nadir After Prior Dose<br/>
+                                 </td>
+                                 <td align="center" valign="middle" colspan="1" styleCode=" Lrule Rrule Botrule Toprule">Percentage of Prior Dose to<br/>be Given<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="middle" styleCode=" Lrule Rrule Botrule Toprule">Leukocytes/mm<sup>3</sup>
+                                    <br/>
+                                 </td>
+                                 <td align="center" valign="middle" styleCode=" Lrule Rrule Botrule Toprule">Platelets/mm<sup>3</sup>
+                                    <br/>
+                                 </td>
+                                 <td align="center" valign="middle" styleCode=" Lrule Rrule Botrule Toprule">
+                                    <br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="middle" styleCode=" Lrule Rrule Botrule Toprule">&gt;4000<br/>
+                                 </td>
+                                 <td align="center" valign="middle" styleCode=" Lrule Rrule Botrule Toprule">&gt;100,000<br/>
+                                 </td>
+                                 <td align="center" valign="middle" styleCode=" Lrule Rrule Botrule Toprule">100%<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="middle" styleCode=" Lrule Rrule Botrule Toprule">3000-3999<br/>
+                                 </td>
+                                 <td align="center" valign="middle" styleCode=" Lrule Rrule Botrule Toprule">75,000-99,999<br/>
+                                 </td>
+                                 <td align="center" valign="middle" styleCode=" Lrule Rrule Botrule Toprule">100%<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="middle" styleCode=" Lrule Rrule Botrule Toprule">2000-2999<br/>
+                                 </td>
+                                 <td align="center" valign="middle" styleCode=" Lrule Rrule Botrule Toprule">25,000-74,999<br/>
+                                 </td>
+                                 <td align="center" valign="middle" styleCode=" Lrule Rrule Botrule Toprule">70%<br/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="middle" styleCode=" Lrule Rrule Botrule Toprule">&lt;2000<br/>
+                                 </td>
+                                 <td align="center" valign="middle" styleCode=" Lrule Rrule Botrule Toprule">&lt;25,000<br/>
+                                 </td>
+                                 <td align="center" valign="middle" styleCode=" Lrule Rrule Botrule Toprule">50%<br/>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph ID="ID215">The hematologic toxicity can be delayed and cumulative. Monitor blood counts weekly. Do not administer a repeat course of BiCNU until circulating blood elements have returned to acceptable levels (platelets above 100 Gi/L, leukocytes above 4 Gi/L and absolute neutrophil count above 1 Gi/L). The usual interval between courses is 6 weeks.</paragraph>
+                        <paragraph>Evaluate renal function prior to administration and periodically during treatment. For patients with compromised renal function, monitor for toxicity more frequently. Discontinue BiCNU if the creatinine clearance is less than 10 mL/min. Do not administer BiCNU to patients with compromised renal function. Monitor transaminases and bilirubin periodically during treatment. <content styleCode="italics">[see Adverse Reactions <linkHtml href="#ID136">(6)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID128">
+                     <id root="ca8cd4a6-28f3-429b-b9e6-d2cc5cfdca44"/>
+                     <title>2.2 Preparation and Administration of Intravenous Solution</title>
+                     <text>
+                        <list listType="unordered" ID="ID240" styleCode="Disc">
+                           <item>Dissolve BiCNU with 3 mL of the supplied sterile diluent (Dehydrated Alcohol Injection, USP).</item>
+                           <item>Aseptically add 27 mL Sterile Water for Injection, USP.<list listType="unordered" styleCode="Circle">
+                                 <item>Each mL of resulting solution contains 3.3 mg of BiCNU in 10% ethanol. Such solutions should be protected from light.</item>
+                                 <item>The reconstituted solution is a clear, colorless to yellowish solution.</item>
+                              </list>
+                           </item>
+                           <item>Once reconstituted, the solution must be further diluted with Sodium Chloride Injection, USP or 5% Dextrose Injection, USP.<list listType="unordered" styleCode="Circle">
+                                 <item>Examine reconstituted vials for crystal formation prior to use. If crystals are observed, they may be re-dissolved by warming the vial to room temperature with agitation.</item>
+                                 <item>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</item>
+                                 <item>After reconstitution as recommended, BiCNU is stable for 24 hours under refrigeration (2°-8°C, 36°-46°F) in glass container. Examine reconstituted vials for crystal formation prior to use. If crystals are observed, they may be redissolved by warming the vial to room temperature with agitation.</item>
+                                 <item>Vials reconstituted as directed and further diluted with 500 mL Sodium Chloride Injection, USP or 5% Dextrose Injection, USP, in glass or polypropylene containers to a concentration of 0.2 mg/mL, should be stored at room temperature, protected from light and utilized within 8 hours. These solutions are also stable 24 hours under refrigeration (2°-8°C, 36°-46°F) and an additional 6 hours at room temperature protected from light.</item>
+                              </list>
+                           </item>
+                           <item>Administer reconstituted solution by slow intravenous infusion over at least two hours. Administration of BiCNU over a period of less than two hours can lead to pain and burning at the site of injection. Monitor the injected area during the administration. The rate of administration of the intravenous infusion should not be more than 1.66 mg/m<sup>2</sup>/min.</item>
+                           <item>See Section 16.2 for important instructions on the storage and handling of the injection. BiCNU is a cytotoxic drug. Follow applicable special handling and disposal procedures.<sup>1</sup>
+                           </item>
+                           <item>The lyophilized dosage formulation contains no preservatives and is not intended for use as a multiple dose via.</item>
+                        </list>
+                        <paragraph ID="ID268">Accidental contact of reconstituted BiCNU with the skin has caused transient hyperpigmentation of the affected areas. Wear impervious gloves to minimize the risk of dermal exposure impervious gloves when handling vials containing BiCNU. Immediately wash the skin or mucosa thoroughly with soap and water if BiCNU lyophilized material or solution contacts the skin or mucosa<sup>1</sup>.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID130">
+               <id root="4fd32968-3766-4761-969f-7f582b02094b"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <effectiveTime value="20170324"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph ID="ID185">For injection: 100 mg of carmustine lyophilized powder in a single-dose vial for reconstitution and a vial containing 3mL sterile diluent (Dehydrated Alcohol Injection, USP) </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID203">
+                     <id root="f2d91c91-187b-44f9-b91d-09847d1d3486"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph ID="ID204">For injection: 100 mg of carmustine as a lyophilized powder in a single-dose vial for reconstitution and a vial containing 3 mL sterile diluent (Dehydrated Alcohol Injection, USP).</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID132">
+               <id root="07863214-8853-408a-b4d0-7bdf2d08bfc3"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <effectiveTime value="20170324"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" ID="ID187" styleCode="Disc">
+                           <item>Hypersensitivity (4)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID201">
+                     <id root="e1376fcf-5e4e-4d78-a7f8-3e51e4508a48"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph ID="ID202">BiCNU is contraindicated in patients with previous hypersensitivity to BiCNU or its components.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID134">
+               <id root="1615bf42-9b27-433e-af39-4db26bcd1951"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20170324"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" ID="ID189" styleCode="Disc">
+                           <item>Administration Reactions: Extravasation may occur; monitor infusion site closely during administration (5.3)</item>
+                           <item>Carcinogenicity: Potentially carcinogenic to humans. Monitor patient periodically for such signs and apprise the patient of the symptoms for which they need to seek medical help. (5.4)</item>
+                           <item>Ocular Toxicity: Has occurred when administered via unapproved intraarterial intracarotid route. (5.5)</item>
+                           <item>Embryo-Fetal toxicity: Can cause fetal harm. Advise females of reproductive potential of the potential risk to a fetus and to avoid pregnancy. (5.6)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID241">
+                     <id root="0a089690-4c41-4fe6-a757-096094dcfbf9"/>
+                     <title>5.1 Myelosuppression</title>
+                     <text>
+                        <paragraph ID="ID242">Bone marrow toxicity is a dose-limiting, common and severe toxic effect of BiCNU occurring 4-6 weeks after drug administration (thrombocytopenia occurs at about 4 weeks post-administration persisting for 1 to 2 weeks; leukopenia occurs at 5 to 6 weeks after a dose of BiCNU persisting for 1 to 2 weeks; thrombocytopenia is generally more severe than leukopenia; anemia is less frequent and less severe compared to thrombocytopenia and/or leukopenia) Complete blood count should therefore be monitored weekly for at least six weeks after a dose. Repeat doses of BiCNU should not be given more frequently than every six weeks. The bone marrow toxicity of BiCNU is cumulative and therefore the dosage adjustment must be considered on the basis of nadir blood counts from prior dose <content styleCode="italics">[see Adverse Reactions <linkHtml href="#ID136">(6)</linkHtml>]</content>. Greater myelotoxicity (e.g., leukopenia and neutropenia) has been reported when carmustine was combined with cimetidine <content styleCode="italics">[see Drug Interactions <linkHtml href="#ID141">(7)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID243">
+                     <id root="c411c35f-eb0c-42f2-98cb-4bc6e2e2dea2"/>
+                     <title>5.2 Pulmonary Toxicity</title>
+                     <text>
+                        <paragraph ID="ID244">Cases of fatal pulmonary toxicity with BiCNU have been reported. Pulmonary toxicity characterized by pulmonary infiltrates and/or fibrosis has been reported to occur from 9 days to 43 months after treatment with BiCNU and related nitrosoureas. Pulmonary toxicity from BiCNU is dose-related. Patients receiving greater than 1400 mg/m<sup>2</sup> cumulative dose are at significantly higher risk than those receiving less. However, there have been reports of pulmonary fibrosis in patients receiving lower total doses. Interstitial fibrosis (with lower doses) occurred rarely. Additionally, delayed onset pulmonary fibrosis occurring up to 17 years after treatment has been reported in patients who received BiCNU (in cumulative doses ranging from 770 to 1800 mg/m<sup>2</sup> combined with cranial radiotherapy for intracranial tumors) in childhood and early adolescence. Other risk factors include past history of lung disease and duration of treatment. Baseline pulmonary function studies should be conducted along with frequent pulmonary function tests during treatment. Patients with a baseline below 70% of the predicted forced vital capacity (FVC) or carbon monoxide diffusing capacity (DLCO) are particularly at risk.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID245">
+                     <id root="d61b4cdb-cb3d-452d-a1ad-1dd5dea34198"/>
+                     <title>5.3 Administration Reactions</title>
+                     <text>
+                        <paragraph ID="ID246">Injection site reactions may occur during the administration of BiCNU. Rapid intravenous infusion of BiCNU may produce intensive flushing of the skin and suffusion of the conjunctiva within 2 hours, lasting about 4 hours. It is also associated with burning at the site of injection although true thrombosis is rare. Given the possibility of extravasation, close monitoring of the infusion site for possible infiltration during drug administration is recommended. A specific treatment for extravasation reactions is unknown at this time.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID247">
+                     <id root="360b3837-60cc-48e3-b352-6f285ead8a37"/>
+                     <title>5.4 Carcinogenicity</title>
+                     <text>
+                        <paragraph ID="ID248">Long-term use of nitrosoureas, such as BiCNU, has been reported to be associated with the development of secondary malignancies. Carmustine was carcinogenic when administered to laboratory animals <content styleCode="italics">[see Nonclinical Toxicity <linkHtml href="#ID166">(13.1)</linkHtml>]</content>. Nitrosourea therapy, such as BiCNU, has carcinogenic potential in humans. Patients treated with BiCNU should be monitored long-term for development of second malignancies.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID249">
+                     <id root="6c15fca4-7bb9-4ac7-80d9-30c64cd2f0f1"/>
+                     <title>5.5 Ocular Toxicity</title>
+                     <text>
+                        <paragraph ID="ID250">BiCNU has been administered through an intraarterial intracarotid route; this procedure is investigational and has been associated with ocular toxicity. Safety and effectiveness of the intra-arterial route have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID251">
+                     <id root="6fb74684-8014-4673-a579-d84e54702e53"/>
+                     <title>5.6 Embryo-Fetal Toxicity</title>
+                     <text>
+                        <paragraph ID="ID252">Carmustine was embryotoxic in rats and rabbits and teratogenic in rats when given in doses lower than the maximum cumulative human dose based on body surface area. There are no adequate and well- controlled studies in pregnant women. Advise pregnant women of the potential risk to the fetus [<content styleCode="italics">see Use in Specific Populations (<linkHtml href="#ID144">8.1</linkHtml>, <linkHtml href="#ID262">8.3</linkHtml>)</content>]. Advise females of reproductive potential to use highly effective contraception during and after treatment with BiCNU for at least 6 months after therapy. Advise males of reproductive potential to use effective contraception during and after treatment with BiCNU for at least 3 months after therapy <content styleCode="italics">[see Use in Specific Populations (<linkHtml href="#ID144">8.1</linkHtml>, <linkHtml href="#ID262">8.3</linkHtml>)].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID136">
+               <id root="2a4609d0-d714-47ec-8e3e-7cdc5bca9996"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph ID="ID253">The following serious adverse reactions are described elsewhere in the labeling:</paragraph>
+                  <list listType="unordered" ID="ID254" styleCode="Disc">
+                     <item>Myelosuppression <content styleCode="italics">[see Warnings and Precautions <linkHtml href="#ID241">(5.1)</linkHtml>]</content>
+                     </item>
+                     <item>Pulmonary toxicity <content styleCode="italics">[see Warnings and Precautions <linkHtml href="#ID243">(5.2)</linkHtml>]</content>
+                     </item>
+                     <item>Administration Reactions <content styleCode="italics">[see Warnings and Precautions <linkHtml href="#ID245">(5.3)</linkHtml>]</content>
+                     </item>
+                     <item>Carcinogenicity <content styleCode="italics">[see Warnings and Precautions <linkHtml href="#ID247">(5.4)</linkHtml>]</content>
+                     </item>
+                     <item>Ocular Toxicity <content styleCode="italics">[see Warnings and Precautions <linkHtml href="#ID249">(5.5)</linkHtml>]</content>
+                     </item>
+                  </list>
+                  <paragraph ID="ID255">The following adverse reactions associated with the use of BiCNU were identified in clinical studies or postmarketing reports. Because some of these reactions were reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="underline">Cardiac Disorders</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Tachycardia and chest pain.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="underline">Eye Disorders</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Conjunctival edema, conjunctival hemorrhage, blurred vision and loss of depth perception</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="underline">Gastrointestinal Toxicity</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Nausea, vomiting, anorexia, and diarrhea</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="underline">Hepatotoxicity</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Increased transaminase, increased alkaline phosphatase, increased bilirubin levels</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="underline">Infections and Infestations</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Opportunistic infection (including with fatal outcome).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="underline">Neoplasms Benign, Malignant and Unspecified (including cysts and polyps)</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Acute leukemia, bone marrow dysplasias.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="underline">Nephrotoxicity</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Progressive azotemia, decrease in kidney size, renal failure</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="underline">Nervous System Disorders</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Headaches, encephalopathy, and seizures</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="underline">Pulmonary Toxicity</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Pneumonitis, interstitial lung disease</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="underline">Reproductive System and Breast Disorders</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Gynecomastia</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="underline">Skin and Subcutaneous Tissue Disorders</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Burning sensation, hyperpigmentation, swelling, pain, erythema, skin necrosis, alopecia, allergic reaction</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <content styleCode="underline">Vascular Disorders</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Veno-occlusive disease.</paragraph>
+               </text>
+               <effectiveTime value="20170324"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph ID="ID191">Most common adverse reactions (&gt;1%) are nausea, vomiting, renal toxicity, pneumonitis, pulmonary toxicity, myelosuppression (<linkHtml href="#ID136">6</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Heritage Pharmaceuticals Inc. at 1-866-901-DRUG (3784) or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID141">
+               <id root="4ad1019a-3538-403a-9547-a26067b8f674"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20170324"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" ID="ID193" styleCode="Disc">
+                           <item>Cimetidine: Increased myelosuppression with concomitant use. (7.1)</item>
+                           <item>Phenobarbital: Induces carmustine metabolism, reducing exposure. May lead to reduced efficacy. (7.1)</item>
+                           <item>Phenytoin: BiCNU may reduce the efficacy of phenytoin. (7.2)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID256">
+                     <id root="42f7874f-aa85-400d-9a9d-59f3ddfebde9"/>
+                     <title>7.1 Effects of Other Drugs on BiCNU</title>
+                     <text>
+                        <paragraph ID="ID257">
+                           <content styleCode="italics">Cimetidine: </content>Greater myelosuppression (e.g., leukopenia and neutropenia) has been reported when oral cimetidine has been coadministered with carmustine. Consider alternative drugs to cimetidine.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Phenobarbital: </content>Phenobarbital induces the metabolism of carmustine and may compromise antitumor activity of BiCNU. Consider alternative drugs to phenobarbital.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID258">
+                     <id root="6f059cf9-7155-499c-b051-c4f7b21e226a"/>
+                     <title>7.2 Effects of BiCNU on Other Drugs</title>
+                     <text>
+                        <paragraph ID="ID259">
+                           <content styleCode="italics">Phenytoin: </content>BiCNU when coadministered with phenytoin may reduce phenytoin serum concentrations. Consider alternative drugs to phenytoin.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID143">
+               <id root="a89b6847-175d-4420-b971-08fcb54b7753"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20170324"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" ID="ID195" styleCode="Disc">
+                           <item>Lactation: Advise lactating females not to breastfeed (8.2)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID144">
+                     <id root="bdc66c94-528f-44c1-b209-2b0d0f6b6249"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph ID="ID145">
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>BiCNU (carmustine for injection) can cause fetal harm when administered to a pregnant woman based on the mechanism of action [<content styleCode="italics">see Clinical Pharmacology <linkHtml href="#ID159">(12.1)</linkHtml>
+                           </content>] and findings in animals <content styleCode="italics">[see Data]</content>. Limited available data with BiCNU use in pregnant women are insufficient to inform a drug-associated risk of major birth defects and miscarriage. Carmustine was embryotoxic in rats and rabbits and teratogenic in rats (thoracoabdominal closure, neural tube, and eye defects and malformations of the skeletal system of the fetus) when given in doses lower than the maximum cumulative human dose based on body surface area. Consider the benefits and risks of BiCNU for the mother and possible risks to the fetus when prescribing BiCNU to a pregnant woman. </paragraph>
+                        <paragraph>Adverse outcomes in pregnancy occur regardless of the health of the mother or the use of medications. The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>Intraperitoneal (IP) administration of carmustine to pregnant rats 14 days prior to mating and during the period of organogenesis at cumulative doses ≥ 26 mg/kg (158 mg/ m<sup>2</sup>), approximately 0.1 times the maximum cumulative human dose of 1400 mg/m<sup>2</sup>, resulted in pre-implantation loss, increased resorptions (including completely resorbed litters), and reduced the number of live births in the presence of maternal toxicity.</paragraph>
+                        <paragraph>Carmustine administered IP to pregnant rats during the period of organogenesis at cumulative doses ≥ 4 mg/kg (24 mg/m<sup>2</sup>), approximately 0.02 times the maximum cumulative human dose based on a mg/m<sup>2</sup> basis, resulted in reduced fetal weight and various malformations, which included thoracoabdominal closure defects, neural tube defects, and eye defects, including microphthalmia/anophthalmia, and skeletal anomalies in the skull, sternebra, vertebrae and ribs, and reduced skeletal ossification) in the presence of maternal toxicity. Embryo-fetal death was observed at cumulative doses ≥ 8 mg/kg (48 mg/m<sup>2</sup>), approximately 0.03 times the maximum cumulative human dose on a mg/ m<sup>2</sup> basis. Intravenous (IV) administration of carmustine to rats at a cumulative dose of 50 mg/kg (300 mg/ m<sup>2</sup>), approximately 0.2 times the maximum cumulative human dose on a mg/m<sup>2</sup> basis, during the last quarter of pregnancy resulted in the death of offspring within 4 months. Carmustine administered IV to rabbits during the period of organogenesis resulted in spontaneous abortions in mothers and growth defects in the fetus, mainly at cumulative doses ≥ 13 mg/kg (156 mg/ m<sup>2</sup>), approximately 0.1 times the maximum cumulative human dose on a mg/ m<sup>2</sup> basis.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID260">
+                     <id root="6cc4583f-aeb8-4b99-aa45-5cc300bc959a"/>
+                     <title>8.2 Lactation</title>
+                     <text>
+                        <paragraph ID="ID261">
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There is no information regarding the presence of carmustine in human milk, the effects on the breastfed infant, or the effects on milk production. Because many drugs are excreted in human milk and because of the potential for serious adverse events (e.g., carcinogenicity and myelosuppression) in nursing infants, nursing should be discontinued while taking BiCNU.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID262">
+                     <id root="60352676-ce2f-4779-a926-c0ad8e5131af"/>
+                     <title>8.3 Females and Males of Reproductive Potential</title>
+                     <text>
+                        <paragraph ID="ID263">
+                           <content styleCode="underline">Contraception</content>
+                        </paragraph>
+                        <paragraph>Advise female patients to avoid pregnancy during treatment with BiCNU because of the risk of fetal harm <content styleCode="italics">[see Use in Specific Populations <linkHtml href="#ID143">(8.1)</linkHtml>]</content>.</paragraph>
+                        <paragraph>Advise female patients of reproductive potential to use highly effective contraception during and for up to six months after completion of treatment.</paragraph>
+                        <paragraph>Advise males with female sexual partners of reproductive potential to use effective contraception during BiCNU treatment and for at least three months after the final dose of BiCNU [<content styleCode="italics">see Nonclinical Toxicology <linkHtml href="#ID166">(13.1)</linkHtml>
+                           </content>].</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Infertility</content>
+                        </paragraph>
+                        <paragraph>Based on nonclinical findings, male fertility may be compromised by treatment with BiCNU <content styleCode="italics">[see Nonclinical Toxicology <linkHtml href="#ID166">(13.1)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID264">
+                     <id root="57b52356-df1b-4861-bf4a-653fd570461c"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph ID="ID265">Safety and effectiveness in children have not been established. Delayed onset pulmonary fibrosis occurring up to 17 years after treatment has been reported in a long-term study of patients who received BiCNU in childhood and early adolescence (1-16 years). Eight out of the 17 patients (47%) who survived childhood brain tumors, including all the 5 patients initially treated at less than 5 years of age, died of pulmonary fibrosis. <content styleCode="italics">[see Adverse Reactions <linkHtml href="#ID136">(6.1)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID266">
+                     <id root="e7d471c6-394d-4cd0-a620-f83e1ab2d187"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph ID="ID267">Clinical studies of BiCNU did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dose range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. </paragraph>
+                        <paragraph>BiCNU and its metabolites are known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and renal function should be monitored.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID152">
+               <id root="6c861126-8fb8-4333-abff-64759b8649d1"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <effectiveTime value="20170324"/>
+               <component>
+                  <section ID="ID207">
+                     <id root="bf475911-6990-4d58-b02c-72b833586a04"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph ID="ID208">The main result of overdose is myeloablation. No proven antidotes have been established for BiCNU overdosage.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID154">
+               <id root="a9ada049-0029-430b-a4b5-c8694dbafefd"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <effectiveTime value="20170324"/>
+               <component>
+                  <section ID="ID211">
+                     <id root="4769e87b-2c98-4f29-bbb6-7d91203d50ea"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph ID="ID212">The active ingredient in BiCNU<sup>®</sup> (carmustine for injection) is a nitrosourea with the chemical name 1,3-bis(2-chloroethyl)-1-nitrosourea and a molecular weight of 214.06. The drug product is supplied as sterile lyophilized pale yellow flakes or a congealed mass, and it is highly soluble in alcohol and lipids, and poorly soluble in water. BiCNU is administered by intravenous infusion after reconstitution, as recommended.</paragraph>
+                        <paragraph>The structural formula of carmustine is:</paragraph>
+                        <renderMultiMedia referencedObject="MM1"/>
+                        <paragraph ID="ID214">BiCNU is available in 100-mg single dose vials of lyophilized material. Sterile diluent for constitution of BiCNU is co-packaged with the active drug product for use in constitution of the lyophile. The diluent is supplied in a vial containing 3 mL of Dehydrated Alcohol Injection, USP.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="03f56de6-304f-4d8d-ae0b-162959a0b1c7-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID158">
+               <id root="57b563fa-5cdf-4ba6-ba58-df9dea95c930"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20170324"/>
+               <component>
+                  <section ID="ID159">
+                     <id root="77e1778a-dd77-406b-ba16-0deeca5b5120"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph ID="ID160">The mechanism of action of carmustine is not fully understood. While carmustine alkylates DNA and RNA, it is not cross-resistant with other alkylators. As with other nitrosoureas, it may also inhibit several key enzymatic processes by carbamoylation of amino acids in proteins. The metabolites may contribute to antitumor activity and toxicities of carmustine.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID161">
+                     <id root="601ca167-df78-40a2-bb5e-72c6d14e8f1c"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph ID="ID162">The exposure-response relationship for efficacy or safety is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID163">
+                     <id root="80816656-35b5-464b-ac2c-43e87664d4fb"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph ID="ID164">
+                           <content styleCode="underline">Distribution</content>
+                        </paragraph>
+                        <paragraph>Carmustine crosses the blood-brain barrier. Levels of radioactivity in the CSF are greater than or equal to 50% of those measured concurrently in plasma.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Elimination</content>
+                        </paragraph>
+                        <paragraph>Following a short intravenous infusion, the reported elimination half-life ranges from 15 minutes to 75 minutes.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Metabolism</content>
+                        </paragraph>
+                        <paragraph>Carmustine may be inactivated through denitrosation reactions catalyzed by both cytosolic and microsomal enzymes, including NADPH and glutathione-S-transferase.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Excretion</content>
+                        </paragraph>
+                        <paragraph>Approximately 60% to 70% of a total dose is excreted in the urine within 96 hours. Approximately 10% is eliminated as respiratory CO<sub>2</sub>.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID165">
+               <id root="9deea535-e404-455a-8a64-e89ea5e41fe8"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20170324"/>
+               <component>
+                  <section ID="ID166">
+                     <id root="14127f91-5c13-4b35-9aff-267c29ed3e27"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph ID="ID167">Carmustine is carcinogenic in rats and mice, producing a marked increase in tumor incidence in doses approximating those employed clinically. Nitrosourea therapy does have carcinogenic potential in humans <content styleCode="italics">[see Adverse Reactions <linkHtml href="#ID136">(6.1)</linkHtml>]</content>.</paragraph>
+                        <paragraph>Carmustine was mutagenic and clastogenic in multiple in vitro and in vivo genetic toxicology studies. </paragraph>
+                        <paragraph>Male rats treated with carmustine at cumulative doses ≥ 36 mg/kg (216 mg/ m<sup>2</sup>), approximately 0.15 times the maximum cumulative human dose on a mg/ m<sup>2</sup> basis, showed decreases in reproductive potential when mated with untreated female rats (e.g., decreased implantations, increased resorption rate, and a decrease in viable fetuses).</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID168">
+               <id root="0464bda4-4087-4ee6-880d-b57644f34953"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>15 REFERENCES</title>
+               <text>
+                  <paragraph ID="ID169">1. "OSHA Hazardous Drugs." <content styleCode="italics">OSHA</content>. <content styleCode="italics">http://www.osha.gov/SLTC/hazardousdrugs/index.html</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20170324"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID170">
+               <id root="8af96c61-66fd-40e3-848e-cf37ce1e1882"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <effectiveTime value="20170324"/>
+               <component>
+                  <section ID="ID171">
+                     <id root="77ef8582-1533-4b4c-9998-e98a877b2a92"/>
+                     <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+                     <title>16.1 How Supplied</title>
+                     <text>
+                        <paragraph ID="ID172">BiCNU<sup>®</sup> (carmustine for injection). Each package includes a vial containing 100 mg carmustine and a vial containing 3 mL sterile diluent.</paragraph>
+                        <paragraph>NDC 23155-261-41</paragraph>
+                     </text>
+                     <effectiveTime value="20161010"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID173">
+                     <id root="c3ae98e7-fbd3-4051-bd6e-36afca9393d0"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>16.2 Storage and Handling</title>
+                     <text>
+                        <paragraph ID="ID174">Store product and diluent in a refrigerator (2°-8°C, 36°-46°F).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Stability</content>
+                        </paragraph>
+                        <paragraph>Store the unopened vial of the dry drug in a refrigerator (2°-8°C, 36°-46°F). Store the diluent vials in a refrigerator (2°-8°C, 36°-46°F). The recommended storage of unopened BiCNU vials provides a stable product for up to 3 years.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Compatibility/ Incompatibility with Containers</content>
+                        </paragraph>
+                        <paragraph>The intravenous solution is unstable in polyvinyl chloride container. <content styleCode="bold">DO NOT USE PVC Containers</content>.</paragraph>
+                        <paragraph>Administer BiCNU solution from the <content styleCode="bold">glass bottles or polypropylene container only. Ensure the polypropylene containers used are PVC free and DEHP free.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Important Note</content>
+                        </paragraph>
+                        <paragraph>BiCNU has a low melting point (30.5°-32.0°C or 86.9°-89.6°F). Exposure of the drug to this temperature or above will cause the drug to liquefy and appear as an oil film on the vials. This is a sign of decomposition and vials should be discarded. If there is a question of adequate refrigeration upon receipt of this product, immediately inspect the vial in each individual carton. Hold the vial to a bright light for inspection. The BiCNU will appear as a very small amount of dry flakes or dry congealed mass. If this is evident, the BiCNU is suitable for use and should be refrigerated immediately.</paragraph>
+                     </text>
+                     <effectiveTime value="20170324"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID175">
+               <id root="5ae55a75-84fd-43f2-8771-e9efe7ba7e9a"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph ID="ID176">
+                     <content styleCode="italics">
+                        <content styleCode="underline">Myelosuppression</content> [see Warnings and Precautions <linkHtml href="#ID241">(5.1)</linkHtml>].</content>
+                  </paragraph>
+                  <paragraph>A serious and frequent toxicity of BiCNU is delayed myelosuppression and usually occurs 4 to 6 weeks after drug administration. Hence, patients should be advised to get blood counts monitored weekly for at least 6 weeks. The bone marrow toxicity of BiCNU is cumulative.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Pulmonary Toxicity</content> [see Warnings and Precautions <linkHtml href="#ID243">(5.2)</linkHtml>].</content>
+                  </paragraph>
+                  <paragraph>Advise patients to contact a health care professional immediately for any of the following: shortness of breath, particularly during exercise, dry, hacking cough, fast, shallow breathing, gradual unintended weight loss, tiredness, aching joints and muscles, clubbing (widening and rounding) of the tips of the fingers or toes.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Seizures</content> [see Adverse Reactions <linkHtml href="#ID136">(6)</linkHtml>]</content>
+                  </paragraph>
+                  <paragraph>Inform the patient that they may suffer from fits and advise them to get medical attention immediately in such cases.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Pregnancy</content> [see Warnings and Precautions <linkHtml href="#ID251">(5.6)</linkHtml> and Use in Specific Populations (<linkHtml href="#ID144">8.1</linkHtml> and <linkHtml href="#ID262">8.3</linkHtml>)]</content>
+                  </paragraph>
+                  <paragraph>Advise pregnant women and females of reproductive potential that BiCNU exposure during pregnancy can result in fetal harm. Advise female patients to contact their healthcare provider with a known or suspected pregnancy. Advise women of reproductive potential to avoid becoming pregnant. Advise females of reproductive potential to use effective contraception during treatment.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="underline">Lactation</content> [see Use in Specific Populations <linkHtml href="#ID260">(8.2)</linkHtml>]</content>
+                  </paragraph>
+                  <paragraph>Advise the female patient to discontinue nursing while taking BiCNU.</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Emcure Pharmaceuticals Ltd.,</content>
+                  </paragraph>
+                  <paragraph>Hinjawadi, Pune, India.</paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Heritage Pharmaceuticals Inc.</content>
+                  </paragraph>
+                  <paragraph>Eatontown, NJ 07724,</paragraph>
+                  <paragraph>1.866.901.DRUG (3784)</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph ID="ID178">Rev: 03/17</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20170324"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>logo</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="03f56de6-304f-4d8d-ae0b-162959a0b1c7-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>instruction guide</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="03f56de6-304f-4d8d-ae0b-162959a0b1c7-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID216">
+               <id root="6afef519-0c6b-476c-8f68-fdb77a982673"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL - diluent label</title>
+               <text>
+                  <paragraph ID="ID218">NDC 23155-262-31</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dehydrated Alcohol Injection, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3 mL</content>
+                  </paragraph>
+                  <paragraph>Sterile Diluent for BiCNU<sup>®</sup>
+                  </paragraph>
+                  <paragraph>(carmustine for injection) </paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20170324"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>diluent label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="03f56de6-304f-4d8d-ae0b-162959a0b1c7-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID217">
+               <id root="2662013f-eac6-4123-876c-a6d0994b8bdc"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL - vial label</title>
+               <text>
+                  <paragraph ID="ID220">
+                     <content styleCode="bold">NDC</content> 23155-<content styleCode="bold">589</content>-31</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BiCNU<sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(carmustine for injection)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">100 mg per vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For intravenous infusion after reconstitution</content>
+                  </paragraph>
+                  <paragraph>REFRIGERATE IMMEDIATELY </paragraph>
+                  <paragraph>Single Dose Vial - Discard Unused Portion</paragraph>
+                  <renderMultiMedia referencedObject="MM5"/>
+               </text>
+               <effectiveTime value="20170324"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>vial label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="03f56de6-304f-4d8d-ae0b-162959a0b1c7-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID222">
+               <id root="329456d0-dcd0-4677-8fb5-69063dfe9ae8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL - carton</title>
+               <text>
+                  <paragraph ID="ID223">
+                     <content styleCode="bold">NDC</content> 23155-<content styleCode="bold">261</content>-41</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BiCNU<sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(carmustine for injection)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">100 mg per vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Each carton contains:</content> 1 vial BiCNU (carmustine) for injection 100 mg, 1 vial Sterile Diluent for BiCNU 3 mL</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For intravenous infusion after reconstitution </content>
+                  </paragraph>
+                  <paragraph>REFRIGERATE IMMEDIATELY </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Single Dose Vial – Discard Unused Portion </content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM6"/>
+               </text>
+               <effectiveTime value="20170324"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="03f56de6-304f-4d8d-ae0b-162959a0b1c7-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5d66b343-d6a5-96d2-e053-2a91aa0a9e10"/>
+   <code code="53409-9" codeSystem="2.16.840.1.113883.6.1" displayName="BULK INGREDIENT"/>
+   <title>Cyclophosphamide Monohydrate</title>
+   <effectiveTime value="20171107"/>
+   <setId root="d3739295-a7b4-4f80-8ddc-782a66a2007d"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="248276599"/>
+            <name>Attix Pharmaceuticals Inc</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="5d66c8be-7716-5348-e053-2991aa0accee"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20171107"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="75839-020" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>CYCLOPHOSPHAMIDE</name>
+                        <formCode code="C42972" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Cyclophosphamide Monohydrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="kg" value="1"/>
+                              <denominator unit="kg" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8N3DW7272P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CYCLOPHOSPHAMIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="6UXW23996M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CYCLOPHOSPHAMIDE ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="kg"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="75839-020-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20130924"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="0.1" unit="kg"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="75839-020-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20171107"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C98252" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BULK INGREDIENT FOR ANIMAL DRUG COMPOUNDING"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C48623" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NOT APPLICABLE"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Lc188e10f-2939-4139-b5d8-27a4c6e53e92">
+               <id root="5d66b343-d6a6-96d2-e053-2a91aa0a9e10"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Image Componet</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L6da13054-d7b9-45bd-bbca-1ea689bdab6c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20130923"/>
+               <component>
+                  <observationMedia ID="L6da13054-d7b9-45bd-bbca-1ea689bdab6c">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Cyclophosphamide Mono.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

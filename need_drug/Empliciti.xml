@@ -1,0 +1,2697 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="ae608a81-e5f5-4f26-a061-47820341156e"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use EMPLICITI safely and effectively. See full prescribing information for EMPLICITI.<br/>
+      <br/>EMPLICITI<sup>TM</sup> (elotuzumab) for injection, for intravenous use<br/>Initial U.S. Approval: 2015</title>
+   <effectiveTime value="20170511"/>
+   <setId root="80686b7e-f6f4-4154-b5c0-c846425e2d91"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="011550092" root="1.3.6.1.4.1.519.1"/>
+            <name>E.R. Squibb &amp; Sons, L.L.C.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9dc77436-b147-467e-87a6-5518efc343fc"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20151130"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0003-2291" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>EMPLICITI</name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>elotuzumab</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="300"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1351PE5UGS" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ELOTUZUMAB</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="1351PE5UGS" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ELOTUZUMAB</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="2.44"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="3.4"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="16.6"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="510"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="C151H8M554" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUCROSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-USE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0003-2291-11" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20151130"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BLA761035" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20151130"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0003-4522" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>EMPLICITI</name>
+                        <formCode code="C42957" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>elotuzumab</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="400"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1351PE5UGS" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ELOTUZUMAB</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="1351PE5UGS" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ELOTUZUMAB</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="3.17"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="4.4"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="21.5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="660"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="C151H8M554" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUCROSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-USE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0003-4522-11" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20151130"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BLA761035" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20151130"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5d71b67d-2aba-409e-b280-a5fb6cce9aad">
+               <id root="806d6895-fa38-47df-89bf-d1c2c57560a1"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <effectiveTime value="20170511"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph/>
+                        <paragraph>Dosage and Administration <linkHtml href="#ID_1f11f62d-a32d-45a9-be69-f1bd11915846">(2.4)</linkHtml>      5/2017</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_01405ce6-607d-48ba-ab70-8bc5bc0ea92f">
+               <id root="737ba1b0-4e15-49c9-b437-2dd58566642c"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>EMPLICITI is indicated in combination with lenalidomide and dexamethasone for the treatment of patients with multiple myeloma who have received one to three prior therapies.</paragraph>
+               </text>
+               <effectiveTime value="20170511"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>EMPLICITI is a SLAMF7-directed immunostimulatory antibody indicated in combination with lenalidomide and dexamethasone for the treatment of patients with multiple myeloma who have received one to three prior therapies. <linkHtml href="#ID_5d71b67d-2aba-409e-b280-a5fb6cce9aad">(1)</linkHtml>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_da85d8a7-c256-4a7f-be8d-38e822726a2e">
+               <id root="fc794904-fd68-4a5d-913d-0ac35388bf8f"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20170511"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>With lenalidomide and dexamethasone: 10 mg/kg administered intravenously every week for the first two cycles and every 2 weeks thereafter until disease progression or unacceptable toxicity. <linkHtml href="#ID_37bf0039-d420-490e-957b-810da58c7510">(2.1)</linkHtml>
+                           </item>
+                           <item>
+                              <caption>•</caption>Premedicate with dexamethasone, diphenhydramine, ranitidine and acetaminophen. <linkHtml href="#ID_d645e755-cdec-4982-b936-75a21921a829">(2.2)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_37bf0039-d420-490e-957b-810da58c7510">
+                     <id root="39734647-e753-449e-9bd8-5231fcc23537"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Recommended Dosing</title>
+                     <text>
+                        <paragraph>The recommended dosage of EMPLICITI is 10 mg/kg administered intravenously every week for the first two cycles and every 2 weeks thereafter in conjunction with the recommended dosing of lenalidomide and low-dose dexamethasone as described below. Continue treatment until disease progression or unacceptable toxicity.</paragraph>
+                        <paragraph>Refer to the dexamethasone and lenalidomide prescribing information for additional information.</paragraph>
+                        <paragraph>Patients must be premedicated before each dose of EMPLICITI [<content styleCode="italics">see <linkHtml href="#ID_d645e755-cdec-4982-b936-75a21921a829">Dosage and Administration (2.2)</linkHtml> and <linkHtml href="#ID_f56114c3-8d59-4cce-a67c-1d77b33f0aa4">Warnings and Precautions (5.1)</linkHtml>
+                           </content>].</paragraph>
+                        <paragraph>Administer dexamethasone as follows:</paragraph>
+                        <paragraph>On days that EMPLICITI is administered, give dexamethasone 28 mg orally between 3 and 24 hours before EMPLICITI plus 8 mg intravenously between 45 and 90 minutes before EMPLICITI.</paragraph>
+                        <paragraph>On days that EMPLICITI is not administered but a dose of dexamethasone is scheduled (Days 8 and 22 of cycle 3 and all subsequent cycles), give 40 mg orally.</paragraph>
+                        <paragraph>The recommended dosing is presented in Table 1.</paragraph>
+                        <table ID="_Ref422316708" width="98.16%">
+                           <caption>Table 1:   Recommended Dosing Schedule of EMPLICITI in Combination with Lenalidomide and Dexamethasone</caption>
+                           <col width="44%"/>
+                           <col width="7%"/>
+                           <col width="7%"/>
+                           <col width="7%"/>
+                           <col width="7%"/>
+                           <col width="7%"/>
+                           <col width="7%"/>
+                           <col width="7%"/>
+                           <col width="7%"/>
+                           <thead>
+                              <tr>
+                                 <th align="left" styleCode="Rrule Botrule Toprule " valign="top">
+                                    <content styleCode="bold">Cycle</content>
+                                 </th>
+                                 <th align="center" colspan="4" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <content styleCode="bold">28-Day Cycles 1 and 2</content>
+                                 </th>
+                                 <th align="center" colspan="4" styleCode="Botrule Lrule Toprule " valign="top">
+                                    <content styleCode="bold">28-Day Cycles 3+</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tfoot>
+                              <tr>
+                                 <td align="left" colspan="9" styleCode="Botrule" valign="top">*     Premedicate with the following 45 to 90 minutes prior to EMPLICITI infusion: 8 mg intravenous dexamethasone, H1 blocker: diphenhydramine (25 to 50 mg orally or intravenously) or equivalent; H2 blocker: ranitidine (50 mg intravenously) or equivalent; acetaminophen (650 to 1000 mg orally).<br/>
+                                    <sup>†</sup>     Oral dexamethasone (28 mg) taken between 3 and 24 hours before EMPLICITI infusion.</td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Day of Cycle</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>1</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>15</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>22</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>1</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>15</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Toprule Botrule " valign="top">
+                                    <paragraph>22</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>Premedication*</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>✓</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>✓</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>✓</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>✓</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>✓</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Toprule Botrule " valign="top"/>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>✓</paragraph>
+                                 </td>
+                                 <td styleCode="Lrule Toprule Botrule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>EMPLICITI (mg/kg) intravenously</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>10</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>10</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>10</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>10</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>10</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Toprule Botrule " valign="top"/>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>10</paragraph>
+                                 </td>
+                                 <td styleCode="Lrule Toprule Botrule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>Lenalidomide (25 mg) orally</paragraph>
+                                 </td>
+                                 <td align="center" colspan="4" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>Days 1-21</paragraph>
+                                 </td>
+                                 <td align="center" colspan="4" styleCode="Lrule Toprule Botrule " valign="top">
+                                    <paragraph>Days 1-21</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>Dexamethasone<sup>†</sup> (mg) orally</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>28</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>28</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>28</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>28</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>28</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>40</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>28</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Toprule Botrule " valign="top">
+                                    <paragraph>40</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>Dexamethasone* (mg) intravenously</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>8</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Toprule Botrule " valign="top"/>
+                                 <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>8</paragraph>
+                                 </td>
+                                 <td styleCode="Lrule Toprule Botrule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Day of Cycle</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>1</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>15</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>22</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>1</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>15</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule Lrule Toprule " valign="top">
+                                    <paragraph>22</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20170511"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_d645e755-cdec-4982-b936-75a21921a829">
+                     <id root="fb4d9300-901a-420d-a407-a74228061155"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Premedication</title>
+                     <effectiveTime value="20170511"/>
+                     <component>
+                        <section ID="ID_9919582e-56e3-46b6-88de-471d1cc4ca6b">
+                           <id root="38e1281d-7811-497e-9869-04c1a2615abd"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Dexamethasone</content>
+                           </title>
+                           <text>
+                              <paragraph>When EMPLICITI is used in combination with lenalidomide, divide dexamethasone into an oral and intravenous dose and administer as shown in Table 1 [<content styleCode="italics">see <linkHtml href="#ID_37bf0039-d420-490e-957b-810da58c7510">Dosage and Administration (2.1)</linkHtml>
+                                 </content>].</paragraph>
+                           </text>
+                           <effectiveTime value="20151130"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_b6c2437c-022e-479c-a73d-bd6d1bee067c">
+                           <id root="f381a5f6-56cf-496a-90d7-bd4dbdf52ff4"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Other Medications</content>
+                           </title>
+                           <text>
+                              <paragraph>In addition to dexamethasone, complete administration of the following medications 45 to 90 minutes prior to EMPLICITI infusion:</paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>H1 blocker: diphenhydramine (25 to 50 mg orally or intravenously) or equivalent H1 blocker.</item>
+                                 <item>
+                                    <caption>•</caption>H2 blocker: ranitidine (50 mg intravenously or 150 mg orally) or equivalent H2 blocker.</item>
+                                 <item>
+                                    <caption>•</caption>Acetaminophen (650 to 1000 mg orally).</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20170511"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_2b6e1110-05a5-4488-b610-208391fdafde">
+                     <id root="2e972c06-5231-49e2-acce-4ae0eb85296a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Dose Modifications</title>
+                     <text>
+                        <paragraph>If the dose of one drug in the regimen is delayed, interrupted, or discontinued, the treatment with the other drugs may continue as scheduled. However, if dexamethasone is delayed or discontinued, base the decision whether to administer EMPLICITI on clinical judgment (i.e., risk of hypersensitivity).</paragraph>
+                        <paragraph>If a Grade 2 or higher infusion reaction occurs during EMPLICITI administration, interrupt the infusion and institute appropriate medical and supportive measures. Upon resolution to Grade 1 or lower, restart EMPLICITI at 0.5 mL per minute and gradually increase at a rate of 0.5 mL per minute every 30 minutes as tolerated to the rate at which the infusion reaction occurred. Resume the escalation regimen if there is no recurrence of the infusion reaction (see Table 2).</paragraph>
+                        <paragraph>In patients who experience an infusion reaction, monitor vital signs every 30 minutes for 2 hours after the end of the EMPLICITI infusion. If the infusion reaction recurs, stop the EMPLICITI infusion and do not restart on that day [<content styleCode="italics">see <linkHtml href="#ID_f56114c3-8d59-4cce-a67c-1d77b33f0aa4">Warnings and Precautions (5.1)</linkHtml>
+                           </content>]. Severe infusion reactions may require permanent discontinuation of EMPLICITI therapy and emergency treatment.</paragraph>
+                        <paragraph>Dose delays and modifications for dexamethasone and lenalidomide should be performed as recommended in their Prescribing Information.</paragraph>
+                     </text>
+                     <effectiveTime value="20151130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_1f11f62d-a32d-45a9-be69-f1bd11915846">
+                     <id root="9d374565-d39a-44d6-94c5-a70380316612"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.4 Administration </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="xmChange">Administer the entire EMPLICITI infusion with an infusion set and a sterile, nonpyrogenic, low-protein-binding filter (with a pore size of 0.2 to 1.2 micrometer) using an automated infusion pump. Initiate EMPLICITI infusion at a rate of 0.5 mL per minute. The infusion rate may be increased in a stepwise fashion as described in Table 2 if no infusion reactions develop. The maximum infusion rate should not exceed 5 mL per minute.</content>
+                        </paragraph>
+                        <table width="100%">
+                           <caption>Table 2:   Infusion Rate for EMPLICITI </caption>
+                           <col width="17%"/>
+                           <col width="14%"/>
+                           <col width="17%"/>
+                           <col width="14%"/>
+                           <col width="37%"/>
+                           <thead>
+                              <tr>
+                                 <th align="center" colspan="2" styleCode="Rrule Botrule Toprule " valign="top">
+                                    <content styleCode="bold">Cycle 1, Dose 1</content>
+                                 </th>
+                                 <th align="center" colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <content styleCode="bold">Cycle 1, Dose 2</content>
+                                 </th>
+                                 <th align="center" styleCode="Botrule Lrule Toprule " valign="top">
+                                    <content styleCode="bold">Cycle 1, Dose 3 and 4 <br/>and All Subsequent Cycles</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td align="center" styleCode="Toprule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Time Interval</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Rate</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Toprule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Time Interval</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Toprule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Rate</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Rate</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Toprule " valign="top">
+                                    <paragraph>0-30 min</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Toprule " valign="top">
+                                    <paragraph>0.5 mL/min</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Toprule " valign="top">
+                                    <paragraph>0-30 min</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Toprule " valign="top">
+                                    <paragraph>3 mL/min</paragraph>
+                                 </td>
+                                 <td styleCode="Lrule Toprule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top">
+                                    <paragraph>30-60 min</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>1 mL/min</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>30 min or more</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>4 mL/min</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>5 mL/min</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>60 min or more</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>2 mL/min</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule Lrule " valign="top">
+                                    <paragraph>-</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>-</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule Lrule " valign="top"/>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Adjust the infusion rate following a Grade 2 or higher infusion reaction [<content styleCode="italics">see</content> <content styleCode="italics">
+                              <linkHtml href="#ID_2b6e1110-05a5-4488-b610-208391fdafde">Dosage and Administration (2.3)</linkHtml>
+                           </content>].</paragraph>
+                        <paragraph>Do not mix EMPLICITI with, or administer as an infusion with, other medicinal products. No physical or biochemical compatibility studies have been conducted to evaluate the coadministration of EMPLICITI with other agents.</paragraph>
+                     </text>
+                     <effectiveTime value="20170511"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_d286bdb2-9845-4886-86c9-83d856824cc3">
+                     <id root="bcb86def-bd92-48a5-aef6-922551cbbb44"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.5 Reconstitution and Preparation </title>
+                     <effectiveTime value="20170511"/>
+                     <component>
+                        <section ID="ID_087020bb-3951-4bb8-a555-234d15ed96ef">
+                           <id root="838d0e2c-2ee2-4e85-ac00-887d4cecb399"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Calculation of Dose</content>
+                           </title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>Calculate the dose (mg) and determine the number of vials needed for the 10 mg/kg dosage based on patient weight.</item>
+                                 <item>
+                                    <caption>•</caption>Determine the volume of sterile water for injection (SWFI) needed for reconstitution as shown in Table 3.</item>
+                              </list>
+                              <table width="100%">
+                                 <caption>Table 3:   Reconstitution Instructions for EMPLICITI</caption>
+                                 <col width="19%"/>
+                                 <col width="27%"/>
+                                 <col width="29%"/>
+                                 <col width="25%"/>
+                                 <thead>
+                                    <tr>
+                                       <th align="center" styleCode="Botrule Toprule " valign="top">
+                                          <content styleCode="bold">Strength</content>
+                                       </th>
+                                       <th align="center" styleCode="Botrule Toprule " valign="top">
+                                          <content styleCode="bold">Amount of Sterile Water for Injection, USP Required for Reconstitution</content>
+                                       </th>
+                                       <th align="center" styleCode="Botrule Toprule " valign="top">
+                                          <content styleCode="bold">Deliverable Volume of Reconstituted EMPLICITI in the Vial</content>
+                                       </th>
+                                       <th align="center" styleCode="Botrule Toprule " valign="top">
+                                          <content styleCode="bold">Postreconstitution Concentration</content>
+                                       </th>
+                                    </tr>
+                                 </thead>
+                                 <tfoot>
+                                    <tr>
+                                       <td align="left" colspan="4" styleCode="Botrule" valign="top">*     After reconstitution, each vial contains overfill to allow for withdrawal of 12 mL (300 mg) and 16 mL (400 mg), respectively.</td>
+                                    </tr>
+                                 </tfoot>
+                                 <tbody>
+                                    <tr>
+                                       <td align="center" styleCode="Toprule " valign="top">
+                                          <paragraph>300 mg vial</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Toprule " valign="top">
+                                          <paragraph>13 mL</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Toprule " valign="top">
+                                          <paragraph>12 mL*</paragraph>
+                                       </td>
+                                       <td align="center" valign="top">
+                                          <paragraph>25 mg/mL</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" styleCode="Botrule " valign="top">
+                                          <paragraph>400 mg vial</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Botrule " valign="top">
+                                          <paragraph>17 mL</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Botrule " valign="top">
+                                          <paragraph>16 mL*</paragraph>
+                                       </td>
+                                       <td align="center" styleCode="Botrule " valign="top">
+                                          <paragraph>25 mg/mL</paragraph>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20170511"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_9e999f0a-ee64-466e-95bf-60ea6c38a329">
+                           <id root="7f920160-9d4b-435b-97bf-6798911ee254"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Reconstitution</content>
+                           </title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>Aseptically reconstitute each EMPLICITI vial with a syringe of adequate size and a less than or equal to 18-gauge needle (e.g., 17-gauge). A slight back pressure may be experienced during administration of the Sterile Water for Injection, USP, which is considered normal.</item>
+                                 <item>
+                                    <caption>•</caption>Hold the vial upright and swirl the solution by rotating the vial to dissolve the lyophilized cake. Invert the vial a few times in order to dissolve any powder that may be present on top of the vial or the stopper. Avoid vigorous agitation. DO NOT SHAKE. The lyophilized powder should dissolve in less than 10 minutes.</item>
+                                 <item>
+                                    <caption>•</caption>After the remaining solids are completely dissolved, allow the reconstituted solution to stand for 5 to 10 minutes. The reconstituted preparation results in a colorless to slightly yellow, clear to slightly opalescent solution. Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Discard the solution if any particulate matter or discoloration is observed.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20170511"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_a30703a7-1870-41cc-b5fd-dd4f38d5c483">
+                           <id root="8cf8587f-7f88-4331-a0cf-1bba5fd95f40"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Dilution</content>
+                           </title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>Once the reconstitution is completed, withdraw the necessary volume for the calculated dose from each vial, up to a maximum of 16 mL from 400 mg vial and 12 mL from 300 mg vial.</item>
+                                 <item>
+                                    <caption>•</caption>Further dilute with 230 mL of either 0.9% Sodium Chloride Injection, USP or 5% Dextrose Injection, USP, into an infusion bag made of polyvinyl chloride or polyolefin.</item>
+                                 <item>
+                                    <caption>•</caption>The volume of 0.9% Sodium Chloride Injection, USP or 5% Dextrose Injection, USP can be adjusted so as not to exceed 5 mL/kg of patient weight at any given dose of EMPLICITI.</item>
+                              </list>
+                              <paragraph>Complete the EMPLICITI infusion within 24 hours of reconstitution of the EMPLICITI lyophilized powder. If not used immediately, the infusion solution may be stored under refrigeration conditions: 2ºC to 8ºC (36ºF-46ºF) and protected from light for up to 24 hours (a maximum of 8 hours of the total 24 hours can be at room temperature, 20°C to 25°C [68°F-77°F], and room light).</paragraph>
+                           </text>
+                           <effectiveTime value="20151130"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_ec622ea9-bb21-46cd-b52e-0329e31c6618">
+               <id root="8008740a-cb5c-47c7-afa8-a8047190cbc0"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>For injection: 300 mg or 400 mg of elotuzumab as a white to off-white lyophilized powder in a single-dose vial for reconstitution.</paragraph>
+               </text>
+               <effectiveTime value="20151130"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>For Injection: 300 mg or 400 mg lyophilized powder in a single-dose vial for reconstitution. <linkHtml href="#ID_ec622ea9-bb21-46cd-b52e-0329e31c6618">(3)</linkHtml>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7132e644-b65a-4e34-888b-4b985235e5a3">
+               <id root="c31f567a-a2dc-4661-84fd-83a87d4a39b7"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>None.</paragraph>
+               </text>
+               <effectiveTime value="20170511"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>None <linkHtml href="#ID_7132e644-b65a-4e34-888b-4b985235e5a3">(4)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b33fa3b0-57e8-4550-8c46-54df0dfae437">
+               <id root="5a823d68-0a3d-4229-974c-06bc47eeaa1e"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20151130"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Infusion reactions: Premedication is required. Interrupt EMPLICITI for Grade 2 or higher and permanently discontinue for severe infusion reaction. <linkHtml href="#ID_d645e755-cdec-4982-b936-75a21921a829">(2.2</linkHtml>, <linkHtml href="#ID_2b6e1110-05a5-4488-b610-208391fdafde">2.3</linkHtml>, <linkHtml href="#ID_f56114c3-8d59-4cce-a67c-1d77b33f0aa4">5.1)</linkHtml>
+                           </item>
+                           <item>
+                              <caption>•</caption>Infections: Monitor for fever and other signs of infection and treat promptly. <linkHtml href="#ID_728e3edf-369c-4ba3-b2ec-58c52f5414f1">(5.2)</linkHtml>
+                           </item>
+                           <item>
+                              <caption>•</caption>Second Primary Malignancies (SPM): Higher incidences of SPM were observed in a controlled clinical trial of patients with multiple myeloma receiving EMPLICITI. <linkHtml href="#ID_c704caa1-49f7-4d3f-857b-3c503630c339">(5.3)</linkHtml>
+                           </item>
+                           <item>
+                              <caption>•</caption>Hepatotoxicity: Monitor liver function and stop EMPLICITI if hepatotoxicity is suspected. <linkHtml href="#ID_bccc6e11-ebff-4ae7-9c5d-48aeb43c1b80">(5.4)</linkHtml>
+                           </item>
+                           <item>
+                              <caption>•</caption>Interference with determination of complete response: EMPLICITI can interfere with assays used to monitor M-protein. This interference can impact the determination of complete response. <linkHtml href="#ID_0a74e9d5-3fb5-42bf-aead-9573acee73a7">(5.5)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_f56114c3-8d59-4cce-a67c-1d77b33f0aa4">
+                     <id root="746ca20a-2acc-4ca0-b256-09e9da29dab5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Infusion Reactions</title>
+                     <text>
+                        <paragraph>EMPLICITI can cause infusion reactions. Infusion reactions were reported in approximately 10% of patients treated with EMPLICITI with lenalidomide and dexamethasone in the randomized trial in multiple myeloma. All reports of infusion reaction were Grade 3 or lower. Grade 3 infusion reactions occurred in 1% of patients. The most common symptoms of an infusion reaction included fever, chills, and hypertension. Bradycardia and hypotension also developed during infusions.</paragraph>
+                        <paragraph>In the trial, 5% of patients required interruption of the administration of EMPLICITI for a median of 25 minutes due to infusion reactions, and 1% of patients discontinued due to infusion reactions. Of the patients who experienced an infusion reaction, 70% (23/33) had them during the first dose.</paragraph>
+                        <paragraph>Administer premedication consisting of dexamethasone, antihistamines (H1 and H2 blockers) and acetaminophen prior to EMPLICITI infusion [<content styleCode="italics">see <linkHtml href="#ID_d645e755-cdec-4982-b936-75a21921a829">Dosage and Administration (2.2)</linkHtml>
+                           </content>].</paragraph>
+                        <paragraph>Interrupt EMPLICITI infusion for Grade 2 or higher infusion reactions and institute appropriate medical management [<content styleCode="italics">see <linkHtml href="#ID_2b6e1110-05a5-4488-b610-208391fdafde">Dosage and Administration (2.3)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20151130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_728e3edf-369c-4ba3-b2ec-58c52f5414f1">
+                     <id root="36fa162b-669a-4ba2-b7a5-d9b04b69034b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Infections</title>
+                     <text>
+                        <paragraph>In a clinical trial of patients with multiple myeloma (N=635), infections were reported in 81.4% of patients in the EMPLICITI combined with lenalidomide and dexamethasone (E-Ld) arm and 74.4% in lenalidomide and dexamethasone (Ld). Grade 3 to 4 infections were noted in 28% and 24.3% of E-Ld- and Ld-treated patients, respectively. Discontinuations due to infections occurred in 3.5% of E-Ld-treated and 4.1% of Ld-treated patients. Fatal infections were reported in 2.5% and 2.2% of E-Ld- and Ld-treated patients.</paragraph>
+                        <paragraph>Opportunistic infections were reported in 22% of patients in the E-Ld arm and 12.9% of patients in the Ld arm. Fungal infections occurred in 9.7% of patients in the E-Ld arm and 5.4% of patients in the Ld arm. Herpes zoster was reported in 13.5% of patients treated with E-Ld and 6.9% of patients treated with Ld. Monitor patients for development of infections and treat promptly.</paragraph>
+                     </text>
+                     <effectiveTime value="20151130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_c704caa1-49f7-4d3f-857b-3c503630c339">
+                     <id root="47fe8e48-4216-4fda-b583-a0301a2ef98e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Second Primary Malignancies </title>
+                     <text>
+                        <paragraph>In a clinical trial of patients with multiple myeloma (N=635), invasive second primary malignancies (SPM) have been observed in 9.1% of patients treated with E-Ld and 5.7% of patients treated with Ld. The rate of hematologic malignancies were the same between E-Ld and Ld treatment arms (1.6%). Solid tumors were reported in 3.5% and 2.2% of E-Ld- and Ld-treated patients, respectively. Skin cancer was reported in 4.4% and 2.8% of patients treated with E-Ld and Ld, respectively. Monitor patients for the development of second primary malignancies.</paragraph>
+                     </text>
+                     <effectiveTime value="20151130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_bccc6e11-ebff-4ae7-9c5d-48aeb43c1b80">
+                     <id root="294f3dbc-151d-4e5b-b2f1-0d565c0a7a05"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Hepatotoxicity </title>
+                     <text>
+                        <paragraph>Elevations in liver enzymes (aspartate transaminase/alanine transaminase [AST/ALT] greater than 3 times the upper limit, total bilirubin greater than 2 times the upper limit, and alkaline phosphatase less than 2 times the upper limit) consistent with hepatotoxicity were reported in 2.5% and 0.6% of E-Ld- and Ld-treated patients in a clinical trial of patients with multiple myeloma (N=635). Two patients experiencing hepatotoxicity were not able to continue treatment; however, 6 out of 8 patients had resolution and were able to continue treatment. Monitor liver enzymes periodically. Stop EMPLICITI upon Grade 3 or higher elevation of liver enzymes. After return to baseline values, continuation of treatment may be considered.</paragraph>
+                     </text>
+                     <effectiveTime value="20151130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_0a74e9d5-3fb5-42bf-aead-9573acee73a7">
+                     <id root="a91e201e-b8d0-432d-988f-0d46e14e1eab"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Interference with Determination of Complete Response </title>
+                     <text>
+                        <paragraph>EMPLICITI is a humanized IgG kappa monoclonal antibody that can be detected on both the serum protein electrophoresis (SPEP) and immunofixation (IFE) assays used for the clinical monitoring of endogenous M-protein [<content styleCode="italics">see <linkHtml href="#ID_95937f69-66ab-44d2-ae1b-769f60ceaf35">Drug Interactions (7.2)</linkHtml>
+                           </content>]. This interference can impact the determination of complete response and possibly relapse from complete response in patients with IgG kappa myeloma protein.</paragraph>
+                     </text>
+                     <effectiveTime value="20151130"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_12e77d61-0bb9-4435-b272-343a4d544955">
+               <id root="a27894b6-aee4-451f-bdb7-d41293b835e1"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions are described in detail in other sections of the label:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Infusion reaction [<content styleCode="italics">see <linkHtml href="#ID_f56114c3-8d59-4cce-a67c-1d77b33f0aa4">Warnings and Precautions (5.1)</linkHtml>
+                        </content>].</item>
+                     <item>
+                        <caption>•</caption>Infections [<content styleCode="italics">see <linkHtml href="#ID_728e3edf-369c-4ba3-b2ec-58c52f5414f1">Warnings and Precautions (5.2)</linkHtml>
+                        </content>].</item>
+                     <item>
+                        <caption>•</caption>Second Primary Malignancies [<content styleCode="italics">see <linkHtml href="#ID_c704caa1-49f7-4d3f-857b-3c503630c339">Warnings and Precautions (5.3)</linkHtml>
+                        </content>].</item>
+                     <item>
+                        <caption>•</caption>Hepatotoxicity [<content styleCode="italics">see <linkHtml href="#ID_bccc6e11-ebff-4ae7-9c5d-48aeb43c1b80">Warnings and Precautions (5.4)</linkHtml>
+                        </content>].</item>
+                     <item>
+                        <caption>•</caption>Interference with determination of complete response [<content styleCode="italics">see <linkHtml href="#ID_0a74e9d5-3fb5-42bf-aead-9573acee73a7">Warnings and Precautions (5.5)</linkHtml>
+                        </content>].</item>
+                  </list>
+               </text>
+               <effectiveTime value="20170511"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (20% or higher) are fatigue, diarrhea, pyrexia, constipation, cough, peripheral neuropathy, nasopharyngitis, upper respiratory tract infection, decreased appetite, pneumonia. <linkHtml href="#ID_e10d8437-0702-4167-ac0c-847f3b718df0">(6.1)</linkHtml>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact </content>
+                           <content styleCode="bold">Bristol-Myers Squibb at 1-800-721-5072</content>
+                           <content styleCode="bold"> or FDA at 1-800-FDA-1088 or <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch.</linkHtml>
+                           </content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_e10d8437-0702-4167-ac0c-847f3b718df0">
+                     <id root="12f433b9-655f-4d37-82e5-c29299cc79aa"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>The safety data described in this section are based on a randomized, open-label clinical trial in patients with previously treated multiple myeloma. In this study, EMPLICITI 10 mg/kg was administered with lenalidomide and dexamethasone [<content styleCode="italics">see <linkHtml href="#ID_41d0624c-5ac5-4e8d-938e-721028127da4">Clinical Studies (14)</linkHtml>
+                           </content>]. For adverse reaction evaluation, EMPLICITI combined with lenalidomide and dexamethasone was compared with lenalidomide and dexamethasone alone.</paragraph>
+                        <paragraph>The mean age of the population was 66 years and 57% of patients were 65 years of age or older. Sixty percent (60%) of the population were male, 84% were white, 10% were Asian, and 4% were black. The Eastern Cooperative Oncology Group (ECOG) performance status was 0 in 47%, 1 in 44%, and 2 in 9% of patients.</paragraph>
+                        <paragraph>These data reflect exposure of 318 patients to EMPLICITI and 317 to control with a median number of cycles of 19 for EMPLICITI and 14 for control.</paragraph>
+                        <paragraph>Serious adverse reactions were reported in 65.4% of patients treated on the EMPLICITI arm and 56.5% for patients treated on the control arm. The most frequent serious adverse reactions in the EMPLICITI arm compared to the control arm were: pneumonia (15.4% vs. 11%), pyrexia (6.9% vs. 4.7%), respiratory tract infection (3.1% vs. 1.3%), anemia (2.8% vs. 1.9%), pulmonary embolism (3.1% vs. 2.5%), and acute renal failure (2.5% vs. 1.9%).</paragraph>
+                        <paragraph>The proportion of patients who discontinued any component of the treatment regimen due to adverse reactions as listed below was similar for both treatment arms; 6.0% for patients treated on the EMPLICITI arm and 6.3% for patients treated on the control.</paragraph>
+                        <paragraph>Adverse reactions occurring at a frequency of 10% or higher in the EMPLICITI arm and 5% or higher than the lenalidomide and dexamethasone arm for the randomized trial in multiple myeloma are presented in Table 4.</paragraph>
+                        <table width="100%">
+                           <caption>Table 4:   Adverse Reactions with a 10% or Higher Incidence for EMPLICITI-Treated Patients and a 5% or Higher Incidence than Lenalidomide and Dexamethasone-Treated Patients [All Grades]</caption>
+                           <col width="40%"/>
+                           <col width="15%"/>
+                           <col width="15%"/>
+                           <col width="15%"/>
+                           <col width="14%"/>
+                           <thead>
+                              <tr>
+                                 <th align="left" styleCode="Rrule Toprule " valign="top"/>
+                                 <th align="center" colspan="2" styleCode="Rrule Lrule Toprule " valign="top">
+                                    <content styleCode="bold">EMPLICITI + <br/>Lenalidomide and Dexamethasone<br/>N=318</content>
+                                 </th>
+                                 <th align="center" colspan="2" styleCode="Lrule Toprule " valign="top">
+                                    <content styleCode="bold">Lenalidomide and Dexamethasone<br/>
+                                       <br/>N=317</content>
+                                 </th>
+                              </tr>
+                              <tr>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Primary Term</content>
+                                 </th>
+                                 <th align="center" styleCode="Lrule Botrule " valign="top">
+                                    <content styleCode="bold">All Grades</content>
+                                 </th>
+                                 <th align="center" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Grade 3/4</content>
+                                 </th>
+                                 <th align="center" styleCode="Lrule Botrule " valign="top">
+                                    <content styleCode="bold">All Grades</content>
+                                 </th>
+                                 <th align="center" styleCode="Botrule " valign="top">
+                                    <content styleCode="bold">Grade 3/4</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tfoot>
+                              <tr>
+                                 <td align="left" colspan="5" styleCode="Botrule" valign="top">*     The term fatigue is a grouping of the following terms: fatigue and asthenia.<br/>
+                                    <sup>†</sup>     The term cough is a grouping of the following terms: cough, productive cough, and upper airway cough.<br/>
+                                    <sup>‡</sup>     The term peripheral neuropathy is a grouping of the following terms: peripheral neuropathy, axonal neuropathy, peripheral motor neuropathy, peripheral sensory neuropathy, and polyneuropathy.<br/>
+                                    <sup>§</sup>     The term pneumonia is a grouping of the following terms: pneumonia, atypical pneumonia, bronchopneumonia, lobar pneumonia, bacterial pneumonia, fungal pneumonia, pneumonia influenza, and pneumococcal pneumonia.</td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Toprule " valign="top">
+                                    <paragraph>Fatigue*</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Toprule " valign="top">
+                                    <paragraph>61.6</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Toprule " valign="top">
+                                    <paragraph>12.6</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Toprule " valign="top">
+                                    <paragraph>51.7</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Toprule " valign="top">
+                                    <paragraph>11.7</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Diarrhea</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>46.9</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>5.0</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>36.0</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>4.1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Pyrexia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>37.4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>2.5</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>24.6</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>2.8</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Constipation</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>35.5</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>1.3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>27.1</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>0.3</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Cough<sup>†</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>34.3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>0.3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>18.9</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Peripheral Neuropathy<sup>‡</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>26.7</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>3.8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>20.8</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>2.2</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Nasopharyngitis</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>24.5</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>19.2</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Upper Respiratory Tract Infection</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>22.6</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>0.6</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>17.4</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>1.3</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Decreased Appetite</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>20.8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>1.6</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>12.6</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>1.3</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Pneumonia<sup>§</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>20.1</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>14.2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>14.2</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>9.5</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Pain in Extremities</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>16.4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>0.9</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>10.1</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>0.3</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Headache</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>15.4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>0.3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>7.6</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>0.3</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Vomiting</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>14.5</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>0.3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>8.8</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>0.9</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Weight Decreased</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>13.8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>1.3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>6.0</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Lymphopenia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>13.2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>8.8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>6.9</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>3.2</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Cataracts</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>11.9</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>6.3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>6.3</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>2.8</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>Oropharyngeal Pain</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule Lrule " valign="top">
+                                    <paragraph>10.1</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule Lrule " valign="top">
+                                    <paragraph>4.4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Other clinically important adverse reactions reported in patients treated with EMPLICITI that did not meet the criteria for inclusion in Table 4 but occurred at a frequency of 5% or greater in the EMPLICITI group and at a frequency at least twice the control rate for the randomized trial in multiple myeloma are listed below:</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">General disorders and administration site conditions: </content>chest pain</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Immune system disorders: </content>hypersensitivity</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Nervous system disorders:</content> hypoesthesia</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Psychiatric disorders:</content> mood altered</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Skin and subcutaneous tissue disorders:</content> night sweats</paragraph>
+                        <paragraph>Laboratory abnormalities worsening from baseline and occurring at a frequency of 10% or higher in the EMPLICITI group and 5% or higher than the lenalidomide and dexamethasone group (criteria met for all Grades or Grade 3/4) for the randomized trial in multiple myeloma are presented in Table 5.</paragraph>
+                        <table width="100%">
+                           <caption>Table 5:   Laboratory Abnormalities Worsening from Baseline and with a 10% or Higher Incidence for EMPLICITI-Treated Patients and a 5% Higher Incidence than Lenalidomide and Dexamethasone-Treated Patients [Criteria met for All Grades or Grade 3/4]</caption>
+                           <col width="40%"/>
+                           <col width="15%"/>
+                           <col width="15%"/>
+                           <col width="15%"/>
+                           <col width="14%"/>
+                           <thead>
+                              <tr>
+                                 <th align="left" styleCode="Rrule Toprule " valign="top"/>
+                                 <th align="center" colspan="2" styleCode="Rrule Lrule Toprule " valign="top">
+                                    <content styleCode="bold">EMPLICITI + <br/>Lenalidomide and Dexamethasone<br/>N=318</content>
+                                 </th>
+                                 <th align="center" colspan="2" styleCode="Lrule Toprule " valign="top">
+                                    <content styleCode="bold">Lenalidomide and Dexamethasone<br/>
+                                       <br/>N=317</content>
+                                 </th>
+                              </tr>
+                              <tr>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Laboratory Parameter</content>
+                                 </th>
+                                 <th align="center" styleCode="Lrule Botrule " valign="top">
+                                    <content styleCode="bold">All Grades</content>
+                                 </th>
+                                 <th align="center" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Grade 3/4</content>
+                                 </th>
+                                 <th align="center" styleCode="Lrule Botrule " valign="top">
+                                    <content styleCode="bold">All Grades</content>
+                                 </th>
+                                 <th align="center" styleCode="Botrule " valign="top">
+                                    <content styleCode="bold">Grade 3/4</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Toprule " valign="top">
+                                    <paragraph>Hematology</paragraph>
+                                 </td>
+                                 <td styleCode="Lrule Toprule " valign="top"/>
+                                 <td styleCode="Rrule Toprule " valign="top"/>
+                                 <td styleCode="Lrule Toprule " valign="top"/>
+                                 <td styleCode="Toprule " valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>     Lymphopenia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>99.4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>76.7</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>98.4</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>48.7</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>     Leukopenia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>90.6</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>32.4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>88.3</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>25.6</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>     Thrombocytopenia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>83.6</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>19.2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>77.8</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>20.3</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Liver and Renal Function Tests</paragraph>
+                                 </td>
+                                 <td styleCode="Lrule " valign="top"/>
+                                 <td styleCode="Rrule " valign="top"/>
+                                 <td styleCode="Lrule " valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>     Hypoalbuminemia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>73.3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>3.9</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>65.6</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>2.3</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>     Elevated Alkaline Phosphatase</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>38.7</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>1.3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>29.8</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Chemistry</paragraph>
+                                 </td>
+                                 <td styleCode="Lrule " valign="top"/>
+                                 <td styleCode="Rrule " valign="top"/>
+                                 <td styleCode="Lrule " valign="top"/>
+                                 <td valign="top"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>     Hyperglycemia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>89.3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>17.0</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>85.4</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>10.2</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>     Hypocalcemia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>78.0</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>11.3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>76.7</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>4.7</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>     Low Bicarbonate</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>62.9</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule " valign="top">
+                                    <paragraph>0.4</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>45.1</paragraph>
+                                 </td>
+                                 <td align="center" valign="top">
+                                    <paragraph>0</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>     Hyperkalemia</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule Lrule " valign="top">
+                                    <paragraph>32.1</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>6.6</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule Lrule " valign="top">
+                                    <paragraph>22.2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule " valign="top">
+                                    <paragraph>1.6</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Vital sign abnormalities were assessed by treatment arm for the randomized trial in multiple myeloma and are presented in Table 6. Percentages are based on patients who had at least one on-treatment vital sign abnormality any time during the course of therapy.</paragraph>
+                        <table width="100%">
+                           <caption>Table 6:   Vital Sign Abnormalities</caption>
+                           <col width="40%"/>
+                           <col width="31%"/>
+                           <col width="29%"/>
+                           <thead>
+                              <tr>
+                                 <th align="left" styleCode="Rrule Toprule " valign="top"/>
+                                 <th align="center" styleCode="Rrule Lrule Toprule " valign="top">
+                                    <content styleCode="bold">EMPLICITI + <br/>Lenalidomide and Dexamethasone<br/>N=318</content>
+                                 </th>
+                                 <th align="center" styleCode="Lrule Toprule " valign="top">
+                                    <content styleCode="bold">Lenalidomide and Dexamethasone<br/>
+                                       <br/>N=317</content>
+                                 </th>
+                              </tr>
+                              <tr>
+                                 <th align="left" styleCode="Rrule Botrule " valign="top">
+                                    <content styleCode="bold">Vital Sign Parameter</content>
+                                 </th>
+                                 <th align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <content styleCode="bold">%</content>
+                                 </th>
+                                 <th align="center" styleCode="Lrule Botrule " valign="top">
+                                    <content styleCode="bold">%</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Systolic Blood Pressure ≥160 mmHg</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>33.3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>20.9</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Diastolic Blood Pressure ≥100 mmHg</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>17.3</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>11.7</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Systolic Blood Pressure &lt;90 mmHg</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>28.9</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>8.2</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule " valign="top">
+                                    <paragraph>Heart Rate ≥100 bpm</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule " valign="top">
+                                    <paragraph>47.8</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule " valign="top">
+                                    <paragraph>29.7</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule " valign="top">
+                                    <paragraph>Heart Rate &lt;60 bpm</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>66</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule Lrule " valign="top">
+                                    <paragraph>31.3</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20151130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_6c0aab68-fcaf-4d34-9cf7-8ad7b3a34774">
+                     <id root="1334d53f-1775-4105-9add-5f501980342f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.2 Immunogenicity</title>
+                     <text>
+                        <paragraph>As with all therapeutic proteins, there is a potential for immunogenicity to EMPLICITI. The detection of antibody formation is highly dependent on the sensitivity and specificity of the assay. Additionally, the observed incidence of antibody (including neutralizing antibody) positivity in an assay may be influenced by several factors including assay methodology, sample handling, timing of sample collection, concomitant medications, and underlying disease. For these reasons, comparison of incidence of antibodies to EMPLICITI in the studies described below with the incidences of antibodies in other studies or to other products may be misleading.</paragraph>
+                        <paragraph>Of 390 patients across four clinical studies who were treated with EMPLICITI and evaluable for the presence of anti-product antibodies, 72 patients (18.5%) tested positive for treatment-emergent anti-product antibodies by an electrochemiluminescent (ECL) assay. In 63 (88%) of these 72 patients, anti-product antibodies occurred within the first 2 months of the initiation of EMPLICITI treatment. Anti-product antibodies resolved by 2 to 4 months in 49 (78%) of these 63 patients. Neutralizing antibodies were detected in 19 of 299 patients in the randomized trial in multiple myeloma. </paragraph>
+                     </text>
+                     <effectiveTime value="20170511"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b4818d8f-496d-4351-aafa-09033132556f">
+               <id root="a5dfec91-9b71-477d-a151-d3ee786cb2f5"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20170511"/>
+               <component>
+                  <section ID="ID_cca145f5-2c10-420d-8f99-88c5d873238f">
+                     <id root="d25ab511-f7aa-490e-8145-979d42828e02"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Drug Interactions </title>
+                     <text>
+                        <paragraph>For important drug interactions involving lenalidomide and dexamethasone, refer to their respective prescribing information.</paragraph>
+                     </text>
+                     <effectiveTime value="20170511"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_95937f69-66ab-44d2-ae1b-769f60ceaf35">
+                     <id root="f7219d2a-adfb-4884-b869-17dcb8859123"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2 Laboratory Test Interference </title>
+                     <text>
+                        <paragraph>EMPLICITI may be detected in the SPEP and serum immunofixation assays of myeloma patients and could interfere with correct response classification. A small peak in the early gamma region on SPEP that is IgGƙ on serum immunofixation may potentially be attributed to EMPLICITI, particularly in patients whose endogenous myeloma protein is IgA, IgM, IgD, or lambda light chain restricted. This interference can impact the determination of complete response and possibly relapse from complete response in patients with IgG kappa myeloma protein [<content styleCode="italics">see <linkHtml href="#ID_c704caa1-49f7-4d3f-857b-3c503630c339">Warnings and Precautions (5.3)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20151130"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_e8b5226e-b2b1-4587-a73e-f672b350dfd7">
+               <id root="5b6b4dd7-3d70-4e29-a83f-eb72873d736f"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20170511"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Pregnancy: Embryo-fetal toxicity with combination three drug dosage regimen. <linkHtml href="#ID_ab6e4f7b-28db-4f57-a7ab-ce918adb8e47">(8.1)</linkHtml>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_ab6e4f7b-28db-4f57-a7ab-ce918adb8e47">
+                     <id root="4e132609-2546-47bf-9c98-283defac6142"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <effectiveTime value="20170511"/>
+                     <component>
+                        <section ID="ID_15809892-2c99-4ea0-ab5b-6c5672f0d22b">
+                           <id root="84acbbac-5d88-46ee-900c-0f3417b8ceea"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Risk Summary</content>
+                           </title>
+                           <text>
+                              <paragraph>There are no studies with EMPLICITI with pregnant women to inform any drug associated risks. Animal reproduction studies have not been conducted with elotuzumab.</paragraph>
+                              <paragraph>EMPLICITI is administered in combination with lenalidomide and dexamethasone. Lenalidomide can cause embryo-fetal harm and is contraindicated for use in pregnancy. Refer to the lenalidomide and dexamethasone prescribing information for additional information. Lenalidomide is only available through a REMS program.</paragraph>
+                              <paragraph>Adverse outcomes in pregnancy occur regardless of the health of the mother or the use of medications. The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. The background risk in the U.S. general population of major birth defects is 2% to 4% and of miscarriage is 15% to 20% of clinically recognized pregnancies.</paragraph>
+                           </text>
+                           <effectiveTime value="20170511"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_d2a45c6b-fcf6-4f69-8986-2fed72929186">
+                     <id root="e5e6b199-defb-4082-acf7-99af09f3c9b2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <effectiveTime value="20170511"/>
+                     <component>
+                        <section ID="ID_590795f5-20b9-4af1-a88a-288038e3dca2">
+                           <id root="7e7d1f95-1e74-44f7-9a59-992702886955"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Risk Summary</content>
+                           </title>
+                           <text>
+                              <paragraph>There is no information on the presence of EMPLICITI in human milk, the effect on the breast-fed infant, or the effect on milk production. Because of the potential for serious adverse reactions in breast-fed infants from elotuzumab administered with lenalidomide and dexamethasone, breastfeeding is not recommended. Refer to the lenalidomide and dexamethasone prescribing information for additional information.</paragraph>
+                           </text>
+                           <effectiveTime value="20170511"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_90a6d63c-de11-49a2-b2a0-10f43704d1a5">
+                     <id root="1cc8e107-bb84-4321-b772-828b6edf0d71"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.3 Females and Males of Reproductive Potential </title>
+                     <effectiveTime value="20151130"/>
+                     <component>
+                        <section ID="ID_b8c8a4d9-c87b-4ea8-8bf7-ef597804815c">
+                           <id root="14bfbea3-8d87-4b5e-863e-89c74d15bb40"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Pregnancy Testing</content>
+                           </title>
+                           <text>
+                              <paragraph>Refer to the lenalidomide labeling for pregnancy testing requirements prior to initiating treatment in females of reproductive potential.</paragraph>
+                              <paragraph>When EMPLICITI is used with lenalidomide, there is a risk of fetal harm, including severe life-threatening human birth defects associated with lenalidomide, and the need to follow requirements regarding pregnancy avoidance, including testing.</paragraph>
+                           </text>
+                           <effectiveTime value="20151130"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_bf1959d9-bb24-4bcc-9d6b-f372a35082f5">
+                           <id root="be157a7d-55c9-46b6-86e0-b565e4377f4e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Contraception</content>
+                           </title>
+                           <text>
+                              <paragraph>Refer to the lenalidomide labeling for contraception requirements prior to initiating treatment in females of reproductive potential and males.</paragraph>
+                              <paragraph>Lenalidomide is present in the blood and semen of patients receiving the drug. Refer to the lenalidomide full prescribing information for requirements regarding contraception and the prohibitions against blood and/or sperm donation due to presence and transmission in blood and/or semen and for additional information.</paragraph>
+                           </text>
+                           <effectiveTime value="20151130"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_e559d038-c3b6-421e-a64e-1f153ab8e6fe">
+                     <id root="87ed0eee-4c81-4f0e-bb02-e20e1031a7c7"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness have not been established in pediatric patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20151130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_13bdeb19-fdd4-4bc7-9d3e-5207ab24b1b9">
+                     <id root="4db05810-1316-4cba-a237-d6ba9a5741c0"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Of the 646 patients across treatment groups in the randomized trial in multiple myeloma, 57% were 65 years of age or older; the number of patients 65 years or older was similar between treatment groups. No overall differences in efficacy or safety were observed between patients 65 years or older and younger patients (less than 65 years of age).</paragraph>
+                     </text>
+                     <effectiveTime value="20151130"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_4ff42949-1c64-46c8-9d3d-f4e6910a8afb">
+               <id root="370bc949-f4aa-4dbe-a59a-4a7f92ffda46"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>The dose of EMPLICITI at which severe toxicity occurs is not known. EMPLICITI does not appear to be removed by dialysis as determined in a study of patients with renal impairment.</paragraph>
+                  <paragraph>In case of overdosage, monitor patients closely for signs or symptoms of adverse reactions and institute appropriate symptomatic treatment.</paragraph>
+               </text>
+               <effectiveTime value="20151130"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_a7604473-8eb4-4567-a604-a111d15931bd">
+               <id root="4c5f05af-b580-4c80-8181-44d616793ac7"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Elotuzumab is a humanized recombinant monoclonal antibody directed to SLAMF7, a cell surface glycoprotein. Elotuzumab consists of the complementary determining regions (CDR) of the mouse antibody, MuLuc63, grafted onto human IgG1 heavy and kappa light chain frameworks. Elotuzumab is produced in NS0 cells by recombinant DNA technology. Elotuzumab has a theoretical mass of 148.1 kDa for the intact antibody.</paragraph>
+                  <paragraph>EMPLICITI (elotuzumab) is a sterile, nonpyrogenic, preservative-free lyophilized powder that is white to off-white, whole or fragmented cake in single-dose vials. EMPLICITI for Injection is supplied as 300 mg per vial and 400 mg per vial and requires reconstitution with Sterile Water for Injection, USP (13 mL and 17 mL, respectively) to obtain a solution with a concentration of 25 mg/mL. After reconstitution, each vial contains overfill to allow for withdrawal of 12 mL (300 mg) and 16 mL (400 mg). The reconstituted solution is colorless to slightly yellow, clear to slightly opalescent. Prior to intravenous infusion, the reconstituted solution is diluted with 230 mL of either 0.9% Sodium Chloride Injection, USP or 5% Dextrose Injection, USP [<content styleCode="italics">see <linkHtml href="#ID_1f11f62d-a32d-45a9-be69-f1bd11915846">Dosage and Administration (2.4)</linkHtml>
+                     </content>].</paragraph>
+                  <paragraph>Each 300 mg single-dose vial of EMPLICITI also contains the following inactive ingredients: citric acid monohydrate (2.44 mg), polysorbate 80 (3.4 mg), sodium citrate (16.6 mg), and sucrose (510 mg).</paragraph>
+                  <paragraph>Each 400 mg single-dose vial of EMPLICITI also contains the following inactive ingredients: citric acid monohydrate (3.17 mg), polysorbate 80 (4.4 mg), sodium citrate (21.5 mg), and sucrose (660 mg).</paragraph>
+               </text>
+               <effectiveTime value="20151130"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_927b3884-4a45-4486-a977-464a626a9664">
+               <id root="2959e9ec-4267-41c7-8b59-cb859aebd625"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20170511"/>
+               <component>
+                  <section ID="ID_d04ce3a4-a3ca-4c5f-9e0e-647a22ba0a39">
+                     <id root="6a0a2b81-2db9-4510-be2f-e37b17a69790"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Elotuzumab is a humanized IgG1 monoclonal antibody that specifically targets the SLAMF7 (Signaling Lymphocytic Activation Molecule Family member 7) protein. SLAMF7 is expressed on myeloma cells independent of cytogenetic abnormalities. SLAMF7 is also expressed on Natural Killer cells, plasma cells, and at lower levels on specific immune cell subsets of differentiated cells within the hematopoietic lineage.</paragraph>
+                        <paragraph>Elotuzumab directly activates Natural Killer cells through both the SLAMF7 pathway and Fc receptors. Elotuzumab also targets SLAMF7 on myeloma cells and facilitates the interaction with Natural Killer cells to mediate the killing of myeloma cells through antibody-dependent cellular cytotoxicity (ADCC). In preclinical models, the combination of elotuzumab and lenalidomide resulted in enhanced activation of Natural Killer cells that was greater than the effects of either agent alone and increased anti-tumor activity <content styleCode="italics">in vitro</content> and <content styleCode="italics">in vivo</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20151130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_8bf48147-9d0e-4f75-b440-46db30deeeca">
+                     <id root="55eafe7b-7439-4530-ab90-ad820914b4c9"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <effectiveTime value="20170511"/>
+                     <component>
+                        <section ID="ID_e3265917-7f3d-4a4d-85b4-8a9d79a9268b">
+                           <id root="fb8a768a-1271-44a6-8c0a-aaf59231db1a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Cardiac Electrophysiology</content>
+                           </title>
+                           <text>
+                              <paragraph>EMPLICITI does not prolong the QT interval to any clinically relevant extent when administered with lenalidomide and dexamethasone at the recommended dose or as monotherapy (at a dose 2 times the recommended dose).</paragraph>
+                           </text>
+                           <effectiveTime value="20170511"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_4a7a5ee3-85c5-4d04-88b9-7caf2c2fbc90">
+                     <id root="fa08fa9d-ec7d-4568-bf62-5ffde9931190"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics </title>
+                     <text>
+                        <paragraph>Elotuzumab exhibits nonlinear pharmacokinetics (PK) resulting in greater than proportional increases in area under the concentration-time curve (AUC) indicative of target-mediated clearance. The administration of the recommended 10 mg/kg EMPLICITI regimen with lenalidomide and dexamethasone is predicted to result in geometric mean (CV%) steady-state trough concentrations of 194 μg/mL (52%).</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Elimination</content>
+                        </paragraph>
+                        <paragraph>The clearance of elotuzumab decreased from a geometric mean (CV%) of 17.5 (21.2%) to 5.8 (31%) mL/day/kg with an increase in dose from 0.5 (i.e., 0.05 times the recommended dosage) to 20 mg/kg (i.e., 2 times the recommended dosage). When elotuzumab is administered with lenalidomide and dexamethasone, approximately 97% of the maximum steady-state concentration is predicted to be eliminated with a geometric mean (CV%) of 82.4 (48%) days.</paragraph>
+                     </text>
+                     <effectiveTime value="20170511"/>
+                     <component>
+                        <section ID="ID_8608df3a-98a5-4263-87f6-eaf5030a00ec">
+                           <id root="a57c1f98-e650-4ab4-9fc5-237d04988fdd"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Specific Populations</content>
+                           </title>
+                           <text>
+                              <paragraph>Clinically significant differences were not observed in the PK of elotuzumab based on age (37 to 88 years), sex, race, baseline lactate dehydrogenase, albumin, renal impairment (creatinine clearance (CLcr) 15 to 89 mL/min), end-stage renal disease (CLcr &lt;15 mL/min) with or without hemodialysis, and mild hepatic impairment (total bilirubin ≤ upper limit of normal (ULN) and aspartate transaminase (AST) &gt; ULN OR total bilirubin 1 to 1.5 times the ULN and AST any value). The PK of elotuzumab in patients with moderate (total bilirubin &gt; 1.5 to 3 times the ULN and AST any value) to severe (total bilirubin &gt; 3 times the ULN and AST any value) hepatic impairment is unknown.</paragraph>
+                              <paragraph>The clearance of elotuzumab increased with increasing body weight supporting a weight-based dose.</paragraph>
+                           </text>
+                           <effectiveTime value="20170511"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_4280966e-ddde-4fb8-bb72-1f83cc1c3213">
+               <id root="afa2e255-ae00-4120-a6d4-74b99950599a"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20151130"/>
+               <component>
+                  <section ID="ID_5f6ce117-7a21-4f79-b770-7a57841298c8">
+                     <id root="bde2abe9-02d9-4f4f-95b4-e16cb816668d"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No carcinogenicity or mutagenicity data are available for elotuzumab in animals or humans. Fertility studies have not been performed for elotuzumab.</paragraph>
+                     </text>
+                     <effectiveTime value="20151130"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_41d0624c-5ac5-4e8d-938e-721028127da4">
+               <id root="510c4e12-9881-4584-927e-9a9cd2b7ed29"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>The efficacy and safety of EMPLICITI in combination with lenalidomide and dexamethasone were evaluated in a randomized, open-label trial in patients with multiple myeloma who had received one to three prior therapies and had documented progression following their most recent therapy.</paragraph>
+                  <paragraph>Eligible patients were randomized in a 1:1 ratio to receive either EMPLICITI in combination with lenalidomide and low-dose dexamethasone or lenalidomide and low-dose dexamethasone. Treatment was administered in 4-week cycles until disease progression or unacceptable toxicity. EMPLICITI 10 mg/kg was administered intravenously each week for the first 2 cycles and every 2 weeks thereafter. Prior to EMPLICITI infusion, dexamethasone was administered as a divided dose: an oral dose of 28 mg and an intravenous dose of 8 mg. In the control group and on weeks without EMPLICITI, dexamethasone 40 mg was administered as a single oral dose weekly. Lenalidomide 25 mg was taken orally once daily for the first 3 weeks of each cycle. Assessment of tumor response was conducted every 4 weeks.</paragraph>
+                  <paragraph>A total of 646 patients were randomized to receive treatment: 321 to EMPLICITI in combination with lenalidomide and low-dose dexamethasone and 325 to lenalidomide and low-dose dexamethasone.</paragraph>
+                  <paragraph>Demographics and baseline disease characteristics were balanced between treatment arms. The median age was 66 years (range, 37-91); 57% of patients were 65 years or older; 60% of patients were male; whites comprised 84% of the study population, Asians 10%, and blacks 4%. The ECOG performance status was 0 in 47%, 1 in 44%, and 2 in 9% of patients, and ISS Stage was I in 43%, II in 32%, and III in 21% of patients. The cytogenetic categories of del 17p and t(4;14) were present in 32% and 9% of patients, respectively. The median number of prior therapies was 2. Thirty-five percent (35%) of patients were refractory (progression during or within 60 days of last therapy) and 65% were relapsed (progression after 60 days of last therapy). Prior therapies included stem cell transplant (55%), bortezomib (70%), melphalan (65%), thalidomide (48%), and lenalidomide (6%).</paragraph>
+                  <paragraph>The efficacy of EMPLICITI was evaluated by progression-free survival (PFS) as assessed by hazard ratio, and overall response rate (ORR) as determined by a blinded Independent Review Committee using the European Group for Blood and Marrow Transplantation (EBMT) response criteria. Efficacy results are shown in Table 7 and Figure 1. The median number of treatment cycles was 19 for the EMPLICITI group and 14 for the comparator arm with a minimum follow-up of two years.</paragraph>
+                  <paragraph>Overall survival (OS) results at interim analysis are shown in Table 7 and Figure 2. The OS results at interim analysis did not reach statistical significance.</paragraph>
+                  <table width="100%">
+                     <caption>Table 7:   Efficacy Results</caption>
+                     <col width="40%"/>
+                     <col width="31%"/>
+                     <col width="29%"/>
+                     <thead>
+                        <tr>
+                           <th align="left" styleCode="Botrule Toprule " valign="top"/>
+                           <th align="center" styleCode="Botrule Toprule " valign="top">
+                              <content styleCode="bold">EMPLICITI + <br/>Lenalidomide/<br/>Dexamethasone<br/>N=321</content>
+                           </th>
+                           <th align="center" styleCode="Botrule Toprule " valign="top">
+                              <content styleCode="bold">Lenalidomide/<br/>Dexamethasone<br/>
+                                 <br/>N=325</content>
+                           </th>
+                        </tr>
+                        <tr>
+                           <th align="left" styleCode="Toprule " valign="top">
+                              <content styleCode="bold">PFS</content>
+                           </th>
+                           <th align="left" colspan="2" styleCode="Toprule " valign="top"/>
+                        </tr>
+                     </thead>
+                     <tfoot>
+                        <tr>
+                           <td align="left" colspan="3" styleCode="Botrule" valign="top">*     p-value based on the log-rank test stratified by ß2 microglobulins (&lt;3.5 mg/L vs ≥3.5 mg/L), number of prior lines of therapy (1 vs 2 or 3), and prior immunomodulatory therapy (no vs prior thalidomide only vs other).<br/>
+                              <sup>†</sup>     European Group for Blood and Marrow Transplantation (EBMT) criteria.<br/>
+                              <sup>‡</sup>     p-value based on the Cochran-Mantel-Haenszel chi-square test stratified by ß2 microglobulins (&lt;3.5 mg/L vs ≥3.5 mg/L), number of prior lines of therapy (1 vs 2 or 3), and prior immunomodulatory therapy (no vs prior thalidomide only vs other).<br/>
+                              <sup>§</sup>     Complete response (CR) + stringent complete response (sCR).<br/>
+                              <sup>¶</sup>     EMPLICITI’s interference with the assessment of myeloma protein with immunofixation and serum protein electrophoresis assay may interfere with correct response classification [see <linkHtml href="#ID_b4818d8f-496d-4351-aafa-09033132556f">Drug Interactions (7)</linkHtml>].<br/>
+                              <sup>g</sup>     A pre-specified interim analysis for OS was performed based on a minimum follow-up time of 35.4 months.</td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Hazard Ratio [95% CI]</paragraph>
+                           </td>
+                           <td align="center" colspan="2" valign="top">
+                              <paragraph>0.70 [0.57, 0.85]</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>     Stratified log-rank test p-value*</paragraph>
+                           </td>
+                           <td align="center" colspan="2" valign="top">
+                              <paragraph>0.0004</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Median PFS in months [95% CI]</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>19.4 [16.6, 22.2]</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>14.9 [12.1, 17.2]</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Response</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top"/>
+                           <td valign="top"/>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Overall Response (ORR)<sup>†</sup> n (%)<br/>     [95% CI]</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>252 (78.5)<br/>[73.6, 82.9]</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>213 (65.5)<br/>[60.1, 70.7]</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>     p-value<sup>‡</sup>
+                              </paragraph>
+                           </td>
+                           <td align="center" colspan="2" valign="top">
+                              <paragraph>0.0002</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>     Complete Response (CR + sCR)<sup>†,§</sup> n (%)</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>14 (4.4)<sup>¶</sup>
+                              </paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>24 (7.4)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>     Very Good Partial Response (VGPR)<sup>†</sup> n (%)</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>91 (28.3)</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>67 (20.6)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>     Partial Response (PR)<sup>†</sup> n (%)</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>147 (45.8)</paragraph>
+                           </td>
+                           <td align="center" valign="top">
+                              <paragraph>122 (37.5)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Overall Survival<sup>g</sup>
+                              </paragraph>
+                           </td>
+                           <td valign="top"/>
+                           <td valign="top"/>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Hazard Ratio [95% CI]</paragraph>
+                           </td>
+                           <td align="center" colspan="2" valign="top">
+                              <paragraph>0.77 [0.61, 0.97]</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top">
+                              <paragraph>Median OS in months [95% CI]</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule " valign="top">
+                              <paragraph>43.7 [40.3, NE]</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule " valign="top">
+                              <paragraph>39.6 [33.3, NE]</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Figure 1:   Progression-Free Survival</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id-1450618253" referencedObject="ID_1c7a4734-829b-4411-a076-957dbc18e044"/>
+                  <paragraph>The 1- and 2-year rates of PFS for EMPLICITI in combination with lenalidomide and dexamethasone treatment were 68% and 41%, respectively, compared with 57% and 27%, respectively, for lenalidomide and dexamethasone treatment.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Figure 2:   Study 1 Overall Survival</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id-1900050266" referencedObject="C7B2D05C-29AC-4D81-AB28-F7859A214EA8"/>
+               </text>
+               <effectiveTime value="20170511"/>
+               <component>
+                  <observationMedia ID="ID_1c7a4734-829b-4411-a076-957dbc18e044">
+                     <text>Empliciti Figure 1 Prog Free Surv</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Empliciti-fig1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="C7B2D05C-29AC-4D81-AB28-F7859A214EA8">
+                     <text>Empliciti-fig2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Empliciti-fig2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b088f1e9-40c4-4f49-a00a-8e03fd4cf5db">
+               <id root="a7b34ab1-e2b5-491c-b3fe-3ef8384f3a11"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>EMPLICITI (elotuzumab) is white to off-white lyophilized powder available as follows:</paragraph>
+                  <table width="71%">
+                     <col width="40%"/>
+                     <col width="40%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Carton Content</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NDC</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>One 300 mg single-dose vial</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>0003-2291-11</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>One 400 mg single-dose vial</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>0003-4522-11</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Store EMPLICITI under refrigeration at 2°C to 8°C (36°F-46°F). Protect EMPLICITI from light by storing in the original package until time of use. Do not freeze or shake.</paragraph>
+               </text>
+               <effectiveTime value="20151130"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c0925d4a-fe3f-4c56-b100-9234824ba210">
+               <id root="a455d6b1-0a93-484f-86e5-853e9da209ac"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling <linkHtml href="#ID_b469c59e-ca0d-4d8a-af2e-bd7bfe43880b">(Patient Information)</linkHtml>.</paragraph>
+               </text>
+               <effectiveTime value="20170511"/>
+               <component>
+                  <section ID="ID_0356da56-fcc5-467f-82b7-fd5143358601">
+                     <id root="03c6689b-4567-46b4-829a-86e4b5e043d2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <effectiveTime value="20170511"/>
+                     <component>
+                        <section ID="ID_402eb397-311f-4149-bec5-3e57001141c6">
+                           <id root="6b4b73f5-b921-4bcb-a4b0-6698bcd41746"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Infusion Reactions</content>
+                           </title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>EMPLICITI may cause infusion reactions. Advise patients to contact their healthcare provider if they experience signs and symptoms of infusion reactions, including fever, chills, rash, or breathing problems within 24 hours of infusion [<content styleCode="italics">see <linkHtml href="#ID_f56114c3-8d59-4cce-a67c-1d77b33f0aa4">Warnings and Precautions (5.1)</linkHtml>
+                                    </content>].</item>
+                                 <item>
+                                    <caption>•</caption>Advise patients that they will be required to take the following oral medications prior to EMPLICITI dosing to reduce the risk of infusion reaction [<content styleCode="italics">see <linkHtml href="#ID_d645e755-cdec-4982-b936-75a21921a829">Dosage and Administration (2.2)</linkHtml>
+                                    </content>]:<list listType="unordered">
+                                       <item>
+                                          <caption>•</caption>Dexamethasone orally as prescribed</item>
+                                       <item>
+                                          <caption>•</caption>H1 blocker: diphenhydramine or equivalent (if oral)</item>
+                                       <item>
+                                          <caption>•</caption>H2 blocker: ranitidine or equivalent (if oral)</item>
+                                       <item>
+                                          <caption>•</caption>Acetaminophen (650 to 1000 mg orally)</item>
+                                    </list>
+                                 </item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20170511"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_5f73d537-91cf-4574-9d7d-0f0fb3d5ca1f">
+                           <id root="6638b430-409d-404c-8fdf-e12a655fecf7"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Pregnancy</content>
+                           </title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>Advise patients that lenalidomide has the potential to cause fetal harm and has specific requirements regarding contraception, pregnancy testing, blood and sperm donation, and transmission in sperm. Lenalidomide is only available through a REMS program [<content styleCode="italics">see <linkHtml href="#ID_ab6e4f7b-28db-4f57-a7ab-ce918adb8e47">Use in Specific Populations (8.1)</linkHtml>
+                                    </content>].</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20170511"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_f642b364-28b4-4d5f-b4f9-64e9d9cd9bfe">
+                           <id root="c3c05ba1-664d-4c57-b4ea-4787f816d676"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Infections</content>
+                           </title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>Inform patients of the risk of developing infections during treatment with EMPLICITI, and to report any symptoms of infection [<content styleCode="italics">see <linkHtml href="#ID_728e3edf-369c-4ba3-b2ec-58c52f5414f1">Warnings and Precautions (5.2)</linkHtml>
+                                    </content>].</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20170511"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_39d6eb98-5e72-4d1b-af97-00b49ba58829">
+                           <id root="3fef86c2-64a2-4f9a-a399-e8f2c263aa24"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Second Primary Malignancies</content>
+                           </title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>Inform patients of the risk of developing SPM during treatment with EMPLICITI [<content styleCode="italics">see </content>
+                                    <content styleCode="italics">
+                                       <linkHtml href="#ID_c704caa1-49f7-4d3f-857b-3c503630c339">Warnings and Precautions (5.3)</linkHtml>
+                                    </content>].</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20170511"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="ID_02dc8669-60c5-43bd-b9b2-4707297d4c06">
+                           <id root="8d2756bd-a23d-410f-83a0-2825eaf0d6ff"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Hepatotoxicity</content>
+                           </title>
+                           <text>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>Inform patients of the risk of hepatotoxicity during treatment with EMPLICITI and to report any signs and symptoms associated with this event to their healthcare provider for evaluation [<content styleCode="italics">see <linkHtml href="#ID_bccc6e11-ebff-4ae7-9c5d-48aeb43c1b80">Warnings and Precautions (5.4)</linkHtml>
+                                    </content>].</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20170511"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b469c59e-ca0d-4d8a-af2e-bd7bfe43880b">
+               <id root="c85ac154-c0b6-4e74-a173-b2af073ec3f5"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <table width="100%">
+                     <col width="4%"/>
+                     <col width="32%"/>
+                     <col width="64%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" colspan="3" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Patient Information</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">EMPLICITI™ </content>(em-plis-city)</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">(elotuzumab)</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">for injection</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>EMPLICITI is used with two other prescription medicines called REVLIMID<content styleCode="bold">
+                                    <sup>®</sup>
+                                 </content> (lenalidomide) and dexamethasone. <content styleCode="bold">Read the Medication Guide that comes with REVLIMID. </content>You can ask your healthcare provider or pharmacist for information about dexamethasone.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">What is EMPLICITI?</content>
+                              </paragraph>
+                              <paragraph>EMPLICITI is a prescription medicine used to treat multiple myeloma in combination with the medicines REVLIMID (lenalidomide) and dexamethasone in people who have received one to three prior treatments for their multiple myeloma.</paragraph>
+                              <paragraph>It is not known if EMPLICITI is safe and effective in children.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Before you receive EMPLICITI, tell your healthcare provider about all of your medical conditions, including if you:</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>have an infection</item>
+                                 <item>
+                                    <caption>•</caption>are pregnant or plan to become pregnant. It is not known if EMPLICITI may harm your unborn baby. However, REVLIMID may cause birth defects or death of an unborn baby.<list listType="unordered">
+                                       <item>
+                                          <caption>o</caption>
+                                          <content styleCode="bold">Before receiving EMPLICITI with REVLIMID and dexamethasone, females and males must agree to the instructions in the REVLIMID REMS program. The REVLIMID REMS program has specific requirements about birth control (contraception), pregnancy testing, blood donation, and sperm donation that you need to know. Talk to your healthcare provider to learn more about REVLIMID.</content>
+                                       </item>
+                                    </list>
+                                 </item>
+                                 <item>
+                                    <caption>•</caption>are breastfeeding or plan to breastfeed. It is not known if EMPLICITI passes into breast milk. You should not breastfeed during treatment with EMPLICITI and REVLIMID and dexamethasone.</item>
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Tell your healthcare provider about all the medicines you take</content>, including prescription and over-the-counter medicines, vitamins, and herbal supplements.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">How will I receive EMPLICITI?</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>EMPLICITI will be given to you by intravenous (IV) infusion into your vein.</item>
+                                 <item>
+                                    <caption>•</caption>Your EMPLICITI treatment schedule is divided into cycles that are 28 days (4 weeks) long. A cycle includes the number of days you are on treatment and also the time you spend resting in between treatments.</item>
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">EMPLICITI with REVLIMID and dexamethasone is usually given as follows:</content>
+                                    <list listType="unordered">
+                                       <item>
+                                          <caption>o</caption>Cycles 1 and 2 (28 days per cycle), you will receive EMPLICITI one time every week.</item>
+                                       <item>
+                                          <caption>o</caption>Cycles 3 and up (28 days per cycle), you will receive EMPLICITI one time every 2 weeks.</item>
+                                    </list>
+                                 </item>
+                                 <item>
+                                    <caption>•</caption>Your healthcare provider will decide how many treatments you will receive.</item>
+                                 <item>
+                                    <caption>•</caption>Before every EMPLICITI infusion, you will receive medicines to help reduce the risk of infusion reactions.</item>
+                                 <item>
+                                    <caption>•</caption>If you miss any appointments call your healthcare provider as soon as possible.<content styleCode="bold"/>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="3" styleCode="Rrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">What are the possible side effects of EMPLICITI?</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">EMPLICITI may cause serious side effects, including:</content>
+                              </paragraph>
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Infusion reactions. </content>Infusion reactions can happen during your infusion or within 24 hours after your infusion of EMPLICITI. Your healthcare provider will give you medicines before each infusion of EMPLICITI to help reduce the risk of an infusion reaction.</item>
+                                 <item>
+                                    <caption> </caption>If you have an infusion reaction while receiving EMPLICITI, your healthcare provider will slow or stop your infusion and treat your reaction. If you have a severe infusion reaction, your healthcare provider may stop your treatment completely. Tell your healthcare provider or get medical help right away if you have any of these symptoms after your infusion with EMPLICITI:</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top"/>
+                           <td rowspan="3" valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>o</caption>fever</item>
+                                 <item>
+                                    <caption>o</caption>chills</item>
+                                 <item>
+                                    <caption>o</caption>rash<br/>
+                                 </item>
+                              </list>
+                           </td>
+                           <td rowspan="3" styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>o</caption>trouble breathing</item>
+                                 <item>
+                                    <caption>o</caption>dizziness</item>
+                                 <item>
+                                    <caption>o</caption>light-headedness<br/>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top"/>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="3" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Infections.</content> People with multiple myeloma who receive EMPLICITI with REVLIMID and dexamethasone may develop infections that can be serious. Tell your healthcare provider right away if you have any signs and symptoms of an infection, including:</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top"/>
+                           <td rowspan="3" valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>o</caption>fever</item>
+                                 <item>
+                                    <caption>o</caption>flu-like symptoms</item>
+                                 <item>
+                                    <caption>o</caption>cough<br/>
+                                 </item>
+                              </list>
+                           </td>
+                           <td rowspan="3" styleCode="Rrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>o</caption>shortness of breath</item>
+                                 <item>
+                                    <caption>o</caption>burning with urination</item>
+                                 <item>
+                                    <caption>o</caption>a painful skin rash<br/>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule " valign="top"/>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="3" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Risk of new cancers (malignancies).</content> People with multiple myeloma who receive EMPLICITI with REVLIMID and dexamethasone have a risk of developing new cancers. Talk with your healthcare provider about your risk of developing new cancers if you receive EMPLICITI. Your healthcare provider will check you for new cancers during your treatment with EMPLICITI.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="3" styleCode="Rrule Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="bold">Liver problems.</content> EMPLICITI may cause liver problems. Your healthcare provider will do blood tests to check your liver during treatment with EMPLICITI. Tell your healthcare provider if you have signs and symptoms of liver problems, including: tiredness, weakness, loss of appetite, yellowing of your skin or eyes, color changes in your stools, confusion, or swelling of the stomach area.</item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">The most common side effects of EMPLICITI include:</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="2" styleCode="Lrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>fatigue</item>
+                                 <item>
+                                    <caption>•</caption>diarrhea</item>
+                                 <item>
+                                    <caption>•</caption>fever</item>
+                                 <item>
+                                    <caption>•</caption>constipation</item>
+                                 <item>
+                                    <caption>•</caption>cough</item>
+                              </list>
+                           </td>
+                           <td align="left" styleCode="Rrule Botrule " valign="top">
+                              <list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>numbness, weakness, tingling, or burning pain in your arms or legs</item>
+                                 <item>
+                                    <caption>•</caption>sore throat or runny nose</item>
+                                 <item>
+                                    <caption>•</caption>upper respiratory tract infection</item>
+                                 <item>
+                                    <caption>•</caption>decreased appetite</item>
+                                 <item>
+                                    <caption>•</caption>pneumonia</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="3" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>These are not all of the possible side effects of EMPLICITI. </paragraph>
+                              <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                              <paragraph>You may also report side effects to Bristol-Myers Squibb at 1-800-721-5072.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="3" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">General information about the safe and effective use of EMPLICITI</content>
+                              </paragraph>
+                              <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet.</paragraph>
+                              <paragraph>You can ask your pharmacist or healthcare provider for information about EMPLICITI that is written for health professionals.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" colspan="3" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">What are the ingredients of EMPLICITI?</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Active ingredient: </content>elotuzumab</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Inactive ingredients:</content> citric acid monohydrate, polysorbate 80, sodium citrate, sucrose</paragraph>
+                              <paragraph>For more information, call 1-844-EMPLICITI (844-367-5424) or visit EMPLICITI.com.</paragraph>
+                              <paragraph>EMPLICITI is a trademark of Bristol-Myers Squibb Company.<br/>REVLIMID is a registered trademark and REVLIMID REMS is a trademark of Celgene Corporation.</paragraph>
+                              <paragraph>Manufactured by: Bristol-Myers Squibb Company, Princeton, NJ 08543 USA</paragraph>
+                              <paragraph>U.S. License No. 1713</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>This Patient Information has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph>Revised: 5/2017</paragraph>
+               </text>
+               <effectiveTime value="20170511"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_ac989ac0-3642-442b-ba2e-6133a4e83bdb">
+               <id root="3c0917c8-6e96-4d43-a480-a0579c163cc1"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>EMPLICITI 300 mg Representative Packaging </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0003-2291-11<br/>Rx only</content>
+                     <br/>Empliciti<sup>TM</sup>
+                     <br/>(elotuzumab)<br/>for Injection<br/>300 mg per vial<br/>
+                     <content styleCode="bold">For intravenous Infusion Only<br/>Reconstitute and Further Dilute Prior to Use<br/>Single-Dose Vial. Discard Unused Portion.</content>
+                     <br/>
+                     <br/>Bristol-Myers Squibb</paragraph>
+                  <paragraph>
+                     <renderMultiMedia ID="id-2136470943" referencedObject="FD3D2A06-1740-4F67-AA9B-5FB86FC630C5"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20161230"/>
+               <component>
+                  <observationMedia ID="FD3D2A06-1740-4F67-AA9B-5FB86FC630C5">
+                     <text>Empliciti 300 mg Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="empliciti-300mg-carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c8516076-c873-446d-a3ec-eff94cbf04b6">
+               <id root="cbc91e5c-7283-42e6-82b8-b559d4718b17"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>EMPLICITI 400 mg Representative Packaging </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0003-4522-11<br/>Rx only</content>
+                     <br/>Empliciti<sup>TM</sup>
+                     <br/>(elotuzumab)<br/>for Injection<br/>400 mg per vial<br/>
+                     <content styleCode="bold">For intravenous Infusion Only<br/>Reconstitute and Further Dilute Prior to Use<br/>Single-Dose Vial. Discard Unused Portion.</content>
+                     <br/>
+                     <br/>Bristol-Myers Squibb</paragraph>
+                  <renderMultiMedia ID="id1333420097" referencedObject="C183D721-FC77-49AB-A306-F69F210A7141"/>
+               </text>
+               <effectiveTime value="20161230"/>
+               <component>
+                  <observationMedia ID="C183D721-FC77-49AB-A306-F69F210A7141">
+                     <text>Empliciti 400 mg Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="empliciti-400mg-carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

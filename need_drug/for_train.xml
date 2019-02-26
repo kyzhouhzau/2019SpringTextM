@@ -1,0 +1,2056 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="105b6182-e10a-48a1-8fcb-4ce2cda83d4e"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>These highlights do not include all the information needed to use <content styleCode="bold">ADRIAMYCIN (DOXOrubicin HCl)</content> safely and effectively.  See full prescribing information for <content styleCode="bold">ADRIAMYCIN</content> (<content styleCode="bold">Doxorubicin HCl)</content>.<br/>
+      <content styleCode="bold">ADRIAMYCIN (DOXOrubicin HCl) Injection, USP, for intravenous use </content>
+      <br/>
+      <br/>Initial U.S. Approval: 1974</title>
+   <effectiveTime value="20170303"/>
+   <setId root="0f153c1e-efce-4276-8273-d9e4c8455d16"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="001230762" root="1.3.6.1.4.1.519.1"/>
+            <name>West-Ward Pharmaceuticals Corp</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="59f78df6-e2cf-4d82-97dc-48560ec1fca7"/>
+               <code code="48780-1" displayName="SPL LISTING DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20170303"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0143-9549" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Adriamycin</name>
+                        <formCode code="C42945" displayName="INJECTION, SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Doxorubicin Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="2"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="82F2G7BL4E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOXORUBICIN HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="80168379AG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOXORUBICIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="5"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0143-9549-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0143-9549-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" displayName="BOX" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19960501"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA062975" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19960501"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0143-9548" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Adriamycin</name>
+                        <formCode code="C42945" displayName="INJECTION, SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Doxorubicin Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="2"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="82F2G7BL4E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOXORUBICIN HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="80168379AG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOXORUBICIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0143-9548-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0143-9548-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" displayName="BOX" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19960501"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA062975" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19960501"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0143-9547" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Adriamycin</name>
+                        <formCode code="C42945" displayName="INJECTION, SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Doxorubicin Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="2"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="82F2G7BL4E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOXORUBICIN HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="80168379AG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOXORUBICIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="25"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0143-9547-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" displayName="BOX" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19960501"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA062975" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19960501"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0143-9546" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Adriamycin</name>
+                        <formCode code="C42945" displayName="INJECTION, SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Doxorubicin Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="2"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="82F2G7BL4E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOXORUBICIN HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="80168379AG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOXORUBICIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43210" displayName="VIAL, MULTI-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0143-9546-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" displayName="BOX" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19960501"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA064097" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19960501"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4cd6fb63-c43b-4c77-b127-3ac6b1f4b2ed">
+               <id root="c0c6f10b-7d80-4aac-99fe-32d38dd08c2c"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING:
+CARDIOMYOPATHY, SECONDARY MALIGNANCIES, EXTRAVASATION AND TISSUE NECROSIS, and
+SEVERE MYELOSUPPRESSION</title>
+               <text>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>
+                        <content styleCode="bold">Cardiomyopathy: Myocardial damage, including acute left ventricular failure can occur with doxorubicin. The risk of cardiomyopathy is proportional to the cumulative exposure with incidences from 1% to 20% for cumulative doses from 300 mg/m<sup>2 </sup>to 500 mg/m<sup>2</sup> when doxorubicin is administered every 3 weeks. The risk of cardiomyopathy is further increased with concomitant cardiotoxic therapy. Assess LVEF before and regularly during and after treatment with doxorubicin <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_91331a3d-6370-4c43-89c8-353ffd7d9a78">5.1</linkHtml>)].</content>
+                        </content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Secondary Malignancies: Secondary acute myelogenous leukemia (AML) and myelodysplastic syndrome (MDS) occur at a higher incidence in patients treated with anthracyclines, including doxorubicin <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_84321027-06d7-4e76-8dc3-32080db4a7f8">5.2</linkHtml>)].</content>
+                        </content>
+                        <paragraph>
+                           <content styleCode="bold">Extravasation and Tissue Necrosis: Extravasation of doxorubicin can result in severe local tissue injury and necrosis requiring wide excision of the affected area and skin grafting.Immediately terminate the drug, and apply ice to the affected area <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_a5354622-988f-418f-9475-f85a75ad3edf">5.3</linkHtml>)].</content>
+                           </content>
+                        </paragraph>
+                     </item>
+                     <item>
+                        <content styleCode="bold">Severe myelosuppression resulting in serious infection, septic shock, requirement for transfusions, hospitalization, and death may occur <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#LINK_d35b22a7-0864-4e4c-95ce-7a57938fcf83">5.4</linkHtml>)].</content>
+                        </content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20160826"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">WARNING: CARDIOMYOPATHY, SECONDARY MALIGNANCIES, </content>
+                           <content styleCode="bold">EXTRAVASATION AND TISSUE NECROSIS, and SEVERE </content>
+                           <content styleCode="bold">MYELOSUPPRESSION</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">See full prescribing information for complete boxed warning.</content>
+                           </content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="bold">Cardiomyopathy: Myocardial damage can occur with doxorubicin with incidences from 1% to 20% for cumulative doses from 300 mg/m<sup>2 </sup>to 500 mg/m<sup>2</sup> when doxorubicin is administered every 3 weeks. The risk of cardiomyopathy is further increased with concomitant cardiotoxic therapy. Assess left ventricular ejection fraction (LVEF) before and regularly during and after treatment with doxorubicin HCl. (<linkHtml href="#LINK_91331a3d-6370-4c43-89c8-353ffd7d9a78">5.1</linkHtml>) </content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Secondary Malignancies: Secondary acute myelogenous leukemia (AML) and myelodysplastic syndrome (MDS) occur at a higher incidence in patients treated with anthracyclines, including doxorubicin. (<linkHtml href="#LINK_84321027-06d7-4e76-8dc3-32080db4a7f8">5.2</linkHtml>) </content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Extravasation and Tissue Necrosis: Extravasation of doxorubicin can result in severe local tissue injury and necrosis requiring wide excision and skin grafting.Immediately terminate the drug, and apply ice to the affected area. (<linkHtml href="#LINK_a5354622-988f-418f-9475-f85a75ad3edf">5.3</linkHtml>) </content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Severe myelosuppression resulting in serious infection, septic shock, requirement for transfusions, hospitalization, and death may occur. (<linkHtml href="#LINK_d35b22a7-0864-4e4c-95ce-7a57938fcf83">5.4</linkHtml>)</content>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2650e37d-cbe0-4bca-8acb-6048ea222e6f">
+               <id root="9ece3110-af4c-4feb-be08-d2357bab4e9f"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <effectiveTime value="20150803"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Doxorubicin is an anthracycline topoisomerase II inhibitor indicated:</paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>as a component of multiagent adjuvant chemotherapy for treatment of women with axillary lymph node involvement following resection of primary breast cancer  (<linkHtml href="#LINK_274a0aa1-3acc-4365-9306-f529dfc6ef65">1.1</linkHtml> ). </item>
+                           <item>for the treatment of: acute lymphoblastic leukemia, acute myeloblastic leukemia, Hodgkin lymphoma, Non-Hodgkin lymphoma, metastatic breast cancer, metastatic Wilms’ tumor, metastatic neuroblastoma, metastatic soft tissue sarcoma, metastatic bone sarcomas, metastatic ovarian carcinoma, metastatic transitional cell bladder carcinoma, metastatic thyroid carcinoma, metastatic gastric carcinoma, metastatic bronchogenic carcinoma (<linkHtml href="#LINK_6a7721ba-91c3-40af-a491-0bc0ed8ef046">1.2</linkHtml> ). </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_274a0aa1-3acc-4365-9306-f529dfc6ef65">
+                     <id root="274a0aa1-3acc-4365-9306-f529dfc6ef65"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>1.1 Adjuvant Breast Cancer</title>
+                     <text>
+                        <paragraph>Adriamycin (DOXOrubicin HCl) Injection, USP and Adriamycin (DOXOrubicin HCl) for Injection, USP is indicated as a component of multi-agent adjuvant chemotherapy for treatment of women with axillary lymph node involvement following resection of primary breast cancer <content styleCode="italics">[see <linkHtml href="#LINK_5501aa82-b68b-4009-b54d-a2acd1467e33">Clinical Studies (14.1</linkHtml>)]. </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_6a7721ba-91c3-40af-a491-0bc0ed8ef046">
+                     <id root="1abce4c3-4905-41a4-8e10-7cf2432a5505"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>1.2 Other Cancers</title>
+                     <text>
+                        <paragraph>Doxorubicin is indicated for the treatment of </paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>acute lymphoblastic leukemia </item>
+                           <item>acute myeloblastic leukemia </item>
+                           <item>Hodgkin lymphoma </item>
+                           <item>non-Hodgkin lymphoma (NHL) </item>
+                           <item>metastatic breast cancer </item>
+                           <item>metastatic Wilms’ tumor </item>
+                           <item>metastatic neuroblastoma </item>
+                           <item>metastatic soft tissue sarcoma </item>
+                           <item>metastatic bone sarcoma </item>
+                           <item>metastatic ovarian carcinoma </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20150803"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0ae4147d-3832-4a0d-af85-954e16425f64">
+               <id root="d65b023a-f2a4-4dd2-8c1b-9e71ee401253"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20150803"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Single agent: 60 to 75 mg/m<sup>2</sup> given intravenously every 21 days (<linkHtml href="#LINK_ef72f79c-871b-4ffe-b02d-e7d75fefa2c3">2.1</linkHtml> ). </item>
+                           <item>In combination therapy: 40 to 75 mg/m<sup>2</sup> given intravenously every 21 to 28 days (<linkHtml href="#LINK_ef72f79c-871b-4ffe-b02d-e7d75fefa2c3">2.1</linkHtml> ). </item>
+                           <item>Discontinue doxorubicin in patients who develop signs or symptoms of cardiomyopathy (<linkHtml href="#LINK_b0eba006-ec52-4450-a842-0bb2f80466e6">2.2</linkHtml> ). </item>
+                           <item>Reduce dose in patients with hepatic impairment (<linkHtml href="#LINK_b0eba006-ec52-4450-a842-0bb2f80466e6">2.2</linkHtml> ). </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_ef72f79c-871b-4ffe-b02d-e7d75fefa2c3">
+                     <id root="66fbd263-e270-46f4-b436-326447c6f311"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Recommended Dose</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Adjuvant Breast Cancer </content>
+                        </paragraph>
+                        <paragraph>The recommended dose of doxorubicin is 60 mg/m<sup>2 </sup>administered as an intravenous bolus on day 1 of each 21 day treatment cycle, in combination with cyclophosphamide, for a total of four cycles <content styleCode="italics">[see <linkHtml href="#LINK_5501aa82-b68b-4009-b54d-a2acd1467e33">Clinical Studies (14)</linkHtml>]. </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metastatic Disease, Leukemia, or Lymphoma </content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>The recommended dose of doxorubicin when used as a single agent is 60 to 75 mg/m<sup>2 </sup>intravenously every 21 days. </item>
+                           <item>The recommended dose of doxorubicin, when administered in combination with other chemotherapy drugs, is 40 to 75 mg/m<sup>2</sup> intravenously every 21 to 28 days. </item>
+                           <item>Consider use of the lower doxorubicin dose in the recommended dose range or longer intervals between cycles for heavily pretreated patients, elderly patients, or obese patients.  </item>
+                           <item>Cumulative doses above 550 mg/m<sup>2</sup> are associated with an increased risk of cardiomyopathy <content styleCode="italics">[see <linkHtml href="#LINK_91331a3d-6370-4c43-89c8-353ffd7d9a78">Warnings and Precautions (5.1)</linkHtml>]. </content>
+                           </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20150803"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b0eba006-ec52-4450-a842-0bb2f80466e6">
+                     <id root="81657499-bfab-4103-a7e4-8e3c223debe2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Dose Modifications</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Cardiac Impairment </content>
+                        </paragraph>
+                        <paragraph>Discontinue doxorubicin in patients who develop signs or symptoms of cardiomyopathy. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hepatic Impairment </content>
+                        </paragraph>
+                        <paragraph>Doxorubicin is contraindicated in patients with severe hepatic impairment (Child-Pugh Class C or serum bilirubin &gt;5.0 mg/dL)<content styleCode="italics"> [see <linkHtml href="#LINK_10eb91cd-27eb-4a08-8585-681420c24c11">Contraindications (4</linkHtml> )]. </content>
+                        </paragraph>
+                        <paragraph>Decrease the dose of doxorubicin in patients with elevated serum total bilirubin concentrations as follows: </paragraph>
+                        <table>
+                           <col width="67%"/>
+                           <col width="46%"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>
+                                       <content styleCode="bold">Serum bilirubin concentration  </content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>
+                                       <content styleCode="bold">Doxorubicin Dose reduction  </content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>1.2 to 3 mg/dL </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>50% </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>3.1 to 5 mg/dL </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>75% </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>greater than 5 mg/dL </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>Do not initiate doxorubicin </paragraph>
+                                    <paragraph>Discontinue doxorubicin </paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="italics">[see<linkHtml href="#LINK_0fca740c-1719-4651-b5a2-b2fbc54c5ac4">Warnings and Precautions (5.5)</linkHtml>  and <linkHtml href="#LINK_cd4e51e6-1474-4a02-a645-2bb3dd4ddfb2">Use in Specific Population (8.7)]</linkHtml> </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20150803"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_17ec33bb-b154-4cfd-9b68-4c81264cb584">
+                     <id root="2fbd6484-b007-4763-b344-fd2731a2ffee"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Preparation and Administration</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Preparation for Continuous Intravenous Infusion</content>
+                        </paragraph>
+                        <paragraph>Dilute doxorubicin solution or reconstituted solution in 0.9% Sodium Chloride Injection or 5% Dextrose Injection, USP.  Protect from light following preparation until completion of infusion. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Administration</content>
+                        </paragraph>
+                        <paragraph>Visually inspect parenteral drug products for particulate matter and discoloration prior to administration, whenever solution and container permit. Discard if the solution is discolored, cloudy, or contains particulate matter.</paragraph>
+                        <paragraph>Storage of vials of ADRIAMYCIN (DOXOrubicin HCl) Injection, USP following reconstitution under refrigerated conditions can result in the formation of a gelled product. Place gelled product at room temperature [15º to 30ºC (59º to 86ºF)] for 2 to 4 hours to return the product to a slightly viscous, mobile solution.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Administration by Intravenous Injection</content>:</paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Administer doxorubicin  as an intravenous injection  through a central intravenous line or a secure and free-flowing peripheral venous line containing 0.9% Sodium Chloride Injection, 0.45% Sodium Chloride Injection, or 5% Dextrose Injection.  </item>
+                           <item>Administer doxorubicin intravenously over 3 to 10 minutes. Decrease the rate of doxorubicin administration if erythematous streaking along the vein proximal to the site of infusion or facial flushing occur. </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="italics">Administration by Continuous Intravenous Infusion:</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Infuse only through a central catheter. Decrease the rate of doxorubicin administration if erythematous streaking along the vein proximal to the site of infusion or facial flushing occur. </item>
+                           <item>Protect from light from preparation for infusion until completion of infusion. </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="italics">Management of Suspected Extravasation </content>
+                        </paragraph>
+                        <paragraph>Discontinue doxorubicin for burning or stinging sensation or other evidence indicating perivenous infiltration or extravasation. Manage confirmed or suspected extravasation as follows: </paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Do not remove the needle until attempts are made to aspirate extravasated fluid.</item>
+                           <item>Do not flush the line.</item>
+                           <item>Avoid applying pressure to the site.</item>
+                           <item>Apply ice to the site intermittently for 15 min 4 times a day for 3 days.</item>
+                           <item>If the extravasation is in an extremity, elevate the extremity.</item>
+                           <item>In adults, consider administration of dexrazoxane <content styleCode="italics">[see <linkHtml href="#LINK_a5354622-988f-418f-9475-f85a75ad3edf">Warnings and Precautions (5.3)</linkHtml>]</content>. </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="italics">Incompatibility with Other Drugs </content>
+                        </paragraph>
+                        <paragraph>Do not admix doxorubicin with other drugs. If doxorubicin is mixed with heparin or fluorouracil a precipitate may form. Avoid contact with alkaline solutions which can lead to hydrolysis of doxorubicin.</paragraph>
+                     </text>
+                     <effectiveTime value="20150803"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_08bf488a-2c46-4db4-9147-6bd8a4b70af8">
+                     <id root="08bf488a-2c46-4db4-9147-6bd8a4b70af8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.4 Procedures for Proper Handling and Disposal</title>
+                     <text>
+                        <paragraph>Handle and dispose of doxorubicin consistent with recommendations for the handling and disposal of hazardous drugs.<sup>1 </sup>
+                        </paragraph>
+                        <paragraph>Treat accidental contact with the skin or eyes immediately by copious lavage with water, or soap and water, or sodium bicarbonate solution. Do not abrade the skin by using a scrub brush. Seek medical attention.</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0b3c4160-3c70-4c4b-9427-5926ec6e98eb">
+               <id root="722d572e-49d8-4ac6-ad14-9397231c3da2"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Adriamycin (DOXOrubicin HCl) Injection, USP: Vials contain 10 mg/5 mL, 20 mg/10 mL, 50 mg/25 mL, 150 mg/75 mL, and 200 mg/100 mL doxorubicin hydrochloride as a clear red solution.</paragraph>
+               </text>
+               <effectiveTime value="20150803"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Adriamycin (DOXOrubicin HCl) Injection, USP: Vials contain 10 mg/5 mL, 20 mg/10 mL, 50 mg/25 mL, 150 mg/75 mL, and 200 mg/100 mL as a solution (<linkHtml href="#LINK_0b3c4160-3c70-4c4b-9427-5926ec6e98eb">3</linkHtml> ) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_10eb91cd-27eb-4a08-8585-681420c24c11">
+               <id root="ec79dfcc-e193-4f1f-864c-f8b8b4e919f5"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Doxorubicin is contraindicated in patients with:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Severe myocardial insufficiency <content styleCode="italics">[see <linkHtml href="#LINK_91331a3d-6370-4c43-89c8-353ffd7d9a78">Warnings and Precautions (5.1)]</linkHtml>
+                        </content>
+                     </item>
+                     <item>Recent (occurring within the past 4 to 6 weeks) myocardial infarction <content styleCode="italics">[see <linkHtml href="#LINK_91331a3d-6370-4c43-89c8-353ffd7d9a78">Warnings and Precautions (5.1)</linkHtml>]</content>
+                     </item>
+                     <item>Severe persistent drug-induced myelosuppression <content styleCode="italics">[see <linkHtml href="#LINK_d35b22a7-0864-4e4c-95ce-7a57938fcf83">Warnings and Precautions (5.4)</linkHtml>]</content>
+                     </item>
+                     <item>Severe hepatic impairment (defined as Child Pugh Class C or serum bilirubin level greater than 5 mg/dL) <content styleCode="italics">[see <linkHtml href="#LINK_0fca740c-1719-4651-b5a2-b2fbc54c5ac4">Warnings and Precautions (5.5)</linkHtml>]</content>
+                     </item>
+                     <item>Severe hypersensitivity reaction to doxorubicin including anaphylaxis<content styleCode="italics"> [see <linkHtml href="#LINK_add0ffa8-65c6-45f3-881e-758c5683c00a">Adverse Reactions (6.2)</linkHtml>] </content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20150803"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Severe myocardial insufficiency (<linkHtml href="#LINK_10eb91cd-27eb-4a08-8585-681420c24c11">4</linkHtml> ) </item>
+                           <item>Recent myocardial infarction (<linkHtml href="#LINK_10eb91cd-27eb-4a08-8585-681420c24c11">4</linkHtml> ) </item>
+                           <item>Severe persistent drug-induced myelosuppression (<linkHtml href="#LINK_10eb91cd-27eb-4a08-8585-681420c24c11">4</linkHtml> )</item>
+                           <item>Severe hepatic impairment (<linkHtml href="#LINK_10eb91cd-27eb-4a08-8585-681420c24c11">4</linkHtml> ) </item>
+                           <item>Hypersensitivity to doxorubicin HCl (<linkHtml href="#LINK_10eb91cd-27eb-4a08-8585-681420c24c11">4</linkHtml> ) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_eee6e709-7c83-4ae7-a5e7-6117da116468">
+               <id root="f41807a6-1d19-4955-b90b-a83ad1451c57"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20150803"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Radiation-induced toxicity can be increased by the administration of doxorubicin. Radiation recall can occur in patients who receive doxorubicin after prior radiation therapy (<linkHtml href="#LINK_26288921-1208-405a-87da-5c681eba70c5">5.7</linkHtml> ). </item>
+                           <item>Embryofetal Toxicity: Can cause fetal harm. Advise females of reproductive potential of potential risk to the fetus (<linkHtml href="#LINK_dbf9338e-ac87-4504-9f13-498223b506f0">5.8</linkHtml> ). </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_91331a3d-6370-4c43-89c8-353ffd7d9a78">
+                     <id root="cc291fcc-3c5e-4b22-a99a-7c1befd79fef"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Cardiomyopathy and Arrhythmias</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Cardiomyopathy </content>
+                        </paragraph>
+                        <paragraph>Doxorubicin can result in myocardial damage, including acute left ventricular failure. The risk of cardiomyopathy is generally proportional to the cumulative exposure. Include prior doses of other anthracyclines or anthracenediones in calculations of total cumulative dosage for doxorubicin. Cardiomyopathy may develop during treatment or up to several years after completion of treatment and can include decrease in LVEF and signs and symptoms of congestive heart failure (CHF). The probability of developing cardiomyopathy is estimated to be 1 to 2% at a total cumulative dose of 300 mg/m<sup>2</sup> of doxorubicin, 3 to 5% at a dose of 400 mg/m<sup>2</sup>, 5 to 8% at a dose of 450 mg/m<sup>2</sup>, and 6 to 20% at a dose of 500 mg/m<sup>2</sup>, when doxorubicin is administered every 3 weeks. There is an additive or potentially synergistic increase in the risk of cardiomyopathy in patients who have received radiotherapy to the mediastinum or concomitant therapy with other known cardiotoxic agents such as cyclophosphamide and trastuzumab.</paragraph>
+                        <paragraph>Pericarditis and myocarditis have also been reported during or following doxorubicin treatment.</paragraph>
+                        <paragraph>Assess left ventricular cardiac function (e.g., MUGA or echocardiogram) prior to initiation of doxorubicin, during treatment to detect acute changes, and after treatment to detect delayed cardiotoxicity. Increase the frequency of assessments as the cumulative dose exceeds 300 mg/m<sup>2 </sup>. Use the same method of assessment of LVEF at all time points <content styleCode="italics">[see <linkHtml href="#LINK_0c3374e8-d104-4d0c-bac4-c3f406504634">Use in Specific Populations (8.4</linkHtml> )]</content>.</paragraph>
+                        <paragraph>Consider the use of dexrazoxane to reduce the incidence and severity of cardiomyopathy due to doxorubicin administration in patients who have received a cumulative doxorubicin dose of 300 mg/m<sup>2 </sup>and who will continue to receive doxorubicin.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Arrhythmias </content>
+                        </paragraph>
+                        <paragraph>Doxorubicin can result in arrhythmias, including life-threatening arrhythmias, during or within a few hours after doxorubicin administration and at any time point during treatment.  Tachyarrhythmias, including sinus tachycardia, premature ventricular contractions, and ventricular tachycardia, as well as bradycardia may occur. Electrocardiographic changes including non-specific ST-T wave changes, atrioventricular and bundle-branch block can also occur. These electrocardiographic changes may be transient and self-limited and may not require dose-modifications of doxorubicin.</paragraph>
+                     </text>
+                     <effectiveTime value="20150803"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_84321027-06d7-4e76-8dc3-32080db4a7f8">
+                     <id root="84321027-06d7-4e76-8dc3-32080db4a7f8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Secondary Malignancies</title>
+                     <text>
+                        <paragraph>The risk of developing secondary acute myelogenous leukemia (AML) and myelodysplastic syndrome (MDS) is increased following treatment with doxorubicin. Cumulative incidences ranged from 0.2% at five years to 1.5% at 10 years in two separate trials involving the adjuvant treatment of women with breast cancer. These leukemias generally occur within 1 to 3 years of treatment.</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a5354622-988f-418f-9475-f85a75ad3edf">
+                     <id root="a5354622-988f-418f-9475-f85a75ad3edf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Extravasation and Tissue Necrosis</title>
+                     <text>
+                        <paragraph>Extravasation of doxorubicin can result in severe local tissue injury manifesting as blistering, ulceration, and necrosis requiring wide excision of the affected area and skin grafting. When given via a peripheral venous line, infuse doxorubicin over 10 minutes or less to minimize the risk of thrombosis or perivenous extravasation. If signs or symptoms of extravasation occur, immediately terminate the injection or infusion <content styleCode="italics">[see <linkHtml href="#LINK_17ec33bb-b154-4cfd-9b68-4c81264cb584">Dosage and Administration (2.3)</linkHtml>]</content>. Extravasation may be present in patients who do not experience a stinging or burning sensation or when blood return is present on aspiration of the infusion needle. If extravasation is suspected, apply ice to the site intermittently for 15 minutes, 4 times a day for 3 days. If appropriate, administer dexrazoxane at the site of extravasation as soon as possible and within the first 6 hours after extravasation.</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d35b22a7-0864-4e4c-95ce-7a57938fcf83">
+                     <id root="d35b22a7-0864-4e4c-95ce-7a57938fcf83"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Severe Myelosuppression</title>
+                     <text>
+                        <paragraph>Doxorubicin can cause myelosuppression. In Study 1, the incidence of severe myelosuppression was: grade 4 leukopenia (0.3%), grade 3 leukopenia (3%), and grade 4 thrombocytopenia (0.1%).  A dose-dependent, reversible neutropenia is the predominant manifestation of hematologic toxicity from doxorubicin. When doxorubicin is administered every 21 days, the neutrophil count reaches its nadir 10 to 14 days after administration with recovery usually occurring by the 21st day.  </paragraph>
+                        <paragraph>Obtain baseline assessment of blood counts and carefully monitor patients during treatment for possible clinical complications due to myelosuppression.</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_0fca740c-1719-4651-b5a2-b2fbc54c5ac4">
+                     <id root="0fca740c-1719-4651-b5a2-b2fbc54c5ac4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Use in Patients with Hepatic Impairment</title>
+                     <text>
+                        <paragraph>The clearance of doxorubicin is decreased in patients with elevated serum bilirubin with an increased risk of toxicity <content styleCode="italics">[see <linkHtml href="#LINK_cd4e51e6-1474-4a02-a645-2bb3dd4ddfb2">Use in Specific Populations (8.7)</linkHtml> and <linkHtml href="#LINK_167d9c39-138d-428d-899a-2f70c41cf2a4">Clinical Pharmacology (12.3)</linkHtml>]</content>. Reduce the dose of doxorubicin in patients with serum bilirubin levels of 1.2 to 5.0 mg/dL <content styleCode="italics">[see <linkHtml href="#LINK_b0eba006-ec52-4450-a842-0bb2f80466e6">Dosage and Administration (2.2</linkHtml>)]</content>. Doxorubicin is contraindicated in patients with severe hepatic impairment (defined as Child Pugh Class C or serum bilirubin level greater than 5 mg/dL) <content styleCode="italics">[see <linkHtml href="#LINK_10eb91cd-27eb-4a08-8585-681420c24c11">Contraindications (4)</linkHtml>].</content> Obtain liver tests including SGOT, SGPT, alkaline phosphatase, and bilirubin prior to and during doxorubicin therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_8b495962-0c35-40b3-b224-2c5eeaf384ea">
+                     <id root="8b495962-0c35-40b3-b224-2c5eeaf384ea"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6 Tumor Lysis Syndrome</title>
+                     <text>
+                        <paragraph>Doxorubicin may induce tumor lysis syndrome in patients with rapidly growing tumors. Evaluate blood uric acid levels, potassium, calcium, phosphate, and creatinine after initial treatment. Hydration, urine alkalinization, and prophylaxis with allopurinol to prevent hyperuricemia may minimize potential complications of tumor lysis syndrome.</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_26288921-1208-405a-87da-5c681eba70c5">
+                     <id root="26288921-1208-405a-87da-5c681eba70c5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.7 Radiation Sensitization and Radiation Recall</title>
+                     <text>
+                        <paragraph>Doxorubicin can increase radiation-induced toxicity to the myocardium, mucosa, skin, and liver. Radiation recall, including but not limited to cutaneous and pulmonary toxicity, can occur in patients who receive doxorubicin after prior radiation therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_dbf9338e-ac87-4504-9f13-498223b506f0">
+                     <id root="3a62cc3c-62a5-4be5-aaf6-f9b5a2da5b0a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.8 Embryofetal Toxicity</title>
+                     <text>
+                        <paragraph>Doxorubicin can cause fetal harm when administered to a pregnant woman. Doxorubicin was teratogenic and embryotoxic in rats and rabbits at doses lower than the recommended human dose.</paragraph>
+                        <paragraph>If this drug is used during pregnancy, or if the patient becomes pregnant while taking this drug, apprise the patient of the potential hazard to a fetus <content styleCode="italics">[see <linkHtml href="#LINK_c60b2b2b-0153-491b-afd0-0bf0a97dafe0">Use in Specific Populations (8.1)</linkHtml>]</content>.</paragraph>
+                        <paragraph>Advise female patients of reproductive potential to use highly effective contraception during treatment with doxorubicin and for 6 months after treatment. Advise patients to contact their healthcare provider if they become pregnant, or if pregnancy is suspected, while taking doxorubicin <content styleCode="italics">[see <linkHtml href="#LINK_c60b2b2b-0153-491b-afd0-0bf0a97dafe0">Use in Specific Populations (8.1)</linkHtml> and (<linkHtml href="#LINK_47538373-7b48-4f68-9d64-494364169561">8.6</linkHtml> )]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20150803"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e285e20c-ae33-47af-af99-39b62f7a60cc">
+               <id root="c3bdf52b-31ff-4275-85e7-4bd8d41f71d6"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions are discussed in more detail in other sections of the labeling.</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Cardiomyopathy and Arrhythmias <content styleCode="italics">[see <linkHtml href="#LINK_91331a3d-6370-4c43-89c8-353ffd7d9a78">Warnings and Precautions (5.1)</linkHtml>]</content>
+                     </item>
+                     <item>Secondary Malignancies <content styleCode="italics">[see <linkHtml href="#LINK_84321027-06d7-4e76-8dc3-32080db4a7f8">Warnings and Precautions (5.2)</linkHtml>]</content>
+                     </item>
+                     <item>Extravasation and Tissue Necrosis <content styleCode="italics">[see <linkHtml href="#LINK_a5354622-988f-418f-9475-f85a75ad3edf">Warnings and Precautions (5.3)</linkHtml>]</content>
+                     </item>
+                     <item>Severe Myelosuppression <content styleCode="italics">[see <linkHtml href="#LINK_d35b22a7-0864-4e4c-95ce-7a57938fcf83">Warnings and Precautions (5.4)</linkHtml>]</content>
+                     </item>
+                     <item>Tumor Lysis Syndrome <content styleCode="italics">[see <linkHtml href="#LINK_8b495962-0c35-40b3-b224-2c5eeaf384ea">Warnings and Precautions (5.6)</linkHtml>]</content>
+                     </item>
+                     <item>Radiation Sensitization and Radiation Recall <content styleCode="italics">[see <linkHtml href="#LINK_26288921-1208-405a-87da-5c681eba70c5">Warnings and Precautions (5.7)</linkHtml>]</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20150803"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most common (&gt;10%) adverse drug reactions are alopecia, nausea and vomiting (<linkHtml href="#LINK_c1125e78-4165-499a-99b0-a8d478b94b29">6.1</linkHtml> ). </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact West-Ward Pharmaceutical Corp. at 1-877-845-0689, or FDA at 1-800-FDA-1088 or <content styleCode="underline">
+                                 <linkHtml href="#medwatch">www.fda.gov/medwatch</linkHtml>.</content>
+                           </content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_c1125e78-4165-499a-99b0-a8d478b94b29">
+                     <id root="d1cb638c-4d78-47da-a597-be74b7843cf0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1 Clinical Trial Experience in Breast Cancer</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice.</paragraph>
+                        <paragraph>The safety data below were collected from 1492 women who received doxorubicin at a dose of 60 mg/m<sup>2</sup> and cyclophosphamide at a dose of 600 mg/m<sup>2 </sup>(AC) every 3 weeks for 4 cycles for the adjuvant treatment of axillary lymph node positive breast cancer. The median number of cycles received was 4. Selected adverse reactions reported in this study are provided in Table 1. No treatment-related deaths were reported in patients on either arm of the study.</paragraph>
+                        <table>
+                           <col width="1px"/>
+                           <col width="1px"/>
+                           <col width="1px"/>
+                           <tbody>
+                              <tr>
+                                 <td colspan="3" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>
+                                       <content styleCode="bold">Table 1. Selected Adverse Reactions in Patients with Early Breast Cancer Involving Axillary Lymph Nodes </content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Toprule         Lrule          Rrule     "> <paragraph>
+                                       <content styleCode="bold">Adverse reactions, % of patients</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="     Toprule         Lrule          Rrule     "> <paragraph>
+                                       <content styleCode="bold">AC*</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">N=1492</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="     Toprule         Lrule          Rrule     "> <paragraph>
+                                       <content styleCode="bold">Conventional CMF</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">N=739</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>Leukopenia </paragraph>
+                                    <paragraph>Grade 3 (1,000 to 1,999 /mm<sup>3</sup>) </paragraph>
+                                    <paragraph>Grade 4 (&lt;1000 /mm<sup>3</sup>) </paragraph>
+                                 </td>
+                                 <td align="center" valign="bottom" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>3.4</paragraph>
+                                    <paragraph>0.3</paragraph>
+                                 </td>
+                                 <td align="center" valign="bottom" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>9.4</paragraph>
+                                    <paragraph>0.3</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Toprule         Lrule          Rrule     "> <paragraph>Thrombocytopenia </paragraph>
+                                    <paragraph>Grade 3 (25,000 to 49,999 /mm<sup>3</sup>) </paragraph>
+                                    <paragraph>Grade 4 (&lt;25,000 /mm<sup>3</sup>) </paragraph>
+                                 </td>
+                                 <td align="center" valign="bottom" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>0</paragraph>
+                                    <paragraph>0.1</paragraph>
+                                 </td>
+                                 <td align="center" valign="bottom" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>0.3</paragraph>
+                                    <paragraph>0</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>Shock, sepsis </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>Systemic infection </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>1</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>Vomiting </paragraph>
+                                    <paragraph>Vomiting ≤12 hours  </paragraph>
+                                    <paragraph>Vomiting &gt;12 hours  </paragraph>
+                                    <paragraph>Intractable </paragraph>
+                                 </td>
+                                 <td align="center" valign="bottom" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>34</paragraph>
+                                    <paragraph>37 </paragraph>
+                                    <paragraph>5</paragraph>
+                                 </td>
+                                 <td align="center" valign="bottom" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>25</paragraph>
+                                    <paragraph>12</paragraph>
+                                    <paragraph>2</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>Alopecia </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>92</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>71</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>Cardiac dysfunction </paragraph>
+                                    <paragraph>Asymptomatic </paragraph>
+                                    <paragraph>Transient  </paragraph>
+                                    <paragraph>Symptomatic </paragraph>
+                                 </td>
+                                 <td align="center" valign="bottom" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>0.2</paragraph>
+                                    <paragraph>0.1</paragraph>
+                                    <paragraph>0.1</paragraph>
+                                 </td>
+                                 <td align="center" valign="bottom" styleCode="     Botrule          Toprule         Lrule          Rrule     "> <paragraph>0.1</paragraph>
+                                    <paragraph>0</paragraph>
+                                    <paragraph>0</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>* Includes pooled data from patients who received either AC alone for 4 cycles, or who were treated with AC for 4 cycles followed by 3 cycles of CMF</paragraph>
+                     </text>
+                     <effectiveTime value="20150803"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_add0ffa8-65c6-45f3-881e-758c5683c00a">
+                     <id root="add0ffa8-65c6-45f3-881e-758c5683c00a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.2 Postmarketing Experience</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during post-approval use of doxorubicin. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cardiac – </content>cardiogenic shock </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Cutaneous</content> – Skin and nail hyperpigmentation, oncolysis, rash, itching, photosensitivity, urticaria, acral erythema, palmar plantar erythrodysesthesia</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Gastrointestinal</content> – Nausea, mucositis, stomatitis, necrotizing colitis, typhlitis, gastric erosions, gastrointestinal tract bleeding, hematochezia, esophagitis, anorexia, abdominal pain, dehydration, diarrhea, hyperpigmentation of the oral mucosa </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hypersensitivity </content>– Anaphylaxis </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Laboratory Abnormalities</content> –Increased alanine aminotransferase, increased aspartate aminotransferase</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Neurological </content>– Peripheral sensory and motor neuropathy, seizures, coma </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Ocular </content>– Conjunctivitis, keratitis, lacrimation</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Vascular </content>– Phlebosclerosis, phlebitis/thrombophlebitis, hot flashes, thromboembolism</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Other </content>– Malaise/asthenia, fever, chills, weight gain</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_bd5b447e-311b-49a1-ad66-8e25afb3ed6c">
+               <id root="1ed5cb4d-3db3-4a14-bdeb-d7e3a950e399"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20150803"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Avoid concurrent use of doxorubicin with inhibitors and inducers of CYP3A4, CYP2D6, and/or P-gp (<linkHtml href="#LINK_4b822d3c-ecad-4595-a3a4-23d81a39520f">7.1</linkHtml> ). </item>
+                           <item>Do not administer doxorubicin in combination with trastuzumab due to increased risk of cardiac dysfunction (<linkHtml href="#LINK_91331a3d-6370-4c43-89c8-353ffd7d9a78">5.1</linkHtml> , <linkHtml href="#LINK_f0cf0b87-630a-431c-a9e6-c77ed9615865">7.2</linkHtml> ). </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_4b822d3c-ecad-4595-a3a4-23d81a39520f">
+                     <id root="4b822d3c-ecad-4595-a3a4-23d81a39520f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Effect of CYP3A4 Inhibitors, Inducers and P-gp</title>
+                     <text>
+                        <paragraph>Doxorubicin is a major substrate of cytochrome P450 CYP3A4 and CYP2D6, and P-glycoprotein (P-gp). Clinically significant interactions have been reported with inhibitors of CYP3A4, CYP2D6, and/or P-gp (e.g., verapamil), resulting in increased concentration and clinical effect of doxorubicin. Inducers of CYP3A4 (e.g., phenobarbital, phenytoin, St. John’s Wort) and P-gp inducers may decrease the concentration of doxorubicin. Avoid concurrent use of doxorubicin with inhibitors and inducers of CYP3A4, CYP2D6, or P-gp.</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f0cf0b87-630a-431c-a9e6-c77ed9615865">
+                     <id root="f0cf0b87-630a-431c-a9e6-c77ed9615865"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2 Trastuzumab</title>
+                     <text>
+                        <paragraph>Concurrent use of trastuzumab and doxorubicin results in an increased risk of cardiac dysfunction. Avoid concurrent administration of doxorubicin and trastuzumab. The appropriate interval for administering doxorubicin following trastuzumab therapy has not been determined </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">[see <linkHtml href="#LINK_91331a3d-6370-4c43-89c8-353ffd7d9a78">Warnings and Precautions (5.1)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a37af1a5-5203-42d3-8915-53b0d9ee2963">
+                     <id root="a37af1a5-5203-42d3-8915-53b0d9ee2963"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.3 Paclitaxel</title>
+                     <text>
+                        <paragraph>Paclitaxel, when given prior to doxorubicin, increases the plasma-concentrations of doxorubicin and its metabolites. Administer doxorubicin prior to paclitaxel if used concomitantly.</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5115974c-57ed-47d1-a5d8-e1d09e710c09">
+                     <id root="5115974c-57ed-47d1-a5d8-e1d09e710c09"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.4 Dexrazoxane</title>
+                     <text>
+                        <paragraph>Do not administer dexrazoxane as a cardioprotectant at the initiation of doxorubicin containing chemotherapy regimens. In a randomized trial in women with metastatic breast cancer, initiation of dexrazoxane with doxorubicin based chemotherapy resulted in a significantly lower tumor response rate (48% vs. 63%; p=0.007) and shorter time to progression than in women who received doxorubicin based chemotherapy alone.</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_22970189-e599-4bb7-9ded-a7183eea9f93">
+                     <id root="22970189-e599-4bb7-9ded-a7183eea9f93"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.5 6-Mercaptopurine</title>
+                     <text>
+                        <paragraph>Doxorubicin may potentiate 6-mercaptopurine-induced hepatotoxicity. In 11 patients with refractory leukemia treated with 6-mercaptopurine (500 mg/m2 intravenously daily for 5 days per cycle every 2 to 3 weeks) and doxorubicin (50 mg/m2 intravenous once per cycle every 2 to 3 weeks) alone or with vincristine and prednisone, all developed hepatic dysfunction manifested by elevations of total serum bilirubin, alkaline phosphatase and aspartate aminotransferase.</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d49fd3d8-0588-4e52-ad48-b16e8fa49bf7">
+               <id root="a065645c-3d32-4823-ae76-7bce57ccd640"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20150803"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Nursing Mothers: Discontinue drug or nursing taking into consideration importance of drug to mother (<linkHtml href="#LINK_2c1f58a0-52be-40e2-8178-3df3349611bd">8.3</linkHtml> ). </item>
+                           <item>Pediatric Use:  Recommend long-term follow-up cardiac evaluations due to risk of delayed cardiotoxicity (<linkHtml href="#LINK_0c3374e8-d104-4d0c-bac4-c3f406504634">8.4</linkHtml> ). </item>
+                           <item>Females and Males of Reproductive Potential: May impair fertility. Counsel female and male patients on pregnancy planning and prevention (<linkHtml href="#LINK_47538373-7b48-4f68-9d64-494364169561">8.6</linkHtml> ). </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="LINK_c60b2b2b-0153-491b-afd0-0bf0a97dafe0">
+                     <id root="c60b2b2b-0153-491b-afd0-0bf0a97dafe0"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>Pregnancy Category D </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Risk Summary </content>
+                        </paragraph>
+                        <paragraph>Doxorubicin can cause fetal harm when administered to a pregnant woman. Doxorubicin was teratogenic and embryotoxic in rats and rabbits at doses approximately 0.07 times (based on body surface area) the recommended human dose of 60 mg/m<sup>2 </sup>. If this drug is used during pregnancy, or if the patient becomes pregnant while taking this drug, apprise the patient of the potential hazard to a fetus.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data </content>
+                        </paragraph>
+                        <paragraph>Doxorubicin was teratogenic and embryotoxic at doses of 0.8 mg/kg/day (about 0.07 times the recommended human dose based on body surface area) when administered during the period of organogenesis in rats. Teratogenicity and embryotoxicity were also seen using discrete periods of treatment. The most susceptible was the 6- to 9-day gestation period at doses of 1.25 mg/kg/day and greater. Characteristic malformations included esophageal and intestinal atresia, tracheo-esophageal fistula, hypoplasia of the urinary bladder, and cardiovascular anomalies. Doxorubicin was embryotoxic (increase in embryofetal deaths) and abortifacient at 0.4 mg/kg/day (about 0.07 times the recommended human dose based on body surface area) in rabbits when administered during the period of organogenesis.</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_2c1f58a0-52be-40e2-8178-3df3349611bd">
+                     <id root="2c1f58a0-52be-40e2-8178-3df3349611bd"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>8.3 Nursing Mothers</title>
+                     <text>
+                        <paragraph>Doxorubicin has been detected in the milk of at least one lactating patient <content styleCode="italics">[see <linkHtml href="#LINK_167d9c39-138d-428d-899a-2f70c41cf2a4">Clinical Pharmacology (12.3)</linkHtml>]</content>. Because of the potential for serious adverse reactions in nursing infants from doxorubicin ,  a decision should be made whether to discontinue nursing or discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_0c3374e8-d104-4d0c-bac4-c3f406504634">
+                     <id root="0c3374e8-d104-4d0c-bac4-c3f406504634"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Based on postmarketing reports, pediatric patients treated with doxorubicin are at risk for developing late cardiovascular dysfunction. Risk factors include young age at treatment (especially &lt; 5 years), high cumulative doses and receipt of combined modality therapy. Long-term periodic cardiovascular monitoring is recommended for all pediatric patients who have received doxorubicin. Doxorubicin, as a component of intensive chemotherapy regimens administered to pediatric patients, may contribute to prepubertal growth failure and may also contribute to gonadal impairment, which is usually temporary.</paragraph>
+                        <paragraph>There are no recommended dose adjustments based on age.  Doxorubicin clearance was increased in patients aged 2 years to 20 years as compared to adults, while doxorubicin clearance was similar in children less than 2 years as compared to adults <content styleCode="italics">[see </content>
+                           <content styleCode="italics">
+                              <linkHtml href="#LINK_167d9c39-138d-428d-899a-2f70c41cf2a4">Clinical Pharmacology (12.3)].</linkHtml>
+                           </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_7f7398a2-383c-4e80-a03b-22edb10fe1b5">
+                     <id root="fc67c1f1-7d33-4a6f-8803-7dc2939dde27"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical experience in patients who were 65 years of age and older who received doxorubicin based chemotherapy regimens for metastatic breast cancer showed no overall differences in safety and effectiveness compared with younger patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20150803"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_47538373-7b48-4f68-9d64-494364169561">
+                     <id root="e8e9a7d2-2f76-472d-b0d3-f476b6c50bee"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.6 Females and Males of Reproductive Potential</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Contraception</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Females </content>
+                        </paragraph>
+                        <paragraph>Doxorubicin can cause fetal harm when administered during pregnancy. Advise female patients of reproductive potential to use highly effective contraception during treatment with doxorubicin and for 6 months after treatment. Advise patients to contact their healthcare provider if they become pregnant, or if pregnancy is suspected, while taking doxorubicin <content styleCode="italics">[see <linkHtml href="#LINK_c60b2b2b-0153-491b-afd0-0bf0a97dafe0">Use in Specific Populations (8.1)</linkHtml>]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Males </content>
+                        </paragraph>
+                        <paragraph>Doxorubicin may damage spermatozoa and testicular tissue, resulting in possible genetic fetal abnormalities. Males with female sexual partners of reproductive potential should use effective contraception during and for 6 months after treatment <content styleCode="italics">[see <linkHtml href="#LINK_1669b4a7-aa54-4552-a90e-4a46a06234f5">Nonclinical Toxicology (13.1</linkHtml>)]</content>. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Infertility </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Females </content>
+                        </paragraph>
+                        <paragraph>In females of reproductive potential, doxorubicin may cause infertility and result in amenorrhea. Premature menopause can occur. Recovery of menses and ovulation is related to age at treatment <content styleCode="italics">[<linkHtml href="#LINK_1669b4a7-aa54-4552-a90e-4a46a06234f5">see Nonclinical Toxicology (13.1)</linkHtml>]</content>. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Males </content>
+                        </paragraph>
+                        <paragraph>Doxorubicin may result in oligospermia, azoospermia, and permanent loss of fertility. Sperm counts have been reported to return to normal levels in some men. This may occur several years after the end of therapy. </paragraph>
+                     </text>
+                     <effectiveTime value="20150803"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_cd4e51e6-1474-4a02-a645-2bb3dd4ddfb2">
+                     <id root="cd4e51e6-1474-4a02-a645-2bb3dd4ddfb2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.7 Hepatic Impairment</title>
+                     <text>
+                        <paragraph>The clearance of doxorubicin was reduced in patients with elevated serum bilirubin levels. Reduce the dose of doxorubicin in patients with serum bilirubin levels greater than 1.2 mg/dL <content styleCode="italics">[See <linkHtml href="#LINK_b0eba006-ec52-4450-a842-0bb2f80466e6">Dosage and Administration (2.2)</linkHtml> and <linkHtml href="#LINK_0fca740c-1719-4651-b5a2-b2fbc54c5ac4">Warnings and Precautions (5.5)</linkHtml>]</content>.</paragraph>
+                        <paragraph>Doxorubicin is contraindicated in patients with severe hepatic impairment (defined as Child Pugh Class C or serum bilirubin levels greater than 5 mg/dL) <content styleCode="italics">[see <linkHtml href="#LINK_10eb91cd-27eb-4a08-8585-681420c24c11">Contraindications (4)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_457d8e8b-41df-48a5-b1bd-7ae10a7e3e9a">
+               <id root="457d8e8b-41df-48a5-b1bd-7ae10a7e3e9a"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Few cases of overdose have been described. A 58-year-old man with acute lymphoblastic leukemia received 10-fold overdose of doxorubicin (300 mg/m<sup>2</sup>) in one day. He was treated with charcoal filtration, hemopoietic growth factor (G-CSF), proton pump inhibitor and antimicrobial prophylaxis. The patient suffered sinus tachycardia, grade 4 neutropenia and thrombocytopenia for 11 days, severe mucositis and sepsis. The patient recovered completely 26 days after the overdose. A 17-year-old girl with osteogenic sarcoma received 150 mg of doxorubicin daily for 2 days (intended dose was 50 mg per day for 3 days). The patient developed severe mucositis on days 4-7 after the overdose and chills and pyrexia on day 7. The patient was treated with antibiotics and platelets and recovered 18 days after overdose.</paragraph>
+               </text>
+               <effectiveTime value="20140410"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_656f9201-aee3-4a60-a4bf-58bf775b08a3">
+               <id root="7e814f2c-4777-47fb-8b7e-8782e8cff8ce"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Doxorubicin is a cytotoxic anthracycline antibiotic isolated from cultures of <content styleCode="italics">Streptomyces peucetius</content> var.<content styleCode="italics">caesius</content>. Doxorubicin consists of a naphthacenequinone nucleus linked through a glycosidic bond at ring atom 7 to an amino sugar, daunosamine. Chemically, doxorubicin hydrochloride is (8S,10S)-10-[(3-Amino-2,3,6-trideoxy-a-L-lyxo-hexopyranosyl)-oxy]-8-glycoloyl-7,8,9,10-tetrahydro-</paragraph>
+                  <paragraph>6,8,11-trihydroxy-1-methoxy-5,12-naphthacenedione hydrochloride. The structural formula is as</paragraph>
+                  <paragraph>follows:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Doxorubicin binds to nucleic acids, presumably by specific intercalation of the planar anthracycline nucleus with the DNA double helix. The anthracycline ring is lipophilic, but the saturated end of the ring system contains abundant hydroxyl groups adjacent to the amino sugar, producing a hydrophilic center. The molecule is amphoteric, containing acidic functions in the ring phenolic groups and a basic function in the sugar amino group. It binds to cell membranes as well as plasma proteins.</paragraph>
+                  <paragraph>It is supplied in the hydrochloride form as a sterile parenteral, isotonic solution with sodium chloride for intravenous use only.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Adriamycin (DOXOrubicin HCI) Injection, USP:</content>
+                  </paragraph>
+                  <paragraph>Each 2 mg/mL, 5 mL (10 mg) vial contains 10 mg Doxorubicin Hydrochloride, USP; Sodium Chloride 0.9% (to adjust tonicity) and Water for Injection q.s.; pH adjusted to 3 using Hydrochloric Acid.</paragraph>
+                  <paragraph>Each 2 mg/mL, 10 mL (20 mg) vial contains 20 mg Doxorubicin Hydrochloride, USP; Sodium Chloride 0.9% (to adjust tonicity) and Water for Injection q.s.; pH adjusted to 3 using Hydrochloric Acid.</paragraph>
+                  <paragraph>Each 2 mg/mL, 25 mL (50 mg) vial contains 50 mg Doxorubicin Hydrochloride, USP; Sodium Chloride 0.9% (to adjust tonicity) and Water for Injection q.s.; pH adjusted to 3 using Hydrochloric Acid.</paragraph>
+                  <paragraph>Each 2 mg/mL, 100 mL (200 mg) multiple dose vial contains 200 mg Doxorubicin Hydrochloride, USP; Sodium Chloride 0.9% (to adjust tonicity) and Water for Injection q.s.; pH adjusted to 3 using Hydrochloric Acid.</paragraph>
+               </text>
+               <effectiveTime value="20150803"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Structural Formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="adriamycin-doxorubicin-hydrochloride-injection-usp-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3977305f-c844-4776-88c0-fc5b370591dc">
+               <id root="8f39e7bc-a77d-4575-9a96-1fc29a0b135f"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20150803"/>
+               <component>
+                  <section ID="LINK_8dfa98cc-fe83-410e-a6b9-84640f744fbf">
+                     <id root="8dfa98cc-fe83-410e-a6b9-84640f744fbf"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>The cytotoxic effect of doxorubicin on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases. The interaction of doxorubicin with topoisomerase II to form DNA-cleavable complexes appears to be an important mechanism of doxorubicin cytocidal activity.</paragraph>
+                     </text>
+                     <effectiveTime value="20140410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_167d9c39-138d-428d-899a-2f70c41cf2a4">
+                     <id root="d2bc504c-1978-477d-ae88-d8c8af7eb3bc"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Pharmacokinetic studies conducted in patients with various types of tumors have shown that doxorubicin follows multiphasic disposition after intravenous injection. The distribution half-life is approximately 5 minutes, while the terminal half-life is 20 to 48 hours. In four patients, doxorubicin demonstrated dose-independent pharmacokinetics across a dose range of 30 to 70 mg/m<sup>2 </sup>.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Distribution </content>
+                        </paragraph>
+                        <paragraph>Steady-state distribution volume ranges from 809 to 1214 L/m<sup>2</sup>. Binding of doxorubicin and its major metabolite, doxorubicinol, to plasma proteins is about 75% and is independent of plasma concentration of doxorubicin up to 1.1 mcg/mL. </paragraph>
+                        <paragraph>Doxorubicin was measured in the milk of one lactating patient after therapy with 70 mg/m<sup>2</sup> of doxorubicin given as a 15-minute intravenous infusion. The peak milk concentration at 24 hours after treatment was 4.4-fold greater than the corresponding plasma concentration. Doxorubicin was detectable in the milk up to 72 hours.</paragraph>
+                        <paragraph>Doxorubicin does not cross the blood brain barrier.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism </content>
+                        </paragraph>
+                        <paragraph>Enzymatic reduction at the 7 position and cleavage of the daunosamine sugar yields aglycones which are accompanied by free radical formation, the local production of which may contribute to the cardiotoxic activity of doxorubicin. Disposition of doxorubicinol in patients is formation rate limited, with the terminal half-life of doxorubicinol being similar to doxorubicin. The relative exposure of doxorubicinol, i.e., the ratio between the AUC of doxorubicinol and the AUC of doxorubicin is approximately 0.5.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Excretion </content>
+                        </paragraph>
+                        <paragraph>Plasma clearance is in the range 324 to 809 mL/min/m<sup>2</sup> and is predominately by metabolism and biliary excretion. Approximately 40% of the dose appears in the bile in 5 days, while only 5 to 12% of the drug and its metabolites appear in the urine during the same time period. In urine, &lt;3% of the dose was recovered as doxorubicinol over 7 days. </paragraph>
+                        <paragraph>Systemic clearance of doxorubicin is significantly reduced in obese women with ideal body weight greater than 130%. There was a significant reduction in clearance without any change in volume of distribution in obese patients when compared with normal patients with less than 115% ideal body weight.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Pediatric patients</content>
+                        </paragraph>
+                        <paragraph>Following administration of doses ranging from 10 to 75 mg/m<sup>2</sup> of doxorubicin to 60 children and adolescents ranging from 2 months to 20 years of age, doxorubicin clearance averaged 1443 ± 114 mL/min/m<sup>2</sup>. Further analysis demonstrated that clearance in 52 children greater than 2 years of age (1540 mL/min/m<sup>2</sup>) was increased compared with adults. However, clearance in infants younger than 2 years of age (813 mL/min/m<sup>2</sup>) was decreased compared with older children and approached the range of clearance values determined in adults <content styleCode="italics">[see <linkHtml href="#LINK_0c3374e8-d104-4d0c-bac4-c3f406504634">Use in Specific Populations (8.4</linkHtml> )]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Patient Gender</content>
+                        </paragraph>
+                        <paragraph>There is no recommended dose adjustment based on gender. A published clinical study involving 6 men and 21 women with no prior anthracycline therapy reported a significantly higher median doxorubicin clearance in men compared to women (1088 mL/min/m<sup>2</sup> versus 433 mL/min/m<sup>2</sup>). However, the terminal half-life of doxorubicin was longer in men compared to women (54 versus 35 hours). </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Patients with hepatic impairment</content>
+                        </paragraph>
+                        <paragraph>The clearance of doxorubicin and doxorubicinol was reduced in patients with elevation in serum bilirubin <content styleCode="italics">[see <linkHtml href="#LINK_b0eba006-ec52-4450-a842-0bb2f80466e6">Dosage and Administration (2.2</linkHtml> ) and <linkHtml href="#LINK_0fca740c-1719-4651-b5a2-b2fbc54c5ac4">Warnings and Precautions (5.5</linkHtml> )]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20150803"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_cfe4ee44-1d2e-4e9b-8ff2-1435a89f452d">
+               <id root="6aad10b3-e33a-4880-ad85-db0744d225d4"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20150803"/>
+               <component>
+                  <section ID="LINK_1669b4a7-aa54-4552-a90e-4a46a06234f5">
+                     <id root="71e80677-96a3-4b3d-a252-2f9ace242f72"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Doxorubicin treatment results in an increased risk of secondary malignancies based on postmarketing reports <content styleCode="italics">[see <linkHtml href="#LINK_84321027-06d7-4e76-8dc3-32080db4a7f8">Warnings and Precautions (5.2)</linkHtml> ]</content>. Doxorubicin was mutagenic in the <content styleCode="italics">in vitro</content> Ames assay, and clastogenic in multiple <content styleCode="italics">in vitro</content> assays (CHO cell, V79 hamster cell, human lymphoblast, and SCE assays) and the <content styleCode="italics">in vivo</content> mouse micronucleus assay.</paragraph>
+                        <paragraph>Doxorubicin decreased fertility in female rats at the doses of 0.05 and 0.2 mg/kg/day (approximately 0.005 and 0.02 times the recommended human dose, based on body surface area)</paragraph>
+                        <paragraph>A single intravenous dose of 0.1 mg/kg doxorubicin (approximately 0.01 times the recommended human dose based on body surface area) was toxic to male reproductive organs in animal studies, producing testicular atrophy, diffuse degeneration of the seminiferous tubules, and oligospermia/hypospermia in rats. Doxorubicin induces DNA damage in rabbit spermatozoa and dominant lethal mutations in mice.</paragraph>
+                     </text>
+                     <effectiveTime value="20150803"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_5501aa82-b68b-4009-b54d-a2acd1467e33">
+               <id root="cce3f098-c8f8-48bc-9586-42b80cdcce3a"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>The clinical efficacy of doxorubicin containing regimens for the post-operative, adjuvant treatment of surgically resected breast cancer was evaluated in a meta-analysis conducted by the Early Breast Cancer Trialists Collaborative Group (EBCTCG). The EBCTCG meta-analyses compared cyclophosphamide, methotrexate, and 5-fluorouracil (CMF) to no chemotherapy (19 trials including 7523 patients) and doxorubicin containing regimens with CMF as an active control (6 trials including 3510 patients). Data from the meta-analysis of trials comparing CMF to no therapy were used to establish the historical treatment effect size for CMF regimens. The major efficacy outcome measures were disease-free survival (DFS) and overall survival (OS).</paragraph>
+                  <paragraph>Of the 3510 women (2157 received doxorubicin containing regimens and 1353 received CMF treatment) with early breast cancer involving axillary lymph nodes included in the six trials from the meta-analyses, approximately 70% were premenopausal and 30% were postmenopausal. At the time of the meta-analysis, 1745 first recurrences and 1348 deaths had occurred. The analyses demonstrated that doxorubicin containing regimens retained at least 75% of the historical CMF adjuvant effect on DFS with a hazard ratio (HR) of 0.91 (95% CI,  0.8 to 1.01 ) and on OS with a HR of 0.91 (95% CI,  0.8 to 1.03 ). Results of these analyses for both DFS and OS are provided in Table 2 and Figures 1 and 2.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Table 2. Summary of Randomized Trials Comparing Doxorubicin Containing Regimens Versus CMF in Meta-Analysis</content>
+                  </paragraph>
+                  <table border="1" cellspacing="0" cellpadding="0">
+                     <col width="90.9pt"/>
+                     <col width="63pt"/>
+                     <col width="63pt"/>
+                     <col width="81pt"/>
+                     <col width="94.5pt"/>
+                     <col width="1.2in"/>
+                     <tbody>
+                        <tr>
+                           <td rowspan="2">
+                              <paragraph>
+                                 <content styleCode="bold">Study</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">(starting year)</content>
+                              </paragraph>
+                           </td>
+                           <td rowspan="2" styleCode="    Lrule     ">
+                              <paragraph>
+                                 <content styleCode="bold">Regimens</content>
+                              </paragraph>
+                           </td>
+                           <td rowspan="2" styleCode="    Lrule     ">
+                              <paragraph>
+                                 <content styleCode="bold">No. of Cycles</content>
+                              </paragraph>
+                           </td>
+                           <td rowspan="2" styleCode="    Lrule     ">
+                              <paragraph>
+                                 <content styleCode="bold">No. of Patients</content>
+                              </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="    Lrule     ">
+                              <paragraph>
+                                 <content styleCode="bold">Doxorubicin Containing Regimens vs. CMF HR** (95% CI)</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>DFS</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>OS</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Toprule     ">
+                              <paragraph>NSABP B-15</paragraph>
+                              <paragraph>(1984)</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>AC</paragraph>
+                              <paragraph>CMF</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>4</paragraph>
+                              <paragraph>6</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>1562*</paragraph>
+                              <paragraph>776</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>0.93 (0.82 to 1.06)</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>0.97 (0.83 to 1.12)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Toprule     ">
+                              <paragraph>SECSG 2 (1976)</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>FAC</paragraph>
+                              <paragraph>CMF</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>6</paragraph>
+                              <paragraph>6</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>260</paragraph>
+                              <paragraph>268</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>0.86 (0.66 to 1.13)</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>0.93 (0.69 to 1.26)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Toprule     ">
+                              <paragraph>ONCOFRANCE (1978)</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>FACV</paragraph>
+                              <paragraph>CMF</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>12</paragraph>
+                              <paragraph>12</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>138</paragraph>
+                              <paragraph>113</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>0.71 (0.49 to 1.03)</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>0.65 (0.44 to 0.96)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Toprule     ">
+                              <paragraph>SE Sweden BCG A (1980)</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>AC</paragraph>
+                              <paragraph>CMF</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>6</paragraph>
+                              <paragraph>6</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>21</paragraph>
+                              <paragraph>22</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>0.59 (0.22 to 1.61)</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>0.53 (0.21 to 1.37)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Toprule     ">
+                              <paragraph>NSABC Israel Br0283 (1983)</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>AVbCMF†</paragraph>
+                              <paragraph>CMF</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>4</paragraph>
+                              <paragraph>6</paragraph>
+                              <paragraph>6</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>55</paragraph>
+                              <paragraph>50</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>0.91 (0.53 to 1.57)</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>0.88 (0.47 to 1.63)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Toprule     ">
+                              <paragraph>Austrian BCSG 3 (1984)</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>CMFVA</paragraph>
+                              <paragraph>CMF</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>6</paragraph>
+                              <paragraph>8</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>121</paragraph>
+                              <paragraph>124</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>1.07 (0.73 to 1.55)</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>0.93 (0.64 to 1.35)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="     Toprule     ">
+                              <paragraph>
+                                 <content styleCode="bold">Combined Studies</content>
+                              </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="     Toprule         Lrule     ">
+                              <paragraph>Doxorubicin Containing Regimens</paragraph>
+                              <paragraph>CMF</paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>
+                                 <content styleCode="bold">2157</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">1353</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>
+                                 <content styleCode="bold">0.91 (0.82 to 1.01)</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="     Toprule         Lrule     ">
+                              <paragraph>
+                                 <content styleCode="bold">0.91 (0.81 to 1.03)</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph> <content styleCode="bold">Abbreviations:</content> DFS = disease free survival; OS = overall survival; AC = doxorubicin, cyclophosphamide; AVbCMF = doxorubicin, vinblastine, cyclophosphamide, methotrexate, 5-fluorouracil; CMF = cyclophosphamide, methotrexate, 5-fluorouracil; CMFVA = cyclophosphamide, methotrexate, 5-fluorouracil, vincristine, doxorubicin; FAC = 5-fluorouracil, doxorubicin, cyclophosphamide; FACV = 5-fluorouracil, doxorubicin, cyclophosphamide, vincristine; HR = hazard ratio; CI = confidence interval </paragraph>
+                  <paragraph>* Includes pooled data from patients who received either AC alone for 4 cycles, or who were treated with AC for 4<br/>  cycles followed by 3 cycles of CMF. <br/> ** a hazard ratio of less than 1 indicates that the treatment with doxorubicin containing regimens is associated<br/>  with lower risk of disease recurrences or death compared to the treatment with CMF. </paragraph>
+                  <paragraph>† Patients received alternating cycles of AVb and CMF.</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20150805"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Figure 1 and 2</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="adriamycin-doxorubicin-hydrochloride-injection-usp-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f3f2cdf7-20de-4d59-8439-be34a3ddbbbd">
+               <id root="f3f2cdf7-20de-4d59-8439-be34a3ddbbbd"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>15 REFERENCES</title>
+               <text>
+                  <paragraph>1. “Hazardous Drugs”. <content styleCode="italics">OSHA</content>. <content styleCode="underline">http://www.osha.gov/SLTC/hazardousdrugs/index.html </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140410"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_bea8fcbb-bec8-4dfc-8b05-c45bfbdeb7b6">
+               <id root="f246b8c2-4b9f-42d4-964c-cfa84f8eb48d"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>Adriamycin (DOXOrubicin HCI) Injection, USP is supplied in single-dose, fl ip-top vials, as a red-orange solution containing Doxorubicin Hydrochloride, USP 2 mg/mL in the following package strengths:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0143-9549-10</content>: 10 mg in 5 mL; carton of 10.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0143-9548-10</content>: 20 mg in 10 mL; carton of 10.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0143-9547-01</content>: 50 mg in 25 mL; individually boxed.</paragraph>
+                  <paragraph>Store refrigerated, 2° to 8°C (36° to 46°F).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protect from light.</content> Retain in carton until time of use. Discard unused portion.</paragraph>
+                  <paragraph>Adriamycin (DOXOrubicin HCI) Injection, USP is supplied in a sterile, multiple dose, flip-top vial, as a red-orange solution containing Doxorubicin Hydrochloride, USP 2 mg/mL in the following package strength:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0143-9546-01</content>: 200 mg in 100 mL; individually boxed.</paragraph>
+                  <paragraph>Store refrigerated, 2° to 8°C (36° to 46°F).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protect from light.</content> Retain in carton until contents are used.</paragraph>
+                  <paragraph>Storage of vials of Adriamycin (DOXOrubicin HCl) Injection, USP following reconstitution under refrigerated conditions can result in the formation of a gelled product. Place gelled product at room temperature [15º to 30ºC (59º to 86ºF)] for 2 to 4 hours to return the product to a slightly viscous, mobile solution.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Handling and Disposal </content>
+                  </paragraph>
+                  <paragraph>Handle and dispose of Adriamycin (DOXOrubicin HCl) Injection, USP consistent with recommendations for the handling and disposal of hazardous drugs.<sup>1 </sup>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150803"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_795ca97f-0fcc-4a19-aabe-ad3cc6ebc4cf">
+               <id root="13f8e0b5-d41c-45b8-b81f-3793e609164d"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>See FDA-Approved Patient Labeling (Patient Information). </paragraph>
+                  <paragraph>Inform patients of the following: </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Doxorubicin can cause irreversible myocardial damage. Advise patients to contact a healthcare provider for symptoms of heart failure during or after treatment with doxorubicin <content styleCode="italics">[see <linkHtml href="#LINK_91331a3d-6370-4c43-89c8-353ffd7d9a78">Warnings and Precautions (5.1)</linkHtml>]</content>. </item>
+                     <item>There is an increased risk of treatment-related leukemia from doxorubicin <content styleCode="italics">[see <linkHtml href="#LINK_84321027-06d7-4e76-8dc3-32080db4a7f8">Warnings and Precautions (5.2)</linkHtml>]</content>. </item>
+                     <item>Doxorubicin can reduce the absolute neutrophil count resulting in an increased risk of infection. Advise patients to contact a healthcare provider for new onset fever or symptoms of infection <content styleCode="italics">[see </content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_d35b22a7-0864-4e4c-95ce-7a57938fcf83">Warnings and Precautions (5.4)</linkHtml>]</content>. </item>
+                     <item>Doxorubicin can cause fetal harm when administered during pregnancy. Advise females of reproductive potential to use effective contraception during treatment with doxorubicin and for 6 months after treatment, and to contact their healthcare provider if they become pregnant, or if pregnancy is suspected, during treatment with doxorubicin <content styleCode="italics">[see <linkHtml href="#LINK_dbf9338e-ac87-4504-9f13-498223b506f0">Warnings and Precautions (5.8)</linkHtml> and <content styleCode="italics">
+                              <linkHtml href="#LINK_47538373-7b48-4f68-9d64-494364169561">Use in Specific Populations (8.6)]</linkHtml>
+                           </content>
+                           <linkHtml href="#LINK_47538373-7b48-4f68-9d64-494364169561">.</linkHtml> </content>
+                     </item>
+                     <item>Doxorubicin may induce chromosomal damage in sperm, which may lead to loss of fertility and offspring with birth defects. Advise patients to use effective contraception during and for 6 months after treatment <content styleCode="italics">[see </content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_dbf9338e-ac87-4504-9f13-498223b506f0">Warnings and Precautions (5.8</linkHtml>) and <linkHtml href="#LINK_47538373-7b48-4f68-9d64-494364169561">Use in Specific Populations (8.6</linkHtml> )]</content>. </item>
+                     <item>Doxorubicin can cause premature menopause in females and loss of fertility in males <content styleCode="italics">[see <linkHtml href="#LINK_47538373-7b48-4f68-9d64-494364169561">Use in Specific Populations (8.6</linkHtml> )]</content>. </item>
+                     <item>Discontinue nursing while receiving doxorubicin <content styleCode="italics">[see </content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_2c1f58a0-52be-40e2-8178-3df3349611bd">Use in Specific Populations (8.3)].</linkHtml>
+                        </content>
+                     </item>
+                     <item>Doxorubicin can cause nausea, vomiting, diarrhea, mouth/oral pain and sores. Advise patients to contact a healthcare provider should they develop any severe symptoms that prevent them from eating and drinking <content styleCode="italics">[see </content>
+                        <content styleCode="italics">
+                           <linkHtml href="#LINK_e285e20c-ae33-47af-af99-39b62f7a60cc">Adverse Reactions (6)].</linkHtml>
+                        </content>
+                     </item>
+                     <item>Doxorubicin causes alopecia <content styleCode="italics">[see <linkHtml href="#LINK_c1125e78-4165-499a-99b0-a8d478b94b29">Adverse Reactions (6.1)</linkHtml>]</content>. </item>
+                     <item>Doxorubicin can cause their urine to appear red for 1 to 2 days after administration. </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>
+                  </paragraph>
+                  <paragraph>THYMOORGAN PHARMAZIE GmbH,</paragraph>
+                  <paragraph>Schiffgraben 23, 38690 Goslar, Germany</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                  </paragraph>
+                  <paragraph>WEST-WARD PHARMACEUTICALS </paragraph>
+                  <paragraph>Eatontown, NJ 07724 USA</paragraph>
+                  <paragraph>Revised September 2015</paragraph>
+                  <paragraph>127.207.004/01</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Patient Information</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DOXORUBICIN </content>(dok-s<content styleCode="italics">uh</content>-<content styleCode="bold">roo</content>-b<content styleCode="italics">uh</content>-sin) <content styleCode="bold">HYDROCHLORIDE Injection, for intravenous use </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Injection, for intravenous use </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about Doxorubicin? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Doxorubicin may cause serious side effects including: </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>
+                        <content styleCode="bold">Heart failure</content>. Doxorubicin may cause heart muscle damage that may lead to heart failure, which is a condition in which the heart does not pump well. Heart failure is irreversible in some cases and can lead to death. Heart failure can happen during your treatment with Doxorubicin or months to years after stopping treatment. Your risk of heart muscle damage increases with higher total amounts of doxorubicin hydrochloride that you receive in your lifetime. Your risk of heart failure is higher if you: <list listType="unordered" styleCode="Circle">
+                           <item>already have other heart problems </item>
+                           <item>have had or are currently receiving radiation therapy to your chest </item>
+                           <item>have had treatment with certain other anti-cancer medicines</item>
+                           <item>take other medicines that can have severe side effects on your heart </item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph>Tell your doctor if you get any of these symptoms of heart failure during or after treatment with Doxorubicin: </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>extreme tiredness or</item>
+                     <item>fast heartbeat weakness </item>
+                     <item>swelling of your feet and ankles</item>
+                     <item>shortness of breath </item>
+                  </list>
+                  <paragraph>Your doctor will do tests to check the strength of your heart muscle before, </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>during, and after your treatment with Doxorubicin. </item>
+                     <item>
+                        <content styleCode="bold">Risk of new cancers.</content> You may have an increased risk of developing certain blood cancers called acute myelogenous leukemia (AML) or myelodysplastic syndrome (MDS) after treatment with doxorubicin. Talk with your doctor about your risk of developing new cancers if you take Doxorubicin. </item>
+                     <item>
+                        <content styleCode="bold">Skin damage near the vein where Doxorubicin is given (Injection site reaction). </content>Doxorubicin can damage the skin if it leaks out of the vein. Symptoms of infusion reaction include blisters and skin sores at injection site which may require skin grafts. </item>
+                     <item>
+                        <content styleCode="bold">Decreased blood cell counts. </content>Doxorubicin can cause a decrease in neutrophils (a type of white blood cells important in fighting bacterial infections) and platelets (important for clotting and to control bleeding). This may lead to a serious infection, the need for blood transfusions, treatment in a hospital and death. Your doctor will check your blood cell count during your treatment with Doxorubicin and after you have stopped your treatment. Call your doctor right away if you get a fever (temperature of 100.4 F or greater) or chills with shivering. </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What is Doxorubicin? </content>
+                  </paragraph>
+                  <paragraph>Doxorubicin is a prescription medicine used to treat certain types of cancers. Doxorubicin may be used alone or along with other anti-cancer medicines. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Who should not receive Doxorubicin? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Do not receive Doxorubicin if: </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>you have had a recent heart attack or have severe heart problems</item>
+                     <item>your blood cell counts (platelets, red blood cells, and white blood cells) are </item>
+                     <item>very low because of prior chemotherapy</item>
+                     <item>you have a severe liver problem</item>
+                     <item>you have had a serious allergic reaction to doxorubicin hydrochloride </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What should I tell my doctor before receiving Doxorubicin? </content>
+                  </paragraph>
+                  <paragraph>Before you receive Doxorubicin, tell your doctor if you: </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>have heart problems including heart failure</item>
+                     <item>are currently receiving radiation therapy or plan to receive radiation to the chest </item>
+                     <item>have severe liver problems </item>
+                     <item>have had an allergic reaction to doxorubicin</item>
+                     <item>have any other medical conditions</item>
+                     <item>are pregnant or plan to become pregnant. Doxorubicin can harm your unborn baby. Women who are able to become pregnant and men who take Doxorubicin should use effective birth control (contraception) during treatment and for 6 months after treatment. Talk to your doctor about birth control methods. If you or your partner becomes pregnant, tell your doctor right away. </item>
+                     <item>are breastfeeding or plan to breast feed. Doxorubicin can pass into your breast milk and harm your baby. You and your doctor should decide if you will receive Doxorubicin or breastfeed. You should not do both.  </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Tell your doctor about all the medicines you take, </content>including prescription and over-the-counter medicines, vitamins, and herbal supplements. Doxorubicin can interact with other medicines. Do not start any new medicine before you talk with the doctor that prescribed Doxorubicin. </paragraph>
+                  <paragraph>Know the medicines you take. Keep a list to show your doctor and pharmacist each time you get a new medicine. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How will I receive Doxorubicin? </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Doxorubicin will be given to you into your vein. </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of Doxorubicin? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Doxorubicin may cause serious side effects, including: </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>See<content styleCode="bold"> “What is the most important information I should know about Doxorubicin?” </content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Doxorubicin may cause lower sperm counts and sperm problems in men. </content>
+                  </paragraph>
+                  <paragraph>This could affect your ability to father a child and cause birth defects. Talk to your healthcare provider if this is a concern for you. Talk to your healthcare provider about family planning options that might be right for you. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Irreversible amenorrhea or early menopause. </content>Your periods (menstrual cycle) may completely stop when you receive Doxorubicin. Your periods may or may not return following treatment. Talk to your healthcare provider about family planning options that might be right for you. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The most common side effects of Doxorubicin include: </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Total hair loss (alopecia). Your hair may re-grow after your treatment</item>
+                     <item>nausea</item>
+                     <item>vomiting </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Other side effects: </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Red colored urine. You may have red colored urine for 1 to 2 days after your infusion of Doxorubicin. This is normal. Tell your doctor if it does not stop in a few days, or if you see what looks like blood or blood clots in your urine. </item>
+                     <item>Darkening of your nails or separation of your nails from your nail bed.</item>
+                     <item>Easy bruising or bleeding. </item>
+                     <item>Call your doctor if you have severe symptoms that prevent you from eating or drinking, such as:<list listType="unordered" styleCode="Circle">
+                           <item>nausea </item>
+                           <item>vomiting</item>
+                           <item>diarrhea</item>
+                           <item>mouth sores </item>
+                        </list>
+                     </item>
+                  </list>
+                  <paragraph>Tell your doctor or nurse if you have any side effect that bothers you or that does not go away. </paragraph>
+                  <paragraph>These are not all of the possible side effects of Doxorubicin.  </paragraph>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">General information about the safe and effective use of Doxorubicin. </content>
+                  </paragraph>
+                  <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet. </paragraph>
+                  <paragraph>You can ask your pharmacist or doctor for information about Doxorubicin that is written for health professionals. </paragraph>
+                  <paragraph>For more information, call 1-800-877-845-0689. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are the ingredients of Doxorubicin? </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Active ingredient:</content> doxorubicin hydrochloride</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Inactive ingredients for Doxorubicin Hydrochloride Injection:</content> 0.9% sodium chloride, USP, water for injection, USP, and hydrochloric acid, USP. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Inactive ingredients for Doxorubicin Hydrochloride For Injection:</content> lactose and methylparaben </paragraph>
+                  <paragraph>This Patient Information has been approved by the U.S. Food and Drug Administration. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>
+                  </paragraph>
+                  <paragraph>THYMOORGAN PHARMAZIE GmbH,</paragraph>
+                  <paragraph>Schiffgraben 23, 38690 Goslar, Germany</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                  </paragraph>
+                  <paragraph>WEST-WARD PHARMACEUTICALS </paragraph>
+                  <paragraph>Eatontown, NJ 07724 USA</paragraph>
+                  <paragraph>Revised September 2015</paragraph>
+                  <paragraph>127.207.004/01</paragraph>
+               </text>
+               <effectiveTime value="20170303"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_134ed391-b525-4db1-b658-1a4c34dade09">
+               <id root="af567f8f-5a67-4966-8d2e-159a7959b25e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel</title>
+               <text>
+                  <paragraph> <renderMultiMedia referencedObject="MM3">
+                        <caption>Adriamycin 5 mL vial label</caption>
+                     </renderMultiMedia> </paragraph>
+                  <paragraph>NDC 0143-9549-01</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>ADRIAMYCIN (Doxorubicin HCl Injection, USP)</paragraph>
+                  <paragraph>10 mg/5 mL (2 mg/mL)</paragraph>
+                  <paragraph>FOR IV USE ONLY</paragraph>
+                  <paragraph>STERILE ISOTONIC SOLUTION</paragraph>
+                  <paragraph>5 mL SINGLE DOSE VIAL </paragraph>
+               </text>
+               <effectiveTime value="20160714"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Adriamycin 5 mL vial label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="adriamycin-doxorubicin-hydrochloride-injection-usp-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f330ae3c-98c5-4f86-8b04-7119c0f7470f">
+               <id root="91fae25d-f563-4350-8c92-13f7a9773635"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel</title>
+               <text>
+                  <paragraph> <renderMultiMedia referencedObject="MM4">
+                        <caption>Adriamycin 10 mL vial label</caption>
+                     </renderMultiMedia> </paragraph>
+                  <paragraph>NDC 0143-9548-01</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>ADRIAMYCIN (Doxorubicin HCl Injection, USP)</paragraph>
+                  <paragraph>20 mg/10 mL (2 mg/mL)</paragraph>
+                  <paragraph>FOR INTRAVENOUS USE ONLY</paragraph>
+                  <paragraph>STERILE ISOTONIC SOLUTION</paragraph>
+                  <paragraph>10 mL SINGLE-DOSE VIAL </paragraph>
+               </text>
+               <effectiveTime value="20160714"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>Adriamycin 10 mL vial label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="adriamycin-doxorubicin-hydrochloride-injection-usp-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e738f2f5-919d-4eba-8be4-a3387c664d0b">
+               <id root="83236f3b-f72a-4b4b-b336-27fef93f3d5f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel</title>
+               <text>
+                  <paragraph> <renderMultiMedia referencedObject="MM5">
+                        <caption>Adriamycin 25 mL vial label</caption>
+                     </renderMultiMedia> </paragraph>
+                  <paragraph>NDC 0143-9547-01</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>ADRIAMYCIN (Doxorubicin HCl Injection, USP)</paragraph>
+                  <paragraph>50 mg/25 mL (2 mg/mL)</paragraph>
+                  <paragraph>FOR INTRAVENOUS USE ONLY</paragraph>
+                  <paragraph>STERILE ISOTONIC SOLUTION</paragraph>
+               </text>
+               <effectiveTime value="20160714"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>Adriamycin 25 mL vial label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="adriamycin-doxorubicin-hydrochloride-injection-usp-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_37cfa7ca-856f-4109-83d3-23ba635fc99b">
+               <id root="793c7717-8983-4c67-8aa3-725bb2c37d4f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM6">
+                        <caption>Adriamycin Doxorubicin HCl Injection, USP 100 mL vial label</caption>
+                     </renderMultiMedia> </paragraph>
+                  <paragraph>NDC 0143-9546-01</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>ADRIAMYCIN (Doxorubicin HCl Injection, USP)</paragraph>
+                  <paragraph>200 mg/100 mL (2 mg/mL)</paragraph>
+                  <paragraph>FOR INTRAVENOUS USE ONLY</paragraph>
+                  <paragraph>MDV</paragraph>
+                  <paragraph>MULTIPLE DOSE VIAL</paragraph>
+                  <paragraph>STERILE ISOTONIC SOLUTION</paragraph>
+                  <paragraph>100 mL MULTI-DOSE VIAL </paragraph>
+               </text>
+               <effectiveTime value="20170303"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>Adriamycin Doxorubicin HCl Injection, USP 100 mL vial label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="adriamycin-doxorubicin-hydrochloride-injection-usp-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

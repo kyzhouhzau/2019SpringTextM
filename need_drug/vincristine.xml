@@ -1,0 +1,2134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="bd0c0144-cfb7-4ad3-bfcb-7243c636abf4"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use Marqibo<sup>®</sup> (vinCRIStine sulfate LIPOSOME injection) safely and effectively. See Full Prescribing Information for Marqibo (vinCRIStine sulfate LIPOSOME injection).<br/>
+      <br/>Marqibo<sup>®</sup> (vinCRIStine sulfate LIPOSOME injection), for intravenous infusion<br/>Initial U.S. Approval: 2012</title>
+   <effectiveTime value="20171004"/>
+   <setId root="a1869e23-b93b-4407-843b-4b830319d82e"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="147517044" root="1.3.6.1.4.1.519.1"/>
+            <name>Talon Therapeutics, Inc.</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="555b7f40-2ee6-486f-a8d1-612c2dd52428"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20161003"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="20536-322" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Marqibo</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Vincristine Sulfate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="20536-322-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20130114"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="5"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="20536-323" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Vincristine Sulfate</name>
+                              <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Vincristine Sulfate</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="5"/>
+                                    <denominator unit="mL" value="5"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="T5IRO3534A" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Vincristine Sulfate</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="5J49Q6B70F" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>Vincristine</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator unit="mg" value="500"/>
+                                    <denominator unit="mL" value="5"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Mannitol</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Sodium Hydroxide</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="O40UQP6WCF" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Sulfuric Acid</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Water</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="5"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="20536-323-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43209" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, GLASS"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic classCode="OBS">
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA202497" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20130114"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="20536-324" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Sphingomyelin-Cholesterol</name>
+                              <formCode code="C42951" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SUSPENSION, LIPOSOMAL"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Cholesterol, Citric Acid Monohydrate, Sodium Citrate, Alcohol, and Water</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="97C5T2UQ7J" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Cholesterol</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Citric Acid Monohydrate</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CITRATE, UNSPECIFIED FORM</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Alcohol</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Water</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="20536-324-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43209" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, GLASS"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic classCode="OBS">
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA202497" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20130114"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator unit="mL" value="25"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="20536-325" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Sodium Phosphate</name>
+                              <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Sodium Phosphate, Dibasic, Heptahydrate, Sodium Chloride, and Water</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator unit="mg" value="14.2"/>
+                                    <denominator unit="mL" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="70WT22SF4B" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Sodium Phosphate, Dibasic, Heptahydrate</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Sodium Chloride</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Water</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="mL" value="25"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="20536-325-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43209" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, GLASS"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic classCode="OBS">
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="NDA202497" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20130114"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA202497" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20130114"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_1c37c273-3d84-4117-b969-d91ec724cf8e">
+               <id root="80f74610-0524-46a3-aef6-34855de0cbc5"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <effectiveTime value="20161130"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph/>
+                        <paragraph>Dosage and Administration (<linkHtml href="#S2.3">2.3</linkHtml>)                                11/2016</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="BOX">
+               <id root="a8e9233d-3bc7-4fe2-8212-f41be246b43f"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="Boxed Warning section"/>
+               <title>
+                  <content styleCode="emphasis">WARNING</content>
+               </title>
+               <text>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">For Intravenous Use Only – Fatal if Given by Other Routes [<content styleCode="italics">see <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>
+                           </content>].</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">Death has occurred with intrathecal administration.</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>
+                        <content styleCode="bold">Marqibo (vinCRIStine sulfate LIPOSOME injection) has different dosage recommendations than vinCRIStine sulfate injection.  Verify drug name and dose prior to preparation and administration to avoid overdosage.</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20161003"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>WARNING</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">See full prescribing information for complete boxed warning</content>.</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="bold">For Intravenous Use Only – Fatal if Given by Other Routes (<linkHtml href="#S5.1">5.1</linkHtml>)</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="bold">Death has occurred with intrathecal use</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="bold">Marqibo (vinCRIStine sulfate LIPOSOME injection) has different dosage recommendations than vinCRIStine sulfate injection.  Verify drug name and dose prior to preparation and administration to avoid overdosage.</content>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S1">
+               <id root="7a04a863-0292-4d51-9f77-3df0b908301d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1	INDICATIONS AND USAGE</title>
+               <effectiveTime value="20161003"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Marqibo is a vinca alkaloid indicated for the treatment of adult patients with Philadelphia chromosome-negative (Ph-) acute lymphoblastic leukemia (ALL) in second or greater relapse or whose disease has progressed following two or more anti-leukemia therapies.  This indication is based on overall response rate.  Clinical benefit such as improvement in overall survival has not been verified (<linkHtml href="#S1.1">1.1</linkHtml>).</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S1.1">
+                     <id root="c163c241-41d3-4570-85b6-ae75cbd31551"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>1.1	Adult ALL in Second or Greater Relapse</title>
+                     <text>
+                        <paragraph>Marqibo<sup>®</sup> is indicated for the treatment of adult patients with Philadelphia chromosome-negative (Ph-) acute lymphoblastic leukemia (ALL) in second or greater relapse or whose disease has progressed following two or more anti-leukemia therapies. This indication is based on overall response rate. Clinical benefit such as improvement in overall survival has not been verified.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S2">
+               <id root="50d787ef-4073-47d7-b8f4-aaf39d4d1234"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>For Intravenous Use Only. Fatal if Given by Other Routes.</paragraph>
+                  <paragraph>Marqibo (vinCRIStine sulfate LIPOSOME injection) has different dosage recommendations than vincristine sulfate injection. Verify drug name and dose prior to preparation and administration to avoid overdosage.</paragraph>
+               </text>
+               <effectiveTime value="20161003"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Intravenous use only. Do not administer by any other route (<linkHtml href="#S2">2</linkHtml>)</content>
+                        </paragraph>
+                        <paragraph>Administer Marqibo at a dose of 2.25 mg/m<sup>2</sup> intravenously over 1 hour once every 7 days (<linkHtml href="#S2.1">2.1</linkHtml>).</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S2.1">
+                     <id root="9a186201-ff86-43db-91ad-1cfdaac4b040"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1	Recommended Dosage</title>
+                     <text>
+                        <paragraph>The recommended dose of Marqibo is 2.25 mg/m<sup>2</sup> intravenously over 1 hour once every 7 days.</paragraph>
+                        <paragraph>Marqibo is liposome-encapsulated vincristine.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.2">
+                     <id root="60fc19b3-b6e4-4a33-a329-699ef48a1c2c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2	Dose modifications: Peripheral Neuropathy</title>
+                     <text>
+                        <paragraph>Marqibo is contraindicated in patients with demyelinating conditions including Charcot-Marie-Tooth syndrome [<content styleCode="italics">see <linkHtml href="#S4">Contraindications (4)</linkHtml>
+                           </content>]. Patients with preexisting severe neuropathy should be treated with Marqibo only after careful risk-benefit assessment <content styleCode="italics">[see <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>
+                           </content>]. For dose or schedule modifications guidelines for patients who experience peripheral neuropathy, see <linkHtml href="#_Ref451432666">Table 1</linkHtml>.</paragraph>
+                        <table ID="_Ref451432666" width="100%">
+                           <caption>Table 1 Recommended Dose Modifications for Marqibo-related Peripheral Neuropathy</caption>
+                           <col width="50%"/>
+                           <col width="50%"/>
+                           <thead>
+                              <tr>
+                                 <th align="left" styleCode="Botrule Toprule " valign="top">
+                                    <content styleCode="bold">Severity of Peripheral Neuropathy Signs and Symptoms</content>
+                                    <footnote ID="_RefID0EUBAE">Grading based on the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) v3.0.</footnote>
+                                 </th>
+                                 <th align="left" styleCode="Botrule Toprule " valign="bottom">
+                                    <content styleCode="bold">Modification of Dose and Regimen</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule Botrule " valign="top">
+                                    <paragraph>If the patient develops Grade 3 (severe symptoms; limiting self-care activities of daily living [ADL]<footnote ID="_RefID0E3BAE">Self-care ADL:  refers to bathing, dressing and undressing, feeding self, using the toilet, taking medications, and not bedridden.</footnote>) or persistent Grade 2 (moderate symptoms; limiting instrumental ADL<footnote ID="_RefID0E5BAE">Instrumental ADL:  refers to preparing meals, shopping for groceries and clothes, using telephone, managing money, etc.</footnote>) peripheral neuropathy:</paragraph>
+                                 </td>
+                                 <td styleCode="Toprule Botrule " valign="top">
+                                    <paragraph>Interrupt Marqibo.</paragraph>
+                                    <paragraph>If the peripheral neuropathy remains at Grade 3 or 4, discontinue Marqibo.</paragraph>
+                                    <paragraph>If the peripheral neuropathy recovers to Grade 1 or 2, reduce the Marqibo dose to 2 mg/m<sup>2</sup>.</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>If the patient has persistent Grade 2 peripheral neuropathy after the first dose reduction to 2 mg/m<sup>2</sup>:</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>Interrupt Marqibo for up to 7 days.</paragraph>
+                                    <paragraph>If the peripheral neuropathy increases to Grade 3 or 4, discontinue Marqibo.</paragraph>
+                                    <paragraph>If peripheral neuropathy recovers to Grade 1, reduce the Marqibo dose to 1.825 mg/m<sup>2</sup>.</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>If the patient has persistent Grade 2 peripheral neuropathy after the second dose reduction to 1.825 mg/m<sup>2</sup>:</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>Interrupt Marqibo for up to 7 days.</paragraph>
+                                    <paragraph>If the peripheral neuropathy increases to Grade 3 or 4, discontinue Marqibo.</paragraph>
+                                    <paragraph>If the toxicity recovers to Grade 1, reduce the Marqibo dose to 1.5 mg/m<sup>2</sup>.</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.3">
+                     <id root="b6033ad6-c560-4b1e-9ffb-41e466ccbbfc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3	Preparation and Handling</title>
+                     <effectiveTime value="20161130"/>
+                     <component>
+                        <section ID="s2.3.1">
+                           <id root="8ebbe1b0-1cd9-479c-b550-58b9c83d9870"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">
+                                       <content styleCode="italics">2.3.1	Items Required by the Pharmacy to Prepare Marqibo</content>
+                                    </content>
+                                 </item>
+                                 <item>
+                                    <caption>•</caption>Marqibo Kit</item>
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="xmChange">Water bath</content>
+                                    <footnote> The manufacturer will provide the water bath, calibrated thermometer, and calibrated electronic timer to the medical facility at the initial order of Marqibo and will replace them every 2 years.</footnote>
+                                    <content styleCode="xmChange"> or block heater</content>
+                                    <footnote> The manufacturer will provide the block heater to the medical facility at the initial order of Marqibo. The block heater will be replaced every 5 years.</footnote>
+                                 </item>
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="xmChange">Calibrated thermometer<sup>1</sup> (0°C to 100°C)</content>
+                                 </item>
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="xmChange">Calibrated electronic timer<sup>1</sup>
+                                    </content>
+                                 </item>
+                                 <item>
+                                    <caption>•</caption>Sterile venting needle or other suitable device equipped with a sterile 0.2 micron filter</item>
+                                 <item>
+                                    <caption>•</caption>1 mL or 3 mL sterile syringe with needle, and </item>
+                                 <item>
+                                    <caption>•</caption>5 mL sterile syringe with needle.</item>
+                                 <item>
+                                    <caption>•</caption>
+                                    <content styleCode="xmChange">Tongs</content>
+                                    <footnote> The manufacturer will provide tongs to the medical facility at the initial order of Marqibo.</footnote>
+                                 </item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20161003"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s2.3.2">
+                           <id root="2d66a233-891c-4749-8f84-aaf6f16ec059"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption> </caption>
+                                    <content styleCode="bold">
+                                       <content styleCode="italics">2.3.2	Preparation Instructions for Marqibo (vinCRIStine sulfate LIPOSOME injection), 5 mg/31 mL (0.16 mg/mL)</content>
+                                    </content>
+                                 </item>
+                              </list>
+                              <paragraph>Procedures for handling and disposal of anticancer drugs should be followed [<content styleCode="italics">see <linkHtml href="#S15">References (15)</linkHtml>
+                                 </content>].</paragraph>
+                              <paragraph>Call [1 888 292 9617] if you have questions about the preparation of Marqibo. Marqibo takes approximately 60 to 90 minutes to prepare. The preparer should have dedicated uninterrupted time to prepare Marqibo due to the extensive monitoring of temperature and time required for the preparation.</paragraph>
+                              <paragraph>Aseptic technique must be strictly observed since no preservative or bacteriostatic agent is present in Marqibo. The preparation steps of Marqibo that involve mixing the Sodium Phosphate Injection, Sphingomyelin/Cholesterol Liposome Injection, and VinCRIStine Sulfate Injection must be done in a <content styleCode="underline">biological safety cabinet</content> or by <content styleCode="underline">established pharmacy safety procedures for the preparation of sterile injectable formulations and hazardous drugs</content>. However, the preparation steps that involve placement of the vial in the water bath must be done outside of the sterile area.</paragraph>
+                              <paragraph>Do not use with in-line filters. Do not mix with other drugs.</paragraph>
+                              <paragraph>
+                                 <content styleCode="xmChange">
+                                    <content styleCode="bold">
+                                       <content styleCode="underline">Water bath process:</content>
+                                    </content>
+                                 </content>
+                              </paragraph>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption>1.</caption>Fill a water bath with water to a level of at least 8 cm (3.2 inches) measured from the bottom and maintain this minimum water level throughout the procedure. The water bath must remain outside of the sterile area.</item>
+                                 <item>
+                                    <caption>2.</caption>Place a calibrated thermometer in the water bath to monitor water temperature and leave it in the water bath until the procedure has been completed.</item>
+                                 <item>
+                                    <caption>3.</caption>Preheat water bath to 63°C to 67°C. Maintain this water temperature until completion of the procedure using the calibrated thermometer.</item>
+                                 <item>
+                                    <caption>4.</caption>Visually inspect each vial in the Marqibo Kit for particulate matter and discoloration prior to preparation, whenever solution and container permit. Do not use if a precipitate or foreign matter is present.</item>
+                                 <item>
+                                    <caption>5.</caption>Remove all the caps on the vials and swab the vials with sterile alcohol pads.</item>
+                                 <item>
+                                    <caption>6.</caption>Vent the Sodium Phosphate Injection vial with a sterile venting needle equipped with a sterile 0.2 micron filter or other suitable venting device in the biological safety cabinet. Always position venting needle point well above liquid level before adding Sphingomyelin/Cholesterol Liposome Injection and VinCRIStine Sulfate Injection.</item>
+                                 <item>
+                                    <caption>7.</caption>Withdraw 1 mL of Sphingomyelin/Cholesterol Liposome Injection.</item>
+                                 <item>
+                                    <caption>8.</caption>Inject 1 mL of Sphingomyelin/Cholesterol Liposome Injection into the Sodium Phosphate Injection vial.</item>
+                                 <item>
+                                    <caption>9.</caption>Withdraw 5 mL of VinCRIStine Sulfate Injection.</item>
+                                 <item>
+                                    <caption>10.</caption>Inject 5 mL of VinCRIStine Sulfate Injection into the Sodium Phosphate Injection vial.</item>
+                                 <item>
+                                    <caption>11.</caption>Remove the venting needle and gently invert the Sodium Phosphate Injection vial 5 times to mix. DO NOT SHAKE.</item>
+                                 <item>
+                                    <caption>12.</caption>Fit Flotation Ring around the neck of the Sodium Phosphate Injection vial.</item>
+                                 <item>
+                                    <caption>13.</caption>Confirm that the water bath temperature is at 63°C to 67°C using the calibrated thermometer. Remove the Sodium Phosphate Injection vial containing VinCRIStine Sulfate Injection, Sphingomyelin/Cholesterol Liposome Injection, and Sodium Phosphate Injection from the biological safety cabinet and <content styleCode="bold">
+                                       <content styleCode="underline">place into the water bath for 10 minutes</content>
+                                    </content> using the calibrated electronic timer. Monitor the temperature to ensure the temperature is maintained at 63°C to 67°C.</item>
+                                 <item>
+                                    <caption>14.</caption>IMMEDIATELY after placing the Sodium Phosphate Injection vial into the water bath, record the constitution start time and water temperature on the Marqibo Overlabel.</item>
+                                 <item>
+                                    <caption>15.</caption>
+                                    <content styleCode="bold">
+                                       <content styleCode="underline">At the end of the 10 minutes using the water bath</content>
+                                    </content>, confirm that the water temperature is 63°C to 67°C using the calibrated thermometer. Remove the vial from the water bath (use tongs to prevent burns) and remove the Flotation Ring.</item>
+                                 <item>
+                                    <caption>16.</caption>Record the final constitution time and the water temperature on the Marqibo Overlabel.</item>
+                                 <item>
+                                    <caption>17.</caption>Dry the exterior of the Sodium Phosphate Injection vial with a clean paper towel, affix Marqibo (vinCRIStine sulfate LIPOSOME injection) Overlabel, and gently invert 5 times to mix. DO NOT SHAKE.</item>
+                                 <item>
+                                    <caption>18.</caption>Permit the constituted vial contents to equilibrate for at least 30 minutes to controlled room temperature (15°C to 30°C, 59°F to 86°F).</item>
+                                 <item>
+                                    <caption>19.</caption>Marqibo (vinCRIStine sulfate LIPOSOME injection) contains 5 mg/31 mL (0.16 mg/mL) vincristine sulfate. ONCE PREPARED, STORE AT CONTROLLED ROOM TEMPERATURE (15°C to 30°C, 59°F to 86°F) FOR NO MORE THAN 12 HOURS.</item>
+                                 <item>
+                                    <caption>20.</caption>Swab the top of the vial now containing Marqibo with a sterile alcohol pad and return the vial back into the biological safety cabinet.</item>
+                                 <item>
+                                    <caption>21.</caption>Calculate the patient's Marqibo dose based on the patient's actual body surface area (BSA) and remove the volume corresponding to the patient's Marqibo dose from an infusion bag containing 100 mL of 5% Dextrose Injection or 0.9% Sodium Chloride Injection.</item>
+                                 <item>
+                                    <caption>22.</caption>Inject the dose of Marqibo into the infusion bag to result in a final volume of 100 mL.</item>
+                                 <item>
+                                    <caption>23.</caption>Complete the information required on the Infusion Bag Label and apply to the infusion bag.</item>
+                                 <item>
+                                    <caption>24.</caption>Finish administration of the diluted product within 12 hours of the initiation of Marqibo preparation.</item>
+                                 <item>
+                                    <caption>25.</caption>Empty, clean, and dry the water bath after each use.</item>
+                                 <item>
+                                    <caption>26.</caption>Deviations in temperature, time, and preparation procedures may fail to ensure proper encapsulation of vincristine sulfate into the liposomes. In the event that the preparation deviates from the instructions in the above steps, the components of the kit should be discarded and a new kit should be used to prepare the dose.</item>
+                              </list>
+                              <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Do not use if a precipitate or foreign matter is present.</paragraph>
+                              <paragraph>
+                                 <content styleCode="xmChange">
+                                    <content styleCode="bold">
+                                       <content styleCode="underline">Block heater process:</content>
+                                    </content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="xmChange">
+                                    <content styleCode="bold">Note: Do NOT use water with the block heater preparation process.</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="xmChange">
+                                    <content styleCode="bold">
+                                       <content styleCode="underline">Note:</content>
+                                    </content> The flotation ring included with the Marqibo kit is not required for the block heater application.</content>
+                              </paragraph>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption>1.</caption>
+                                    <content styleCode="xmChange">Arrange the three heater blocks in the block heater such that the block holding the constitution vial is centered between the two other blank heater blocks. (See the illustration below.)</content>
+                                 </item>
+                              </list>
+                              <content styleCode="xmChange">
+                                 <renderMultiMedia ID="id-2039803660" referencedObject="ID_7d7058bb-1cfa-4eb3-8124-a328911d8c97"/>
+                              </content>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption>2.</caption>
+                                    <content styleCode="xmChange">Place a calibrated thermometer in the block opening adjacent to the vial well to monitor the temperature. Leave the thermometer in the block opening until the procedure has been completed.</content>
+                                 </item>
+                                 <item>
+                                    <caption>3.</caption>
+                                    <content styleCode="xmChange">Turn on the block heater and set the controller to 75°C. Verify the block temperature by checking that the thermometer inserted in the block reads 75 ±2°C. Equilibrate the heating block at 75 ±2°C for 15 minutes. Maintain this block temperature until completion of the procedure using the calibrated thermometer.</content>
+                                 </item>
+                                 <item>
+                                    <caption>4.</caption>
+                                    <content styleCode="xmChange">Visually inspect each vial in the Marqibo Kit for particulate matter and discoloration prior to preparation, whenever solution and container permit. Do not use if a precipitate or foreign matter is present.</content>
+                                 </item>
+                                 <item>
+                                    <caption>5.</caption>
+                                    <content styleCode="xmChange">Remove all the caps on the vials and swab the vials with sterile alcohol pads.</content>
+                                 </item>
+                                 <item>
+                                    <caption>6.</caption>
+                                    <content styleCode="xmChange">Vent the Sodium Phosphate Injection vial with a sterile venting needle equipped with a sterile 0.2 micron filter or other suitable venting device in the biological safety cabinet. Always position venting needle point well above liquid level before adding Sphingomyelin/Cholesterol Liposome Injection and VinCRIStine Sulfate Injection.</content>
+                                 </item>
+                                 <item>
+                                    <caption>7.</caption>
+                                    <content styleCode="xmChange">Withdraw 1 mL of Sphingomyelin/Cholesterol Liposome Injection.</content>
+                                 </item>
+                                 <item>
+                                    <caption>8.</caption>
+                                    <content styleCode="xmChange">Inject 1 mL of Sphingomyelin/Cholesterol Liposome Injection into the Sodium Phosphate Injection vial.</content>
+                                 </item>
+                                 <item>
+                                    <caption>9.</caption>
+                                    <content styleCode="xmChange">Withdraw 5 mL of VinCRIStine Sulfate Injection.</content>
+                                 </item>
+                                 <item>
+                                    <caption>10.</caption>
+                                    <content styleCode="xmChange">Inject 5 mL of VinCRIStine Sulfate Injection into the Sodium Phosphate Injection vial.</content>
+                                 </item>
+                                 <item>
+                                    <caption>11.</caption>
+                                    <content styleCode="xmChange">Remove the venting needle and gently invert the Sodium Phosphate Injection vial 5 times to mix. DO NOT SHAKE.</content>
+                                 </item>
+                                 <item>
+                                    <caption>12.</caption>
+                                    <content styleCode="xmChange">Confirm that the block heater temperature is at 73°C to 77°C using the calibrated thermometer. Remove the Sodium Phosphate Injection vial containing VinCRIStine Sulfate Injection, Sphingomyelin/Cholesterol Liposome Injection, and Sodium Phosphate Injection from the biological safety cabinet and <content styleCode="bold">
+                                          <content styleCode="underline">place into the block heater for 18 minutes</content>
+                                       </content> using the calibrated electronic timer. Monitor the temperature to ensure the temperature is maintained at 73°C to 77°C.</content>
+                                 </item>
+                                 <item>
+                                    <caption>13.</caption>
+                                    <content styleCode="xmChange">IMMEDIATELY after placing the Sodium Phosphate Injection vial into the block heater, record the constitution start time and block heater temperature on the Marqibo Overlabel. Use only the calibrated thermometer inserted in the block to monitor temperature.</content>
+                                 </item>
+                                 <item>
+                                    <caption>14.</caption>
+                                    <content styleCode="xmChange">
+                                       <content styleCode="bold">
+                                          <content styleCode="underline">At the end of the 18 minutes using the block heater</content>
+                                       </content>, confirm that the block heater temperature is 73°C to 77°C using the calibrated thermometer. Remove the vial from the block heater (use tongs to prevent burns).</content>
+                                 </item>
+                                 <item>
+                                    <caption>15.</caption>
+                                    <content styleCode="xmChange">Record the final constitution time and the block heater temperature on the Marqibo Overlabel.</content>
+                                 </item>
+                                 <item>
+                                    <caption>16.</caption>
+                                    <content styleCode="xmChange">Affix Marqibo (vinCRIStine sulfate LIPOSOME injection) Overlabel, and gently invert 5 times to mix. DO NOT SHAKE.</content>
+                                 </item>
+                                 <item>
+                                    <caption>17.</caption>
+                                    <content styleCode="xmChange">Permit the constituted vial contents to equilibrate for at least 30 minutes to controlled room temperature (15°C to 30°C, 59°F to 86°F).</content>
+                                 </item>
+                                 <item>
+                                    <caption>18.</caption>
+                                    <content styleCode="xmChange">Marqibo (vinCRIStine sulfate LIPOSOME injection) contains 5 mg/31 mL (0.16 mg/mL) vincristine sulfate. ONCE PREPARED, STORE AT CONTROLLED ROOM TEMPERATURE (15°C to 30°C, 59°F to 86°F) FOR NO MORE THAN 12 HOURS.</content>
+                                 </item>
+                                 <item>
+                                    <caption>19.</caption>
+                                    <content styleCode="xmChange">Swab the top of the vial now containing Marqibo with a sterile alcohol pad and return the vial back into the biological safety cabinet.</content>
+                                 </item>
+                                 <item>
+                                    <caption>20.</caption>
+                                    <content styleCode="xmChange">Calculate the patient’s Marqibo dose based on the patient’s actual body surface area (BSA) and remove the volume corresponding to the patient’s Marqibo dose from an infusion bag containing 100 mL of 5% Dextrose Injection or 0.9% Sodium Chloride Injection.</content>
+                                 </item>
+                                 <item>
+                                    <caption>21.</caption>
+                                    <content styleCode="xmChange">Inject the dose of Marqibo into the infusion bag to result in a final volume of 100 mL.</content>
+                                 </item>
+                                 <item>
+                                    <caption>22.</caption>
+                                    <content styleCode="xmChange">Complete the information required on the Infusion Bag Label and apply to the infusion bag.</content>
+                                 </item>
+                                 <item>
+                                    <caption>23.</caption>
+                                    <content styleCode="xmChange">Finish administration of the diluted product within 12 hours of the initiation of Marqibo preparation.</content>
+                                 </item>
+                                 <item>
+                                    <caption>24.</caption>
+                                    <content styleCode="xmChange">Deviations in temperature, time, and preparation procedures may fail to ensure proper encapsulation of vincristine sulfate into the liposomes. In the event that the preparation deviates from the instructions in the above steps, the components of the kit should be discarded and a new kit should be used to prepare the dose.</content>
+                                 </item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="xmChange">Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Do not use if a precipitate or foreign matter is present</content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20161130"/>
+                           <component>
+                              <observationMedia ID="ID_7d7058bb-1cfa-4eb3-8124-a328911d8c97">
+                                 <text>Marqibo Block Heater.jpg</text>
+                                 <value mediaType="image/jpeg" xsi:type="ED">
+                                    <reference value="block-heater-30pct.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S3">
+               <id root="af936177-8197-4b80-a9f6-2a1b6af456ba"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3	DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Marqibo is prepared from the components in the Marqibo Kit. Following the preparation procedure according to section <linkHtml href="#_Refs2.3.2">2.3.2</linkHtml>, each single-dose vial of Marqibo (vinCRIStine sulfate LIPOSOME injection) contains 5 mg/31 mL (0.16 mg/mL) vincristine sulfate.</paragraph>
+               </text>
+               <effectiveTime value="20161003"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The final drug product is prepared on site from the components in the Marqibo Kit. After preparation, each single-dose vial of Marqibo (vinCRIStine sulfate LIPOSOME injection) contains 5 mg/31 mL (0.16 mg/mL) vincristine sulfate (<linkHtml href="#_Refs2.3.2">2.3.2</linkHtml>).</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S4">
+               <id root="9e8f6ee4-80ac-4032-a85c-41538aac9834"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Marqibo is contraindicated in patients with demyelinating conditions including Charcot-Marie-Tooth syndrome.</paragraph>
+                  <paragraph>Marqibo is contraindicated in patients with hypersensitivity to vincristine sulfate or any of the other components of Marqibo (vinCRIStine sulfate LIPOSOME injection).</paragraph>
+                  <paragraph>Marqibo is contraindicated for intrathecal administration.</paragraph>
+               </text>
+               <effectiveTime value="20161003"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Marqibo is contraindicated in patients with demyelinating conditions including Charcot-Marie-Tooth syndrome (<linkHtml href="#S4">4</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Marqibo is contraindicated in patients with hypersensitivity to vincristine sulfate or any of the other components of  Marqibo (vinCRIStine sulfate LIPOSOME injection) (<linkHtml href="#S4">4</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Marqibo is contraindicated for intrathecal administration (<linkHtml href="#S4">4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S5">
+               <id root="c39203ac-3ce9-4265-8894-abaa95e378a5"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20161003"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Intrathecal administration is fatal (<linkHtml href="#S5.1">5.1</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Extravasation causes tissue injury (<linkHtml href="#S5.2">5.2</linkHtml>) </item>
+                           <item>
+                              <caption>•</caption>Neurologic toxicity: Monitor patients for peripheral motor and sensory, central and autonomic neuropathy, and reduce, interrupt, or discontinue dosing. Patients with preexisting severe neuropathy should be treated with Marqibo only after careful risk-benefit assessment (<linkHtml href="#S2.2">2.2</linkHtml>, <linkHtml href="#S5.3">5.3</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Myelosuppression: Monitor blood counts prior to each dose of Marqibo. Neutropenia, thrombocytopenia, or anemia may occur; consider Marqibo dose reduction or interruption and supportive care measures (<linkHtml href="#S5.4">5.4</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Tumor lysis syndrome: Anticipate, monitor for, and manage (<linkHtml href="#S5.5">5.5</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Constipation, bowel obstruction, and/or paralytic ileus:  Institute a prophylactic bowel regimen to prevent potential constipation, bowel obstruction, and/or paralytic ileus (<linkHtml href="#S5.6">5.6</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Fatigue: Severe fatigue can occur (<linkHtml href="#S5.7">5.7</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Hepatic toxicity: Monitor liver function and modify or interrupt dosing (<linkHtml href="#s5.8">5.8</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Embryofetal toxicity: Can cause fetal harm. Advise women of potential risk to the fetus (<linkHtml href="#s5.9">5.9</linkHtml>, <linkHtml href="#S8.1">8.1</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S5.1">
+                     <id root="4c42a0e3-8aec-4901-8356-409e7b714dce"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1	For Intravenous Use Only</title>
+                     <text>
+                        <paragraph>Fatal if Given by Other Routes. Death has occurred with intrathecal use.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.2">
+                     <id root="b28a1807-fb50-453a-8695-6a42a0836221"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2	Extravasation Tissue Injury</title>
+                     <text>
+                        <paragraph>Only administer through a secure and free-flowing venous access line. If extravasation is suspected, discontinue infusion immediately and consider local treatment measures.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.3">
+                     <id root="1fb89896-3cc5-4e5f-bbfb-9bc6a40a1f12"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3	Neurologic Toxicity</title>
+                     <text>
+                        <paragraph>Sensory and motor neuropathies are common and are cumulative. Monitor patients for symptoms of neuropathy, such as hypoesthesia, hyperesthesia, paresthesia, hyporeflexia, areflexia, neuralgia, jaw pain, decreased vibratory sense, cranial neuropathy, ileus, burning sensation, arthralgia, myalgia, muscle spasm, or weakness, both before and during treatment. Orthostatic hypotension may occur. The risk of neurologic toxicity is greater if Marqibo is administered to patients with preexisting neuromuscular disorders or when other drugs with risk of neurologic toxicity are being given. In the studies of relapsed and/or refractory adult ALL patients, Grade ≥ 3 neuropathy events occurred in 32.5% of patients. Worsening neuropathy requires dose delay, reduction, or discontinuation of Marqibo [<content styleCode="italics">see <linkHtml href="#S2.2">Dosage and Administration (2.2)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.4">
+                     <id root="c81dfc43-e3b9-4c98-b8c7-950360a8c3f8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4	Myelosuppression</title>
+                     <text>
+                        <paragraph>Monitor complete blood counts prior to each dose of Marqibo. If Grade 3 or 4 neutropenia, thrombocytopenia, or anemia develops, consider Marqibo dose modification or reduction as well as supportive care measures.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.5">
+                     <id root="34c5cbe1-d1e0-4e6b-9dd2-dae770a0f51f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5	Tumor Lysis Syndrome</title>
+                     <text>
+                        <paragraph>Tumor lysis syndrome (TLS) may occur in patients with ALL receiving Marqibo. Anticipate, monitor for, and manage.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.6">
+                     <id root="efc4bb43-5c66-4e50-a367-c1509865075a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6	Constipation and Bowel Obstruction</title>
+                     <text>
+                        <paragraph>Ileus, bowel obstruction, and colonic pseudo-obstruction have occurred. Marqibo can cause constipation [<content styleCode="italics">see <linkHtml href="#S6">Adverse Reactions (6)</linkHtml>
+                           </content>]. Institute a prophylactic bowel regimen to mitigate potential constipation, bowel obstruction, and/or paralytic ileus, considering adequate dietary fiber intake, hydration, and routine use of stool softeners, such as docusate. Additional treatments, such as senna, bisacodyl, milk of magnesia, magnesium citrate, and lactulose may be considered.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.7">
+                     <id root="4337960f-4330-470a-a698-23929840feb0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.7	Fatigue</title>
+                     <text>
+                        <paragraph>Marqibo can cause severe fatigue. Marqibo dose delay, reduction, or discontinuation may be necessary.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s5.8">
+                     <id root="246df39d-05a7-411b-a215-0f4b1e4d0309"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.8	Hepatic Toxicity</title>
+                     <text>
+                        <paragraph>Fatal liver toxicity and elevated levels of aspartate aminotransferase have occurred. Elevated levels of aspartate aminotransferase of Grade ≥3 occurred in 6-11% of patients in clinical trials. Monitor hepatic function tests. Reduce or interrupt Marqibo for hepatic toxicity.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s5.9">
+                     <id root="14ea670b-ac8b-4642-baaa-a5f9bd2d2b7d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.9	Embryofetal Toxicity</title>
+                     <text>
+                        <paragraph>Marqibo can cause fetal harm when administered to a pregnant woman. Vincristine sulfate liposome injection was teratogenic or caused embryo-fetal death in animals. Women of childbearing potential should avoid becoming pregnant while being treated with Marqibo. There are no adequate and well-controlled studies of Marqibo in pregnant women and there were no reports of pregnancy in any of the clinical studies in the Marqibo clinical development program. If this drug is used during pregnancy, or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to a fetus <content styleCode="italics">[see <linkHtml href="#S8.1">Use in Specific Populations (8.1)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S6">
+               <id root="65d248d9-18ef-453c-924e-bf9203002ab0"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions are also discussed in other sections of the labeling:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>For intravenous use only [<content styleCode="italics">see <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>
+                        </content>]</item>
+                     <item>
+                        <caption>•</caption>Extravasation tissue injury [<content styleCode="italics">see <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>
+                        </content>]</item>
+                     <item>
+                        <caption>•</caption>Peripheral Neuropathy [<content styleCode="italics">see <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>
+                        </content>]</item>
+                     <item>
+                        <caption>•</caption>Myelosuppression [<content styleCode="italics">see <linkHtml href="#S5.4">Warnings and Precautions (5.4)</linkHtml>
+                        </content>]</item>
+                     <item>
+                        <caption>•</caption>Tumor lysis syndrome [<content styleCode="italics">see <linkHtml href="#S5.5">Warnings and Precautions (5.5)</linkHtml>
+                        </content>]</item>
+                     <item>
+                        <caption>•</caption>Constipation and bowel obstruction [<content styleCode="italics">see <linkHtml href="#S5.6">Warnings and Precautions (5.6)</linkHtml>
+                        </content>]</item>
+                     <item>
+                        <caption>•</caption>Fatigue [<content styleCode="italics">see <linkHtml href="#S5.7">Warnings and Precautions (5.7)</linkHtml>
+                        </content>]</item>
+                     <item>
+                        <caption>•</caption>Hepatic toxicity [<content styleCode="italics">see <linkHtml href="#s5.8">Warnings and Precautions (5.8)</linkHtml>
+                        </content>]</item>
+                  </list>
+               </text>
+               <effectiveTime value="20161003"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most commonly reported adverse reactions (incidence ≥ 30%) in clinical studies include constipation, nausea, pyrexia, fatigue, peripheral neuropathy, febrile neutropenia, diarrhea, anemia, decreased appetite, and insomnia (<linkHtml href="#S6.1">6.1</linkHtml>).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Talon Therapeutics at 1-888 292 9617 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S6.1">
+                     <id root="5803586c-06d1-4a9a-9ce2-a1d5dd9be688"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1	Clinical Trials Safety Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                     <component>
+                        <section ID="ID_1252953d-b22c-4d7b-8334-7fa0ab7272e5">
+                           <id root="82cee575-1638-4e30-9c71-b2096e6e9f1b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">
+                                    <content styleCode="italics">
+                                       <content styleCode="underline">Integrated Summary of Safety in Relapsed and/or Refractory Ph- Adult Acute Lymphoblastic Leukemia</content>
+                                    </content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>Marqibo, at a dose of 2.25 mg/m<sup>2</sup> weekly, was studied in a total of 83 patients in two trials: study 1 and study 2. Adverse reactions were observed in 100% of patients. The most common adverse reactions (&gt;30%) were constipation (57%), nausea (52%), pyrexia (43%), fatigue (41%), peripheral neuropathy (39%), febrile neutropenia (38%), diarrhea (37%), anemia (34%), decreased appetite (33%), and insomnia (32%).</paragraph>
+                              <paragraph>Adverse reactions of Grade 3 or greater were reported in 96% of patients. Adverse reactions of Grade 3 or greater and occurring in ≥ 5% of patients are summarized in <linkHtml href="#_Ref451432616">Table 2</linkHtml>.</paragraph>
+                              <table ID="_Ref451432616" width="75%">
+                                 <caption>Table 2 Most Commonly Reported (&gt; 5%) Grade<footnote ID="_RefID0EAUAE">National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) v3.0.</footnote> 3 or Greater Adverse Reactions among 83 Patients Receiving the Clinical Dosing Regimen</caption>
+                                 <col width="69%"/>
+                                 <col width="18%"/>
+                                 <thead>
+                                    <tr>
+                                       <th align="left" styleCode="Botrule Toprule " valign="top">
+                                          <content styleCode="bold">Adverse Reactions Grade ≥ 3</content>
+                                       </th>
+                                       <th align="left" styleCode="Botrule Toprule " valign="top">
+                                          <content styleCode="bold">Study 1 and 2</content>
+                                          <br/>
+                                          <content styleCode="bold">(N=83)</content>
+                                          <br/>
+                                          <content styleCode="bold">n (%)</content>
+                                       </th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td styleCode="Toprule " valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">Blood and Lymphatic System Disorders</content>
+                                          </paragraph>
+                                       </td>
+                                       <td styleCode="Toprule " valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">47 (56.6)</content>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Febrile Neutropenia</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>26 (31.3)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Neutropenia</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>15 (18.1)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Anemia</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>14 (16.9)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Thrombocytopenia</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>14 (16.9)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">Infections</content>
+                                          </paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">33 (39.8)</content>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Pneumonia</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>7 (8.4)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Septic Shock</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>5 (6.0)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Staphylococcal Bacteremia</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>5 (6.0)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">Neuropathy</content>
+                                             <footnote ID="_RefID0E3VAE">Including neuropathy-associated adverse reactions.</footnote>
+                                          </paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">27 (32.5)</content>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Peripheral Sensory and Motor Neuropathy</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>14 (16.7)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Constipation</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>4 (4.8)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Ileus, Colonic Pseudo-Obstruction</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>5 (6.0)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Asthenia</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>4 (4.8)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Muscular Weakness</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>1 (1.2)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">Respiratory Thoracic and Mediastinal Disorders</content>
+                                          </paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">17 (20.5)</content>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Respiratory Distress</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>5 (6.0)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Respiratory Failure</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>4 (4.8)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">General Disorders and Administration Site Condition</content>
+                                          </paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">31 (37.3)</content>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Pyrexia</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>12 (14.5)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Fatigue</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>10 (12.0)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Pain</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>7 (8.4)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">Gastrointestinal Disorders</content>
+                                          </paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">21 (25.3)</content>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Abdominal Pain</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>7 (8.4)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">Investigations</content>
+                                          </paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">20 (24.1)</content>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Aspartate Aminotransferase Increased</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>6 (7.2)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">Vascular Disorders</content>
+                                          </paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">8 (9.6)</content>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Hypotension</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>5 (6.0)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">Psychiatric Disorders</content>
+                                          </paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">9 (10.8)</content>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Mental Status Changes</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>3 (3.6)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">Cardiac Disorders</content>
+                                          </paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">9 (10.8)</content>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>  Cardiac Arrest</paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>5 (6.0)</paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">Renal and Urinary Disorders</content>
+                                          </paragraph>
+                                       </td>
+                                       <td valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">6 (7.2)</content>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Botrule " valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">Musculoskeletal and Connective Tissue Disorders</content>
+                                          </paragraph>
+                                       </td>
+                                       <td styleCode="Botrule " valign="top">
+                                          <paragraph>
+                                             <content styleCode="italics">7 (8.4)</content>
+                                          </paragraph>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>A total of 75.9% of patients experienced serious adverse events (SAEs) during the studies. The most commonly reported SAEs included febrile neutropenia (20.5%), pyrexia (13.3%), hypotension (7.2%), respiratory distress (6.0%), and cardiac arrest (6.0%).</paragraph>
+                              <paragraph>Dose reduction, delay, or omission occurred in 53% of patients during the treatment.</paragraph>
+                              <paragraph>Twenty-eight percent of patients experienced adverse reactions leading to treatment discontinuation. The most common adverse reactions that caused treatment discontinuation were peripheral neuropathy (10%), leukemia-related (7%), and tumor lysis syndrome (2%).</paragraph>
+                              <paragraph>Adverse reactions related to neuropathy and leading to treatment discontinuation were decreased vibratory sense, facial palsy, hyporeflexia, constipation, asthenia, fatigue, and musculoskeletal pain, each reported in at least 1 patient.</paragraph>
+                              <paragraph>Deaths occurred in 23% of patients in study 1. The non-leukemia related causes of deaths were brain infarct (1), intracerebral hemorrhage (2), liver failure (1), multi system organ failure (2), pneumonia and septic shock (3), respiratory failure (4), pulmonary hemorrhage (1), and sudden cardiac death (1).</paragraph>
+                           </text>
+                           <effectiveTime value="20161003"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S7">
+               <id root="7f752b0a-84ff-4e61-82e2-15f7f7440e15"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>No formal drug interaction studies have been conducted with Marqibo. Marqibo is expected to interact with drugs known to interact with non-liposomal vincristine sulfate.</paragraph>
+                  <paragraph>Simultaneous oral or intravenous administration of phenytoin and antineoplastic chemotherapy combinations that included non-liposomal vincristine sulfate have been reported to reduce blood levels of phenytoin and to increase seizure activity.</paragraph>
+               </text>
+               <effectiveTime value="20161003"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Marqibo is expected to interact with drugs known to interact with non-liposomal vincristine sulfate (<linkHtml href="#S7">7</linkHtml>).</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_fc8f992f-aa76-40dd-bf53-c9b1e3ef3eae">
+                     <id root="aee47f58-40c2-42fe-8e51-ea3604282a69"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1	CYP3A Interactions</title>
+                     <text>
+                        <paragraph>Vincristine sulfate, the active agent in Marqibo, is a substrate for cytochrome P450 3A isozymes (CYP3A); therefore, the concomitant use of strong CYP3A inhibitors should be avoided (e.g., ketoconazole, itraconazole, voriconazole, posaconazole, clarithromycin, atazanavir, indinavir, nefazodone, nelfinavir, ritonavir, saquinavir, telithromycin). Similarly, the concomitant use of strong CYP3A inducers should be avoided (e.g., dexamethasone, phenytoin, carbamazepine, rifampin, rifabutin, rifapentine, phenobarbital, St. John's Wort).</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_42b546ab-31c8-4dc5-be94-137903e5bb4b">
+                     <id root="17f2c9fe-108d-4893-828c-f61f80e70c03"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2	P-glycoprotein Interactions</title>
+                     <text>
+                        <paragraph>Vincristine sulfate, the active agent in Marqibo, is also a substrate for P-glycoprotein (P-gp). The effect of concomitant use of potent P-gp inhibitors or inducers has not been investigated; it is likely that these agents will alter the pharmacokinetics or pharmacodynamics of Marqibo. Therefore the concomitant use of potent P-gp inhibitors or inducers should be avoided.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S8">
+               <id root="658adda1-b3ed-499a-bb4a-2e16fbc30231"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20161003"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Pediatric Use:  The safety and effectiveness of Marqibo in pediatric patients has not been established (<linkHtml href="#S8.4">8.4</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S8.1">
+                     <id root="8b6404fb-9d40-4ab4-bb6a-8c4da5dbb274"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <effectiveTime value="20161003"/>
+                     <component>
+                        <section ID="ID_c1b06555-1ba3-43f8-82bb-2ccd235e115c">
+                           <id root="33aef76f-d382-492b-a325-e0fe5954cff6"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <text>
+                              <paragraph>Pregnancy Category D [<content styleCode="italics">see <linkHtml href="#s5.9">Warnings and Precautions (5.9)</linkHtml>
+                                 </content>]</paragraph>
+                              <paragraph>Based on its mechanism of action and findings from animal studies, Marqibo can cause fetal harm when administered to pregnant women.</paragraph>
+                              <paragraph>If this drug is used during pregnancy, or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to a fetus. In an embryofetal developmental study, pregnant rats were administered vincristine sulfate liposome injection intravenously during the period of organogenesis at vincristine sulfate doses of 0.022 to 0.09 mg/kg/day. Drug-related adverse effects included fetal malformations (skeletal and visceral), decreases in fetal weights, increased numbers of early resorptions and post-implantation losses, and decreased maternal body weights  Malformations were observed at doses ≥ 0.044 mg/kg/day in animals at systemic exposures approximately 20-40% of those reported in patients at the recommended dose.</paragraph>
+                           </text>
+                           <effectiveTime value="20161003"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.3">
+                     <id root="738b9799-4d46-4108-b75c-111b9971b2b8"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>8.3 Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants, a decision should be made whether to discontinue nursing or discontinue the drug taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.4">
+                     <id root="617a04a1-da4e-4ecd-bfa0-c0b9477d2db6"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of Marqibo in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.5">
+                     <id root="a8301306-74f3-448b-b6e4-60486d315c05"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in elderly individuals have not been established. In general, dose selection for an elderly patient should be cautious, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.6">
+                     <id root="55dca7df-1de7-4774-b178-7abbe04e9992"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.6	Renal Impairment</title>
+                     <text>
+                        <paragraph>The influence of renal impairment on the safety, efficacy, and pharmacokinetics of Marqibo has not been evaluated.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.7">
+                     <id root="e4c13758-d325-459d-b602-aa3c186c125d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.7	Hepatic Impairment</title>
+                     <text>
+                        <paragraph>Non-liposomal vincristine sulfate is excreted primarily by the liver. The influence of severe hepatic impairment on the safety and efficacy of Marqibo has not been evaluated.</paragraph>
+                        <paragraph>The pharmacokinetics of Marqibo was evaluated in patients with moderate hepatic dysfunction (Child-Pugh B) secondary to melanoma liver metastases. The dose-adjusted maximum plasma concentration (C<sub>max</sub>) and area under the concentration-time curve (AUC) of Marqibo in patients with moderate hepatic impairment was comparable to the C<sub>max</sub> and AUC of patients with ALL who had otherwise normal hepatic function.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S10">
+               <id root="262c8059-42ce-4dbd-b376-b7dd0775a3ac"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>When Marqibo (vinCRIStine sulfate LIPOSOME injection) was administered at a dose of 2.4 mg/m<sup>2</sup>, severe toxicities including motor neuropathy of Grade 3, grand mal seizure of Grade 4, and elevated aspartate aminotransferase and hyperbilirubinemia of Grade 4 were reported in 1 patient each. There is no known antidote for overdosage.</paragraph>
+               </text>
+               <effectiveTime value="20161003"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S11">
+               <id root="9306acfe-cf9d-4b39-bbd0-77599e8087db"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Marqibo (vinCRIStine sulfate LIPOSOME injection) is vincristine encapsulated in sphingomyelin/cholesterol liposomes for intravenous administration.</paragraph>
+                  <paragraph>The active ingredient in Marqibo is vincristine sulfate. Vincristine sulfate is a vinca alkaloid isolated as a 1:1 sulfate salt from the periwinkle plant (<content styleCode="italics">Catharanthus roseus</content>). It is a hygroscopic, white to slightly yellowish crystalline powder that is soluble in water. It has a molecular weight of 923.04 (salt form) / 824.98 (base form) and a molecular formula of C<sub>46</sub>H<sub>56</sub>N<sub>4</sub>O<sub>10</sub> • H<sub>2</sub>SO<sub>4</sub>. The chemical name for vincristine sulfate is 22-oxovincaleukoblastine and it has the following chemical structure:</paragraph>
+                  <renderMultiMedia ID="id1144" referencedObject="MM1"/>
+                  <paragraph>Vincristine is encapsulated in a Sphingomyelin/Cholesterol liposome. The lipid components in the liposome are sphingomyelin and cholesterol at a molar ratio of approximately 60:40 (mol:mol).</paragraph>
+                  <paragraph>After preparation, each vial of Marqibo contains 5 mg vincristine sulfate, 500 mg mannitol, 73.5 mg sphingomyelin, 29.5 mg cholesterol, 36 mg sodium citrate, 38 mg citric acid, 355 mg sodium phosphate, and 225 mg sodium chloride.</paragraph>
+                  <paragraph>Marqibo (vinCRIStine sulfate LIPOSOME injection) appears as a white to off-white, translucent suspension, essentially free of visible foreign matter and aggregates, comprised of sphingomyelin/cholesterol liposomes, with an approximate liposome mean diameter of 100 nm. Greater than 95% of the drug is encapsulated in the liposomes.</paragraph>
+                  <paragraph>The Marqibo Kit component vials for the preparation of Marqibo (vinCRIStine sulfate LIPOSOME injection) include:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>VinCRIStine Sulfate Injection, USP (5 mg/5 mL). Each VinCRIStine Sulfate Injection vial consists of 5 mg/5 mL vincristine sulfate (which is equivalent to 4.5 mg/5 mL vincristine free base) and 500 mg/5 mL mannitol.</item>
+                     <item>
+                        <caption>•</caption>Sphingomyelin/Cholesterol Liposome Injection (103 mg/mL). Each Sphingomyelin/Cholesterol Liposome Injection vial consists of 73.5 mg/mL sphingomyelin, 29.5 mg/mL cholesterol, 33.6 mg/mL citric acid, 35.4 mg/mL sodium citrate, and not more than 0.1% ethanol.</item>
+                     <item>
+                        <caption>•</caption>Sodium Phosphate Injection (355 mg/25 mL). Each Sodium Phosphate Injection vial consists of 355 mg/25 mL dibasic sodium phosphate and 225 mg/25 mL sodium chloride.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20161003"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="marqibo-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S12">
+               <id root="e22b9d3b-82f1-4a24-b2ef-0d03d7fe02d4"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20161003"/>
+               <component>
+                  <section ID="S12.1">
+                     <id root="152a459b-1844-40d0-b7fc-8f212d83fd6e"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1	Mechanism of Action</title>
+                     <text>
+                        <paragraph>Marqibo is a sphingomyelin/cholesterol liposome-encapsulated formulation of vincristine sulfate. Non-liposomal vincristine sulfate binds to tubulin, altering the tubulin polymerization equilibrium, resulting in altered microtubule structure and function. Non-liposomal vincristine sulfate stabilizes the spindle apparatus, preventing chromosome segregation, triggering metaphase arrest and inhibition of mitosis.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.3">
+                     <id root="500569ff-e834-48b6-a681-459551256426"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>The plasma pharmacokinetics of Marqibo was investigated in 13 adult patients with relapsed ALL who received a Marqibo dose of 2.25 mg/m<sup>2</sup> administered as a 1-hour intravenous infusion. The calculated pharmacokinetic parameters for total plasma vincristine sulfate are given in <linkHtml href="#_Reftable3">Table 3</linkHtml>. The vincristine sulfate levels reported in <linkHtml href="#_Reftable3">Table 3</linkHtml> reflect liposome-encapsulated drug that may not be immediately bioavailable and may not be directly comparable to plasma levels of vincristine sulfate after administration of non-liposomal vincristine sulfate, which is immediately bioavailable.</paragraph>
+                        <table ID="_Reftable3" width="80%">
+                           <caption>Table 3 Pharmacokinetic Parameters from Patients with Acute Lymphoblastic Leukemia Treated with 2.25 mg/m 2 Marqibo<footnote ID="_RefID0ERDAG">Dose was administered as a 1-hour infusion.</footnote>
+                           </caption>
+                           <col width="23%"/>
+                           <col width="11%"/>
+                           <col width="16%"/>
+                           <col width="11%"/>
+                           <col width="16%"/>
+                           <col width="16%"/>
+                           <thead>
+                              <tr>
+                                 <th align="left" styleCode="Botrule Toprule " valign="top">
+                                    <content styleCode="bold">Variable</content>
+                                 </th>
+                                 <th align="left" styleCode="Botrule Toprule " valign="top">
+                                    <content styleCode="bold">N</content>
+                                 </th>
+                                 <th align="left" styleCode="Botrule Toprule " valign="top">
+                                    <content styleCode="bold">Mean</content>
+                                 </th>
+                                 <th align="left" styleCode="Botrule Toprule " valign="top">
+                                    <content styleCode="bold">SE</content>
+                                 </th>
+                                 <th align="left" styleCode="Botrule Toprule " valign="top">
+                                    <content styleCode="bold">Median</content>
+                                 </th>
+                                 <th align="left" styleCode="Botrule Toprule " valign="top">
+                                    <content styleCode="bold">Range</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule " valign="top">
+                                    <paragraph>AUC<sub>∞ </sub>(h∙ng/mL)</paragraph>
+                                 </td>
+                                 <td styleCode="Toprule " valign="top">
+                                    <paragraph>13</paragraph>
+                                 </td>
+                                 <td styleCode="Toprule " valign="top">
+                                    <paragraph>14566</paragraph>
+                                 </td>
+                                 <td styleCode="Toprule " valign="top">
+                                    <paragraph>1766</paragraph>
+                                 </td>
+                                 <td styleCode="Toprule " valign="top">
+                                    <paragraph>13680</paragraph>
+                                 </td>
+                                 <td styleCode="Toprule " valign="top">
+                                    <paragraph>7036-26074</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>CL (mL/h)</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>12</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>345</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>100</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>302</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>148-783</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>C<sub>max</sub> (ng/mL)</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>13</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>1220</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>64</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>1230</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>919-1720</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>The plasma clearance (CL) of Marqibo is slow, 345 mL/h, at a dose of 2.25 mg/m<sup>2</sup>. This is in comparison to the rapid clearance of non-liposomal vincristine sulfate at 189 mL/min/m<sup>2</sup> (11,340 mL/h). The slow clearance of Marqibo contributes to a much higher AUC for Marqibo relative to non-liposomal vincristine sulfate.</paragraph>
+                        <paragraph>Following intravenous administration of Marqibo, urinary excretion was a minor route of elimination for vincristine sulfate and its metabolite. Less than 8% of the administered Marqibo dose was eliminated in urine over a 96-hour observation period, which is similar to the urinary excretion of non-liposomal vincristine sulfate. Following non-liposomal vincristine sulfate infusion, the main route of vincristine sulfate excretion was the fecal route, accounting for 69% of the administered dose over 72 hours.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S13">
+               <id root="015146b1-4422-4122-bdcb-5fe553cc40b9"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20161003"/>
+               <component>
+                  <section ID="S13.1">
+                     <id root="3b85f27d-ad0f-4a6d-baf2-8c980c553180"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1	Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No carcinogenicity studies have been conducted with Marqibo or non-liposomal vincristine sulfate. Based on the mechanism of action and genotoxicity findings in nonclinical studies conducted with non-liposomal vincristine sulfate, Marqibo may be carcinogenic.</paragraph>
+                        <paragraph>No genotoxicity studies have been conducted with Marqibo. Non-liposomal vincristine was genotoxic in some <content styleCode="italics">in vitro</content> and <content styleCode="italics">in vivo</content> studies.</paragraph>
+                        <paragraph>The single- and repeat-dose animal toxicology study results indicate that Marqibo can impair male fertility, consistent with the literature on non-liposomal vincristine sulfate. Administration of vincristine liposome injection causes testicular degeneration and atrophy, and epididymal aspermia in rats.</paragraph>
+                        <paragraph>Gonadal dysfunction has been reported in both male and female post-pubertal patients who received multi-agent chemotherapy including non-liposomal vincristine sulfate. The degree to which testicular or ovarian functions are affected is age-, dose-, and agent-dependent. Recovery may occur in some but not all patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S13.2">
+                     <id root="231bbdef-2cec-4e46-83d3-961924f44295"/>
+                     <code code="34091-9" codeSystem="2.16.840.1.113883.6.1" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION"/>
+                     <title>13.2	Animal Toxicology and/or Pharmacology</title>
+                     <text>
+                        <paragraph>In a repeat-dose comparative toxicology study in rats, vincristine sulfate liposome injection or non-liposomal vincristine sulfate was administered to animals intravenously once per week for 6 weeks. Clinical signs of toxicity consistent with neurotoxicity were greater with vincristine sulfate liposome injection than with non-liposomal vincristine sulfate at equal vincristine sulfate doses of 2 mg/m<sup>2</sup>/week and included uncoordinated movements, weakness, reduced muscle tone, and limited usage of the limbs. Neurological testing indicated drug-induced peripheral neurotoxicity with both drugs. Based on the histopathology examination after 6 weekly doses, vincristine sulfate liposome injection induced greater peripheral neurotoxicity (nerve fiber degeneration) and secondary skeletal muscle atrophy than the equal dose of non-liposomal vincristine sulfate. In a separate tissue distribution study in rats, administration of 2 mg/m<sup>2</sup> of intravenous liposomal or non-liposomal vincristine sulfate showed greater accumulation of vincristine sulfate in sciatic and tibial nerves (as well as the lymph nodes, spleen, and bone marrow) of the animals following vincristine sulfate liposome injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S14">
+               <id root="6f7448db-9e51-47ef-bc87-96bfcb1a8f9f"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <effectiveTime value="20161003"/>
+               <component>
+                  <section ID="ID_7ba4bb27-98ca-4664-b895-055380ff4c83">
+                     <id root="266aeb04-25fe-483f-ae39-b744d447989a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.1	Acute Lymphoblastic Leukemia</title>
+                     <text>
+                        <paragraph>Marqibo was studied in an international, open-label, multi-center, single-arm trial (Study 1). Eligible patients were 18 years of age or older with Philadelphia chromosome negative ALL in second or greater relapse or whose disease progressed after two or greater treatment lines of anti-leukemia therapy. Patients had to have achieved a complete remission (CR) to at least one prior anti-leukemia chemotherapy, defined by a leukemia-free interval of equal or more than 90 days. Patients were not eligible for immediate hematopoietic stem cell transplantation (HSCT) at the time of screening and enrollment.</paragraph>
+                        <paragraph>Patients received intravenous Marqibo monotherapy at 2.25 mg/m<sup>2</sup> over 60 minutes every 7 days. Concomitant corticosteroids were not permitted beyond Day 5.</paragraph>
+                        <paragraph>The treated population included 65 patients who received at least 1 dose of Marqibo. All of the treated patients had received prior vincristine sulfate and 80% had evidence of residual neuropathy at study baseline. Among treated patients, 51% were male, 86% were white, 45% were under 30 years of age, 11% were age 65 or older, 48% had undergone prior HSCT, 51% had received 3 or more prior therapies, and 45% were refractory to their immediate prior therapy. Disease characteristics were 85% precursor B-cell ALL and 15% precursor T-cell ALL. In addition, 22 of 65 (34%) treated patients did not receive asparaginase products prior to enrollment. Efficacy results are shown in <linkHtml href="#_Ref451432515">Table 4</linkHtml>.</paragraph>
+                        <table ID="_Ref451432515" width="85%">
+                           <caption>Table 4 Study 1 Results</caption>
+                           <col width="54%"/>
+                           <col width="44%"/>
+                           <thead>
+                              <tr>
+                                 <th align="left" styleCode="Botrule Toprule " valign="top"/>
+                                 <th align="left" styleCode="Botrule Toprule " valign="top">
+                                    <content styleCode="bold">Study 1</content>
+                                    <br/>
+                                    <content styleCode="bold">(N=65)</content>
+                                    <br/>
+                                    <content styleCode="bold">n (%)</content>
+                                 </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule Botrule " valign="top">
+                                    <paragraph>Complete remission (CR)</paragraph>
+                                 </td>
+                                 <td styleCode="Toprule Botrule " valign="top">
+                                    <paragraph>3 (4.6)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>CR with incomplete blood count recovery (CRi)</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>7 (10.8)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <paragraph>  CR + CRi</paragraph>
+                                 </td>
+                                 <td valign="top">
+                                    <paragraph>10 (15.4)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>  (95% CI<footnote ID="_RefID0EWJAG">CI = Confidence interval (Clopper-Pearson).</footnote>)</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>(7.6 – 26.5)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">MEDIAN DURATION of CR or CRi:</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Days (95% CI)</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>Based on the first date of CR or CRi to the date of the last available histologic assessment of the same response (n=8) </paragraph>
+                                 </td>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>28 (7, 36)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>Based on the first date of CR or CRi to date of documented relapse, death, or subsequent chemotherapies including hematopoietic stem cell transplant (HSCT) (n=10)</paragraph>
+                                 </td>
+                                 <td styleCode="Botrule " valign="top">
+                                    <paragraph>56 (9, 65)</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S15">
+               <id root="7f07fe6c-703d-48c1-99ad-391551a0f243"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>15 REFERENCES</title>
+               <text>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>NIOSH Alert: Preventing occupational exposure to antineoplastic and other hazardous drugs in healthcare settings. 2004. U.S. Department of Health and Human Services, Public Health Service, Centers for Disease Control and Prevention, National Institute for Occupational Safety and Health, DHHS (NIOSH) Publication No. 2004-165.</item>
+                     <item>
+                        <caption>2.</caption>OSHA Technical Manual, TED 1-0.15A, Section VI: Chapter 2. Controlling Occupational Exposure to Hazardous Drugs. OSHA, 1999. http://www.osha.gov/dts/osta/otm/otm_vi/otm_vi_2.html</item>
+                     <item>
+                        <caption>3.</caption>American Society of Health-System Pharmacists. ASHP guidelines on handling hazardous drugs. Am J Health-Syst Pharm. (2006) 63:1172-1193.</item>
+                     <item>
+                        <caption>4.</caption>Polovich M, White JM, Kelleher LO (eds.) 2005. Chemotherapy and biotherapy guidelines and recommendations for practice (2nd. ed.) Pittsburgh, PA: Oncology Nursing Society.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20161003"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S16">
+               <id root="10cbea20-a92f-401d-b446-780b3c9572b1"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16	HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>The Marqibo Kit (NDC # 20536-322-01) contains:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Vial containing VinCRIStine Sulfate Injection, USP 5 mg/5 mL (1 mg/mL) – NDC # 20536-323-01</item>
+                     <item>
+                        <caption>•</caption>Vial containing Sphingomyelin/Cholesterol Liposome Injection 103 mg/mL – NDC # 20536-324-01</item>
+                     <item>
+                        <caption>•</caption>Vial containing Sodium Phosphate Injection 355 mg/25 mL (14.2 mg/mL) – NDC # 20536-325-01</item>
+                     <item>
+                        <caption>•</caption>Flotation Ring</item>
+                     <item>
+                        <caption>•</caption>Overlabel for Sodium Phosphate Injection vial containing constituted Marqibo (vinCRIStine sulfate LIPOSOME injection), 5 mg/31 mL (0.16 mg/mL)</item>
+                     <item>
+                        <caption>•</caption>Infusion Bag Label</item>
+                  </list>
+               </text>
+               <effectiveTime value="20161003"/>
+               <component>
+                  <section ID="ID_c32ad534-5580-449c-913f-304d800c89ba">
+                     <id root="46cf887f-d716-40ef-a2f3-f8c11dbc0d86"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>16.1	Storage</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Store the Marqibo Kit in the refrigerator at 2°C to 8°C – Do Not Freeze</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S17">
+               <id root="0c3074af-90e1-4d3b-abe4-83b55f96bdff"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Physicians are advised to discuss the following with patients prior to treatment with Marqibo:</paragraph>
+               </text>
+               <effectiveTime value="20161003"/>
+               <component>
+                  <section ID="ID_80e80710-af66-49a1-a82f-2dcfb54e6374">
+                     <id root="52ec2699-3991-439d-82d4-3934c7ffba2f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Extravasation Tissue Injury:</content>  Advise patients to report immediately any burning or local irritation during or after the infusion [<content styleCode="italics">see <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_5aecb14e-8ae6-4e6a-bff0-de4df3a4c7a4">
+                     <id root="1d4b755e-50d2-44ca-abce-ce604bf05002"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Ability to Drive or Operate Machinery or Impairment of Mental Ability:</content>  Marqibo may cause fatigue and symptoms of peripheral neuropathy. Advise patients not to drive or operate machinery if they experience any of these symptoms [<content styleCode="italics">see <linkHtml href="#S5.3">Warnings and Precautions (5.3</linkHtml>, <linkHtml href="#S5.7">5.7)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_a8fa7646-7045-4494-b671-a22618f6ceea">
+                     <id root="f5623615-a4c5-4cb1-8909-a755ffbb3d64"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Gastrointestinal/Constipation:</content>  Patients receiving Marqibo may experience constipation. Advise patients how to avoid constipation by a diet high in bulk fiber, fruits and vegetables, and adequate fluid intake as well as use of a stool softener, such as docusate. Instruct patients to seek medical advice if they experience symptoms of constipation such bowel movement infrequency, abdominal pain, bloating, diarrhea, nausea, or vomiting [<content styleCode="italics">see <linkHtml href="#S5.6">Warnings and Precautions (5.6)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_3c4c45d7-5414-40d4-a080-e72720c23cb8">
+                     <id root="37ff136d-71b7-4583-a969-1963462e8b71"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pregnancy/Nursing:</content>  Advise patients to use effective contraceptive measures to prevent pregnancy during treatment with Marqibo [<content styleCode="italics">see <linkHtml href="#s5.9">Warnings and Precautions (5.9)</linkHtml>
+                           </content>]. Instruct patients to report pregnancy to their physicians immediately. Advise patients that they should not receive Marqibo while pregnant or breastfeeding. If a patient wishes to re-start breastfeeding after treatment, she should be advised to discuss the appropriate timing with her physician [<content styleCode="italics">see <linkHtml href="#S8.3">Use in Specific Populations (8.3)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_489ef372-f4f8-46d7-bf90-c46dd4ab7f1d">
+                     <id root="c0cfe2fb-bd68-4f55-b4af-8bf3621f07cf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Concomitant Medications:</content>  Advise patients to speak with their physicians about any other medication they are currently taking [<content styleCode="italics">see <linkHtml href="#S7">Drug Interactions (7)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_34a0b4b9-78bf-4dd6-b9de-262222ff2d6f">
+                     <id root="206fdd04-d4ec-4f6b-81c4-8a97e8834fa3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Peripheral Neuropathy:</content>  Advise patients to contact their physicians if they experience new or worsening symptoms of peripheral neuropathy such as tingling, numbness, pain, a burning feeling in the feet or hands, or weakness in the feet or hands [<content styleCode="italics">see <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_9712a227-8330-4d7f-9750-188aa9aaa4f9">
+                     <id root="4791fdae-6b7e-4ed4-9945-f2ea87f91626"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Other:</content>  Instruct patients to notify their physicians if they experience fever, productive cough, or decreased appetite [<content styleCode="italics">see <linkHtml href="#S5.4">Warnings and Precautions (5.4)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20161003"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_da3d2d58-0356-48d7-891d-4f86974ef9e6">
+               <id root="0effce46-355f-4b0c-b5ae-7f4bb58af656"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured for:</content>
+                     <br/>Talon Therapeutics, Inc., a wholly-owned subsidiary of Spectrum Pharmaceuticals, Inc.<br/>157 Technology Drive<br/>Irvine, CA 92618</paragraph>
+               </text>
+               <effectiveTime value="20161003"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_bb9519e6-4e1a-4c81-adcb-ebf132eb21d9">
+               <id root="f75697f7-d4ca-41c0-9188-4fa9ad940626"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+                  </paragraph>
+                  <renderMultiMedia ID="id1495" referencedObject="MM2"/>
+                  <paragraph>Vial Label<br/>NDC 20536-323-01<br/>VinCRIStine Sulfate Injection, USP<br/>5 mg/5 mL (1 mg/mL)<br/>for use only in the preparation of Marqibo<sup>®</sup>
+                     <br/>Single Use Vial</paragraph>
+               </text>
+               <effectiveTime value="20161003"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>VSI</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="marqibo-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_14cad816-56a7-4bbe-925b-04131af5d04f">
+               <id root="a6ad8a96-7378-4424-bf70-241e75d5272e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <renderMultiMedia ID="id1523" referencedObject="MM3"/>
+                  <paragraph>Vial Label<br/>NDC 20536-324-01<br/>Sphingomyelin-Cholesterol Liposome Injection<br/>103 mg/mL<br/>for use only in the preparation of Marqibo<sup>®</sup>
+                     <br/>Single Use Vial</paragraph>
+               </text>
+               <effectiveTime value="20161003"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>SCLI</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="marqibo-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_fa21123a-34ae-48b5-ba32-acc39c720144">
+               <id root="3cab0e0f-e3ee-4e98-8e69-e7b89d218219"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <renderMultiMedia ID="id1555" referencedObject="MM4"/>
+                  <paragraph>Vial Label<br/>NDC 20536-325-01<br/>Sodium Phosphate Injection<br/>355 mg/25 mL (14.2 mg/mL)<br/>for use only in the preparation of Marqibo<sup>®</sup>
+                     <br/>Single Use Vial</paragraph>
+               </text>
+               <effectiveTime value="20161130"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>Sodium Phosphate Injection</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="marqibo-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_c5926ca0-aa58-4a1c-8220-4af9810bea97">
+               <id root="407c88a4-b80c-48d0-858a-4a6ca0f9f6ce"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <renderMultiMedia ID="id1593" referencedObject="MM5"/>
+                  <paragraph>Kit Label<br/>NDC 20536-322-01<br/>Marqibo<sup>®</sup> (vinCRIStine sulfate LIPOSOME injection)<br/>Marqibo Kit Contents:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Sodium Phosphate Injection Vial 355 mg/25 mL (14.2 mg/mL)</item>
+                     <item>
+                        <caption>•</caption>Sphingomyelin-Cholesterol Liposome Injection Vial 103 mg/mL</item>
+                     <item>
+                        <caption>•</caption>VinCRIStine Sulfate Injection, USP Vial 5 mg/5 mL (1 mg/mL)</item>
+                     <item>
+                        <caption>•</caption>Floatation Ring</item>
+                     <item>
+                        <caption>•</caption>Overlabel and Infusion Bag Label</item>
+                     <item>
+                        <caption>•</caption>Package Insert</item>
+                  </list>
+                  <paragraph>Single Use Vials</paragraph>
+               </text>
+               <effectiveTime value="20161003"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="marqibo-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

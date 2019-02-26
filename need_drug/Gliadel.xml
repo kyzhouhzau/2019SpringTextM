@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="69c3cd33-3b38-488f-ac50-e06d96a2a721"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use GLIADEL WAFER safely and effectively. See full prescribing information for GLIADEL WAFER.<br/>
+      <br/> GLIADEL<sup>®</sup> WAFER (carmustine implant) for intracranial use<br/> Initial U.S. Approval: 1996</title>
+   <effectiveTime value="20150501"/>
+   <setId root="38962a55-a514-4c48-bea5-f99a8da4beec"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="781796417" root="1.3.6.1.4.1.519.1"/>
+            <name>Arbor Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="074bb568-50f7-41d0-a887-3eec15233173"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20141125"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="24338-050" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Gliadel</name>
+                        <formCode code="C43003" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WAFER"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>carmustine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="7.7" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="U68WG3173Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>carmustine</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="U68WG3173Y" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>carmustine</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="S40C40DA21" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>polifeprosan 20</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="8" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="24338-050-08" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020637" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20121213"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="15" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38231" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRACAVITARY"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="S1">
+               <id root="389f78fa-7ddf-45a2-8a79-f3eebe284b54"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1	INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>GLIADEL Wafer is indicated for the treatment of patients with:</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>newly-diagnosed high-grade malignant glioma as an adjunct to surgery and radiation, and</item>
+                     <item>recurrent glioblastoma multiforme as an adjunct to surgery.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20141125"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>GLIADEL Wafer is an alkylating drug indicated for the treatment of:</paragraph>
+                        <list listType="unordered" styleCode="disc">
+                           <item>newly-diagnosed high-grade-malignant glioma as an adjunct to surgery and radiation (<linkHtml href="#S1">1</linkHtml>) and </item>
+                           <item>recurrent glioblastoma multiforme  as an adjunct to surgery (<linkHtml href="#S1">1</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S2">
+               <id root="4c9cb431-3b77-44d4-af6b-648532bb92f4"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2	DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20141125"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Recommended dose: Eight 7.7 mg wafers (61.6 mg total dose) implanted intracranially (<linkHtml href="#S2.1">2.1</linkHtml>,<linkHtml href="#S2.2"> 2.2</linkHtml>)</item>
+                           <item>Follow preparation and handling recommendations (<linkHtml href="#S2.3">2.3</linkHtml>).</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S2.1">
+                     <id root="d3f369ec-3f61-402a-a1fe-21c77bde16e2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1	Recommended Dose</title>
+                     <text>
+                        <paragraph>The recommended dose of GLIADEL Wafer is eight 7.7 mg wafers for a total of 61.6 mg implanted intracranially. The safety and effectiveness of repeat administration have not been studied.</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.2">
+                     <id root="072de36a-0a80-41f8-bf43-e8c6b1435cac"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2	Insertion Instructions</title>
+                     <text>
+                        <paragraph>Following maximal tumor resection, confirmation of tumor pathology and establishment of hemostasis, place up to a maximum of eight GLIADEL Wafers to cover as much of the resection cavity as possible. Should the size and shape of the resected cavity not accommodate eight wafers, place the maximum number of wafers feasible within the cavity. Slight overlapping of the wafers is acceptable. Wafers broken in half may be used, but discard wafers broken in more than two pieces. Oxidized regenerated cellulose (Surgicel<sup>®</sup>) may be placed over the wafers to secure them against the cavity surface. After placement of the wafers, irrigate the resection cavity and close the dura in a water-tight fashion.</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S2.3">
+                     <id root="4aceaec4-f38f-4a69-8547-b5ac28c8aabf"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 	Preparation and Safe Handling</title>
+                     <text>
+                        <paragraph>GLIADEL Wafers contain a cytotoxic drug. Follow applicable special handling and disposal procedures.<sup>1</sup>
+                        </paragraph>
+                        <paragraph>Each wafer is packaged within two nested aluminum foil laminate pouches. The inner pouch is sterile and is designed to maintain product sterility and protect the product from moisture. The outside surface of the outer laminated aluminum foil pouch is a peelable overwrap and is not sterile.</paragraph>
+                        <paragraph>Deliver GLIADEL Wafers to the operating room in their outer aluminum foil pouch, unopened. Do not open the pouch until the wafers are ready to be implanted<content styleCode="bold">. </content>GLIADEL Wafers in unopened outer foil pouches are stable at room temperature for six hours at a time for up to three cycles within a 30-day period.</paragraph>
+                        <paragraph>Exposure to carmustine can cause severe burning and hyperpigmentation of the skin. Use double gloves when handling GLIADEL Wafers. Discard the outer gloves into a biohazard waste container after use. Use a dedicated surgical instrument for wafer implantation. If repeat neurosurgical intervention is indicated, handle residual wafers or wafer remnants as potential cytotoxic agents.</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                     <component>
+                        <section>
+                           <id root="4ee96f3e-df8e-4196-89d7-2c85ca2622b2"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Instructions for Opening Pouch Containing GLIADEL Wafer</content>
+                              </paragraph>
+                              <paragraph>Read all steps of the instructions prior to opening the pouch.</paragraph>
+                              <paragraph>Instructions for opening the pouch containing GLIADEL Wafer can be viewed at the following website:  <content styleCode="italics underline">http://gliadel.com/hcp/pouch-opening-instructions</content>.   Illustrations are also pictured below.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Figure 1:  </content>To remove the sterile inner pouch from the outer pouch, locate the folded corner and slowly pull in an outward motion.</paragraph>
+                              <table width="100%" styleCode="Noautorules">
+                                 <col width="75%" align="right" valign="top"/>
+                                 <col width="25%" align="right" valign="top"/>
+                                 <tbody>
+                                    <tr>
+                                       <td> </td>
+                                       <td>
+                                          <renderMultiMedia referencedObject="MM1"/>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>
+                                 <content styleCode="bold">Figure 2: </content> Do NOT pull in a downward motion rolling knuckles over the pouch. This may exert pressure on the wafer and cause it to break.</paragraph>
+                              <table width="100%" styleCode="Noautorules">
+                                 <col width="75%" align="right" valign="top"/>
+                                 <col width="25%" align="right" valign="top"/>
+                                 <tbody>
+                                    <tr>
+                                       <td> </td>
+                                       <td>
+                                          <renderMultiMedia referencedObject="MM2"/>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>
+                                 <content styleCode="bold">Figure 3:  </content>The inner pouch is a multi-layered, silver colored, foil laminate. Remove the inner pouch by grabbing hold of the crimped edge of the inner pouch using a sterile instrument and pulling upward.</paragraph>
+                              <table width="100%" styleCode="Noautorules">
+                                 <col width="75%" align="right" valign="top"/>
+                                 <col width="25%" align="right" valign="top"/>
+                                 <tbody>
+                                    <tr>
+                                       <td> </td>
+                                       <td>
+                                          <renderMultiMedia referencedObject="MM3"/>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>
+                                 <content styleCode="bold">Figure 4:</content>  To open the inner pouch, gently hold the crimped edge and cut in an arc-like fashion around the wafer.</paragraph>
+                              <table width="100%" styleCode="Noautorules">
+                                 <col width="75%" align="right" valign="top"/>
+                                 <col width="25%" align="right" valign="top"/>
+                                 <tbody>
+                                    <tr>
+                                       <td> </td>
+                                       <td>
+                                          <renderMultiMedia referencedObject="MM4"/>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>
+                                 <content styleCode="bold">Figure 5:</content>  To remove the GLIADEL Wafer, gently grasp the wafer with the aid of forceps and place it onto a designated sterile field.</paragraph>
+                              <table width="100%" styleCode="Noautorules">
+                                 <col width="75%" align="right" valign="top"/>
+                                 <col width="25%" align="right" valign="top"/>
+                                 <tbody>
+                                    <tr>
+                                       <td> </td>
+                                       <td>
+                                          <renderMultiMedia referencedObject="MM5"/>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20141125"/>
+                           <component>
+                              <observationMedia ID="MM1">
+                                 <text>Figure 1</text>
+                                 <value xsi:type="ED" mediaType="image/jpeg">
+                                    <reference value="gliadel-01.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                           <component>
+                              <observationMedia ID="MM2">
+                                 <text>Figure 2</text>
+                                 <value xsi:type="ED" mediaType="image/jpeg">
+                                    <reference value="gliadel-02.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                           <component>
+                              <observationMedia ID="MM3">
+                                 <text>Figure 3</text>
+                                 <value xsi:type="ED" mediaType="image/jpeg">
+                                    <reference value="gliadel-03.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                           <component>
+                              <observationMedia ID="MM4">
+                                 <text>Figure 4</text>
+                                 <value xsi:type="ED" mediaType="image/jpeg">
+                                    <reference value="gliadel-04.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                           <component>
+                              <observationMedia ID="MM5">
+                                 <text>Figure 5</text>
+                                 <value xsi:type="ED" mediaType="image/jpeg">
+                                    <reference value="gliadel-05.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S3">
+               <id root="a58a5184-803b-4ba8-9518-aff8bcc6765a"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3	DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>GLIADEL Wafer is an off-white to pale yellow round wafer. Each GLIADEL Wafer contains 7.7 mg of carmustine.</paragraph>
+               </text>
+               <effectiveTime value="20141125"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Each GLIADEL Wafer contains 7.7 mg of carmustine (<linkHtml href="#S3">3</linkHtml>).</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S4">
+               <id root="3fa642ed-222b-415f-9c25-5d78a9dde78e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4	CONTRAINDICATIONS </title>
+               <text>
+                  <paragraph>None.</paragraph>
+               </text>
+               <effectiveTime value="20141125"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>None (<linkHtml href="#S4">4</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S5">
+               <id root="9848acd3-ad19-4a2b-b242-da49a5d89d0b"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5	WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20141125"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Seizures: Monitor patients for seizures following implantation (<linkHtml href="#S5.1">5.1</linkHtml>).</item>
+                           <item>Intracranial hypertension: Monitor patients for signs of increased intracranial pressure (<linkHtml href="#S5.2">5.2</linkHtml>).</item>
+                           <item>Impaired neurosurgical wound healing: Monitor patients for complications of craniotomy (<linkHtml href="#S5.3">5.3</linkHtml>).</item>
+                           <item>Meningitis: Monitor patients for signs of bacterial or chemical meningitis (<linkHtml href="#S5.4">5.4</linkHtml>).</item>
+                           <item>Wafer migration: Monitor patients for signs of obstructive hydrocephalus (<linkHtml href="#S5.5">5.5</linkHtml>).</item>
+                           <item>Embryo-fetal toxicity: Can cause fetal harm (<linkHtml href="#S5.6">5.6</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S5.1">
+                     <id root="134db3de-55a8-4984-92a9-2efb7464c53a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 	Seizures</title>
+                     <text>
+                        <paragraph>Seizures occurred in 37% of patients treated with GLIADEL Wafers for recurrent glioma in Study 2.  New or worsening (treatment emergent) seizures occurred in 20% of patients; 54% of treatment emergent seizures occurred within the first 5 post-operative days <content styleCode="italics">[see<linkHtml href="#S6.1"> Adverse Reactions (6.1)</linkHtml>]. </content>The median time to onset of the first new or worsened post-operative seizure was four days.  Institute optimal anti-seizure therapy prior to surgery.  Monitor patients for seizures postoperatively.</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.2">
+                     <id root="f769313c-d762-4a0a-8d13-793fe1c754ec"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Intracranial Hypertension </title>
+                     <text>
+                        <paragraph>Brain edema occurred in 23% of patients with newly diagnosed glioma treated with GLIADEL Wafers in Study 1. Additionally, one GLIADEL-treated patient experienced intracerebral mass effect unresponsive to corticosteroids which led to brain herniation (<content styleCode="italics">see<linkHtml href="#S6.1"> Adverse Reactions (6.1)</linkHtml>
+                           </content>). Monitor patients closely for intracranial hypertension related to brain edema, inflammation, or necrosis of the brain tissue surrounding the resection. In refractory cases, consider re-operation and removal of GLIADEL Wafers or Wafer remnants.</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.3">
+                     <id root="b201efa3-2c1e-4ebe-aff6-d263676511e2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3	Impaired Neurosurgical Wound Healing</title>
+                     <text>
+                        <paragraph>Impaired neurosurgical wound healing including wound dehiscence, delayed wound healing, and subdural, subgleal, or wound effusions occur with GLIADEL Wafer treatment. In Study 1, 16% of GLIADEL Wafer-treated patients with newly diagnosed glioma experienced impaired intracranial wound healing and 5% had cerebrospinal fluid leaks. In Study 2, 14% of GLIADEL Wafer-treated patients with recurrent glioma experienced wound healing abnormalities <content styleCode="italics">[see<linkHtml href="#S6.1"> Adverse Reactions (6.1)</linkHtml>]. </content>Monitor patients post-operatively for impaired neurosurgical wound healing.</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.4">
+                     <id root="09a3afe4-6df6-406d-b86d-95138ee80bad"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4	Meningitis</title>
+                     <text>
+                        <paragraph>Meningitis occurred in 4% of patients with recurrent glioma receiving GLIADEL Wafers in Study 2. Two cases of meningitis were bacterial; one patient required removal of the Wafers four days after implantation; the other developed meningitis following reoperation for recurrent tumor. One case was diagnosed as chemical meningitis and resolved following steroid treatment. In one case the cause was unspecified, but meningitis resolved following antibiotic treatment. Monitor postoperatively for signs of meningitis and central nervous system infection.</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.5">
+                     <id root="ab9849f9-b9d8-4980-bbdb-9b907467567f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Wafer Migration </title>
+                     <text>
+                        <paragraph>GLIADEL Wafer migration can occur. To reduce the risk of obstructive hydrocephalus due to wafer migration into the ventricular system, close any communication larger than the diameter of a Wafer between the surgical resection cavity and the ventricular system prior to Wafer implantation. Monitor patients for signs of obstructive hydrocephalus.</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.6">
+                     <id root="cbe41be5-5b2c-4110-9245-9bd5fea69bad"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6 Embryo-Fetal Toxicity</title>
+                     <text>
+                        <paragraph>GLIADEL Wafers can cause fetal harm when administered to a pregnant woman. Carmustine, the active component of GLIADEL Wafer, is embryotoxic and teratogenic in rats at exposures less than the exposure at the recommended human dose on a mg/m<sup>2</sup> basis and embryotoxic in rabbits at exposures similar to the exposure at the recommended human dose on a mg/m<sup>2</sup> basis.  Advise females of reproductive potential to avoid pregnancy after implantation of GLIADEL Wafers. If the patient becomes pregnant after GLIADEL Wafer implantation, warn the patient about the potential hazard to the fetus [<content styleCode="italics">see<linkHtml href="#S8.1"> Use in Specific Populations (8.1 </linkHtml>and<linkHtml href="#S8.6"> 8.6)</linkHtml>
+                           </content>].</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S6">
+               <id root="367e2e32-a55d-4106-9182-fae05d5caf00"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6	ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following serious adverse reactions are discussed elsewhere in the label:</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>Seizures [(see <content styleCode="italics">
+                           <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>
+                        </content>]</item>
+                     <item>Intracranial Hypertension [(see <content styleCode="italics">
+                           <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>
+                        </content>]</item>
+                     <item>Impaired Neurosurgical Wound Healing [(see <content styleCode="italics">
+                           <linkHtml href="#S5.3">Warnings and Precautions (5.3)</linkHtml>
+                        </content>]</item>
+                     <item>Meningitis [(see <content styleCode="italics">
+                           <linkHtml href="#S5.4">Warnings and Precautions (5.4)</linkHtml>
+                        </content>]</item>
+                  </list>
+               </text>
+               <effectiveTime value="20141125"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Newly-Diagnosed High-Grade Malignant Glioma: Most common adverse reactions (incidence &gt;10% and between arm difference ≥4%) are cerebral edema, asthenia, nausea, vomiting, constipation, wound healing abnormalities and depression (<linkHtml href="#S6.1">6.1</linkHtml>).</item>
+                           <item>Recurrent High-Grade Malignant Glioma: Most common adverse reactions (incidence &gt;10% and between arm difference ≥4%) are urinary tract infection, wound healing abnormalities and fever (<linkHtml href="#S6.1">6.1</linkHtml>).</item>
+                        </list>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Arbor Pharmaceuticals, LLC at 1-866-516-4950 or FDA at 1-800-FDA-1088 or <content styleCode="italics">
+                                 <content styleCode="underline">www.fda.gov/medwatch</content>.</content>
+                           </content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S6.1">
+                     <id root="75365357-9a5c-422d-8b29-82d22664da89"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1 	Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                     <component>
+                        <section>
+                           <id root="b639ccfe-36d0-450c-b2fd-d7db5f7c9b46"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Newly-Diagnosed High-Grade Malignant Glioma</content>
+                              </paragraph>
+                              <paragraph>The safety of GLIADEL Wafers was evaluated in a multicenter, randomized (1:1), double-blind, placebo controlled trial of 240 adult patients with newly-diagnosed high-grade malignant glioma who received up to eight GLIADEL Wafers or matched placebo implanted against the resection surfaces after maximal tumor resection (Study 1).</paragraph>
+                              <paragraph>The population in Study 1 was 67% male and 97% White, and the median age was 53 years (range: 21-72). Eighty-seven percent  had a Karnofsky performance status ≥ 70 and 71% had a Karnofsky performance status of ≥ 80%. Seventy-eight percent had a histologic subtype of glioblastoma multiforme as determined by central pathology review. Thirty-eight percent of patients received 8 wafers and 78% received ≥ 6 wafers. Starting three weeks after surgery, 80% of patients received standard limited field radiation therapy (RT) described as 55-60 Gy delivered in 28 to 30 fractions over six weeks; an additional 11% received no radiotherapy and the remainder received non-standard radiotherapy or a combination of standard and non-standard radiotherapy. At the time of progression, 12% received systemic chemotherapy.</paragraph>
+                              <paragraph>Deaths occurred within 30 days of wafer implantation in 5 (4%) of patients receiving GLIADEL Wafers compared to 2 (2%) of patients receiving placebo. Deaths on the GLIADEL arm resulted from cerebral hematoma/edema (n=3), pulmonary embolism (n=1) and acute coronary event (n=1). Deaths on the placebo arm resulted from sepsis (n=1) and malignant disease (n=1).</paragraph>
+                              <paragraph>The incidence of common adverse reactions in GLIADEL Wafer-treated patients is listed in Table 1. The incidence of local adverse reactions is shown in Table 2.</paragraph>
+                              <table width="75%" ID="table1">
+                                 <caption>Table 1. Per-Patient Incidence of Adverse Reactions Occurring in Gliadel Wafer-Treated Patients with Newly-Diagnosed High Grade Malignant Glioma (Study 1) (Between Arm Difference of ≥ 4%)</caption>
+                                 <col width="60%" align="left" valign="top"/>
+                                 <col width="20%" align="center" valign="top"/>
+                                 <col width="20%" align="center" valign="top"/>
+                                 <thead>
+                                    <tr styleCode="Botrule">
+                                       <th styleCode="Lrule Rrule" rowspan="2" valign="middle">BODY SYSTEM</th>
+                                       <th styleCode="Rrule">GLIADEL Wafer<br/>N=120</th>
+                                       <th styleCode="Rrule">Placebo<br/>N=120</th>
+                                    </tr>
+                                    <tr>
+                                       <th styleCode="Rrule" align="center">%</th>
+                                       <th styleCode="Rrule">%</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule" colspan="3">GASTROINTESTINAL DISORDERS</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Nausea</td>
+                                       <td styleCode="Rrule">22</td>
+                                       <td styleCode="Rrule">17</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Vomiting</td>
+                                       <td styleCode="Rrule">21</td>
+                                       <td styleCode="Rrule">16</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Constipation</td>
+                                       <td styleCode="Rrule">19</td>
+                                       <td styleCode="Rrule">12</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Abdominal pain</td>
+                                       <td styleCode="Rrule">8</td>
+                                       <td styleCode="Rrule">2</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule" colspan="3">GENERAL DISORDERS AND<br/>ADMINISTRATION SITE CONDITION</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Asthenia</td>
+                                       <td styleCode="Rrule">22</td>
+                                       <td styleCode="Rrule">15</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Chest pain</td>
+                                       <td styleCode="Rrule">5</td>
+                                       <td styleCode="Rrule">0</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule" colspan="3">INJURY, POISONING AND PROCEDURAL<br/>COMPLICATIONS</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Wound healing abnormalities<footnote ID="table1a">Included (1) fluid, CDS, or subdural fluid collection; (2) CSF leak; (3) wound dehiscence, breakdown, or poor healing; and (4) subgaleal or wound effusions (including yellow discharge at the incision)</footnote>
+                                       </td>
+                                       <td styleCode="Rrule">16</td>
+                                       <td styleCode="Rrule">12</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule" colspan="3">MUSCULOSKELETAL AND  CONNECTIVE<br/>TISSUE DISORDERS</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Back pain</td>
+                                       <td styleCode="Rrule">7</td>
+                                       <td styleCode="Rrule">3</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule" colspan="3">PSYCHIATRIC DISORDERS</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Lrule Rrule">  Depression</td>
+                                       <td styleCode="Rrule">16</td>
+                                       <td styleCode="Rrule">10</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <table width="75%" ID="table2">
+                                 <caption>Table 2. Incidence of Local Adverse Reactions, Study 1<footnote ID="table2a">Not seen at baseline or worsened if present at baseline.</footnote>
+                                 </caption>
+                                 <col width="60%" align="left" valign="top"/>
+                                 <col width="20%" align="center" valign="top"/>
+                                 <col width="20%" align="center" valign="top"/>
+                                 <thead>
+                                    <tr styleCode="Botrule">
+                                       <th styleCode="Lrule Rrule" rowspan="2" valign="middle">Local Adverse Reactions</th>
+                                       <th styleCode="Rrule">GLIADEL Wafer N=120</th>
+                                       <th styleCode="Rrule">Placebo<br/>N=120</th>
+                                    </tr>
+                                    <tr>
+                                       <th styleCode="Rrule" align="center">%</th>
+                                       <th styleCode="Rrule">%</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Intracranial hypertension</td>
+                                       <td styleCode="Rrule">9</td>
+                                       <td styleCode="Rrule">2</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Cerebral hemorrhage</td>
+                                       <td styleCode="Rrule">6</td>
+                                       <td styleCode="Rrule">4</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Brain abscess</td>
+                                       <td styleCode="Rrule">6</td>
+                                       <td styleCode="Rrule">4</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Brain cyst</td>
+                                       <td styleCode="Rrule">2</td>
+                                       <td styleCode="Rrule">3</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Lrule Rrule">Cerebral edema</td>
+                                       <td styleCode="Rrule">23</td>
+                                       <td styleCode="Rrule">19</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20141125"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="01745b5a-1928-4622-901a-f6081e0c2c94"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Recurrent High-Grade Malignant Glioma</content>
+                              </paragraph>
+                              <paragraph>The safety of GLIADEL Wafers was evaluated in a multicenter, randomized (1:1), double-blind, placebo controlled trial of 222 patients with recurrent high-grade malignant glioma who received up to eight GLIADEL Wafers or matched placebo implanted against the resection surfaces after maximal tumor resection (Study 2). Patients were required to have had prior definitive external beam radiation therapy sufficient to disqualify them from additional radiation therapy. All patients were eligible to receive chemotherapy which was withheld at least four weeks (six weeks for nitrosoureas) prior to and two weeks after surgery.</paragraph>
+                              <paragraph>The population in Study 2 was 64% male, 92% White, and the median age was 49 years  (range: 19-80). Sixty-five percent had a histologic subtype of glioblastoma multiforme, 26% had anaplastic astrocytoma or another anaplastic variant, 73% had a Karnofsky performance status ≥ 70, 53% had a Karnofsky performance status of ≥ 80%, 73% had only one prior surgery, and 46% had prior treatment with nitrosourea. Eighty-one percent of patients received 8 wafers and 96% received ≥ 6 wafers.</paragraph>
+                              <paragraph>Sixty-four severe adverse reactions were reported in 43(39%) patients receiving GLIADEL Wafers. Adverse reactions in GLIADEL Wafer-treated patients are shown in Table 3. Meningitis occurred in four patients receiving GLIADEL Wafers and in no patients receiving placebo. Bacterial meningitis was confirmed in two patients: the first with onset four days following GLIADEL Wafer implantation; the second following resection for tumor recurrence 155 days following GLIADEL Wafer implantation. One case, attributed to chemical meningitis resolved following steroid treatment. The cause of the fourth case was undetermined but resolved following antibiotic treatment.</paragraph>
+                              <table width="75%" ID="table3">
+                                 <caption>Table 3. Per-Patient Incidence of Adverse Reactions in Gliadel Wafer-Treated Patients with Recurrent High-Grade Malignant Glioma (Study 2) (Between Arm Difference of ≥ 4%)</caption>
+                                 <col width="60%" align="left" valign="top"/>
+                                 <col width="20%" align="center" valign="top"/>
+                                 <col width="20%" align="center" valign="top"/>
+                                 <thead>
+                                    <tr styleCode="Botrule">
+                                       <th styleCode="Lrule Rrule" valign="bottom">BODY SYSTEM</th>
+                                       <th styleCode="Rrule">GLIADEL Wafer N=110</th>
+                                       <th styleCode="Rrule">Placebo<br/>N=112</th>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <th styleCode="Lrule Rrule"/>
+                                       <th styleCode="Rrule">%</th>
+                                       <th styleCode="Rrule">%</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule" colspan="3">GENERAL</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Fever</td>
+                                       <td styleCode="Rrule">12</td>
+                                       <td styleCode="Rrule">8</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule" colspan="3">INFECTIOUS</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Urinary tract infections</td>
+                                       <td styleCode="Rrule">21</td>
+                                       <td styleCode="Rrule">17</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule" colspan="3">INJURY, POISONING AND PROCEDURAL<br/>COMPLICATIONS</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Lrule Rrule">  Wound healing abnormalities<footnote ID="table3a">Included (1) fluid, CDS, or subdural fluid collection; (2) CSF leak; (3) wound dehiscence, breakdown, or poor healing; and (4) subgaleal or wound effusions (including yellow discharge at the incision)</footnote>
+                                       </td>
+                                       <td styleCode="Rrule">14</td>
+                                       <td styleCode="Rrule">5</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>The incidence of seizures is shown in Table 4. The incidence of hydrocephalus, cerebral edema and intracranial hypertension is shown in Table 5.</paragraph>
+                              <table width="75%" ID="table4">
+                                 <caption>Table 4. Incidence of Seizures, Study 2</caption>
+                                 <col width="60%" align="left" valign="top"/>
+                                 <col width="20%" align="center" valign="top"/>
+                                 <col width="20%" align="center" valign="top"/>
+                                 <thead>
+                                    <tr styleCode="Botrule">
+                                       <th styleCode="Lrule Rrule" valign="bottom">Adverse Reaction</th>
+                                       <th styleCode="Rrule">GLIADEL Wafer<br/>N=110</th>
+                                       <th styleCode="Rrule">Placebo<br/>N=112</th>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <th styleCode="Lrule Rrule"/>
+                                       <th styleCode="Rrule">%</th>
+                                       <th styleCode="Rrule">%</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Patients with seizures</td>
+                                       <td styleCode="Rrule" colspan="2"/>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Any seizures after wafer implantation</td>
+                                       <td styleCode="Rrule">37</td>
+                                       <td styleCode="Rrule">29</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  New or worsening seizures</td>
+                                       <td styleCode="Rrule">20</td>
+                                       <td styleCode="Rrule">20</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Time to new or worsening seizures (days)<footnote ID="table4a">Days from implantation to onset of first new or worsening seizure.</footnote>
+                                       </td>
+                                       <td styleCode="Rrule" colspan="2"/>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">  Mean (SD)</td>
+                                       <td styleCode="Rrule">26.09 (0.75)</td>
+                                       <td styleCode="Rrule">62.36 (48.66)</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Lrule Rrule">  Median</td>
+                                       <td styleCode="Rrule">3.5</td>
+                                       <td styleCode="Rrule">61.0</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <table width="75%">
+                                 <caption>Table 5. Hydrocephalus and Cerebral Edema, Study 2<footnote ID="table5a">Not seen at baseline or worsened if present at baseline.</footnote>
+                                 </caption>
+                                 <col width="60%" align="left" valign="top"/>
+                                 <col width="20%" align="center" valign="top"/>
+                                 <col width="20%" align="center" valign="top"/>
+                                 <thead>
+                                    <tr styleCode="Botrule">
+                                       <th styleCode="Lrule Rrule" rowspan="2" valign="middle">Adverse Reaction</th>
+                                       <th styleCode="Rrule">GLIADEL Wafer N=110</th>
+                                       <th styleCode="Rrule">Placebo<br/>N=112</th>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <th styleCode="Rrule" align="center">%</th>
+                                       <th styleCode="Rrule">%</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Hydrocephalus</td>
+                                       <td styleCode="Rrule">5</td>
+                                       <td styleCode="Rrule">2</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Cerebral edema</td>
+                                       <td styleCode="Rrule">4</td>
+                                       <td styleCode="Rrule">1</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20141125"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S8">
+               <id root="fb24d49b-ad5f-42a1-a372-2013a0e41064"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8	USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20141125"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Pediatric use: Safety and effectiveness not established (<linkHtml href="#S8.4">8.4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S8.1">
+                     <id root="9f28fde4-33a4-4dc0-9b0d-1f3e49ff2bbf"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1  	Pregnancy</title>
+                     <effectiveTime value="20141125"/>
+                     <component>
+                        <section>
+                           <id root="d3109615-ea15-47c5-a299-b07fc529d564"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <text>
+                              <paragraph>Pregnancy Category D</paragraph>
+                           </text>
+                           <effectiveTime value="20141125"/>
+                           <component>
+                              <section>
+                                 <id root="ec3ccb3b-60a0-4565-bc8f-5752fe0a7cca"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Risk Summary</content>
+                                    </paragraph>
+                                    <paragraph>GLIADEL Wafer can cause fetal harm when administered to a pregnant woman. There have been no studies with GLIADEL Wafer; however, carmustine, the active component of GLIADEL Wafer, is embryotoxic and teratogenic in rats at exposures less than the exposure at the recommended human dose on a mg/m<sup>2</sup> basis and embryotoxic in rabbits at exposures similar to exposures at the recommended human dose on a mg/m<sup>2</sup> basis. If this drug is used during pregnancy, or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to a fetus.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20141125"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="3cacef42-e50b-4549-9df8-28f6fa65ed50"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Animal Data</content>
+                                    </paragraph>
+                                    <paragraph>There are no studies assessing the reproductive toxicity of GLIADEL Wafer; however, carmustine, the active component of GLIADEL Wafer, is embryotoxic and teratogenic in rats at intraperitoneal doses of 0.5mg/kg/day or greater when given on gestation days 6 through 15. Carmustine caused fetal malformations (anophthalmia, micrognathia, omphalocele) at 1.0 mg/kg/day (about 0.12 the recommended human dose, eight wafers of 7.7 mg carmustine/wafer, on a mg/m<sup>2</sup> basis). Carmustine was embryotoxic in rabbits at intravenous doses of 4.0 mg/kg/day (about 1.2 times the recommended human dose on a mg/m<sup>2</sup> basis). Embryotoxicity was characterized by increased embryo-fetal deaths, reduced numbers of litters, and reduced litter sizes.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20141125"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.3">
+                     <id root="129df2ed-15c7-415c-82fc-15052f2a0486"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>8.3	Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known if carmustine, the active component of GLIADEL Wafer, is excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from carmustine, a decision should be made whether to discontinue nursing or not to administer the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.4">
+                     <id root="698a9f40-51aa-469c-b577-dabc7545f2d4"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4	Pediatric Use</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of GLIADEL Wafer in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.5">
+                     <id root="11270800-b9fc-4a21-a5be-e44284467cca"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5	Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical trials of GLIADEL Wafer did not include sufficient numbers of patients aged 65 years and over to determine whether they respond differently from younger patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.6">
+                     <id root="183eae15-f207-416a-bb8c-2a7a7e1575c9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.6	Females and Males of Reproductive Potential</title>
+                     <effectiveTime value="20141125"/>
+                     <component>
+                        <section>
+                           <id root="12141f4c-6aea-4768-a4bf-80d2c2690054"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Contraception</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20141125"/>
+                           <component>
+                              <section>
+                                 <id root="d281047c-f9c1-4f79-aae6-83aaa3c47552"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Females</content>
+                                    </paragraph>
+                                    <paragraph>GLIADEL Wafer can cause fetal harm when administered during pregnancy (<content styleCode="italics">see<linkHtml href="#S8.1"> Use in Specific Populations, 8.1</linkHtml>
+                                       </content>). Counsel patients on pregnancy planning and prevention. Advise female patients of reproductive potential to use effective contraception after implantation of GLIADEL Wafer.  Advise patients to inform their healthcare provider if they become pregnant, or if pregnancy is suspected, while taking GLIADEL.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20141125"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="f22bb1c0-1ab9-4723-a466-fa3cdfacabc0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Infertility</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20141125"/>
+                           <component>
+                              <section>
+                                 <id root="547ed951-50e5-4acd-b6df-1d3855b98006"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Males</content>
+                                    </paragraph>
+                                    <paragraph>Carmustine caused testicular degeneration in animals. Advise male patients of the potential risk of infertility, and to seek counseling on fertility and family planning options prior to implantation of GLIADEL Wafer. (<content styleCode="italics">see<linkHtml href="#S13.1"> Nonclinical Toxicology, 13.1</linkHtml>
+                                       </content>)</paragraph>
+                                 </text>
+                                 <effectiveTime value="20141125"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S11">
+               <id root="c6f865c7-f716-4fe4-9beb-0a393a92c69f"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11	DESCRIPTION</title>
+               <text>
+                  <paragraph>GLIADEL Wafer is an implant for intracranial use, containing carmustine, a nitrosourea alkylating agent, and polifeprosan, a biodegradable copolymer used to control the release of carmustine. It is a sterile, off-white to pale yellow wafer approximately 1.45 cm in diameter and 1 mm thick. Each wafer contains 7.7 mg of carmustine [1, 3-bis (2-chloroethyl)-1-nitrosourea, or BCNU] and 192.3 mg of a biodegradable polyanhydride copolymer. The copolymer, polifeprosan 20, consists of poly [bis (p-carboxyphenoxy)] propane and sebacic acid in a 20:80 molar ratio. Carmustine is homogeneously distributed in the copolymer matrix.</paragraph>
+                  <paragraph>The structural formula for polifeprosan 20 is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM6"/>
+                  </paragraph>
+                  <paragraph>The structural formula for carmustine is:</paragraph>
+                  <renderMultiMedia referencedObject="MM7"/>
+               </text>
+               <effectiveTime value="20141125"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="gliadel-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM7">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="gliadel-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S12">
+               <id root="ca4e0808-ba7a-4986-bed0-d3fa62e01ec5"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12  CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20141125"/>
+               <component>
+                  <section ID="S12.1">
+                     <id root="4330a41d-29c9-431d-8d6b-a99f76564ef2"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1	Mechanism of Action</title>
+                     <text>
+                        <paragraph>The activity of GLIADEL Wafer is due to release of cytotoxic concentrations of carmustine, a DNA and RNA alkylating agent, into the tumor resection cavity. On exposure to the aqueous environment of the resection cavity, the anhydride bonds in the copolymer are hydrolyzed, releasing carmustine, carboxyphenoxypropane, and sebacic acid into the surrounding brain tissue.</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.3">
+                     <id root="4bffcbae-29fa-4feb-a417-0c0ba3a972a9"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3	Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Carmustine concentrations delivered by GLIADEL Wafer in human brain tissue have not been determined.</paragraph>
+                        <paragraph>Following an intravenous infusion of carmustine at doses ranging from 30 to 170 mg/m<sup>2</sup>, the average terminal half-life, clearance and steady-state volume of distribution were 22 minutes, 56 mL/min/kg and 3.25 L/kg, respectively. Approximately 60% of the intravenous 200-mg/m<sup>2</sup> dose of <sup>14</sup>C-carmustine was excreted in the urine over 96 hours and 6% was expired as CO<sub>2</sub>. Carmustine degrades both spontaneously and metabolically. The relevance of these data to elimination of intracranial implant-delivered carmustine are unknown.</paragraph>
+                        <paragraph>GLIADEL Wafers are biodegradable when implanted into the human brain. Wafer remnants may be observed on brain imaging scans or at re-operation. Wafer remnants were visible in 11 of 18 patients on CT scans obtained 49 days after implantation of GLIADEL Wafer. More than 70% of the copolymer degrades within three weeks. Wafer remnants have been present at re-operation and autopsy up to 232 days after GLIADEL Wafer implantation, and consisted mostly of water and monomeric components with minimal detectable carmustine present.</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S13">
+               <id root="0abe2039-988a-4fcd-93e1-683370c2384c"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13	NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20141125"/>
+               <component>
+                  <section ID="S13.1">
+                     <id root="b141aeb1-5241-4490-938b-ce4dd0858a9b"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1	Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No carcinogenicity, mutagenicity, or impairment of fertility studies have been conducted with GLIADEL Wafer. Carcinogenicity, mutagenicity, and impairment of fertility studies have been conducted with carmustine, the active component of GLIADEL Wafer. Carmustine was carcinogenic in rats and mice when delivered by intraperitoneal injection at doses lower than those delivered by GLIADEL Wafer at the recommended dose. There were increases in tumor incidence in all treated animals. Carmustine was mutagenic <content styleCode="italics">in vitro</content> (Ames assay, human lymphoblast HGPRT assay) and clastogenic both <content styleCode="italics">in vitro</content> (V79 hamster cell micronucleus assay) and <content styleCode="italics">in vivo</content> (SCE assay in rodent brain tumors, mouse bone marrow micronucleus assay).</paragraph>
+                        <paragraph>In male rats carmustine caused testicular degeneration at intraperitoneal doses of 8 mg/kg/week for eight weeks (about 1.3 times the recommended human dose on a mg/m<sup>2</sup> basis).</paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S14">
+               <id root="22e4e6ce-6f48-49f8-af6b-c5bf0b9a9d92"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14	CLINICAL STUDIES </title>
+               <effectiveTime value="20141125"/>
+               <component>
+                  <section ID="S14.1">
+                     <id root="311a891c-89ab-48e1-bcc5-66fe5081fac5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.1   Newly-Diagnosed High-Grade Malignant Glioma </title>
+                     <text>
+                        <paragraph>Study 1 was a multicenter, double-blind, placebo-controlled, clinical trial in adult patients with newly-diagnosed high-grade malignant glioma. A total of 240 patients were randomized (1:1) to receive up to eight GLIADEL Wafers or matched placebo wafers following maximal tumor resection. Patients received post-operative radiation therapy (55-60 Gy delivered in 28 to 30 fractions over six weeks) starting three weeks after surgery. Patients with anaplastic oligodendroglioma also received systemic chemotherapy (6 cycles of PCV- lomustine 110 mg/m<sup>2</sup> day 1, procarbazine 60 mg/m<sup>2</sup> days 8-21, vincristine 1.4 mg/m<sup>2</sup> days 8 and 29).</paragraph>
+                        <paragraph>The population in Study 1 was 67% male and 97% White, and the median age was 53 years (range: 21-72). Eighty-seven percent had a Karnofsky performance status ≥ 70% and 71% had a Karnofsky performance status of ≥ 80%. Seventy-eight percent had a histologic subtype of glioblastoma multiforme as determined by central pathology review. Thirty-eight percent of patients received 8 wafers and 78% received ≥ 6 wafers. Starting three weeks after surgery, 80% of patients received standard limited field radiation therapy (RT) described as 55-60 Gy delivered in 28 to 30 fractions over six weeks; 11% received no  radiotherapy and the remainder received non-standard radiotherapy or a combination of standard and non-standard radiotherapy. At the time of progression, 12% received systemic chemotherapy. Patients were followed for at least three years or until death.</paragraph>
+                        <paragraph>Efficacy results for patients randomized in Study 1 are summarized in Table 6 and Figure 6. Overall survival among all patients with newly diagnosed high grade glioma, the primary outcome measure, was prolonged in the GLIADEL arm. Overall survival in the subset of patients with glioblastoma multiforme, a secondary outcome measure, was not significantly prolonged.</paragraph>
+                        <table width="75%" ID="table6">
+                           <caption>Table 6.  Overall Survival in Patients with Newly Diagnosed Glioma, Study 1.</caption>
+                           <col width="38%" align="left" valign="top"/>
+                           <col width="31%" align="center" valign="top"/>
+                           <col width="31%" align="center" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th valign="bottom" align="center">Overall Survival – ITT<footnote ID="table6a">Based on a post-final analysis, protocol specified non-stratified log-rank test.</footnote>
+                                 </th>
+                                 <th>Gliadel Wafer<br/>(n=120)</th>
+                                 <th>Placebo Wafer<br/>(n=120)</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>Number of deaths, n (%)</td>
+                                 <td>111 (93%)</td>
+                                 <td>117(98%)</td>
+                              </tr>
+                              <tr>
+                                 <td>Median overall survival, months (95% CI)</td>
+                                 <td>13.9 (12.1, 15.1)</td>
+                                 <td>11.6 (10.2, 12.7)</td>
+                              </tr>
+                              <tr>
+                                 <td>  Hazard ratio (95% CI)</td>
+                                 <td colspan="2">0.73 (0.56, 0.95)</td>
+                              </tr>
+                              <tr>
+                                 <td>  Log-Rank test p-value</td>
+                                 <td colspan="2">&lt;0.02<footnote ID="trable6b">p-value not adjusted for multiple comparisons</footnote>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <table width="100%" styleCode="Noautorules">
+                           <col width="100%" align="center" valign="top"/>
+                           <tbody>
+                              <tr>
+                                 <td align="left">
+                                    <content styleCode="bold">Figure 6 – Overall Survival for Patients with Newly Diagnosed High-Grade Malignant Glioma – Kaplan-Meier Curves by Treatment Group<footnote>Based on a post-final analysis, protocol specified non-stratified log-rank test; p-value not adjusted for multiple comparisons</footnote>
+                                    </content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <renderMultiMedia referencedObject="MM8"/>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                     <component>
+                        <observationMedia ID="MM8">
+                           <text>Figure 6</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="gliadel-08.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S14.2">
+                     <id root="39b7d982-2b06-40e0-bd20-0a1b12582020"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.2   Recurrent Glioblastoma Multiforme</title>
+                     <text>
+                        <paragraph>Study 2 was a multicenter, double-blind, placebo controlled, clinical trial in adult patients with recurrent malignant glioma. Patients were required to have had prior definitive external beam radiation therapy sufficient to disqualify them from additional radiation therapy. Following maximal tumor resection and confirmation of malignant glioma, a total of 222 patients were randomized (1:1) to receive a maximum of eight GLIADEL Wafers (n=110) or matched placebo wafers (n=112) positioned to cover the entire resection surface. All patients were eligible to receive chemotherapy which was withheld at least four weeks (six weeks for nitrosoureas) prior to and two weeks after surgery. Patients were followed for up to 71 months.</paragraph>
+                        <paragraph>The population in Study 2 was 64% male and 92% White, and the median age was 49 years (range: 19-80). Sixty-five percent had a histologic subtype of glioblastoma multiforme, 26% had anaplastic astrocytoma or another anaplastic variant, 73% had a Karnofsky performance status ≥ 70, 53% had a Karnofsky performance status of ≥ 80%, 73% had only one prior surgery, and 46% had prior treatment with nitrosourea. Eighty-one percent of patients received 8 wafers and 96% received ≥ 6 wafers.</paragraph>
+                        <paragraph>Survival and 6-month mortality rate in the subgroup of patients with recurrent glioblastoma multiforme, were exploratory outcome measures and are summarized in Table 7 and Figures 7 and 8. No survival prolongation was observed in patients with pathologic diagnoses other than glioblastoma multiforme.</paragraph>
+                        <table width="75%" ID="table7">
+                           <caption>Table 7. Main Efficacy Outcome Measures in Patients with Recurrent Gliomablastoma Multiforme, Study 2.</caption>
+                           <col width="60%" align="left" valign="top"/>
+                           <col width="20%" align="center" valign="top"/>
+                           <col width="20%" align="center" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th/>
+                                 <th>Gliadel Wafer</th>
+                                 <th>Placebo Wafer</th>
+                              </tr>
+                              <tr>
+                                 <th>GLIOBLASTOMA MULTIFORME</th>
+                                 <th>n=72</th>
+                                 <th>n=73</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">6-Month Survival</content>
+                                 </td>
+                                 <td/>
+                                 <td/>
+                              </tr>
+                              <tr>
+                                 <td>Number of deaths, n (%)</td>
+                                 <td>32</td>
+                                 <td>47</td>
+                              </tr>
+                              <tr>
+                                 <td>6-month survival rate (%)</td>
+                                 <td>56%</td>
+                                 <td>36%<br/> </td>
+                              </tr>
+                              <tr>
+                                 <td>  Log-Rank test p-value <br/>  Gehan's generalized Wilcoxon Test p-value</td>
+                                 <td colspan="2">0.013<footnote ID="table7a">p-value not adjusted for multiple comparisons</footnote>
+                                    <br/>0.015<footnoteRef IDREF="table7a"/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Overall Survival</content>
+                                 </td>
+                                 <td/>
+                                 <td/>
+                              </tr>
+                              <tr>
+                                 <td>Number of deaths, n (%)</td>
+                                 <td>71 (99%)</td>
+                                 <td>72 (99%)</td>
+                              </tr>
+                              <tr>
+                                 <td>Median overall survival (95% CI (months)</td>
+                                 <td>6.51 (5.32, 7.49)</td>
+                                 <td>4.63 (3.78, 5.52)<br/> </td>
+                              </tr>
+                              <tr>
+                                 <td>  Log-Rank test p-value<br/>  Gehan's generalized Wilcoxon Test p-value</td>
+                                 <td colspan="2">0.181<footnoteRef IDREF="table7a"/>
+                                    <br/>0.021<footnoteRef IDREF="table7a"/>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <table width="100%" styleCode="Noautorules">
+                           <col width="100%" align="left" valign="top"/>
+                           <tbody>
+                              <tr>
+                                 <td align="left">
+                                    <content styleCode="bold">Figure 7</content>:<content styleCode="bold">  6-Month Survival for Patients with Recurrent Glioblastoma Multiforme– Kaplan-Meier Curves by Treatment Group</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left">
+                                    <renderMultiMedia referencedObject="MM9"/>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left">
+                                    <content styleCode="bold">Figure 8</content>:<content styleCode="bold">  Overall Survival (months) for Patients with Recurrent Glioblastoma Multiforme– Kaplan-Meier Curves by Treatment Group</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <renderMultiMedia referencedObject="MM10"/>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                     <component>
+                        <observationMedia ID="MM9">
+                           <text>Figure 7</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="gliadel-09.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM10">
+                           <text>Figure 8</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="gliadel-10.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S15">
+               <id root="1d7b1169-f6a4-43ca-bb05-97509d0821c3"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>15 	REFERENCES</title>
+               <text>
+                  <list listType="ordered" styleCode="arabic">
+                     <item>"OSHA Hazardous Drugs". <content styleCode="italics">OSHA.</content> http://www.osha.gov/SLTC/hazardousdrugs/index.html</item>
+                  </list>
+               </text>
+               <effectiveTime value="20141125"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S16">
+               <id root="a8cf85c8-bf58-4241-a163-3cd792f61203"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16  	HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>GLIADEL Wafer is supplied in a single dose treatment box containing eight individually pouched wafers. Each wafer contains 7.7 mg of carmustine and is packaged in two aluminum foil laminate pouches. The inner pouch is sterile and is designed to maintain product sterility and protect the product from moisture. The outer pouch is a peelable overwrap. The outside surface of the outer pouch is not sterile.</paragraph>
+                  <paragraph>NDC for single dose treatment box:  24338-050-08</paragraph>
+               </text>
+               <effectiveTime value="20141125"/>
+               <component>
+                  <section>
+                     <id root="bc6fb020-842b-49dd-a659-7e2a38badd87"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>Store GLIADEL Wafer at or below -20ºC (-4ºF).</paragraph>
+                        <paragraph>Do not keep unopened foil pouches at ambient room temperature for more than six hours at a time for up to three cycles within a 30-day period.</paragraph>
+                        <paragraph>GLIADEL Wafer is a cytotoxic drug and special handling and disposal procedures should be considered.<sup>1</sup>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20141125"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S17">
+               <id root="3e672ffb-25db-4213-8d18-da3d209c5232"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 	PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Seizures</content>: Advise patients to report any new or change in their seizure activity [(<content styleCode="italics">see<linkHtml href="#S5.1"> Warnings and Precautions (5.1)</linkHtml>
+                     </content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Intracranial Hypertension:</content> Advise patients to report severe headaches, nausea, vomiting or new onset visual disturbances [(<content styleCode="italics">see<linkHtml href="#S5.2"> Warnings and Precautions (5.2)</linkHtml>
+                     </content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Impaired Neurosurgical Wound Healing</content>: Advise patients to report any evidence of wound dehiscence, fever or cerebrospinal fluid leak <content styleCode="italics">[see<linkHtml href="#S5.3"> Warnings and Precautions (5.3)</linkHtml>].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Meningitis</content>: Advise patients to report symptoms of meningitis such as fever or stiff neck <content styleCode="italics">[see<linkHtml href="#S5.4"> Warnings and Precautions (5.4)</linkHtml>].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Embryo-Fetal Toxicity</content>: Counsel patients on pregnancy planning and prevention.  Advise females of reproductive potential to use effective contraception during treatment with GLIADEL <content styleCode="italics">[see<linkHtml href="#S5.6"> Warnings and Precautions (5.6)</linkHtml>].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Nursing Infants</content>: Advise nursing mothers to discontinue nursing after GLIADEL WAFER implantation <content styleCode="italics">[see<linkHtml href="#S8.3"> Use in Specific Populations (8.3)</linkHtml>].</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20141125"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="8421acc0-4c84-49ab-8c67-a0686220979d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured by<br/>Eisai Inc.<br/>Woodcliff Lake, NJ 07677</paragraph>
+                  <paragraph>Distributed by<br/>Arbor Pharmaceuticals, LLC<br/> Atlanta, GA 30328</paragraph>
+                  <paragraph>GLIADEL<sup>®</sup> is a registered trademark of Eisai Inc.</paragraph>
+                  <paragraph>GL-PI-02</paragraph>
+               </text>
+               <effectiveTime value="20141125"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6d28edd8-a642-45e9-8a05-8e78e80d8f26"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 8 Wafer Box</title>
+               <text>
+                  <paragraph>NDC 24338-050-08</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">GLIADEL<sup>®</sup> WAFER</content>
+                     <br/>
+                     <content styleCode="bold">(carmustine implant)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">7.7 mg carmustine/wafer</content>
+                  </paragraph>
+                  <paragraph>For intracranial use.</paragraph>
+                  <paragraph>Each sterile wafer contains<br/>192.3 mg polifeprosan 20 and<br/>7.7 mg carmustine.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Contents:<br/>8 wafers, individually packaged</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at or below -20°C (-4°F).</content>
+                     <br/>Rx only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Warning: </content>Cytotoxic agent<br/>See package insert for full prescribing information.<br/>
+                     <content styleCode="bold">Keep out of the reach of children.</content>
+                  </paragraph>
+                  <paragraph>arbor<br/>PHARMACEUTICALS, LLC</paragraph>
+                  <renderMultiMedia referencedObject="MM11"/>
+               </text>
+               <effectiveTime value="20141125"/>
+               <component>
+                  <observationMedia ID="MM11">
+                     <text>PRINCIPAL DISPLAY PANEL - 8 Wafer Box</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="gliadel-11.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

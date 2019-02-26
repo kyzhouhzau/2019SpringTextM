@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:voc="urn:hl7-org:v3/voc" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="6cd4cb66-6689-0727-ee16-7ebac75c1b3b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20160726"/>
+   <setId root="26fb29e9-cfcb-711c-fd00-c8f6be07db9f"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="008057330" root="1.3.6.1.4.1.519.1"/>
+            <name>Alvogen Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="008057330" root="1.3.6.1.4.1.519.1"/>
+                  <name>Alvogen Inc.</name>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="INV-7136e4ac-e34b-4319-80a6-23f9fcef09d2">
+               <id root="4f829ed4-996a-7608-c009-5140b9f42a48"/>
+               <code code="48780-1" displayName="SPL PRODUCT DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>WARNING</title>
+               <text ID="INV-c95f759e-a86e-40dc-ae0b-f6a965917327">
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Severe local tissue necrosis will occur if there is extravasation during administration (see <linkHtml ID="INV-586719a0-f5f4-44fc-bad2-d14ddff84468" href="#INV-51e57304-93d6-41af-bfcb-0b5922318309">DOSAGE AND ADMINISTRATION</linkHtml>). Doxorubicin must not be given by the intramuscular or subcutaneous route.</item>
+                     <item>Myocardial toxicity manifested in its most severe form by potentially fatal congestive heart failure (CHF) may occur either during therapy or months to years after termination of therapy. The probability of developing impaired myocardial function based on a combined index of signs, symptoms and decline in left ventricular ejection fraction (LVEF) is estimated to be 1 to 2% at a total cumulative dose of 300 mg/m<sup>2</sup> of doxorubicin, 3 to 5% at a dose of 400 mg/m<sup>2</sup>, 5 to 8% at 450 mg/m<sup>2</sup> and 6 to 20% at 500 mg/m<sup>2</sup>. The risk of developing CHF increases rapidly with increasing total cumulative doses of doxorubicin in excess of 400 mg/m<sup>2</sup>. Risk factors (active or dormant cardiovascular disease, prior or concomitant radiotherapy to the mediastinal/pericardial area, previous therapy with other anthracyclines or anthracenediones, concomitant use of other cardiotoxic drugs) may increase the risk of cardiac toxicity. Cardiac toxicity with doxorubicin may occur at lower cumulative doses whether or not cardiac risk factors are present. Pediatric patients are at increased risk for developing delayed cardiotoxicity.</item>
+                     <item>Secondary acute myelogenous leukemia (AML) or myelodysplastic syndrome (MDS) has been reported in patients treated with anthracyclines, including doxorubicin (see <linkHtml ID="INV-45f19c77-8d82-4fe8-a7d2-c14a17ea61c5" href="#INV-2885a1f0-604c-4ecd-ae12-bae4b8884894">ADVERSE REACTIONS</linkHtml>). The occurrence of refractory secondary AML or MDS is more common when anthracyclines are given in combination with DNA-damaging anti-neoplastic agents or radiotherapy, when patients have been heavily pretreated with cytotoxic drugs, or when doses of anthracyclines have been escalated. The rate of developing secondary AML or MDS has been estimated in an analysis of 8563 patients with early breast cancer treated in 6 studies conducted by the National Surgical Adjuvant Breast and Bowel Project (NSABP), including NSABP B-15. Patients in these studies received standard doses of doxorubicin and standard or escalated doses of cyclophosphamide (AC) adjuvant chemotherapy and were followed for 61,810 patient years. Among 4483 such patients who received conventional doses of AC, 11 cases of AML or MDS were identified, for an incidence of 0.32 cases per 1000 patient years (95% CI 0.16 to 0.57) and a cumulative incidence at 5 years of 0.21% (95% CI 0.11–0.41%). In another analysis of 1474 patients with breast cancer who received adjuvant treatment with doxorubicin-containing regimens in clinical trials conducted at University of Texas M.D. Anderson Cancer Center, the incidence was estimated at 1.5% at 10 years. In both experiences, patients who received regimens with higher cyclophosphamide dosages, who received radiotherapy, or who were aged 50 or older had an increased risk of secondary AML or MDS. Pediatric patients are also at risk of developing secondary AML.</item>
+                     <item>Dosage should be reduced in patients with impaired hepatic function.</item>
+                     <item>Severe myelosuppression may occur.</item>
+                     <item>Doxorubicin should be administered only under the supervision of a physician who is experienced in the use of cancer chemotherapeutic agents.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20160726"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="47781-256" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Doxorubicin Hydrochloride</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Doxorubicin Hydrochloride </name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="2"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="82F2G7BL4E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Doxorubicin Hydrochloride</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="80168379AG" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Doxorubicin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Chloride</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Hydrochloric Acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="5"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="47781-256-20"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="47781-256-17"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20171231"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="25"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="47781-256-18"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20171231"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="47781-256-19"/>
+                              <formCode code="C43210" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, MULTI-DOSE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20171231"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20171231"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA065515" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <section>
+                     <id root="e4af3a5c-8e55-47aa-306b-430babafdff1"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <effectiveTime value="20160726"/>
+                     <component>
+                        <observationMedia ID="MM178543464966">
+                           <text>5ml-single-dose-vial-label</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="5ml-single-dose-vial-label.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM170802513457">
+                           <text>10X5ml-carton</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="10X5ml-carton.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM214994531919">
+                           <text>25ml-single-dose-vial-label</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="25ml-single-dose-vial-label.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM936534613846">
+                           <text>100ml-multi-dose-vial-label</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="100ml-multi-dose-vial-label.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM60547312442">
+                           <text>structure</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="structure.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM204493336013">
+                           <text>table-1</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="table-1.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_3a14e683-1af9-a850-5e06-3019cf8efa62">
+               <id root="74cb7544-2dab-63da-6cc3-696c7878e0af"/>
+               <code code="34066-1" displayName="BOXED WARNING SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>BOXED WARNING SECTION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WARNINGS</content>
+                     <br/>1. Severe local tissue necrosis will occur if there is extravasation during administration (see <content styleCode="bold">DOSAGE AND </content>
+                     <content styleCode="bold"> ADMINISTRATION</content>). Doxorubicin must not be given by the intramuscular or subcutaneous route.<br/> 2. Myocardial toxicity manifested in its most severe form by potentially fatal congestive heart failure (CHF) may occur either during therapy or months to years after termination of therapy. The probability of developing impaired myocardial function based on a combined index of signs, symptoms and decline in left ventricular ejection fraction (LVEF) is estimated to be 1 to 2% at a total cumulative dose of 300 mg/m2 of doxorubicin, 3 to 5% at a dose of 400 mg/m2, 5 to 8% at 450 mg/m2, and 6 to 20% at 500 mg/m2. The risk of developing CHF increases rapidly with increasing total cumulative doses of doxorubicin in excess of 400 mg/m2. Risk factors (active or dormant cardiovascular disease, prior or concomitant radiotherapy to the mediastinal/ pericardial area, previous therapy with other anthracyclines or anthracenediones, concomitant use of other cardiotoxic drugs) may increase the risk of cardiac toxicity. Cardiac toxicity with doxorubicin may occur at lower cumulative doses whether or not cardiac risk factors are present. Pediatric patients are at increased risk for developing delayed cardiotoxicity.<br/> 3. Secondary acute myelogenous leukemia (AML) or myelodysplastic syndrome (MDS) have been reported in patients treated with anthracyclines, including doxorubicin (see <content styleCode="bold">ADVERSE REACTIONS</content>). The occurrence of refractory secondary AML or MDS is more common when anthracyclines are given in combination with DNA-damaging anti-neoplastic agents or radiotherapy, when patients have been heavily pretreated with cytotoxic drugs, or when doses of anthracyclines have been escalated. The rate of developing secondary AML or MDS has been estimated in an analysis of 8563 patients with early breast cancer treated in 6 studies conducted by the National Surgical Adjuvant Breast and Bowel Project (NSABP), including NSABP B-15. Patients in these studies received standard doses of doxorubicin and standard or escalated doses of cyclophosphamide (AC) adjuvant chemotherapy and were followed for 61,810 patient years. Among 4483 such patients who received conventional doses of AC, 11 cases of AML or MDS were identified, for an incidence of 0.32 cases per 1000 patient years (95% CI, 0.16–0.57) and a cumulative incidence at 5 years of 0.21% (95% CI, 0.11–0.41%). In another analysis of 1474 patients with breast cancer who received adjuvant treatment with doxorubicin-containing regimens in clinical trials conducted at University of Texas M.D. Anderson Cancer Center, the incidence was estimated at 1.5% at 10 years. In both experiences, patients who received regimens with higher cyclophosphamide dosages, who received radiotherapy, or who were aged 50 or older had an increased risk of secondary AML or MDS. Pediatric patients are also at risk of developing secondary AML.<br/> 4. Dosage should be reduced in patients with impaired hepatic function.<br/> 5. Severe Doxorubicin shoyelosuppression may occur.<br/> 6. Doxorubicin should be administered only under the supervision of a physician who is experienced in the use of cancer chemotherapeutic agents. <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160726"/>
+            </section>
+         </component>
+         <component>
+            <section ID="INV-d252a70b-5551-4224-ac5c-d9696e305474">
+               <id root="7929a38f-540f-34ae-0574-180b4a39e1e1"/>
+               <code code="34089-3" displayName="DESCRIPTION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>DESCRIPTION</title>
+               <text ID="INV-75aff11f-aefd-4028-a246-62ea75c196e7">
+                  <paragraph ID="INV-f545469f-f673-48b5-8a24-f7fe29482a13">Doxorubicin is a cytotoxic anthracycline antibiotic isolated from cultures of <content styleCode="italics">Streptomyces peucetius</content> var. <content styleCode="italics">caesius</content>. Doxorubicin consists of a naphthacenequinone nucleus linked through a glycosidic bond at ring atom 7 to an amino sugar, daunosamine. Chemically, doxorubicin hydrochloride is: 5,12-Naphthacenedione, 10-[(3-amino-2,3,6-trideoxy-α-L-<content styleCode="italics">lyx</content>ohexopyranosyl)oxy]-7,8,9,10-tetrahydro-6,8,11-trihydroxy-8-(hydroxylacetyl)-1-methoxy-hydrochloride (8S-<content styleCode="italics">cis</content>)- . The structural formula is as follows:</paragraph>
+                  <renderMultiMedia referencedObject="MM60547312442"/>
+                  <paragraph ID="INV-e3620680-48ad-473d-9e76-ccb00453bea3">Doxorubicin binds to nucleic acids, presumably by specific intercalation of the planar anthracycline nucleus with the DNA double helix. The anthracycline ring is lipophilic, but the saturated end of the ring system contains abundant hydroxyl groups adjacent to the amino sugar, producing a hydrophilic center. The molecule is amphoteric, containing acidic functions in the ring phenolic groups and a basic function in the sugar amino group. It binds to cell membranes as well as plasma proteins.</paragraph>
+                  <paragraph ID="INV-4f983f2f-9c9f-4286-bad7-ad6bdaffaa1f">Doxorubicin Hydrochloride Injection USP is a sterile parenteral, isotonic solution.</paragraph>
+               </text>
+               <effectiveTime value="20160726"/>
+            </section>
+         </component>
+         <component>
+            <section ID="INV-6247d7d1-a793-46b3-bc49-5b28f887005b">
+               <id root="d2fe004c-a687-215f-72ae-d72154d6109f"/>
+               <code code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text ID="INV-e6281162-b88c-4348-837f-640ccb72dc7b">
+                  <paragraph ID="INV-75f6ffa5-6a8d-4ac7-b1ef-7067b8583835">The cytotoxic effect of doxorubicin on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases. The interaction of doxorubicin with topoisomerase II to form DNA-cleavable complexes appears to be an important mechanism of doxorubicin cytocidal activity.</paragraph>
+                  <paragraph ID="INV-6fa13af7-1277-44c9-bfda-63314fbb2609">Doxorubicin cellular membrane binding may affect a variety of cellular functions. Enzymatic electron reduction of doxorubicin by a variety of oxidases, reductases and dehydrogenases generates highly reactive species including the hydroxyl free radical OH•. Free radical formation has been implicated in doxorubicin cardiotoxicity by means of Cu (II) and Fe (III) reduction at the cellular level.</paragraph>
+                  <paragraph ID="INV-ead694e3-fcc8-4014-b9d0-36ea12c64bcb">Cells treated with doxorubicin have been shown to manifest the characteristic morphologic changes associated with apoptosis or programmed cell death. Doxorubicin-induced apoptosis may be an integral component of the cellular mechanism of action relating to therapeutic effects, toxicities, or both.</paragraph>
+                  <paragraph ID="INV-6ba1f208-a9ce-4a21-b997-365591576a77">Animal studies have shown activity in a spectrum of experimental tumors, immunosuppression, carcinogenic properties in rodents, induction of a variety of toxic effects, including delayed and progressive cardiac toxicity, myelosuppression in all species and atrophy to testes in rats and dogs.</paragraph>
+               </text>
+               <effectiveTime value="20160726"/>
+               <component>
+                  <section ID="INV-d36dcc96-c46e-4347-b4fb-149790945888">
+                     <id root="d33c82d7-43db-325a-160b-66847cd6a95c"/>
+                     <code code="43682-4" displayName="PHARMACOKINETICS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Pharmacokinetics</title>
+                     <text ID="INV-8273eea6-84b0-4c7d-8704-0420c8ef008b">
+                        <paragraph ID="INV-e948b355-9ad2-45ed-927c-b15e76c42c0a">Pharmacokinetic studies, determined in patients with various types of tumors undergoing either single or multi-agent therapy have shown that doxorubicin follows a multiphasic disposition after intravenous injection. In four patients, doxorubicin has demonstrated dose-independent pharmacokinetics in the dose range of 30 to 70 mg/m<sup>2</sup>.</paragraph>
+                        <paragraph ID="INV-2c41173f-9ad7-401a-ab6f-be2e74db62dd">
+                           <content styleCode="italics">Distribution</content>. The initial distribution half-life of approximately 5 minutes suggests rapid tissue uptake of doxorubicin, while its slow elimination from tissues is reflected by a terminal half-life of 20 to 48 hours. Steady-state distribution volume ranges from 809 to 1214 L/m<sup>2</sup> and is indicative of extensive drug uptake into tissues. Binding of doxorubicin and its major metabolite, doxorubicinol, to plasma proteins is about 74 to 76% and is independent of plasma concentration of doxorubicin up to 1.1 mcg/mL.</paragraph>
+                        <paragraph ID="INV-7347569b-b2bc-49ed-8930-37fab553e66a">Doxorubicin was excreted in the milk of one lactating patient, with peak milk concentration at 24 hours after treatment being approximately 4.4-fold greater than the corresponding plasma concentration. Doxorubicin was detectable in the milk up to 72 hours after therapy with 70 mg/m<sup>2</sup> of doxorubicin given as a 15-minute intravenous infusion and 100 mg/m<sup>2</sup> of cisplatin as a 26-hour intravenous infusion. The peak concentration of doxorubicinol in milk at 24 hours was 0.11 mcg/mL and AUC up to 24 hours was 9.0 mcg•h/mL while the AUC for doxorubicin was 5.4 mcg•h/mL.</paragraph>
+                        <paragraph ID="INV-a63cfae1-ffcc-4f40-917d-e26fb687ac45">Doxorubicin does not cross the blood brain barrier.</paragraph>
+                        <paragraph ID="INV-aed7c066-9537-4246-a126-3fb366e4a5cb">
+                           <content styleCode="italics">Metabolism</content>. Enzymatic reduction at the 7 position and cleavage of the daunosamine sugar yields aglycones which are accompanied by free radical formation, the local production of which may contribute to the cardiotoxic activity of doxorubicin. Disposition of doxorubicinol (DOX-OL) in patients is formation rate limited, with the terminal half-life of DOX-OL being similar to doxorubicin. The relative exposure of DOX-OL, i.e., the ratio between the AUC of DOX-OL and the AUC of doxorubicin, compared to doxorubicin ranges between 0.4 and 0.6.</paragraph>
+                        <paragraph ID="INV-c1dce22c-a179-41a2-ab2e-4ad70fb63db8">
+                           <content styleCode="italics">Excretion</content>. Plasma clearance is in the range 324 to 809 mL/min/m<sup>2</sup> and is predominately by metabolism and biliary excretion. Approximately 40% of the dose appears in the bile in 5 days, while only 5 to 12% of the drug and its metabolites appear in the urine during the same time period. In urine, &lt;3% of the dose was recovered as DOX-OL over 7 days.</paragraph>
+                        <paragraph ID="INV-41610fd1-1a51-4634-9a8a-5c0ea2951ba5">Systemic clearance of doxorubicin is significantly reduced in obese women with ideal body weight greater than 130%. There was a significant reduction in clearance without any change in volume of distribution in obese patients when compared with normal patients with less than 115% ideal body weight.</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                     <component>
+                        <section ID="INV-05966d42-0f4c-405b-87f1-63d56d1e0f67">
+                           <id root="d1a14022-2bad-f338-e629-0cc6af553cd1"/>
+                           <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                           <title>
+                              <content styleCode="bold">Pharmacokinetics in Special Populations</content>
+                           </title>
+                           <text ID="INV-cff4015e-39f8-4db9-8769-3005c0ef45bf">
+                              <paragraph ID="INV-b06fa826-57ba-4ca0-8323-19359538ab52">
+                                 <content styleCode="italics">Pediatric</content>. Following administration of 10 to 75-mg/m<sup>2</sup> doses of doxorubicin to 60 children and adolescents ranging from 2 months to 20 years of age, doxorubicin clearance averaged 1443 ± 114 mL/min/m<sup>2</sup>. Further analysis demonstrated that clearance in 52 children greater than 2 years of age (1540 mL/min/m<sup>2</sup>) was increased compared with adults. However, clearance in infants younger than 2 years of age (813 mL/min/m<sup>2</sup>) was decreased compared with older children and approached the range of clearance values determined in adults. </paragraph>
+                              <paragraph ID="INV-bcba505d-3e0d-4807-861c-58450cf28b9d">
+                                 <content styleCode="italics">Geriatric</content>. While the pharmacokinetics of elderly subjects (65 years of age) have been evaluated, no dosage adjustment is recommended based on age. (See <linkHtml ID="INV-d5d43f9c-1ee4-4556-85ea-9456b5457137" href="#INV-a7d4971b-f1d6-443b-97ae-1bd7e0d0399b">PRECAUTIONS, Geriatric Use</linkHtml>.)</paragraph>
+                              <paragraph ID="INV-23760b14-e403-405d-afe3-986dae6015b3">
+                                 <content styleCode="italics">Gender</content>. A published clinical study involving 6 men and 21 women with no prior anthracycline therapy reported a significantly higher median doxorubicin clearance in the men compared to the women (1088 mL/min/m<sup>2</sup> versus 433 mL/min/m<sup>2</sup>). However, the terminal half-life of doxorubicin was longer in men compared to the women (54 versus 35 hours).</paragraph>
+                              <paragraph ID="INV-156e371a-7f3a-4ef1-9c11-d998c14e561a">
+                                 <content styleCode="italics">Race</content>. The influence of race on the pharmacokinetics of doxorubicin has not been evaluated. </paragraph>
+                              <paragraph ID="INV-4901feeb-b6b5-442c-8a1a-67d87dfb6795">
+                                 <content styleCode="italics">Hepatic Impairment</content>. The clearance of doxorubicin and doxorubicinol was reduced in patients with impaired hepatic function (see <linkHtml ID="INV-81c16272-4ac4-4a20-b9fb-3e2584db6ede" href="#INV-51e57304-93d6-41af-bfcb-0b5922318309">DOSAGE AND ADMINISTRATION</linkHtml>).</paragraph>
+                              <paragraph ID="INV-6c175f82-a4a8-4d43-bf9c-d35b25f06ec4">
+                                 <content styleCode="italics">Renal Impairment</content>. The influence of renal function on the pharmacokinetics of doxorubicin has not been evaluated.</paragraph>
+                           </text>
+                           <effectiveTime value="20160726"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-a1b626ef-9e78-421f-848e-0cb23c9d3698">
+                     <id root="a110677f-f99a-3e4c-1e30-d848178295b4"/>
+                     <code code="34092-7" displayName="CLINICAL STUDIES SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Clinical Studies</title>
+                     <text ID="INV-c3a6f0be-5460-48c9-8f1f-2a4789092539">
+                        <paragraph ID="INV-402c148e-b39a-4798-9f09-b91480025dbb">The effectiveness of doxorubicin-containing regimens in the adjuvant therapy of early breast cancer has primarily been established based on data collected in a meta-analysis published in 1998 by the Early Breast Cancer Trialists Collaborative Group (EBCTCG). The EBCTCG obtains primary data on all relevant studies, both published and unpublished, for early stage breast cancer and regularly updates these analyses. The principal endpoints for the adjuvant chemotherapy trials were disease-free survival (DFS) and overall survival (OS). The meta-analyses allowed comparisons of cyclophosphamide, methotrexate, and 5-fluorouracil (CMF) to no chemotherapy (19 trials including 7523 patients) and comparisons of doxorubicin-containing regimens with CMF as an active control (6 trials including 3510 patients). The pooled estimates of DFS and OS from these trials were used to calculate the effect of CMF relative to no therapy. The hazard ratio for DFS for CMF compared to no chemotherapy was 0.76 (95% CI 0.71 to 0.82) and for OS was 0.86 (95% CI 0.80 to 0.93). Based on a conservative estimate of CMF effect (lower 2-sided 95% confidence limit of hazard ratio) and 75% retention of CMF effect on DFS, it was determined that the doxorubicin-containing regimens would be considered as non-inferior to CMF if the upper 2-sided 95% confidence limit of the hazard ratio was less than 1.06, i.e., not more than 6% worse than CMF. A similar calculation for OS would require a non-inferiority margin of 1.02.</paragraph>
+                        <paragraph ID="INV-51d6ba97-8072-4be2-984e-e5303857d86e">Six randomized trials in the EBCTCG meta-analysis compared doxorubicin-containing regimens to CMF. A total of 3510 women with early breast cancer involving axillary lymph nodes were evaluated; approximately 70% were premenopausal and 30% were postmenopausal. At the time of the meta-analysis, 1745 first recurrences and 1348 deaths had occurred. Analyses demonstrated that doxorubicin-containing regimens retained at least 75% of the historical CMF adjuvant effect on DFS and are effective. The hazard ratio for DFS (dox:CMF) was 0.91 (95% CI 0.82 to 1.01) and for OS was 0.91 (95% CI 0.81 to 1.03). Results of these analyses for both DFS and OS are provided in Table 1 and Figures 1 and 2.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 1. Summary of Randomized Trials Comparing Doxorubicin-Containing Regimens Versus CMF in EBCTCG Meta-Analysis</content>
+                        </paragraph>
+                        <paragraph>
+                           <renderMultiMedia referencedObject="MM204493336013"/>
+                        </paragraph>
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Abbreviations: </content>DFS = disease free survival; OS = overall survival; AC = doxorubicin, cyclophosphamide; AVbCMF = doxorubicin, vinblastine, cyclophosphamide, methotrexate, 5-fluorouracil; CMF = cyclophosphamide, methotrexate, 5-fluorouracil; CMFVA = cyclophosphamide, methotrexate, 5-fluorouracil, vincristine, doxorubicin; FAC = 5-fluorouracil, doxorubicin, cyclophosphamide; FACV = 5-fluorouracil, doxorubicin, cyclophosphamide, vincristine; HR = hazard ratio; CI = confidence interval </td>
+                              </tr>
+                              <tr>
+                                 <td>* Includes pooled data from patients who received either AC alone for 4 cycles, or who were treated with AC for 4 cycles followed by 3 cycles of CMF. </td>
+                              </tr>
+                              <tr>
+                                 <td>† Patients received alternating cycles of AVb and CMF. </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                        <paragraph/>
+                        <renderMultiMedia referencedObject="MM-63de60fb-6434-48c2-83c2-1091f8be5781"/>
+                        <paragraph ID="INV-31b2864b-fd47-4087-9c99-44be9d380eaf"/>
+                        <paragraph ID="INV-5339f533-8dec-4a45-b264-febfe4f9dab5"/>
+                        <renderMultiMedia referencedObject="MM-f030ca7a-4a5c-4db0-9fbe-81d1b6436796"/>
+                        <paragraph ID="INV-9ec01f83-3b09-4622-8042-decbe7a27f92">With respect to DFS, 2 of 6 studies (NSABP B-15 and ONCOFRANCE) met the non-inferiority standard individually and with respect to OS, 1 study met the non-inferiority margin individually (ONCOFRANCE). The largest of the 6 studies in the EBCTCG meta-analysis, a randomized, open-label, multicenter trial (NSABP B-15), was conducted in approximately 2300 women (80% premenopausal; 20% postmenopausal) with early breast cancer involving axillary lymph nodes. In this trial, 6 cycles of conventional CMF was compared to 4 cycles of doxorubicin and cyclophosphamide (AC) and 4 cycles of AC followed by 3 cycles of CMF. No statistically significant differences in terms of DFS or OS were observed. (<linkHtml ID="INV-0e3b626a-998a-4990-b308-b90ed6ce4d26" href="#INV-af3e4f96-bc53-475f-816c-b5fb422654f8">See Table 1</linkHtml>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <observationMedia ID="MM-63de60fb-6434-48c2-83c2-1091f8be5781">
+                     <text>figure1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="figure1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM-f030ca7a-4a5c-4db0-9fbe-81d1b6436796">
+                     <text>figure2</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="figure2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="INV-e44bd264-1a09-41a5-b7fe-a24a78971097">
+               <id root="338350b7-4a7b-ad1d-9e0e-e3ba6790c5bc"/>
+               <code code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text ID="INV-c1da1968-57cd-4269-909e-a7c0f2daf9da">
+                  <paragraph ID="INV-79786291-786a-477c-b999-3cecf004baef">Doxorubicin has been used successfully to produce regression in disseminated neoplastic conditions such as acute lymphoblastic leukemia, acute myeloblastic leukemia, Wilms’ tumor, neuroblastoma, soft tissue and bone sarcomas, breast carcinoma, ovarian carcinoma, transitional cell bladder carcinoma, thyroid carcinoma, gastric carcinoma, Hodgkin’s disease, malignant lymphoma and bronchogenic carcinoma in which the small cell histologic type is the most responsive compared to other cell types.</paragraph>
+                  <paragraph ID="INV-aa794a19-b0c9-489d-8b38-91f13e98d197">Doxorubicin is also indicated for use as a component of adjuvant therapy in women with evidence of axillary lymph node involvement following resection of primary breast cancer.</paragraph>
+               </text>
+               <effectiveTime value="20160726"/>
+            </section>
+         </component>
+         <component>
+            <section ID="INV-d6d094dc-7664-4c04-b531-3b8f79968576">
+               <id root="96814a7c-82f1-0033-e840-a36cf54ecd95"/>
+               <code code="34070-3" displayName="CONTRAINDICATIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>CONTRAINDICATIONS</title>
+               <text ID="INV-26cceb1a-0cdd-47f8-80a1-245f92b2e51f">
+                  <paragraph ID="INV-d33c774b-eae9-4776-ba3e-bbb769f03584">Patients should not be treated with doxorubicin if they have any of the following conditions: baseline neutrophil count &lt;1500 cells/mm<sup>3</sup>; severe hepatic impairment; recent myocardial infarction; severe myocardial insufficiency; severe arrhythmias; previous treatment with complete cumulative doses of doxorubicin, daunorubicin, idarubicin, and/or other anthracyclines and anthracenediones; or hypersensitivity to doxorubicin, any of its excipients, or other anthracyclines or anthracenediones. [See <linkHtml ID="INV-2ff79730-9e9d-431e-841e-5751047a02a3" href="#INV-6774bbbe-b603-4da4-99a9-9d904661394e">WARNINGS</linkHtml> and <linkHtml ID="INV-a0befa67-7bd2-489b-9a62-86bc24122dc2" href="#INV-51e57304-93d6-41af-bfcb-0b5922318309">DOSAGE AND ADMINISTRATION</linkHtml>.]</paragraph>
+               </text>
+               <effectiveTime value="20160726"/>
+            </section>
+         </component>
+         <component>
+            <section ID="INV-6774bbbe-b603-4da4-99a9-9d904661394e">
+               <id root="36325c6f-e6a6-ec04-ec48-91997671a1d1"/>
+               <code code="34071-1" displayName="WARNINGS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20160726"/>
+               <component>
+                  <section ID="INV-5f5b6b6e-b4c3-43ff-bb7e-dde90cca59dd">
+                     <id root="8589b544-67e5-7a16-663b-fe26718e0b07"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>General</title>
+                     <text ID="INV-a9952a4b-f070-4f95-94d8-18bedfc940ef">
+                        <paragraph ID="INV-b96dfc0a-5757-4b1a-a2df-3fda10e39f97">Doxorubicin should be administered only under the supervision of qualified physicians experienced in the use of cytotoxic therapy. Patients should recover from acute toxicities of prior cytotoxic treatment (such as stomatitis, neutropenia, thrombocytopenia, and generalized infections) before beginning treatment with doxorubicin. Also, initial treatment with doxorubicin should be preceded by a careful baseline assessment of blood counts; serum levels of total bilirubin, AST, and creatinine; and cardiac function as measured by left ventricular ejection function (LVEF). Patients should be carefully monitored during treatment for possible clinical complications due to myelosuppression. Supportive care may be necessary for the treatment of severe neutropenia and severe infectious complications. Monitoring for potential cardiotoxicity is also important, especially with greater cumulative exposure to doxorubicin. Doxorubicin may potentiate the toxicity of other anticancer therapies (see <linkHtml ID="INV-8e67bf65-eb22-438a-a6a8-0365d3591b80" href="#INV-df420bf2-9901-4086-a866-dc3d6c2f34e3">PRECAUTIONS, Drug Interactions</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-0f8c2063-6554-4350-a5ee-ae283e6c1b7b">
+                     <id root="8398b75d-10ca-f837-285e-c874d01f0651"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Cardiac Function</title>
+                     <text ID="INV-039598ae-ca1b-44b9-aed3-4e7e408ebfbb">
+                        <paragraph ID="INV-f4d6f650-1c26-4afe-9a37-f6bd8275e8bf">Cardiotoxicity is a known risk of anthracycline treatment. Anthracycline-induced cardiotoxicity may be manifested by early (or acute) or late (delayed) events. Early cardiotoxicity of doxorubicin consists mainly of sinus tachycardia and/or electrocardiogram (ECG) abnormalities such as non-specific ST-T wave changes. Tachyarrhythmias, including premature ventricular contractions and ventricular tachycardia, bradycardia, as well as atrioventricular and bundle-branch block have also been reported. These effects do not usually predict subsequent development of delayed cardiotoxicity, are rarely of clinical importance, and are generally not considered an indication for the suspension of doxorubicin treatment.</paragraph>
+                        <paragraph ID="INV-092ced4a-a4f9-4556-a6c5-dfed4483f946">Delayed cardiotoxicity usually develops late in the course of therapy with doxorubicin or within 2 to 3 months after treatment termination, but later events, several months to years after completion of treatment, have also been reported. Delayed cardiomyopathy is manifested by a reduction in LVEF and/or signs and symptoms of congestive heart failure (CHF) such as tachycardia, dyspnea, pulmonary edema, dependent edema, cardiomegaly and hepatomegaly, oliguria, ascites, pleural effusion, and gallop rhythm. Subacute effects such as pericarditis/myocarditis have also been reported. Life-threatening CHF is the most severe form of anthracycline-induced cardiomyopathy and represents the cumulative dose-limiting toxicity of the drug.</paragraph>
+                        <paragraph ID="INV-40e0f3d5-0242-4c44-9bff-eb2695fe8b3d">The probability of developing impaired myocardial function, based on a combined index of signs, symptoms and decline in left ventricular ejection fraction (LVEF) is estimated to be 1 to 2% at a total cumulative dose of 300 mg/m<sup>2</sup> of doxorubicin, 3 to 5% at a dose of 400 mg/m<sup>2</sup>, 5 to 8% at a dose of 450 mg/m<sup>2</sup> and 6 to 20% at a dose of 500 mg/m<sup>2</sup>, given in a schedule of a bolus injection once every 3 weeks. In a retrospective review, the probability of developing congestive heart failure was reported to be 5/168 (3%) at a cumulative dose of 430 mg/m<sup>2</sup> of doxorubicin, 8/110 (7%) at 575 mg/m<sup>2</sup>, and 3/14 (21%) at 728 mg/m<sup>2</sup>. In a prospective study of doxorubicin in combination with cyclophosphamide, fluorouracil and/or vincristine in patients with breast cancer or small cell lung cancer, the probability of CHF at various cumulative doses of doxorubicin was 1.5% at 300 mg/m<sup>2</sup>, 4.9% at 400 mg/m<sup>2</sup>, 7.7% at 450 mg/m<sup>2</sup> and 20.5% at 500 mg/m<sup>2</sup>. The risk of developing CHF increases rapidly with increasing total cumulative doses of doxorubicin in excess of 400 mg/m<sup>2</sup>.</paragraph>
+                        <paragraph ID="INV-0c2f9aad-a4af-458e-9462-d9a0c8face46">Cardiotoxicity may occur at lower doses in patients with prior mediastinal/pericardial irradiation, concomitant use of other cardiotoxic drugs, doxorubicin exposure at an early age, and advanced age. Data also suggest that pre-existing heart disease is a cofactor for increased risk of doxorubicin cardiotoxicity. In such cases, cardiac toxicity may occur at doses lower than the recommended cumulative dose of doxorubicin. Studies have suggested that concomitant administration of doxorubicin and calcium channel entry blockers or cardiotoxic drugs, especially those with long half-lives, e.g., trastuzumab, may increase the risk of doxorubicin cardiotoxicity (see <content styleCode="bold">PRECAUTIONS</content>, <content styleCode="bold">General; DOSAGE AND ADMINISTRATION</content>). The total dose of doxorubicin administered to the individual patient should also take into account previous or concomitant therapy with related compounds such as daunorubicin, idarubicin, and mitoxantrone. Although not formally tested, it is probable that the toxicity of doxorubicin and other anthracyclines or anthracenediones is additive. Cardiomyopathy and/or congestive heart failure may be encountered several months or years after discontinuation of doxorubicin therapy.</paragraph>
+                        <paragraph ID="INV-a957f142-2e4a-4663-af73-bbd359b2d716">The risk of acute manifestations of doxorubicin cardiotoxicity in pediatric patients may be as much or lower than in adults. Pediatric patients appear to be at particular risk for developing delayed cardiac toxicity in that doxorubicin-induced cardiomyopathy impairs myocardial growth as pediatric patients mature, subsequently leading to possible development of congestive heart failure during early adulthood. As many as 40% of pediatric patients may have subclinical cardiac dysfunction and 5 to 10% of pediatric patients may develop congestive heart failure on long-term follow-up. This late cardiac toxicity may be related to the dose of doxorubicin. The longer the length of follow-up, the greater the increase in the detection rate. Treatment of doxorubicin-induced congestive heart failure includes the use of digitalis, diuretics, after load reducers such as angiotensin I converting enzyme (ACE) inhibitors, low salt diet, and bed rest. Such intervention may relieve symptoms and improve the functional status of the patient.</paragraph>
+                        <paragraph ID="INV-a99e1286-babf-4965-8586-5f7a06238b9b">
+                           <content styleCode="bold italics">Monitoring Cardiac Function</content>. The risk of serious cardiac impairment may be decreased through regular monitoring of LVEF during the course of treatment with prompt discontinuation of doxorubicin at the first sign of impaired function. The preferred method for assessment of cardiac function is evaluation of LVEF measured by multi-gated radionuclide angiography (MUGA) or echocardiography (ECHO). An ECG may also be done. A baseline cardiac evaluation with a MUGA scan or an ECHO is recommended, especially in patients with risk factors for increased cardiac toxicity. Repeated MUGA or ECHO determinations of LVEF should be performed, particularly with higher, cumulative anthracycline doses. The technique used for assessment should be consistent through follow-up. In patients with risk factors, particularly prior anthracycline or anthracenedione use, the monitoring of cardiac function must be particularly strict and the risk-benefit of continuing treatment with doxorubicin in patients with impaired cardiac function must be carefully evaluated.</paragraph>
+                        <paragraph ID="INV-4ab1cb6c-1e32-40a2-a820-a479e4ff2fc5">Endomyocardial biopsy is recognized as the most sensitive diagnostic tool to detect anthracycline-induced cardiomyopathy; however, this invasive examination is not practically performed on a routine basis. ECG changes such as dysrhythmias, a reduction of the QRS voltage, or a prolongation beyond normal limits of the systolic time interval may be indicative of anthracycline-induced cardiomyopathy, but ECG is not a sensitive or specific method for following anthracycline-related cardiotoxicity.</paragraph>
+                        <paragraph ID="INV-8908ae8e-3967-411c-824b-2b4f2c722858">Pediatric patients are at increased risk for developing delayed cardiotoxicity following doxorubicin administration and therefore a follow-up cardiac evaluation is recommended periodically to monitor for this delayed cardiotoxicity.</paragraph>
+                        <paragraph ID="INV-d9b49994-c49e-49f0-826e-7ea4b26107b7">In adults, a 10% decline in LVEF to below the lower limit of normal or an absolute LVEF of 45%, or a 20% decline in LVEF at any level is indicative of deterioration in cardiac function. In pediatric patients, deterioration in cardiac function during or after the completion of therapy with doxorubicin is indicated by a drop in fractional shortening (FS) by an absolute value of ≥10 percentile units or below 29%, and a decline in LVEF of 10 percentile units or an LVEF below 55%. In general, if test results indicate deterioration in cardiac function associated with doxorubicin, the benefit of continued therapy should be carefully evaluated against the risk of producing irreversible cardiac damage. Acute life-threatening arrhythmias have been reported to occur during or within a few hours after doxorubicin administration.</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-f6430cb6-ac57-4a59-84f0-7dea2ca26e19">
+                     <id root="6b513079-b82c-c332-a704-347cd1fcef14"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Hematologic Toxicity</title>
+                     <text ID="INV-fea79df7-a060-4468-80f8-616877d8fbc6">
+                        <paragraph ID="INV-b7454707-89da-484f-a8a8-0760345d7a60">As with other cytotoxic agents, doxorubicin may produce myelosuppression. Myelosuppression requires careful monitoring. Total and differential WBC, red blood cell (RBC), and platelet counts should be assessed before and during each cycle of therapy with doxorubicin. A dose-dependent, reversible leukopenia and/or granulocytopenia (neutropenia) are the predominant manifestations of doxorubicin hematologic toxicity and is the most common acute dose-limiting toxicity of this drug. With the recommended dose schedule, leukopenia is usually transient, reaching its nadir 10 to 14 days after treatment with recovery usually occurring by the 21st day. Thrombocytopenia and anemia may also occur. Clinical consequences of severe myelosuppression include fever, infections, sepsis/septicemia, septic shock, hemorrhage, tissue hypoxia, or death.</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-f580ae80-61a8-462d-84e9-cd87dc00a894">
+                     <id root="8bc5a8b7-d391-7f63-8aa8-ba345caf18d1"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Secondary Leukemia</title>
+                     <text ID="INV-9319ca76-facb-430b-aedb-f136a546cc77">
+                        <paragraph ID="INV-f758263d-a081-427e-b75c-eb7d1a5de241">The occurrence of secondary AML or MDS has been reported most commonly in patients treated with chemotherapy regimens containing anthracyclines (including doxorubicin) and DNA-damaging antineoplastic agents, in combination with radiotherapy, when patients have been heavily pretreated with cytotoxic drugs, or when doses of anthracyclines have been escalated. Such cases generally have a 1 - 3 year latency period. The rate of developing secondary AML or MDS has been estimated in an analysis of 8563 patients with early breast cancer treated in 6 studies conducted by the National Surgical Adjuvant Breast and Bowel Project (NSABP), including NSABP B-15. Patients in these studies received standard doses of doxorubicin and standard or escalated doses of cyclophosphamide (AC) adjuvant chemotherapy and were followed for 61,810 patient years. Among 4483 such patients who received conventional doses of AC, 11 cases of AML or MDS were identified, for an incidence of 0.32 cases per 1000 patient years (95% CI 0.16 to 0.57%) and a cumulative incidence at 5 years of 0.21% (95% CI 0.11 to 0.41%). In another analysis of 1474 patients with breast cancer who received adjuvant treatment with doxorubicin-containing regimens in clinical trials conducted at University of Texas M.D. Anderson Cancer Center, the incidence was estimated at 1.5% at 10 years. In both experiences, patients who received regimens with higher cyclophosphamide dosages, who received radiotherapy, or who were aged 50 or older had an increased risk of secondary AML or MDS.</paragraph>
+                        <paragraph ID="INV-7377f84c-bbfc-4c52-8588-2db782c06af1">Pediatric patients are also at risk of developing secondary AML.</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-1d16ac62-d19f-4f53-a41b-da310fd41ca2">
+                     <id root="a9057413-27b7-cc36-d803-176ccacf905d"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Effects at Site of Injection</title>
+                     <text ID="INV-718d06fc-ec2d-4e2f-bb42-2ff7797a744a">
+                        <paragraph ID="INV-e5f88222-af1c-4b2e-b615-904c3619d1b6">Phlebosclerosis may result from an injection into a small vessel or from repeated injections into the same vein. Following the recommended administration procedures may minimize the risk of phlebitis/thrombophlebitis at the injection site (see <linkHtml ID="INV-9be505d7-6e12-43e8-80a1-b75148f2f577" href="#INV-877b3761-9834-4242-a0f6-eba941051f97">DOSAGE AND ADMINISTRATION, Instruction for Use/ Handling</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-07029812-9d00-40cd-aafc-a9a476dda012">
+                     <id root="e6ce26f4-ec21-96db-93d5-4e92e812147e"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Extravasation</title>
+                     <text ID="INV-799f19ec-6bd9-452b-8363-26dc0c0f2539">
+                        <paragraph ID="INV-cafd6cc1-9544-40f3-ad4d-cdd059dae912">On intravenous administration of doxorubicin, extravasation may occur with or without an accompanying stinging or burning sensation, even if blood returns well on aspiration of the infusion needle. If any signs or symptoms of extravasation have occurred, the injection or infusion should be immediately terminated and restarted in another vein (see <linkHtml ID="INV-b593293b-de62-4aa9-b438-b0db00c76078" href="#INV-51e57304-93d6-41af-bfcb-0b5922318309">DOSAGE AND ADMINISTRATION</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-5ce018fc-cd32-46d5-bada-708650977cc1">
+                     <id root="6267620f-fb48-cdda-bb58-b6f9a42649b8"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Hepatic Impairment</title>
+                     <text ID="INV-20ebc45b-6105-4f1a-b797-a9ca28f79e51">
+                        <paragraph ID="INV-048176c9-0902-4ad0-8119-5b18620fa5bc">Since metabolism and excretion of doxorubicin occurs predominantly by the hepatobiliary route, toxicity of recommended doses of doxorubicin can be enhanced by hepatic impairment; therefore, prior to individual dosing, evaluation of hepatic function is recommended using conventional laboratory tests such as SGOT, SGPT, alkaline phosphatase, and bilirubin (see <linkHtml ID="INV-283eb9bf-50c1-4732-8e80-45008f300706" href="#INV-51e57304-93d6-41af-bfcb-0b5922318309">DOSAGE AND ADMINISTRATION</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_cb31b777-965c-5180-428d-b3308cd9eef0">
+                     <id root="b9348b54-7a24-b587-6d3c-66e9b044c4a4"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="bold">Immunosuppressant Effects/Increased Susceptibility to Infections </content>
+                     </title>
+                     <text>
+                        <paragraph>Administration of live or live-attenuated vaccines in patients immunocompromised by chemotherapeutic agents including doxorubicin, may result in serious or fatal infections. Vaccination with a live vaccine should be avoided in patients receiving doxorubicin. Killed or inactivated vaccines may be administered; however, the response to such vaccines may be diminished.<br/>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-d8d51478-2903-4e8c-a178-79d9a079d2f3">
+                     <id root="48d6fca3-24aa-0f77-abdb-b2646c3777bb"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Pregnancy Category D</title>
+                     <text ID="INV-d9dc7c66-0dfa-4682-9477-6a9fac03c40f">
+                        <paragraph ID="INV-8cb9193f-fab9-47c5-8bff-4a7d9e49b493">Doxorubicin can cause fetal harm when administered to a pregnant woman. Doxorubicin was teratogenic and embryotoxic at doses of 0.8 mg/kg/day (about 1/13 the recommended human dose on a body surface area basis) when administered during the period of organogenesis in rats. Teratogenicity and embryotoxicity were also seen using discrete periods of treatment. The most susceptible was the 6- to 9-day gestation period at doses of 1.25 mg/kg/day and greater. Characteristic malformations included esophageal and intestinal atresia, trachea-esophageal fistula, hypoplasia of the urinary bladder and cardiovascular anomalies. Doxorubicin was embryotoxic (increase in embryofetal deaths) and abortifacient at 0.4 mg/kg/day (about 1/14 the recommended human dose on a body surface area basis) in rabbits when administered during the period of organogenesis.</paragraph>
+                        <paragraph ID="INV-a24878da-c73c-48aa-9df5-34c0b7050e9e">There are no adequate and well-controlled studies in pregnant women. If doxorubicin is to be used during pregnancy, or if the patient becomes pregnant during therapy, the patient should be apprised of the potential hazard to the fetus. Women of childbearing age should be advised to avoid becoming pregnant.</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="INV-d3b0b788-2ca6-4ece-8750-8eaefca1882c">
+               <id root="e7caa954-f9b0-c4fa-9b38-a59a0f0c053c"/>
+               <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20160726"/>
+               <component>
+                  <section ID="INV-f59c8279-da37-4c54-8e7f-8ff0f20f30a7">
+                     <id root="fa21ecbb-e6f6-47e2-8128-79bc77ba83b2"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>General</title>
+                     <text ID="INV-537c7f65-61f4-426d-b298-c0508d1ed763">
+                        <paragraph ID="INV-c38ac9bd-533c-4d47-b3ed-db0af4299af4">Doxorubicin is not an anti-microbial agent. Doxorubicin is emetigenic. Antiemetics may reduce nausea and vomiting; prophylactic use of antiemetics should be considered before administration of doxorubicin, particularly when given in conjunction with other emetigenic drugs.Doxorubicin should not be administered in combination with other cardiotoxic agents unless the patient’s cardiac function is closely monitored. Patients receiving doxorubicin after stopping treatment with other cardiotoxic agents, especially those with long half-lives such as trastuzumab, may also be at an increased risk of developing cardiotoxicity. Physicians should avoid doxorubicin-based therapy for up to 24 weeks after stopping trastuzumab when possible. If doxorubicin used before this time, careful monitoring of cardiac function is recommended (See <content styleCode="bold">WARNINGS, DOSAGE AND ADMINISTRATION</content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-5677aaa7-bad3-4a11-a3b6-cfd8dc83c4de">
+                     <id root="525a617b-2c6f-38a3-bdbe-ba8a9e16b7db"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Information for Patients</title>
+                     <text ID="INV-30b870a0-0bcf-439c-90e6-ea14bddcea90">
+                        <paragraph ID="INV-59c7a64c-2b89-4950-8184-12db8fe59671">Patients should be informed of the expected adverse effects of doxorubicin, including gastrointestinal symptoms (nausea, vomiting, diarrhea, and stomatitis) and potential neutropenic complications. Patients should consult their physician if vomiting, dehydration, fever, evidence of infection, symptoms of CHF, or injection-site pain occurs following therapy with doxorubicin. Patients should be informed that they will almost certainly develop alopecia. Patients should be advised that their urine may appear red for 1 to 2 days after administration of doxorubicin and that they should not be alarmed. Patients should understand that there is a risk of irreversible myocardial damage associated with treatment with doxorubicin, as well as a risk of treatment-related leukemia. Because doxorubicin may induce chromosomal damage in sperm, men undergoing treatment with doxorubicin should use effective contraceptive methods. Women treated with doxorubicin may develop irreversible amenorrhea, or premature menopause.</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-df420bf2-9901-4086-a866-dc3d6c2f34e3">
+                     <id root="43e4dbef-93aa-a911-e388-5fe811e44051"/>
+                     <code code="34073-7" displayName="DRUG INTERACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Drug Interactions</title>
+                     <text ID="INV-69868ab4-b1ba-4b8c-8bef-f390110e9300">
+                        <paragraph ID="INV-482718f4-7b99-444e-a2aa-0d559282495b">Doxorubicin is extensively metabolized by the liver. Changes in hepatic function induced by concomitant therapies may affect doxorubicin metabolism, pharmacokinetics, therapeutic efficacy, and/or toxicity. Toxicities associated with doxorubicin, especially hematologic and gastrointestinal events, may be increased when doxorubicin is used in combination with other cytotoxic drugs.</paragraph>
+                        <paragraph ID="INV-ded12c8f-284f-4a29-a712-f81535d45a3f">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Paclitaxel</content>
+                           </content>
+                           <content styleCode="bold">
+                              <content styleCode="italics">:</content>
+                           </content> There have been a number of reports in the literature that describe an increase in cardiotoxicity when doxorubicin is co-administered with paclitaxel. Two published studies report that initial administration of paclitaxel infused over 24 hours followed by doxorubicin administered over 48 hours resulted in a significant decrease in doxorubicin clearance with more profound neutropenic and stomatitis episodes than the reverse sequence of administration.</paragraph>
+                        <paragraph ID="INV-31ca9322-1349-4ee1-aa3f-127feac6b696">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Progesterone:</content>
+                           </content>In a published study, progesterone was given intravenously to patients with advanced malignancies (ECOG PS&lt;2) at high doses (up to 10 g over 24 hours) concomitantly with a fixed doxorubicin dose (60 mg/m<sup>2</sup>) via bolus injection. Enhanced doxorubicin-induced neutropenia and thrombocytopenia were observed.</paragraph>
+                        <paragraph ID="INV-ce349f7b-77af-4f99-b052-b2503d87485c">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Verapamil:</content>
+                           </content> A study of the effects of verapamil on the acute toxicity of doxorubicin in mice revealed higher initial peak concentrations of doxorubicin in the heart with a higher incidence and severity of degenerative changes in cardiac tissue resulting in a shorter survival.</paragraph>
+                        <paragraph ID="INV-5888eb75-8b23-4deb-b5ba-24d7603949ca">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Cyclosporine:</content>
+                           </content> The addition of cyclosporine to doxorubicin may result in increases in AUC for both doxorubicin and doxorubicinol possibly due to a decrease in clearance of parent drug and a decrease in metabolism of doxorubicinol. Literature reports suggest that adding cyclosporine to doxorubicin results in more profound and prolonged hematologic toxicity than doxorubicin alone. Coma and/or seizures have also been described.</paragraph>
+                        <paragraph ID="INV-0df49d2d-ac5a-49ba-bc9c-911df9582207">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Dexrazoxane:</content>
+                           </content>In a clinical study of women with metastatic breast cancer, the concurrent use of the cardioprotectant, dexrazoxane, with the initiation of a regimen of fluorouracil, doxorubicin, and cyclophosphamide (FAC) was associated with a lower tumor response rate. Later initiation of dexrazoxane (after administration of a cumulative doxorubicin dose of 300 mg/m<sup>2</sup> of doxorubicin had been given as a component of FAC) was not associated with a reduction in chemotherapy activity. Dexrazoxane is only indicated for use in women with metastatic breast cancer who have received a cumulative doxorubicin dose of 300 mg/m<sup>2</sup> and are continuing with doxorubicin therapy.</paragraph>
+                        <paragraph ID="INV-84dd9a85-ef42-4a90-99dc-e37acc5ad4d5">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Cytarabine:</content>
+                           </content> Necrotizing colitis manifested by typhlitis (cecal inflammation), bloody stools and severe and sometimes fatal infections have been associated with a combination of doxorubicin given by intravenous push daily for 3 days and cytarabine given by continuous infusion daily for 7 or more days.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold italics">Sorafenib: </content>In clinical studies, both an increase of 21% and 47%, and no change in the AUC of doxorubicin were observed with concomitant treatment with sorafenib 400 mg twice daily. The clinical significance of these findings are unknown<content styleCode="bold italics">.</content>In clinical studies, both an increase of 21% and 47%, and no change in the AUC of doxorubicin were observed with concomitant treatment with sorafenib 400 mg twice daily. The clinical significance of these findings are unknown<content styleCode="bold italics">.</content>
+                        </paragraph>
+                        <paragraph ID="INV-ba30bad1-ece3-4de8-a433-cdb158f0524e">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Cyclophosphamide:</content>
+                           </content> The addition of cyclophosphamide to doxorubicin treatment does not affect exposure to doxorubicin, but may result in an increase in exposure to doxorubicinol, a metabolite. Doxorubicinol only has 5% of the cytotoxic activity of doxorubicin. Concurrent treatment with doxorubicin has been reported to exacerbate cyclophosphamide-induced hemorrhagic cystitis. Acute myeloid leukemia has been reported as a second malignancy after treatment with doxorubicin and cyclophosphamide.</paragraph>
+                        <paragraph ID="INV-6e946644-8e46-4c22-9dab-8734dbe7ce15">
+                           <content styleCode="bold">
+                              <content styleCode="italics">Literature reports have also described the following drug interactions:</content>
+                           </content> Phenobarbital increases the elimination of doxorubicin; phenytoin levels may be decreased by doxorubicin; streptozocin (Zanosar<sup>®</sup>) may inhibit hepatic metabolism of doxorubicin; saquinavir in combination with cyclophosphamide, doxorubicin, and etoposide increased mucosal toxicity in patients with HIV-associated non-Hodgkin’s lymphoma; and administration of live vaccines to immunosuppressed patients including those undergoing cytotoxic chemotherapy may be hazardous (see <content styleCode="bold">WARNINGS</content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-1f74cd85-83f4-42f9-b43d-877560475c31">
+                     <id root="61df9228-76eb-f419-a6f3-ad10462f6bd2"/>
+                     <code code="34075-2" displayName="LABORATORY TESTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Laboratory Tests</title>
+                     <text ID="INV-36dc1c4c-32a4-40af-998b-afa66ceb15f3">
+                        <paragraph ID="INV-7af1989f-8985-4c08-aa37-eb50bfd47902">Initial treatment with doxorubicin requires observation of the patient and periodic monitoring of complete blood counts, hepatic function tests, and left ventricular ejection fraction. (See <linkHtml ID="INV-0594fbe1-b470-4af1-9a10-df1d9eba9a74" href="#INV-6774bbbe-b603-4da4-99a9-9d904661394e">WARNINGS</linkHtml>). Abnormalities of hepatic function tests may occur. Like other cytotoxic drugs, doxorubicin may induce “tumor lysis syndrome” and hyperuricemia in patients with rapidly growing tumors. Blood uric acid levels, potassium, calcium, phosphate, and creatinine should be evaluated after initial treatment. Hydration, urine alkalinization, and prophylaxis with allopurinol to prevent hyperuricemia may minimize potential complications of tumor-lysis syndrome.</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-83a2dd7f-d17c-431e-a0d6-d251c0949222">
+                     <id root="46a65c70-15d5-4bfb-3983-f945c76e6eb2"/>
+                     <code code="34083-6" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Carcinogenesis, Mutagenesis, and Impairment of Fertility</title>
+                     <text ID="INV-4a272c88-ee3e-4932-a60f-4cf9750973a4">
+                        <paragraph ID="INV-a83733e1-b9a4-464b-8268-20c2bacd8376">Carcinogenicity studies have not been conducted with doxorubicin. Secondary acute myelogenous leukemia (AML) or myelodysplastic syndrome (MDS) have been reported in patients treated with doxorubicin-containing combination chemotherapy regimens (see <linkHtml ID="INV-ada7d1f4-3e47-4253-9f69-70ebb64ed325" href="#INV-6774bbbe-b603-4da4-99a9-9d904661394e">WARNINGS</linkHtml>). Pediatric patients treated with doxorubicin or other topoisomerase II inhibitors are at risk for developing acute myelogenous leukemia and other neoplasms. Doxorubicin was mutagenic in the <content styleCode="italics">in vitro </content>Ames assay, and clastogenic in multiple <content styleCode="italics">in vitro</content> assays (CHO cell, V79 hamster cell, human lymphoblast, and SCE assays) and the <content styleCode="italics">in vivo</content> mouse micronucleus assay.</paragraph>
+                        <paragraph ID="INV-d0959e94-13b6-4975-b85b-905a806f3693">Doxorubicin decreased fertility in female rats at the doses of 0.05 and 0.2 mg/kg/day (about 1/200 and 1/50 the recommended human dose on a body surface area basis) when administered from 14 days before mating through late gestation period. A single IV dose of doxorubicin at 0.1 mg/kg (about 1/100 the recommended human dose on a body surface area basis) was toxic to male reproductive organs, producing testicular atrophy and oligospermia in rats. Doxorubicin is mutagenic as it induced DNA damage in rabbit spermatozoa and dominant lethal mutations in mice. Therefore, doxorubicin may potentially induce chromosomal damage in human spermatozoa. Oligospermia or azoospermia were evidenced in men treated with doxorubicin, mainly in combination therapies. Men undergoing doxorubicin treatment should use effective contraceptive methods.</paragraph>
+                        <paragraph ID="INV-fbe8ec27-f357-4287-a53d-781fe3253a7a">Doxorubicin was toxic to male reproductive organs in animal studies, producing testicular atrophy, diffuse degeneration of the seminiferous tubules, and hypospermia. Doxorubicin is mutagenic as it induces DNA damage in rabbit spermatozoa and dominant lethal mutations in mice. Therefore, doxorubicin can potentially induce chromosomal damage in human spermatozoa. Oligospermia or azoospermia were evidenced in men treated with doxorubicin, mainly in combination therapies. This effect may be permanent. However, sperm counts have been reported to return to normal levels in some instances. This may occur several years after the end of the therapy. Men undergoing doxorubicin treatment should use effective contraceptive methods.</paragraph>
+                        <paragraph ID="INV-b284f482-1837-45fa-aa08-dbfcd1205fe1">In women, doxorubicin may cause infertility during the time of drug administration. Doxorubicin may cause amenorrhea. Ovulation and menstruation may return after termination of therapy, although premature menopause can occur. Recovery of menses is related to age at treatment.</paragraph>
+                        <paragraph ID="INV-0ac81215-8aab-4cca-83d9-9e9c7b42e424">Secondary acute myelogenous leukemia (AML) or myelodysplastic syndrome (MDS) have been reported in patients treated with anthracycline-containing adjuvant combination chemotherapy regimens (see <linkHtml ID="INV-b9c84c0d-566f-4e5c-9a4d-c0c9dfa78d61" href="#INV-f6430cb6-ac57-4a59-84f0-7dea2ca26e19">WARNINGS, Hematologic Toxicity</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-0e540f78-212c-4709-a8b3-1e09cfc8e55d">
+                     <id root="036ca8e6-a04e-654b-26ce-a4912689ee89"/>
+                     <code code="42228-7" displayName="PREGNANCY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Pregnancy: Pregnancy Category D</title>
+                     <text ID="INV-4a78ca52-f5b6-42ac-b1a2-e88500d7bd11">
+                        <paragraph ID="INV-ff3e3ff5-a762-43b5-9c6f-45fac6965896">(See <linkHtml ID="INV-cb342d85-66b3-4aca-a811-b6fab5f59586" href="#INV-6774bbbe-b603-4da4-99a9-9d904661394e">WARNINGS</linkHtml>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-fc722ee4-a028-4617-be6f-66ba55b53239">
+                     <id root="9bdedd2e-953b-90ed-fa76-c330437d506e"/>
+                     <code code="34080-2" displayName="NURSING MOTHERS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Nursing Mothers</title>
+                     <text ID="INV-6d36a7f6-539d-45df-8da3-25eebd60040b">
+                        <paragraph ID="INV-f53a7d6d-9aa9-46f8-8287-e3ef60f200d4">Doxorubicin and its major metabolite, doxorubicinol, have been detected in the milk of at least one lactating patient (see <linkHtml ID="INV-0375a196-1c4f-4359-866b-099c8a1f8b54" href="#INV-d36dcc96-c46e-4347-b4fb-149790945888">CLINICAL PHARMACOLOGY, Pharmacokinetics</linkHtml>). Because of the potential for serious adverse reactions in nursing infants from doxorubicin, mothers should be advised to discontinue nursing during doxorubicin therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-0dd6a2da-9212-4d8e-9c99-468b646f9c66">
+                     <id root="ab340d43-e4c8-821b-dd40-455d1f8fe4f9"/>
+                     <code code="34081-0" displayName="PEDIATRIC USE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Pediatric Use</title>
+                     <text ID="INV-5d4a4b9f-dae7-4321-a3a1-fbbfed09a5fd">
+                        <paragraph ID="INV-8b9afff9-5315-4c1c-97da-96b790b97d8d">Pediatric patients are at increased risk for developing delayed cardiotoxicity. Follow-up cardiac evaluations are recommended periodically to monitor for this delayed cardiotoxicity (see <linkHtml ID="INV-1e10857e-1259-4a7d-914f-af91f18bde06" href="#INV-6774bbbe-b603-4da4-99a9-9d904661394e">WARNINGS</linkHtml>). Doxorubicin, as a component of intensive chemotherapy regimens administered to pediatric patients, may contribute to prepubertal growth failure. It may also contribute to gonadal impairment, which is usually temporary. Pediatric patients treated with doxorubicin or other topoisomerase II inhibitors are at a risk for developing acute myelogenous leukemia and other neoplasms. Pediatric patients receiving concomitant doxorubicin and actinomycin-D have manifested acute “recall” pneumonitis at variable times after local radiation therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-a7d4971b-f1d6-443b-97ae-1bd7e0d0399b">
+                     <id root="87b14651-ad3a-2560-2bc1-65787b597dab"/>
+                     <code code="34082-8" displayName="GERIATRIC USE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Geriatric Use</title>
+                     <text ID="INV-3adee1ec-40a6-4aad-aab8-e287ff6a5e0d">
+                        <paragraph ID="INV-321df603-31bf-4b89-9798-b34d531bec85">An estimated 4600 patients who were 65 and over were included in the reported clinical experience of doxorubicin use for various indications. No overall differences in safety and effectiveness were observed between these patients and younger patients, but greater sensitivity of some older individuals cannot be ruled out. The decision to use doxorubicin in the treatment of older patients should be based upon a consideration of overall performance status and concurrent illnesses, in addition to age of the individual patient.</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="INV-2885a1f0-604c-4ecd-ae12-bae4b8884894">
+               <id root="43b33cd2-f0f1-8806-fcee-ff123a699aff"/>
+               <code code="34084-4" displayName="ADVERSE REACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>ADVERSE REACTIONS</title>
+               <text ID="INV-1560330b-1d22-461f-afcf-5d44e732217f">
+                  <paragraph ID="INV-5ba1303b-8f12-4baf-af46-df9ec09e7c13">Dose limiting toxicities of therapy are myelosuppression and cardiotoxicity. Other reactions reported are:</paragraph>
+                  <paragraph ID="INV-8782d125-1b9d-4c49-b2e9-d506db6d6f8c">
+                     <content styleCode="italics">Cardiotoxicity</content> - (See <linkHtml ID="INV-1e16210b-5772-41a2-9d61-1de26bd72f78" href="#INV-6774bbbe-b603-4da4-99a9-9d904661394e">WARNINGS</linkHtml>.)</paragraph>
+                  <paragraph ID="INV-cffc4aa4-7956-4cd2-8210-4ce5678b52b2">
+                     <content styleCode="italics">Cutaneous</content> - Reversible complete alopecia occurs in most cases. Hyperpigmentation of nailbeds and dermal creases, primarily in pediatric patients, and onycholysis have been reported in a few cases. Radiation recall reaction has occurred with doxorubicin administration. Rash, itching, or photosensitivity may occur.</paragraph>
+                  <paragraph ID="INV-fdce0ca8-263f-479a-bb0b-bbef4cc7655e">
+                     <content styleCode="italics">Gastrointestinal</content> - Acute nausea and vomiting occurs frequently and may be severe. This may be alleviated by antiemetic therapy. Mucositis (stomatitis and esophagitis) may occur within 5 to 10 days of beginning therapy, and most patients recover from this adverse event within another 5 to 10 days. The effect may be severe, leading to ulceration and represents a site of origin for severe infections. The dosage regimen consisting of administration of doxorubicin on three successive days results in greater incidence and severity of mucositis. Ulceration and necrosis of the colon, especially the cecum, may occur leading to bleeding or severe infections which can be fatal. This reaction has been reported in patients with acute non-lymphocytic leukemia treated with a 3-day course of doxorubicin combined with cytarabine. Anorexia, abdominal pain, dehydration, diarrhea, and hyperpigmentation of the oral mucosa have been occasionally reported.</paragraph>
+                  <paragraph ID="INV-45fbe0fe-4341-4677-b09f-35825d459796">
+                     <content styleCode="italics">Hematologic</content> - (See <linkHtml ID="INV-d7248ec3-ebac-451d-bac0-3669ae0bc172" href="#INV-6774bbbe-b603-4da4-99a9-9d904661394e">WARNINGS</linkHtml>.)</paragraph>
+                  <paragraph ID="INV-11c7b502-5693-45de-9a09-211c94e29d40">
+                     <content styleCode="italics">Hypersensitivity</content> - Fever, chills and urticaria have been reported occasionally. Anaphylaxis may occur. A case of apparent cross sensitivity to lincomycin has been reported. </paragraph>
+                  <paragraph ID="INV-d43475ec-1c8f-42f7-aab3-b4d2c5bc7caf">
+                     <content styleCode="italics">Neurological</content> - Peripheral neurotoxicity in the form of local-regional sensory and/or motor disturbances have been reported in patients treated intra-arterially with doxorubicin, mostly in combination with cisplatin. Animal studies have demonstrated seizures and coma in rodents and dogs treated with intra-carotid doxorubicin. Seizures and coma have been reported in patients treated with doxorubicin in combination with cisplatin or vincristine. </paragraph>
+                  <paragraph ID="INV-c8d92195-f4ca-4a92-84eb-af3f8599339c">
+                     <content styleCode="italics">Ocular</content> - Conjunctivitis, keratitis, and lacrimation occur rarely. </paragraph>
+                  <paragraph ID="INV-4010d451-b6b2-499d-9752-318b9937bfca">
+                     <content styleCode="italics">Other</content> - Malaise/asthenia have been reported.</paragraph>
+               </text>
+               <effectiveTime value="20160726"/>
+               <component>
+                  <section ID="INV-c7de289e-ca1b-4846-9a72-da24ae4b97d6">
+                     <id root="d2af24ba-9656-1669-cd0c-895e2e26b891"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>
+                        <content styleCode="italics">Adverse Reactions in Patients with Early Breast Cancer Receiving Doxorubicin-Containing Adjuvant Therapy:</content>
+                     </title>
+                     <text ID="INV-f60910a3-84da-4712-a48e-3f1fd8a52a53">
+                        <paragraph ID="INV-e43d3d54-608d-49dd-9e47-a42f75e73ef1">Safety data were collected from approximately 2300 women who participated in a randomized, open-label trial (NSABP B-15) evaluating the use of AC versus CMF in the treatment of early breast cancer involving axillary lymph nodes. In the safety analysis, the follow-up data from all patients receiving AC were combined (N=1492 evaluable patients) and compared with data from patients receiving conventional CMF (i.e., oral cyclophosphamide; N=739 evaluable patients). The most relevant adverse events reported in this study are provided in Table 2.</paragraph>
+                        <table ID="INV-eba34e41-e1d3-4712-bfc7-8374c0d50f44" frame="void">
+                           <col width="244px"/>
+                           <col width="108px"/>
+                           <col width="180px"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" colspan="3" styleCode="Botrule" valign="middle">
+                                    <content styleCode="bold">Table 2. Relevant Adverse Events in Patients with Early Breast Cancer Involving Axillary Lymph Nodes</content>
+                                    <content styleCode="bold"> </content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule">   </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">
+                                    <content styleCode="bold">AC*</content>
+                                 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">
+                                    <content styleCode="bold">Conventional</content>
+                                    <content styleCode="bold">CMF</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule">   </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">
+                                    <content styleCode="bold">N=1492</content>
+                                 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">
+                                    <content styleCode="bold">N=739</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Treatment administration </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Mean number of cycles </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 3.8 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 5.5 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Total cycles </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 5676 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 4068 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Adverse events, % of patients </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Leukopenia </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Grade 3 (1,000–1,999 /mm<sup>3</sup>) </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 3.4 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 9.4 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Grade 4 (&lt;1000 /mm<sup>3</sup>) </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 0.3 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 0.3 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Thrombocytopenia </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Grade 3 (25,000–49,999 /mm<sup>3</sup>) </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 0 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 0.3 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Grade 4 (&lt;25,000 /mm<sup>3</sup>) </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 0.1 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 0 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Shock, sepsis </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 1.5 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 0.9 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Systemic infection </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 2.4 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 1.2 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Nausea and vomiting </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Nausea only </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 15.5 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 42.8 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Vomiting ≤12 hours </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 34.4 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 25.2 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Vomiting &gt;12 hours </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 36.8 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 12.0 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Intractable </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 4.7 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 1.6 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Alopecia </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 92.4 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 71.4 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Partial </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 22.9 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 56.3 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Complete </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 69.5 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 15.1 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Weight loss </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> 5–10% </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 6.2 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 5.7 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> &gt;10% </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 2.4 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 2.8 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Weight gain </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> 5–10% </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 10.6 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 27.9 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> &gt;10% </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 3.8 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 14.3 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Cardiac function </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                                 <td align="center" styleCode="Botrule" valign="middle">   </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Asymptomatic </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 0.2 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 0.1 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Transient </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 0.1 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 0 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Symptomatic </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 0.1 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 0 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule"> Treatment-related death </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 0 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 0 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="3" styleCode="Botrule"> * Includes pooled data from patients who received either AC alone for 4 cycles, or who were treated with AC for 4 cycles followed by 3 cycles of CMF </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="INV-33dfe2d2-dd90-4f57-9f8b-b54e77533890">
+               <id root="8a3dadd5-0858-e5f6-5ffb-341aa03a634a"/>
+               <code code="34088-5" displayName="OVERDOSAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>OVERDOSAGE</title>
+               <text ID="INV-16def459-aac3-4b80-b351-b2cff97fd429">
+                  <paragraph ID="INV-7c0e5f7d-ef7e-41ee-99bd-1cc8b9bd82f5">Acute overdosage with doxorubicin enhances the toxic effect of mucositis, leukopenia and thrombocytopenia. Treatment of acute overdosage consists of treatment of the severely myelosuppressed patient with hospitalization, antimicrobials, platelet transfusions and symptomatic treatment of mucositis. Use of hemopoietic growth factor (G-CSF, GM-CSF) may be considered. </paragraph>
+                  <paragraph ID="INV-d4a65655-811f-46fd-9b4f-69455f2a502e">
+                     <content styleCode="bold">The 200 mg DOXOrubicin Hydrochloride Injection USP is packaged as a multi dose vial, and caution should be exercised to prevent inadvertent overdosage.</content>
+                  </paragraph>
+                  <paragraph ID="INV-98aeaa8e-0cb5-4cc6-b5bc-02bae7cfcc4b">Cumulative dosage with doxorubicin increases the risk of cardiomyopathy and resultant congestive heart failure (see <linkHtml ID="INV-0b3ee49b-7df7-4a30-820a-f7b63304d0f4" href="#INV-6774bbbe-b603-4da4-99a9-9d904661394e">WARNINGS</linkHtml>). Treatment consists of vigorous management of congestive heart failure with digitalis preparations, diuretics, and after-load reducers such as ACE inhibitors.</paragraph>
+               </text>
+               <effectiveTime value="20160726"/>
+            </section>
+         </component>
+         <component>
+            <section ID="INV-51e57304-93d6-41af-bfcb-0b5922318309">
+               <id root="8c9ca10e-a0cc-5604-1ed0-70466ce0cee0"/>
+               <code code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text ID="INV-25b0e3be-f212-4793-80c3-d0f03c119e76">
+                  <paragraph ID="INV-b9ce5851-613d-44c4-984b-efa7fdcf54ba">When possible, to reduce the risk of developing cardiotoxicity in patients receiving doxorubicin after stopping treatment with other cardiotoxic agents, especially those with long half-lives such as trastuzumab, doxorubicin-based therapy should be delayed until the other agents have cleared from the circulation (See <content styleCode="bold">WARNINGS </content>and <content styleCode="bold">PRECAUTIONS, General</content>). <br/>
+                     <br/>Care in the administration of doxorubicin will reduce the chance of perivenous infiltration (see <linkHtml ID="INV-daeb4d38-9b68-4059-bfef-4155ebb87819" href="#INV-6774bbbe-b603-4da4-99a9-9d904661394e">WARNINGS</linkHtml>). It may also decrease the chance of local reactions such as urticaria and erythematous streaking. On intravenous administration of doxorubicin, extravasation may occur with or without an accompanying burning or stinging sensation, even if blood returns well on aspiration of the infusion needle. If any signs or symptoms of extravasation have occurred, the injection or infusion should be immediately terminated and restarted in another vein. If extravasation is suspected, intermittent application of ice to the site for 15 min. q.i.d. x 3 days may be useful. The benefit of local administration of drugs has not been clearly established. Because of the progressive nature of extravasation reactions, close observation and plastic surgery consultation is recommended. Blistering, ulceration and/or persistent pain are indications for wide excision surgery, followed by split-thickness skin grafting.</paragraph>
+                  <paragraph ID="INV-c4eb61e2-fb22-48f7-a0ae-e8d6464cb5fe">The most commonly used dose schedule when used as a single agent is 60 to 75 mg/m<sup>2</sup> as a single intravenous injection administered at 21-day intervals. The lower dosage should be given to patients with inadequate marrow reserves due to old age, or prior therapy, or neoplastic marrow infiltration.</paragraph>
+                  <paragraph ID="INV-e29a4d9e-ef98-4930-aeb4-236997baec0a">Doxorubicin has been used concurrently with other approved chemotherapeutic agents. Evidence is available that in some types of neoplastic disease, combination chemotherapy is superior to single agents. The benefits and risks of such therapy continue to be elucidated. When used in combination with other chemotherapy drugs, the most commonly used dosage of doxorubicin is 40 to 60 mg/m<sup>2</sup> given as a single intravenous injection every 21 to 28 days.</paragraph>
+                  <paragraph ID="INV-43541e0c-a016-4595-b790-b1bfb3dea0e1">In a large randomized study (NSABP B-15) of patients with early breast cancer involving axillary lymph nodes (see <linkHtml ID="INV-baf513a7-e208-4fe6-b622-50aee5868f27" href="#INV-a1b626ef-9e78-421f-848e-0cb23c9d3698">CLINICAL PHARMACOLOGY, Clinical Studies</linkHtml> and <linkHtml ID="INV-776c6b33-1d4f-47f5-a697-7b8a1bd8cf47" href="#INV-c7de289e-ca1b-4846-9a72-da24ae4b97d6">ADVERSE REACTIONS, </linkHtml>
+                     <content styleCode="italics">
+                        <linkHtml ID="INV-776c6b33-1d4f-47f5-a697-7b8a1bd8cf472" href="#INV-c7de289e-ca1b-4846-9a72-da24ae4b97d6">Adverse Reactions in Patients with Early Breast Cancer Receiving Doxorubicin-Containing Adjuvant Therapy</linkHtml>
+                     </content>), the combination dosage regimen of AC (doxorubicin 60 mg/m<sup>2</sup> and cyclophosphamide 600 mg/m<sup>2</sup>) was administered intravenously on day 1 of each 21-day treatment cycle. Four cycles of treatment were administered.</paragraph>
+               </text>
+               <effectiveTime value="20160726"/>
+               <component>
+                  <section ID="INV-c6506aae-4645-4144-88ea-0b47519a7914">
+                     <id root="b4916a80-1a70-8797-74a9-7aa155efad98"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Dose Modifications</title>
+                     <text ID="INV-9b15a017-8fcb-422d-b2ab-6ec41388b7db">
+                        <paragraph ID="INV-3962b98a-d4e0-449d-b973-c2075231d2b3">Patients in the NSABP B-15 study could have dose modifications of AC to 75% of the starting doses for neutropenic fever/infection. When necessary, the next cycle of treatment cycle was delayed until the absolute neutrophil count (ANC) was ≥1000 cells/mm<sup>3</sup> and the platelet count was ≥100 000 cells/mm<sup>3</sup> and nonhematologic toxicities had resolved.</paragraph>
+                        <paragraph ID="INV-47575bb4-63ac-40be-bc50-80841798447f">Doxorubicin dosage must be reduced in case of hyperbilirubinemia as follows:</paragraph>
+                        <table ID="INV-d929abb7-7041-4b2f-9e01-4fd6ec4f382e" frame="void">
+                           <col width="148px"/>
+                           <col width="156px"/>
+                           <col width="292px"/>
+                           <tbody>
+                              <tr>
+                                 <td align="right" colspan="2" styleCode="Botrule">
+                                    <content styleCode="bold">Plasma bilirubin concentration (mg/dL)</content>
+                                 </td>
+                                 <td align="center" styleCode="Botrule">
+                                    <content styleCode="bold">Dosage reduction (%)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 1.2 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> – 3.0 </td>
+                                 <td align="center" styleCode="Botrule"> 50 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Botrule" valign="middle"> 3.1 </td>
+                                 <td align="center" styleCode="Botrule" valign="middle"> – 5.0 </td>
+                                 <td align="center" styleCode="Botrule"> 75 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-05e8eeae-f37d-491f-a8ec-4c3e5b932af4">
+                     <id root="555b4fef-64d3-f09e-0c61-e80d85e6468a"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Reconstitution Directions</title>
+                     <text ID="INV-062a607d-cb4d-45f5-9d0a-f6c83b732fe1">
+                        <paragraph ID="INV-f872f51b-f657-4bdd-8477-1c18d26344ab">It is recommended that doxorubicin be slowly administered into the tubing of a freely running intravenous infusion of Sodium Chloride Injection, USP, or 5% Dextrose Injection, USP. The tubing should be attached to a Butterfly<sup>®</sup> needle inserted preferably into a large vein. If possible, avoid veins over joints or in extremities with compromised venous or lymphatic drainage. The rate of administration is dependent on the size of the vein, and the dosage. However, the dose should be administered in not less than 3 to 5 minutes. Local erythematous streaking along the vein as well as facial flushing may be indicative of too rapid an administration. A burning or stinging sensation may be indicative of perivenous infiltration and, if this occurs, the infusion should be immediately terminated and restarted in another vein. Perivenous infiltration may occur painlessly.</paragraph>
+                        <paragraph ID="INV-2900b4c3-f81d-4097-93dc-0e6979d324e1">Doxorubicin should not be mixed with heparin or fluorouracil since it has been reported that these drugs are incompatible to the extent that a precipitate may form. Contact with alkaline solutions should be avoided since this can lead to hydrolysis of doxorubicin. Until specific compatibility data are available, it is not recommended that doxorubicin be mixed with other drugs.</paragraph>
+                        <paragraph ID="INV-16ef5a0e-7364-46f1-ae42-635d58a8aaab">Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="INV-877b3761-9834-4242-a0f6-eba941051f97">
+                     <id root="498521b0-d122-3b92-8272-a5e1fdc57a75"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Handling and Disposal</title>
+                     <text ID="INV-b4436b35-aed1-405c-8d10-0715411d69b7">
+                        <paragraph ID="INV-f407d373-4ac8-4381-8c3a-b273137e9f5d">Procedures for proper handling and disposal of anticancer drugs should be considered. Several guidelines on this subject have been published.<sup>1–4</sup> There is no general agreement that all the procedures recommended in the guidelines are necessary or appropriate. However, given the toxic nature of this substance, the following protective recommendations are provided:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Personnel should be trained in good technique for reconstitution and handling.</item>
+                           <item>Pregnant staff should be excluded from working with this drug.</item>
+                           <item>Personnel handling doxorubicin should wear protective clothing: goggles, gowns, and disposable gloves and masks.</item>
+                           <item>A designated area should be defined for reconstitution (preferably under a laminar flow system). The work surface should be protected by disposable, plastic-backed, absorbent paper.</item>
+                           <item>All items used for reconstitution, administration or cleaning, including gloves, should be placed in high-risk waste-disposal bags for high-temperature incineration.</item>
+                           <item>Spillage or leakage should be treated with dilute sodium hypochlorite (1% available chlorine) solution, preferably by soaking, and then water.</item>
+                           <item>All cleaning materials should be disposed of as indicated previously.</item>
+                           <item>In case of skin contact, thoroughly wash the affected area with soap and water or sodium bicarbonate solution. However, do not abrade the skin by using a scrub brush.</item>
+                           <item>In case of contact with the eye(s), hold back the eyelid(s) and flush the affected eye(s) with copious amounts of water for at least 15 minutes. Then seek medical evaluation by a physician.</item>
+                           <item>Always wash hands after removing gloves.</item>
+                        </list>
+                        <paragraph ID="INV-7c74ade6-c8b2-49ae-86ed-3c4b09e2e3d8">Caregivers of pediatric patients receiving doxorubicin should be counseled to take precautions (such as wearing latex gloves) to prevent contact with the patient’s urine and other body fluids for at least 5 days after each treatment.</paragraph>
+                     </text>
+                     <effectiveTime value="20160726"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="INV-9e218945-b9fb-468e-b4d9-77f01d2b6605">
+               <id root="51882750-210a-7177-ad80-6459380f2419"/>
+               <code code="34069-5" displayName="HOW SUPPLIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>HOW SUPPLIED</title>
+               <text ID="INV-608549cb-aaab-41d8-b5ca-4cc3c0f191bd">
+                  <paragraph ID="INV-4af14907-3a2b-45f6-94d3-d8ec63a8543e">DOXOrubicin Hydrochloride Injection USP is supplied in single-dose, flip-top vials, as a red-orange solution containing Doxorubicin Hydrochloride, USP 2 mg/mL in the following package strengths:</paragraph>
+                  <paragraph ID="INV-f91cb5fc-bf24-4d80-ada6-d04ef1ee8522">
+                     <content styleCode="bold">NDC 47781-256-20:</content> 10 mg /5 mL single dose vial, individually boxed </paragraph>
+                  <paragraph ID="INV-f91cb5fc-bf24-4d80-ada6-d04ef1ee85223">
+                     <content styleCode="bold">NDC 47781-256-17:</content> carton of 10 boxed 10 mg/5 mL single dose vials [<content styleCode="bold">NDC 47781-256-20] </content>
+                  </paragraph>
+                  <paragraph ID="INV-e8e6ed6b-7b84-4adc-a9fb-d6b13a9aefd7">
+                     <content styleCode="bold">NDC 47781-256-18</content>: 50 mg /25 mL single dose vial, individually boxed</paragraph>
+                  <paragraph ID="INV-2a516220-d146-4a5d-9a34-2a7af640d902">Store refrigerated, 2º to 8ºC (36º to 46ºF). <content styleCode="bold">Protect from light.</content> Retain in carton until time of use. Contains no preservative. Discard unused portion.</paragraph>
+                  <paragraph ID="INV-430a91b9-4595-4014-a693-6d1e0a018acb"/>
+                  <paragraph ID="INV-2d53b9d3-9f45-407a-875e-6189b5823b7b">DOXOrubicin Hydrochloride Injection USP is supplied in a sterile, multi dose, flip-top vial, as a red-orange solution containing Doxorubicin Hydrochloride, USP 2 mg/mL in the following package strength:</paragraph>
+                  <paragraph ID="INV-99f072fc-af53-4bc4-89eb-3beb453983c9">
+                     <content styleCode="bold">NDC 47781-256-19:</content> 200 mg/ 100 mL multi dose vial, individually boxed</paragraph>
+                  <paragraph ID="INV-9e338fbf-fc04-4888-863a-2e1df7b23d2a">Store refrigerated, 2° to 8°C (36° to 46°F). <content styleCode="bold">Protect from light.</content> Retain in carton until time of use. Contains no preservative. Discard unused portion.</paragraph>
+                  <paragraph ID="INV-6748bf54-da93-478d-99bc-6a1601fd3ea9">Made in Germany <br/>Distributed by: Alvogen, Inc., Pine Brook, NJ 07058 USA <br/>PI256-02 08/2015</paragraph>
+               </text>
+               <effectiveTime value="20160726"/>
+            </section>
+         </component>
+         <component>
+            <section ID="INV-61a3d5ac-c9ce-4a33-9aa3-7332505a36a1">
+               <id root="049892ca-1099-0246-d025-fe79a2f7ca94"/>
+               <code code="34093-5" displayName="REFERENCES SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>REFERENCES</title>
+               <text ID="INV-c1f728af-1417-4fae-870f-06588dfd1e50">
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>NIOSH Alert: Preventing occupational exposures to antineoplastic and other hazardous drugs in healthcare settings. 2004. U.S. Department of Health and Human Services, Public Health Service, Centers for Disease Control and Prevention, National Institute for Occupational Safety and Health, DHHS (NIOSH) Publication No. 2004-165. </item>
+                     <item>OSHA Technical Manual, TED 1-0.15A, Section VI: Chapter 2. Controlling Occupational Exposure to Hazardous Drugs. OSHA, 1999. http://www.osha.gov/dts/osta/otm/otm_vi/otm_vi_2.html </item>
+                     <item>American Society of Health-System Pharmacists. ASHP guidelines on handling hazardous drugs. Am J Health-Syst Pharm. 2006; 63:1172-1193. Am J Health-Syst Pharm. 2006; 63:1172-1193. </item>
+                     <item>Polovich, M., White, J. M., &amp; Kelleher, L.O. (eds.) 2005. Chemotherapy and biotherapy guidelines and recommendations for practice (2nd. ed.) Pittsburgh, PA: Oncology Nursing Society. </item>
+                  </list>
+                  <paragraph ID="INV-53f0948a-751a-4663-93c4-c9e9afe55ea7"/>
+               </text>
+               <effectiveTime value="20160726"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_47fb1694-04ac-b104-5444-93e6e6a0fbde">
+               <id root="31693598-1d6f-94ad-d360-8e5c318d7cbd"/>
+               <code code="68498-5" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT MEDICATION INFORMATION SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PATIENT INFORMATION</content>
+                     <content styleCode="none"/>
+                     <br/>
+                     <content styleCode="bold">DOXORUBICIN</content> (dakse-<content styleCode="bold">RU</content>-besen) <br/>
+                     <content styleCode="bold">(doxorubicin hydrochloride) <br/>for Injection</content>
+                  </paragraph>
+                  <paragraph>Read this Patient Information before you start receiving Doxorubicin and before each infusion. This information leaflet does not take the place of talking with your doctor about your medical condition or your treatment.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What is the most important information I should know about Doxorubicin?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Doxorubicin may cause serious side effects including: </content>
+                     <br/>
+                  </paragraph>
+                  <list>
+                     <item>
+                        <content styleCode="bold">Heart problems. </content>Doxorubicin may cause heart problems that may lead to death. These problems can happen during your treatment or months to years after stopping treatment. In some cases heart problems are irreversible. Your chance of heart problems is higher if you: </item>
+                     <item>already have heart problems </item>
+                     <item>have a history of radiation therapy or are currently receiving radiation therapy to your chest </item>
+                     <item> have had treatment with certain other anti-cancer medicines </item>
+                     <item>take other medicines that can affect your heart. Tell your doctor if you get any of these symptoms of heart problems: </item>
+                     <item>shortness of breath </item>
+                     <item>swelling of your feet and ankles </item>
+                     <item>cough </item>
+                     <item>fast heartbeat. <br/>
+                     </item>
+                  </list>
+                  <paragraph>Your doctor should do tests to check your heart before, during, and after your treatment with Doxorubicin. </paragraph>
+                  <list>
+                     <item>
+                        <content styleCode="bold">Secondary cancers.</content> Some people who have received Doxorubicin have developed acute myelogenous leukemia (AML) or myelodysplastic syndrome (MDS). Your chance of developing a secondary cancer is higher if you receive Doxorubicin along with other anti-cancer medicines or with radiation therapy.</item>
+                     <item>
+                        <content styleCode="bold">Decreased blood cell counts.</content> Doxorubicin can cause a severe decrease in neutrophils (a type of white blood cells important in fighting in bacterial infections), red blood cells (blood cells that carry oxygen to the tissues), and platelets (important for clotting and to control bleeding).Your doctor will check your blood cell count during your treatment with Doxorubicin and after you have stopped your treatment. </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What is Doxorubicin? </content>
+                     <br/>Doxorubicin is a prescription anti-cancer medicine used to treat certain types of cancers.  Doxorubicin may be used alone or along with other anti-cancer medicines.<br/>
+                     <br/>
+                     <content styleCode="bold">Who should not receive Doxorubicin? </content>
+                     <br/>
+                     <content styleCode="bold">Do not receive Doxorubicin if: </content>
+                     <br/>
+                  </paragraph>
+                  <list>
+                     <item>your blood cell counts are too low: platelets (which help your blood to clot), red blood cells (which help to carry iron and oxygen throughout your body), and white blood cells (which help to fight infection) </item>
+                     <item> you have a severe liver problem </item>
+                     <item> you have had a recent heart attack or have severe heart problem</item>
+                     <item>you have had previous treatment with Doxorubicin or certain other anti-cancer medicines and received the maximum dose allowed </item>
+                     <item>you are allergic to certain other anti-cancer medicines, doxorubicin hydrochloride, or any other ingredient in Doxorubicin. See the end of this leaflet for a complete list of ingredients in Doxorubicin.<br/>
+                     </item>
+                  </list>
+                  <paragraph>Talk to your doctor before receiving Doxorubicin if you have any of the conditions listed above.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What should I tell my doctor before receiving Doxorubicin?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Before you receive Doxorubicin, tell your doctor if you: </paragraph>
+                  <list>
+                     <item>have heart problems • have had radiation treatment or currently receiving radiation therapy </item>
+                     <item> are over the age of 50 </item>
+                     <item>have liver problems </item>
+                     <item> plan to receive any vaccines. Talk to your doctor about which vaccines are safe for you to receive during your treatment with Doxorubicin. See "What should I avoid while receiving Doxorubicin?" </item>
+                     <item> have any other medical conditions </item>
+                     <item> are pregnant or plan to become pregnant. Doxorubicin can harm your unborn baby. Women who may become pregnant should use effective birth control (contraception). Talk to your doctor about the best way to prevent pregnancy while receiving Doxorubicin. </item>
+                     <item> are breastfeeding or plan to breast feed. Doxorubicin can pass into your breast milk and harm your baby. You and your doctor should decide if you will receive Doxorubicin or breastfeed. You should not do both.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Tell your doctor about all the medicines you take, </content>including prescription and non-prescription medicines, vitamins, and herbal supplements. Doxorubicin can interact with other medicines. Do not start any new medicine before you talk with the doctor that prescribed Doxorubicin.</paragraph>
+                  <paragraph>Know the medicines you take. Keep a list to show your doctor and pharmacist each time you get a new medicine.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">How will I receive Doxorubicin? </content>
+                  </paragraph>
+                  <list>
+                     <item>Your doctor will prescribe Doxorubicin in an amount that is right for you. </item>
+                     <item> Doxorubicin will be given to you by intravenous (IV) infusion into your vein. </item>
+                     <item> Your doctor will do regular blood tests to check for side effects of Doxorubicin. </item>
+                     <item> Before receiving Doxorubicin you may receive other medicines to prevent or treat side effects. </item>
+                     <item>Caregivers of children receiving Doxorubicin should take precautions (such as wearing latex gloves) to prevent contact with the patient’s urine and other body fluids for at least 5 days after each treatment.</item>
+                     <item> Doxorubicin will be given to you by intravenous (IV) infusion into your vein. </item>
+                     <item>Your doctor will do regular blood tests to check for side effects of Doxorubicin. </item>
+                     <item> Before receiving Doxorubicin you may receive other medicines to prevent or treat side effects. </item>
+                     <item> Caregivers of children receiving Doxorubicin should take precautions (such as wearing latex gloves) to prevent contact with the patient’s urine and other body fluids for at least 5 days after each treatment.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What should I avoid while taking Doxorubicin? </content>
+                  </paragraph>
+                  <list>
+                     <item>Avoid receiving live vaccines during treatment with Doxorubicin. Talk to your doctor to find out which vaccines are safe for you while receiving Doxorubicin. See "What should I tell my doctor before receiving Doxorubicin?"</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">What are the possible side effects of Doxorubicin?Doxorubicin can cause serious side effects including: </content>
+                  </paragraph>
+                  <list>
+                     <item>
+                        <content styleCode="bold">See "What is the most important information I should know about Doxorubicin?"</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Infusion site reactions. Serious infusion site reactions can happen with Doxorubicin. Symptoms of infusion reaction may include: </content>Serious infusion site reactions can happen with Doxorubicin. Symptoms of infusion reaction may include: </paragraph>
+                  <list>
+                     <item>pain at injection site </item>
+                     <item>skin redness or swelling </item>
+                     <item> burning or stinging </item>
+                     <item> open skin sores at injection site</item>
+                  </list>
+                  <paragraph>Your doctor will watch you closely while you are receiving Doxorubicin and after your infusion for signs of a reaction. You may experience these reactions immediately or within 2 hours of infusion.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Change in the color of your urine. </content>You may have red colored urine for 1 to 2 days after your infusion of Doxorubicin. This is normal. Tell your doctor if it does not stop in a few days, or if you see what looks like blood or blood clots in your urine.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Infection.  </content>Call your doctor right away if you get any of the following signs of infection: </paragraph>
+                  <list>
+                     <item>fever (temperature of 100.4 F or greater) chills or shivering </item>
+                     <item> cough that brings up mucus </item>
+                     <item> burning or pain with urination</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Doxorubicin may cause lower sperm counts and sperm problems in men.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>This could affect your ability to father a child and cause birth defects. Men should use effective birth control (contraception) while receiving Doxorubicin. Do not have unprotected sexual contact with a female who could become pregnant. Tell your doctor if you do have unprotected sexual contact with a female who could become pregnant. Talk to your doctor if this is a concern for you.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Irreversible amenorrhea or early menopause. Your periods (menstrual cycle) may completely stop when you receive Doxorubicin. Your periods may or may not return after you complete your treatment of Doxorubicin.</content>Your periods (menstrual cycle) may completely stop when you receive Doxorubicin. Your periods may or may not return after you complete your treatment of Doxorubicin.</paragraph>
+                  <paragraph>The most common side effects of Doxorubicin include: </paragraph>
+                  <list>
+                     <item>hair loss (alopecia). Your hair may re-grow after your treatment. </item>
+                     <item> darkening of your nails or separation of your nails from your nailbed </item>
+                     <item>nausea </item>
+                     <item> vomiting </item>
+                     <item>lack of appetite or increased thirst </item>
+                     <item> bruise or bleed more easily </item>
+                     <item> abnormal heart beat </item>
+                     <item> a secondary cancer may occur when Doxorubicin is combined with other chemotherapy agents. </item>
+                     <item> mouth sores </item>
+                     <item> weight changes </item>
+                     <item> stomach (abdominal) pain </item>
+                     <item>diarrhea </item>
+                     <item> eye problems  </item>
+                     <item>allergic reactions. Call your doctor right away if you have any of the following symptoms of an allergic reaction: </item>
+                     <item> rash </item>
+                     <item> swelling of your lips or tongue </item>
+                     <item> flushed face </item>
+                     <item> fever </item>
+                     <item> hives </item>
+                     <item> dizziness or feel faint </item>
+                     <item> itching </item>
+                     <item> shortness of breath or trouble breathing</item>
+                  </list>
+                  <paragraph>Tell your doctor or nurse if you have any side effect that bothers you or that does not go away.</paragraph>
+                  <paragraph>These are not all of the possible side effects of Doxorubicin. For more information, ask your doctor or pharmacist.</paragraph>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">General information about the safe and effective use of Doxorubicin.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet.<br/>
+                     <br/>This leaflet summarizes the most important information about Doxorubicin. If you would like more information, talk with your doctor. You can ask your doctor or pharmacist for information about Doxorubicin that is written for healthcare professionals. <br/>
+                     <br/>For more information, call 1-866-770-3024.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are the ingredients of Doxorubicin?</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Active ingredient: Doxorubicin Hydrochloride USP <br/>
+                     <br/>Inactive ingredients: sodium chloride 0.9%, water for injection, and hydrochloric acid. <br/>
+                     <br/>This Patient Information has been approved by the U.S. Food and Drug Administration.</paragraph>
+                  <paragraph>Made in Germany <br/>Distributed by: <br/>Alvogen, Inc. <br/>Pine Brook, NJ 07058 USA </paragraph>
+                  <paragraph>PL256-02 08/2015</paragraph>
+               </text>
+               <effectiveTime value="20160726"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_4c42c67e-65a9-1272-21c1-d6b392b66cfc">
+               <id root="730ae057-8d90-7b55-39b8-115e41075fe3"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC</content> 47781-<content styleCode="bold">256</content>-20</paragraph>
+                  <paragraph>10 mg/5 mL </paragraph>
+                  <paragraph>DOXOrubicin Hydrochloride Injection USP 2 mg/mL</paragraph>
+                  <paragraph>5 mL Single Dose Vial</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM178543464966"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160811"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_4d0ab209-9869-b900-db04-64c219e0ff7f">
+               <id root="aceedb2e-0dfc-6977-f69f-e01bf92755e4"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title/>
+               <text>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">NDC</content> 47781-<content styleCode="bold">256</content>-17</paragraph>
+                  <paragraph>10 mg/5 mL </paragraph>
+                  <paragraph>10 X 5 mL Single Dose Vials</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM170802513457"/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160811"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_05cc8e6c-b11d-fd91-43a2-881d3df0643c">
+               <id root="a53bb200-a2ba-b46e-10cb-fc233b815785"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC</content> 47781-<content styleCode="bold">256</content>-18</paragraph>
+                  <paragraph>50 mg/25 mL</paragraph>
+                  <paragraph>DOXOrubicin Hydrochloride Injection USP 2 mg/mL </paragraph>
+                  <paragraph>25 mL Single Dose Vial</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM214994531919"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160811"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_2a7e9f3b-0b23-32d5-668b-e0ecc7f31a54">
+               <id root="dcfa7660-4478-3b3e-3391-a226a7dd2bdd"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC</content> 47781-<content styleCode="bold">256</content>-19</paragraph>
+                  <paragraph>200 mg/100 mL</paragraph>
+                  <paragraph>DOXOrubicin Hydrochloride Injection USP 2 mg/mL </paragraph>
+                  <paragraph>100 mL Multi Dose Vial</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM936534613846"/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160811"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

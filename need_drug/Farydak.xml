@@ -1,0 +1,2505 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="551444be-7168-4782-8219-c790b8f0bbde"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">These highlights do not include all the information needed to use FARYDAK safely and effectively. See full prescribing information for FARYDAK.</content>
+      <br/>
+      <br/>
+      <content styleCode="bold">FARYDAK<sup>®</sup> (panobinostat) capsules, for oral use</content>
+      <br/>
+      <content styleCode="bold">Initial U.S. Approval: 2015</content>
+      <br/>
+   </title>
+   <effectiveTime value="20171222"/>
+   <setId root="7774972a-eeaa-4b9a-9e56-3fc1b968e86a"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="002147023" root="1.3.6.1.4.1.519.1"/>
+            <name>Novartis Pharmaceuticals Corporation</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="581e0958-7daf-4dc4-b8d0-5fdea4c57de3"/>
+               <code code="48780-1" displayName="SPL LISTING DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20160217"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0078-0650" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FARYDAK</name>
+                        <formCode code="C25158" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>panobinostat</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="HN0T99OO4V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PANOBINOSTAT LACTATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9647FM7Y3Z" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PANOBINOSTAT</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="6"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0078-0650-06" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20150223"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA205353" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150223"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48329" displayName="GREEN" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                              <originalText>light green opaque capsule, radial markings on cap </originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">LBH;10;mg</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="16" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0078-0651" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FARYDAK</name>
+                        <formCode code="C25158" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>panobinostat</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="15"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="HN0T99OO4V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PANOBINOSTAT LACTATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9647FM7Y3Z" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PANOBINOSTAT</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="6"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0078-0651-06" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20150223"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA205353" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150223"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48331" displayName="ORANGE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                              <originalText>orange opaque capsule, radial markings on cap </originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">LBH;15;mg</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="19" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0078-0652" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>FARYDAK</name>
+                        <formCode code="C25158" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>panobinostat</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="20"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="HN0T99OO4V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PANOBINOSTAT LACTATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9647FM7Y3Z" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PANOBINOSTAT</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="6"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0078-0652-06" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20150223"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA205353" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20150223"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48326" displayName="RED" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                              <originalText>red opaque capsule, radial markings on cap</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">LBH;20;mg</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" displayName="CAPSULE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="19" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="736ccaa3-9a09-407e-94e8-731d86aeb734"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="43683-2" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <effectiveTime value="20160606"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <table width="100%">
+                           <col width="87%"/>
+                           <col width="13%"/>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <paragraph>Warnings and Precautions, Embryo-Fetal Toxicity (<linkHtml href="#s5p7">5.7</linkHtml>)</paragraph>
+                                 </td>
+                                 <td align="center">
+                                    <paragraph>6/2016</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="efcf9ea6-7074-416a-b3f3-de4916b07167"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34066-1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING: FATAL AND SERIOUS TOXICITIES: SEVERE DIARRHEA AND CARDIAC TOXICITIES</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Severe diarrhea occurred in 25% of FARYDAK treated patients.  Monitor for symptoms, institute anti-diarrheal treatment, interrupt FARYDAK and then reduce dose or discontinue FARYDAK. (5.1)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Severe and fatal cardiac ischemic events, severe arrhythmias, and ECG changes  have occurred in patients receiving  FARYDAK. Arrhythmias may be exacerbated by electrolyte abnormalities. Obtain ECG and electrolytes at baseline and periodically during treatment as clinically indicated. (5.2)</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160606"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">WARNING: FATAL AND SERIOUS TOXICITIES: SEVERE DIARRHEA AND CARDIAC TOXICITIES</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold italics">See full prescribing information for complete boxed warning.</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="bold">Severe diarrhea occurred in 25% of FARYDAK treated patients.  Monitor for symptoms, institute anti-diarrheal treatment, interrupt FARYDAK and then reduce dose or discontinue FARYDAK. (<linkHtml href="#s5p1">5.1</linkHtml>)</content>
+                           </item>
+                           <item>
+                              <content styleCode="bold">Severe and fatal cardiac ischemic events, severe arrhythmias, and ECG changes have occurred in patients receiving FARYDAK. Arrhythmias may be exacerbated by electrolyte abnormalities. Obtain ECG and electrolytes at baseline and periodically during treatment as clinically indicated. (<linkHtml href="#s5p2">5.2</linkHtml>)</content>
+                           </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="29ff0362-81cd-4a09-bc65-2977ddb612c9"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1     INDICATIONS AND USAGE
+					</title>
+               <text>
+                  <paragraph>FARYDAK, a histone deacetylase inhibitor, in combination with bortezomib and dexamethasone, is indicated for the treatment of patients with multiple myeloma who have received at least 2 prior regimens, including bortezomib and an immunomodulatory agent.  This indication is approved under accelerated approval based on progression free survival <content styleCode="italics">[see Clinical Studies (14.1)]</content>. Continued approval for this indication may be contingent upon verification and description of clinical benefit in confirmatory trials.</paragraph>
+               </text>
+               <effectiveTime value="20150223"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>FARYDAK, a histone deacetylase inhibitor, in combination with bortezomib and dexamethasone, is indicated for the treatment of patients with multiple myeloma who have received at least 2 prior regimens, including bortezomib and an immunomodulatory agent. This indication is approved under accelerated approval based on progression free survival. Continued approval for this indication may be contingent upon verification and description of clinical benefit in confirmatory trials. (<linkHtml href="#s1">1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="a8f18944-88a1-4a4c-a584-e6520f88ade1"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2     DOSAGE AND ADMINISTRATION
+					</title>
+               <effectiveTime value="20160606"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>20 mg, taken orally once every other day for 3 doses per week (on Days 1, 3, 5, 8, 10, and 12) of Weeks 1 and 2 of each 21-day cycle for 8 cycles (<linkHtml href="#s2p1">2.1</linkHtml>)</item>
+                           <item>Consider continuing treatment for an additional 8 cycles for patients with clinical benefit, unless they have  unresolved severe or medically significant toxicity (<linkHtml href="#s2p1">2.1</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s2p1">
+                     <id root="8225ae56-6946-4b66-b221-d6a30883d6ce"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1     Recommended Dosing
+							</title>
+                     <text>
+                        <paragraph>The recommended starting dose of FARYDAK is 20 mg, taken orally once every other day for 3 doses per week in Weeks 1 and 2 of each 21-day cycle for up to 8 cycles. Consider continuing treatment for an additional 8 cycles for patients with clinical benefit who do not experience unresolved severe or medically significant toxicity. The total duration of treatment may be up to 16 cycles (48 weeks). FARYDAK is administered in combination with bortezomib and dexamethasone as shown in Table 1 and Table 2.  </paragraph>
+                        <paragraph>The recommended dose of bortezomib is 1.3 mg/m<sup>2</sup> given as an injection. The recommended dose of dexamethasone is 20 mg taken orally per scheduled day, on a full stomach.</paragraph>
+                        <table>
+                           <caption>Table 1:  Recommended Dosing Schedule of FARYDAK in Combination with Bortezomib and Dexamethasone During Cycles 1 to 8</caption>
+                           <col width="200"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="200"/>
+                           <tbody>
+                              <tr>
+                                 <td colspan="16" styleCode="Toprule Lrule Rrule " align="center">
+                                    <content styleCode="bold">21-Day Cycle</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Cycles 1 to 8<br/>(3-Week cycles)</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="7" align="center">
+                                    <content styleCode="bold">Week 1<br/>Days</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="7" align="center">
+                                    <content styleCode="bold">Week 2<br/>Days</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">
+                                    <content styleCode="bold">Week 3</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">FARYDAK</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">1</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">3</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">5</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">8</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">10</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">12</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Rest period</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Bortezomib</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">1</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">4</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">8</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">11</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Rest period</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Dexamethasone</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">1</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">2</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">4</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">5</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">8</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">9</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">11</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">12</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Rest period</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <table>
+                           <caption>Table 2:  Recommended Dosing Schedule of FARYDAK in Combination with Bortezomib and Dexamethasone During Cycles 9 to 16</caption>
+                           <col width="200"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="25"/>
+                           <col width="200"/>
+                           <tbody>
+                              <tr>
+                                 <td colspan="16" styleCode="Toprule Lrule Rrule " align="center">
+                                    <content styleCode="bold">21-Day Cycle</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Cycles 9 to 16<br/>(3-Week cycles)</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="7" align="center">
+                                    <content styleCode="bold">Week 1<br/>Days</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="7" align="center">
+                                    <content styleCode="bold">Week 2<br/>Days</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">
+                                    <content styleCode="bold">Week 3</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">FARYDAK</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">1</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">3</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">5</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">8</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">10</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">12</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Rest period</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Bortezomib</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">1</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">8</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Rest period</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Dexamethasone</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">1</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">2</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">8</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">9</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Rest period</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s2p2">
+                     <id root="cae24896-cd8e-4985-84c7-31ff10fb88eb"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2     Administration and Monitoring Instructions</title>
+                     <text>
+                        <paragraph>FARYDAK should be taken orally once on each scheduled day at about the same time, either with or without food <content styleCode="italics">[see Clinical Pharmacology (12.3)]</content>.</paragraph>
+                        <paragraph>FARYDAK capsules should be swallowed whole with a cup of water. Do not open, crush, or chew the capsules <content styleCode="italics">[see How Supplied/Storage and Handling (16)]</content>. </paragraph>
+                        <paragraph>If a dose is missed it can be taken up to 12 hours after the specified dose time. If vomiting occurs the patient should not repeat the dose, but should take the next usual scheduled dose. </paragraph>
+                        <paragraph>Counsel patients on the correct dosing schedule, technique of administration of FARYDAK, and when to take FARYDAK if dosing adjustments are made.</paragraph>
+                        <paragraph>Prior to the start of FARYDAK treatment and during treatment, monitoring should include:</paragraph>
+                        <list>
+                           <item>
+                              <content styleCode="bold">Complete Blood Count (CBC):</content> Obtain a CBC before initiating treatment.  Verify that the baseline platelet count is at least 100 x 10<sup>9</sup>/L and the baseline absolute neutrophil count (ANC) is at least 1.5 x 10<sup>9</sup>/L. Monitor the CBC weekly (or more often as clinically indicated) during treatment. <content styleCode="italics">[see Warnings and Precautions (5.4) Adverse Reactions (6.1)]</content>. </item>
+                           <item>
+                              <content styleCode="bold">ECG:</content> Perform an ECG prior to the start of therapy and repeat periodically during treatment as clinically indicated. Verify that the QTcF is less than 450 msec prior to initiation of treatment with FARYDAK. If during treatment with FARYDAK, the QTcF increases to ≥480 msec, interrupt treatment. Correct any electrolyte abnormalities. If QT prolongation does not resolve, permanently discontinue treatment with FARYDAK <content styleCode="italics">[see Warnings and Precautions (5.2), Adverse Reactions (6.1)]</content>. During the clinical trial, ECGs were performed at baseline and prior to initiation of each cycle for the first 8 cycles.</item>
+                           <item>
+                              <content styleCode="bold">Serum Electrolytes:</content> Obtain electrolytes, including potassium and magnesium, at baseline and monitor during therapy. Correct abnormal electrolyte values before treatment <content styleCode="italics">[see Warnings and Precautions (5.2), Adverse Reactions (6.1)]</content>. During the trial, monitoring was conducted prior to the start of each cycle, at Day 11 of cycles 1 to 8, and at the start of each cycle for cycles 9 to 16.</item>
+                        </list>
+                        <paragraph>For additional information please refer to the bortezomib and dexamethasone prescribing information.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s2p3">
+                     <id root="43c743c9-91cd-4adb-97ea-782664673e76"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3     Dose Adjustments and Modifications for Toxicity 
+							</title>
+                     <text>
+                        <paragraph>Dose and/or schedule modification of FARYDAK may be required based on toxicity. Management of adverse drug reactions may require treatment interruption and/or dose reductions. If dose reduction is required, the dose of FARYDAK should be reduced in increments of 5 mg (i.e., from 20 mg to 15 mg, or from 15 mg to 10 mg). If the dosing of FARYDAK is reduced below 10 mg given 3 times per week, discontinue FARYDAK. Keep the same treatment schedule (3-week treatment cycle) when reducing dose. The table also lists Bortezomib (BTZ) dose modification procedures from the clinical trials.</paragraph>
+                        <table>
+                           <caption>Table 3:  Dose Modifications for Most Common Toxicities </caption>
+                           <col width="200"/>
+                           <col width="200"/>
+                           <col width="200"/>
+                           <col width="200"/>
+                           <col width="200"/>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="5">
+                                    <content styleCode="bold">BTZ = bortezomib<br/>ANC = absolute neutrophil count<br/>Hb = hemoglobin<br/>IV = intravenous</content>
+                                 </td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Thrombocytopenia</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" valign="bottom" colspan="2">
+                                    <content styleCode="bold">Platelets &lt;50 x 10<sup>9</sup>/L<br/>
+                                       <br/>CTCAE Grade 3</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" valign="bottom">
+                                    <content styleCode="bold">Platelets &lt;50 x 10<sup>9</sup>/L <br/>with bleeding<br/>CTCAE Grade 3</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" valign="bottom">
+                                    <content styleCode="bold">Platelets &lt;25 x 10<sup>9</sup>/L<br/>
+                                       <br/>CTCAE Grade 4</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" colspan="2">Maintain FARYDAK dose.<br/>Monitor platelet counts at least weekly.
+											</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Interrupt FARYDAK.<br/>Monitor platelet counts  <br/>at least weekly until<br/>≥50 x 10<sup>9</sup>/L,<br/>then restart at reduced dose
+											</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Interrupt FARYDAK.<br/>Monitor platelet counts<br/>at least weekly until<br/>≥50 x 10<sup>9</sup>/L, <br/>then restart at reduced dose</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" colspan="2">Maintain BTZ dose</td>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="2">   -  Interrupt BTZ until thrombocytopenia resolves to  ≥ 50 x 10<sup>9</sup>/L<br/>-  If only 1 dose was omitted prior to correction to these levels, restart BTZ at same dose <br/>   -  If 2 or more doses were omitted consecutively, or within the 
+same cycle, BTZ should be restarted at a reduced dose</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Neutropenia</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" valign="top">
+                                    <content styleCode="bold">ANC 0.75 to 1.0 x 10<sup>9</sup>/L<br/>CTCAE Grade 3</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" valign="top">
+                                    <content styleCode="bold">ANC 0.5 to 0.75 x 10<sup>9</sup>/L<br/>CTCAE Grade 3<br/>(2 or more occurrences)</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" valign="top">
+                                    <content styleCode="bold">ANC &lt;1.0 x 10<sup>9</sup>/L <br/>(CTCAE Grade 3) <br/>with febrile Neutropenia <br/>(any grade)</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" valign="top">
+                                    <content styleCode="bold">ANC &lt;0.5 x 10<sup>9</sup>/L<br/>CTCAE Grade 4</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Maintain FARYDAK dose.</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Interrupt FARYDAK until ANC ≥1.0 x 10<sup>9</sup>/L, <br/>then restart at same dose</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Interrupt FARYDAK until<br/>febrile neutropenia resolves and<br/>ANC ≥1.0 x 10<sup>9</sup>/L,<br/>then restart at reduced dose</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Interrupt FARYDAK until<br/>ANC ≥1.0 x 10<sup>9</sup>/L, <br/>then restart at reduced dose</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" colspan="2">Maintain BTZ dose</td>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="2">   -  Interrupt BTZ until febrile neutropenia resolves and 
+ANC ≥1.0 x 10<sup>9</sup>/L<br/>   -  If only 1 dose was omitted prior to correction to these levels, restart BTZ at same dose<br/>   -  If 2 or more doses were omitted consecutively, or within the same cycle, BTZ should be restarted at a reduced dose</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Anemia</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" valign="top" colspan="4">
+                                    <content styleCode="bold">Hb &lt;8 g/dL<br/>CTCAE Grade 3</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule "/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" valign="top" colspan="4">Interrupt FARYDAK until Hb ≥10 g/dL<br/>Restart at reduced dose.</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Diarrhea</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="2" align="center" valign="bottom">
+                                    <content styleCode="bold">Moderate Diarrhea<br/>4 to 6 stools/day<br/>
+                                       <br/>CTCAE Grade 2</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" valign="bottom">
+                                    <content styleCode="bold">Severe Diarrhea<br/>(≥7 stools/day)<br/>IV fluids or hospitalization required<br/>CTCAE Grade 3</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" valign="bottom">
+                                    <content styleCode="bold">Life-threatening Diarrhea<br/>
+                                       <br/>
+                                       <br/>CTCAE Grade 4</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" colspan="2">Interrupt FARYDAK until resolved.<br/>Restart at same dose.</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Interrupt FARYDAK until resolved.<br/>Restart at reduced dose.</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Permanently discontinue FARYDAK</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule " align="center"/>
+                                 <td styleCode="Toprule Lrule Rrule " align="center" colspan="2">Consider Interruption of BTZ until resolved.<br/>Restart at same dose.</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Interrupt BTZ until resolved.<br/>Restart at reduced dose.</td>
+                                 <td styleCode="Toprule Lrule Rrule " align="center">Permanently discontinue BTZ</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">
+                                    <content styleCode="bold">Nausea or Vomiting</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="2" align="center" valign="bottom">
+                                    <content styleCode="bold">Severe  Nausea<br/>CTCAE Grade 3/4</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="2" align="center" valign="bottom">
+                                    <content styleCode="bold">Severe / Life-threatening Vomiting<br/>CTCAE Grade 3/4</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule "/>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="2" align="center">Interrupt FARYDAK until resolved, <br/>then restart at reduced dose.</td>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="2" align="center">Interrupt FARYDAK until resolved,  <br/>then restart at reduced dose.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="bold">Myelosuppression</content>
+                        </paragraph>
+                        <paragraph>Interrupt or reduce the dose of FARYDAK in patients who have thrombocytopenia, neutropenia or anemia according to instructions in Table 3.  For patients with severe thrombocytopenia, consider platelet transfusions <content styleCode="italics">[see Warnings and Precautions (5.4), Adverse Reactions (6.1)]</content>. Discontinue FARYDAK treatment if thrombocytopenia does not improve despite the recommended treatment modifications or if repeated platelet transfusions are required.</paragraph>
+                        <paragraph>In the event of Grade 3 or 4 neutropenia, consider dose reduction and/or the use of growth factors (e.g., G-CSF).  Discontinue FARYDAK if neutropenia does not improve despite dose modifications, colony-stimulating factors, or in case of severe infection. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Gastrointestinal Toxicity</content>
+                        </paragraph>
+                        <paragraph>Gastrointestinal toxicity is common in patients treated with FARYDAK. Patients who experience diarrhea, nausea, or vomiting may require treatment interruption or dose reduction (Table 3). At the first sign of abdominal cramping, loose stools, or onset of diarrhea, patients should be treated with anti-diarrheal medication (e.g., loperamide). Consider and administer prophylactic anti-emetics as clinically indicated. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Other Adverse Drug Reactions</content>
+                        </paragraph>
+                        <paragraph>For patients experiencing Grade 3/4 adverse drug reactions other than thrombocytopenia, neutropenia, or gastrointestinal toxicity, the recommendation is the following:</paragraph>
+                        <list>
+                           <item>CTC Grade 2 toxicity recurrence and CTC Grade 3 and 4 - omit the dose until recovery to CTC Grade 1 or less and restart treatment at a reduced dose</item>
+                           <item>CTC Grade 3 or 4 toxicity recurrence, a further dose reduction may be considered once the adverse events have resolved to CTC Grade 1 or less. </item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20160606"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s2p4">
+                     <id root="a87f07ed-9034-4945-85dc-5307a1091650"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.4     Dose Modifications for Use in Hepatic Impairment
+							</title>
+                     <text>
+                        <paragraph>Reduce the starting dose of FARYDAK to 15 mg in patients with mild hepatic impairment and 10 mg in patients with moderate hepatic impairment.  Avoid use in patients with severe hepatic impairment. Monitor patients frequently for adverse events and adjust dose as needed for toxicity <content styleCode="italics">[see Dosing and Administration (2.2), Warnings and Precautions (5.6), Hepatic Impairment (8.6), Clinical Pharmacology (12.3)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s2p5">
+                     <id root="8ee81303-a457-45de-9723-f334a3a2a8af"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.5     Dose Modifications for Use with Strong CYP3A Inhibitors
+							</title>
+                     <text>
+                        <paragraph>Reduce the starting dose of FARYDAK to 10 mg when coadministered with strong CYP3A inhibitors (e.g., boceprevir, clarithromycin, conivaptan, indinavir, itraconazole, ketoconazole, lopinavir/ritonavir) <content styleCode="italics">[see Drug Interactions (7.1), Clinical Pharmacology (12.3)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="a1fe5eaa-b1d4-43b0-a727-e9b4cddd645f"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="43678-2" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3     DOSAGE FORMS AND STRENGTHS
+					</title>
+               <text>
+                  <paragraph>Capsules: 10 mg, 15 mg, and 20 mg panobinostat (equivalent to 12.58 mg, 18.86 mg, and 25.15 mg respectively of panobinostat lactate)</paragraph>
+                  <paragraph>10 mg: Size #3 light green opaque capsule, radial markings on cap with black ink “LBH 10 mg” and two radial bands with black ink on body, containing white to almost white powder.</paragraph>
+                  <paragraph>15 mg: Size #1 orange opaque capsule, radial markings on cap with black ink “LBH 15 mg” and two radial bands with black ink on body, containing white to almost white powder.</paragraph>
+                  <paragraph>20 mg: Size #1 red opaque capsule, radial markings on cap with black ink “LBH 20 mg” and two radial bands with black ink on body, containing white to almost white powder.</paragraph>
+               </text>
+               <effectiveTime value="20160606"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Capsules: 10 mg, 15 mg, and 20 mg panobinostat (equivalent to 12.58 mg, 18.86 mg, and 25.15 mg respectively of  panobinostat  lactate) (<linkHtml href="#s3">3</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s4">
+               <id root="72f666b6-a4ea-4a6d-82dd-c0ce22709915"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34070-3" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4     CONTRAINDICATIONS
+					</title>
+               <text>
+                  <paragraph>None
+						</paragraph>
+               </text>
+               <effectiveTime value="20150223"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>None (<linkHtml href="#s4">4</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="eb41a9e2-effc-49da-8f8e-fcf21332979d"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="43685-7" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5     WARNINGS AND PRECAUTIONS
+					</title>
+               <effectiveTime value="20160606"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Hemorrhage: Fatal and serious cases of gastrointestinal and pulmonary hemorrhage. Monitor platelet counts and transfuse as needed. (<linkHtml href="#s5p3">5.3</linkHtml>)</item>
+                           <item>Hepatotoxicity: Monitor hepatic enzymes and adjust dosage if abnormal liver function tests are observed during FARYDAK therapy. (<linkHtml href="#s5p6">5.6</linkHtml>)</item>
+                           <item>Embryo-Fetal Toxicity: can cause fetal harm. Advise women of the potential hazard to the fetus and to avoid pregnancy while taking FARYDAK. (<linkHtml href="#s5p7">5.7</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s5p1">
+                     <id root="d119ea02-3b0b-4504-acb0-5410c3129ae9"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1     Diarrhea
+							</title>
+                     <text>
+                        <paragraph>Severe diarrhea occurred in 25% of patients treated with FARYDAK <content styleCode="italics">[see Adverse Reactions (6.1)]</content>. Diarrhea of any grade occurred in 68% of patients treated with FARYDAK compared to 42% of patients in the control arm. Diarrhea can occur at any time. Monitor patient hydration status and electrolyte blood levels, including potassium, magnesium and phosphate, at baseline and weekly (or more frequently as clinically indicated) during therapy and correct to prevent dehydration and electrolyte disturbances. Initiate anti-diarrheal medication at the onset of diarrhea.  Interrupt FARYDAK at the onset of moderate diarrhea (4 to 6 stools per day) <content styleCode="italics">[see Dosage and Administration (2.3)]</content>.  Ensure that patients initiating therapy with FARYDAK have anti-diarrheal medications on hand.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s5p2">
+                     <id root="dc32f508-f415-4f0c-a6d8-66463db50b12"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2     Cardiac Toxicities 
+							</title>
+                     <text>
+                        <paragraph>Severe and fatal cardiac ischemic events, as well as severe arrhythmias, and electrocardiogram (ECG) changes occurred in patients receiving FARYDAK.  Arrhythmias occurred in 12% of patients receiving FARYDAK, compared to 5% of patients in the control arm. Cardiac ischemic events occurred in 4% of patients treated with FARYDAK compared with 1% of patients in the control arm.  Do not initiate FARYDAK treatment in patients with history of recent myocardial infarction or unstable angina.</paragraph>
+                        <paragraph>Electrocardiographic  abnormalities such as ST-segment depression and T-wave abnormalities also occurred more frequently in patients receiving FARYDAK compared to the control arm: 22% versus 4% and 40% versus 18%, respectively.  FARYDAK may prolong cardiac ventricular repolarization (QT interval). Do not initiate treatment with FARYDAK in patients with a QTcF &gt;450 msec or clinically significant baseline ST-segment or T-wave abnormalities. Arrhythmias may be exacerbated by electrolyte abnormalities. If during treatment with FARYDAK, the QTcF increases to ≥480 msec, interrupt treatment. Correct any electrolyte abnormalities. If QT prolongation does not resolve, permanently discontinue treatment with FARYDAK.</paragraph>
+                        <paragraph>Obtain ECG at baseline and periodically during treatment as clinically indicated.  Monitor electrolytes during treatment with FARYDAK and correct abnormalities as clinically indicated. </paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s5p3">
+                     <id root="6021bd80-bea0-42ed-ade3-34559dd3b322"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3     Hemorrhage</title>
+                     <text>
+                        <paragraph>Fatal and serious hemorrhage occurred during treatment with FARYDAK. In the clinical trial in patients with relapsed multiple myeloma, 5 patients receiving FARYDAK compared to 1 patient in the control arm died due to a hemorrhagic event. All 5 patients had grade ≥3 thrombocytopenia at the time of the event. Grade 3/4 hemorrhage was reported in 4% of patients treated with the FARYDAK arm and 2% of patients in the control arm.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s5p4">
+                     <id root="73fe4bf7-dc1c-4a9e-b3a8-8e5806915ed9"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4     Myelosuppression
+							</title>
+                     <text>
+                        <paragraph>FARYDAK causes myelosuppression, including severe thrombocytopenia, neutropenia and anemia. In the clinical trial in patients with relapsed multiple myeloma, 67% of patients treated with FARYDAK developed Grade 3 to 4 thrombocytopenia compared with 31% in the control arm. Thrombocytopenia led to treatment interruption and or dose modification in 31% of patients receiving FARYDAK compared to 11% of patients in the control arm. For patients receiving FARYDAK, 33% required platelet transfusion compared to 10% of patients in the control arm <content styleCode="italics">[see Dosage and Administration (2.2)]</content>.</paragraph>
+                        <paragraph>Severe neutropenia occurred in 34% of patients treated with FARYDAK, compared to 11% of patients in the control arm. Neutropenia led to treatment interruption and or dose modification in 10% of patients receiving FARYDAK. The use of granulocyte-colony stimulating factor (G-CSF) was higher in patients treated with FARYDAK compared to the control arm, 13% compared to 4%, respectively. </paragraph>
+                        <paragraph>Obtain a baseline CBC and monitor the CBC weekly during treatment (or more frequently if clinically indicated). Dose modifications are recommended for Myelosuppression <content styleCode="italics">[see Dosage and Administration (2.2)]</content>. Monitor CBCs more frequently in patients over 65 years of age due to the increased frequency of myelosuppression in these patients <content styleCode="italics">[see Use in Specific Populations (8.5)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20160606"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s5p5">
+                     <id root="cf817f1f-5a01-48cd-b273-6272997e4be4"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5     Infections 
+							</title>
+                     <text>
+                        <paragraph>Localized and systemic infections, including pneumonia, bacterial infections, invasive fungal infections, and viral infections have been reported in patients taking FARYDAK. Severe infections occurred in 31% of patients  (including 10 deaths) treated with FARYDAK compared with 24% of patients (including 6 deaths) in the control arm.  Infections of all grades occurred at a similar rate between arms.  FARYDAK treatment should not be initiated in patients with active infections. Monitor patients for signs and symptoms of infections during treatment; if a diagnosis of infection is made, institute appropriate anti-infective treatment promptly and consider interruption or discontinuation of FARYDAK. </paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s5p6">
+                     <id root="8573c957-e418-434d-a79f-aafa438c0c69"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6     Hepatotoxicity</title>
+                     <text>
+                        <paragraph>Hepatic dysfunction, primarily elevations in aminotransferases and total bilirubin, occurred in patients treated with FARYDAK. Liver function should be monitored prior to treatment and regularly during treatment. If abnormal liver function tests are observed dose adjustments may be considered and the patient should be followed until values return to normal or pretreatment levels <content styleCode="italics">[see Dosage and Administration (2.4), Clinical Pharmacology (12.3)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s5p7">
+                     <id root="78918368-4e2d-4bfc-9f25-c687590b7715"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42228-7" displayName="PREGNANCY SECTION"/>
+                     <title>5.7     Embryo-Fetal Toxicity</title>
+                     <text>
+                        <paragraph>FARYDAK can cause fetal harm when administered to a pregnant woman. Panobinostat was teratogenic in rats and rabbits.  If FARYDAK is used during pregnancy, or if the patient becomes pregnant while taking FARYDAK, the patient should be apprised of the potential hazard to the fetus <content styleCode="italics">[see Use in Specific Populations (8.1, 8.3)]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange">Advise females of reproductive potential to avoid becoming pregnant while taking FARYDAK.  Advise sexually-active females of reproductive potential to use effective contraception while taking FARYDAK and for at least 3 months after the last dose of FARYDAK.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="xmChange">Advise sexually active men to use condoms while on treatment and for 6 months after their last dose of FARYDAK <content styleCode="italics">[see Use in Specific Populations (8.3)]</content>.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20160606"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s6">
+               <id root="785cff4a-5018-4fc8-9e69-9ee845b4ea8b"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34084-4" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6     ADVERSE REACTIONS
+					</title>
+               <text>
+                  <paragraph>The following adverse reactions are described in detail in other sections of the label:</paragraph>
+                  <list>
+                     <item>Diarrhea <content styleCode="italics">[see Warnings and Precautions (5.1)]</content>
+                     </item>
+                     <item>Cardiac Toxicities <content styleCode="italics">[see Warnings and Precautions (5.2)]</content>
+                     </item>
+                     <item>Hemorrhage <content styleCode="italics">[see Warnings and Precautions (5.3)]</content>
+                     </item>
+                     <item>Myelosuppression <content styleCode="italics">[see Warnings and Precautions (5.4)]</content>
+                     </item>
+                     <item>Infections <content styleCode="italics">[see Warnings and Precautions (5.5)]</content>
+                     </item>
+                     <item>Hepatotoxicity <content styleCode="italics">[see Warnings and Precautions (5.6)]</content>
+                     </item>
+                  </list>
+                  <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+               </text>
+               <effectiveTime value="20160606"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most common adverse reactions (incidence of at least 20%) in clinical studies are diarrhea, fatigue, nausea, peripheral edema, decreased appetite, pyrexia, and vomiting.  (<linkHtml href="#s6p1">6.1</linkHtml>)<br/>
+                        </paragraph>
+                        <paragraph>The most common non-hematologic laboratory abnormalities (incidence ≥40%) are hypophosphatemia, hypokalemia, hyponatremia, and increased creatinine.  The most common hematologic laboratory abnormalities (incidence ≥60%) are thrombocytopenia, lymphopenia, leukopenia, neutropenia, and anemia. (<linkHtml href="#s6p1">6.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <br/>
+										To report SUSPECTED ADVERSE REACTIONS, contact Novartis Pharmaceuticals Corporation at 1-888-669-6682 or FDA at 1-800-FDA-1088 or <linkHtml href="www.fda.gov/medwatch">www.fda.gov/medwatch.</linkHtml>
+                           </content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s6p1">
+                     <id root="e2a37c56-8c95-4b18-a930-647dbc254c5f"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>6.1     Clinical Trials Experience  
+							</title>
+                     <text>
+                        <paragraph>The safety data reflect subject exposure to FARYDAK from a clinical trial, in which 758 subjects with relapsed multiple myeloma received FARYDAK in combination with bortezomib and dexamethasone or placebo in combination with bortezomib and dexamethasone (referred to as the control arm).  The median duration of exposure to FARYDAK was 5 months with 16% of patients exposed to study treatment for ≥48 weeks.</paragraph>
+                        <paragraph>Serious adverse events (SAEs) occurred in 60% of patients in the FARYDAK, bortezomib, and dexamethasone compared to 42% of patients in the control arm.  The most frequent (≥5%) treatment-emergent SAEs reported for patients treated with FARYDAK were pneumonia (18%), diarrhea, (11%), thrombocytopenia (7%), fatigue (6%), and sepsis (6%).</paragraph>
+                        <paragraph>Adverse reactions that led to discontinuation of FARYDAK occurred in 36% of patients. The most common adverse reactions leading to treatment discontinuations were diarrhea, fatigue, and pneumonia.</paragraph>
+                        <paragraph>Deaths occurred in 8% of patients in the FARYDAK arm versus 5% on the control arm. The most frequent causes of death were infection and hemorrhage.</paragraph>
+                        <paragraph>Table 4 summarizes the adverse reactions occurring in at least 10% of patients with  ≥ 5% greater incidence in the FARYDAK arm, and Table 5 summarizes the treatment-emergent laboratory abnormalities.</paragraph>
+                        <table>
+                           <caption>Table 4:  Adverse Reactions (≥10% Incidence and ≥5% Greater Incidence in FARYDAK-Arm) in Patients with Multiple Myeloma</caption>
+                           <col width="350"/>
+                           <col width="200"/>
+                           <col width="200"/>
+                           <col width="200"/>
+                           <col width="200"/>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="5">
+                                    <sup>[1]</sup> BTZ = bortezomib</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="5">
+                                    <sup>[2]</sup> Dex = dexamethasone</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="5">
+                                    <sup>[3]</sup> Arrhythmia includes the terms: arrhythmia, arrhythmia supraventricular, atrial fibrillation, atrial flutter, atrial tachycardia, bradycardia, cardiac arrest, cardio-respiratory arrest, sinus bradycardia, sinus tachycardia, supraventricular extra-systoles, tachycardia, ventricular arrhythmia, and ventricular tachycardia</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="5">
+                                    <sup>[4]</sup> Fatigue includes the terms: fatigue, malaise, asthenia, and lethargy</td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule " valign="bottom">
+                                    <content styleCode="bold">Primary System Organ Class<br/>Preferred term</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center" valign="bottom">
+                                    <content styleCode="bold">FARYDAK,<br/>BTZ <sup>[1]</sup>, Dex <sup>[2]</sup>
+                                       <br/>N=381<br/>All grades<br/>%</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center" valign="bottom">
+                                    <content styleCode="bold">FARYDAK,<br/>BTZ <sup>[1]</sup>, Dex <sup>[2]</sup>
+                                       <br/>N=381<br/>Grade 3/4<br/>%</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center" valign="bottom">
+                                    <content styleCode="bold">Placebo,<br/>BTZ <sup>[1]</sup>, Dex <sup>[2]</sup>
+                                       <br/>N=377<br/>All grades<br/>%</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center" valign="bottom">
+                                    <content styleCode="bold">Placebo,<br/>BTZ <sup>[1]</sup>, Dex <sup>[2]</sup>
+                                       <br/>N=377<br/>Grade 3/4<br/>%</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="5">
+                                    <content styleCode="bold">Cardiac disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Arrhythmia<sup>[3]</sup>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">12</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">3</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">5</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">2</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="5">
+                                    <content styleCode="bold">Gastrointestinal disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Diarrhea</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">68</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">25</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">42</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">8</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Nausea</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">36</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">6</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">21</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">1</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Vomiting</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">26</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">7</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">13</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">1</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="5">
+                                    <content styleCode="bold">General disorders and administration site conditions</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Fatigue<sup>[4]</sup>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">60</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">25</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">42</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">12</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Peripheral edema</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">29</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">2</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">19</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">&lt;1</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Pyrexia</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">26</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">1</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">15</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">2</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="5">
+                                    <content styleCode="bold">Investigations</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Weight decreased</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">12</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">2</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">5</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">1</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="5">
+                                    <content styleCode="bold">Metabolism and nutrition disorders</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Decreased appetite</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">28</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">3</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">12</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">1</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="bold">Other Adverse Reactions</content>
+                        </paragraph>
+                        <paragraph>Other notable adverse drug reactions of FARYDAK not described above, which were either clinically significant, or occurred with a frequency less than 10% but had a frequency in the FARYDAK arm greater than 2% over the control arm in the multiple myeloma clinical trial are listed below:</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Infections and infestations:</content> hepatitis B.
+								</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Endocrine disorders:</content> hypothyroidism.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Metabolism and nutrition disorders:</content> hyperglycemia, dehydration, fluid retention, hyperuricemia, hypomagnesemia.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Nervous system disorders:</content> dizziness, headache, syncope, tremor, dysgeusia.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Cardiac disorders:</content> palpitations.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Vascular disorders:</content> hypotension, hypertension, orthostatic hypotension. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Respiratory, thoracic and mediastinal disorders:</content> cough, dyspnea, respiratory failure, rales, wheezing. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Gastrointestinal disorders:</content> abdominal pain, dyspepsia, gastritis, cheilitis, abdominal distension, dry mouth, flatulence, colitis, gastrointestinal pain.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Skin and subcutaneous disorders:</content> skin lesions, rash, erythema.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Musculoskeletal and connective tissue disorders:</content> joint swelling.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Renal and urinary disorders:</content> renal failure, urinary incontinence.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">General disorders and administration site conditions:</content> chills.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Investigations:</content> blood urea increased, glomerular filtration rate decreased, blood alkaline phosphatase increased. 
+								</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Psychiatric disorders:</content> insomnia. 
+								</paragraph>
+                        <table>
+                           <caption>Table 5:  Treatment-emergent Laboratory Abnormalities (≥10% Incidence and ≥5% Greater Incidence in FARYDAK-arm) in Patients with Multiple Myeloma</caption>
+                           <col width="350"/>
+                           <col width="200"/>
+                           <col width="200"/>
+                           <col width="200"/>
+                           <col width="200"/>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="5">
+                                    <sup>[1]</sup> BTZ = bortezomib</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="5">
+                                    <sup>[2]</sup> Dex = dexamethasone</td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule " valign="bottom">
+                                    <content styleCode="bold">Investigations</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center" valign="bottom">
+                                    <content styleCode="bold">FARYDAK,<br/>BTZ<sup>[1]</sup>, Dex<sup>[2]</sup>
+                                       <br/>N=381<br/>Any
+grade<br/>%</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">
+                                    <content styleCode="bold">FARYDAK,<br/>BTZ<sup>[1]</sup>, Dex<sup>[2]</sup>
+                                       <br/>N=381<br/>Grade
+3/4<br/>%</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">
+                                    <content styleCode="bold">Placebo,<br/>BTZ<sup>[1]</sup>, Dex<sup>[2]</sup>
+                                       <br/>N=377<br/>Any
+grade<br/>%</content>
+                                 </td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">
+                                    <content styleCode="bold">Placebo,<br/>BTZ<sup>[1]</sup>, Dex<sup>[2]</sup>
+                                       <br/>N=377<br/>Grade
+3/4<br/>%</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="5">
+                                    <content styleCode="bold">Hematology</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Thrombocytopenia</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">97</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">67</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">83</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">31</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Anemia</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">62</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">18</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">52</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">19</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Neutropenia</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">75</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">34</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">36</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">11</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Leukopenia</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">81</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">23</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">48</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">8</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Lymphopenia</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">82</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">53</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">74</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">40</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule " colspan="5">
+                                    <content styleCode="bold">Chemistry</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Blood creatinine increased</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">41</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">1</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">23</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">2</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Hypokalemia</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">52</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">18</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">36</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">7</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Hypophosphatemia</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">63</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">20</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">45</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">12</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Hyponatremia</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">49</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">13</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">36</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">7</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Hyperbilirubinemia</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">21</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">1</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">13</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">&lt;1</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Hypocalcemia</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">67</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">5</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">55</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">2</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Hypoalbuminemia</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">63</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">2</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">38</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">2</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Hyperphosphatemia</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">29</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">2</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">20</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">&lt;1</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule ">Hypermagnesemia</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">27</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">5</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">14</td>
+                                 <td styleCode="Toprule Lrule Rrule" align="center">1</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="bold">Fatigue and Asthenia </content>
+                        </paragraph>
+                        <paragraph>Grade 1 to Grade 4 asthenic conditions (fatigue, malaise, asthenia, and lethargy) were reported in 60% of  the patients in the FARYDAK arm compared to 42% of patients in the control arm. Grade ≥3 asthenic conditions were reported in 25% of the patients in the  FARYDAK arm compared to 12% of patients in the control arm.  Asthenic conditions led to treatment discontinuation in 6% of patients in the  FARYDAK arm versus 3% of patients in the control arm.</paragraph>
+                        <paragraph>The prespecified sub-group upon which the efficacy and safety of FARYDAK was based had a similar adverse reaction profile to the entire safety population of patients treated with FARYDAK, bortezomib, and dexamethasone.</paragraph>
+                     </text>
+                     <effectiveTime value="20160606"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s7">
+               <id root="37b2f9e2-b8a3-4ecd-83f6-4c3c85f1e7f4"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34073-7" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7     DRUG INTERACTIONS
+					</title>
+               <text>
+                  <paragraph>Panobinostat is a CYP3A substrate and inhibits CYP2D6. Panobinostat is a P-glycoprotein (P-gp) transporter system substrate.</paragraph>
+               </text>
+               <effectiveTime value="20150223"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Strong CYP3A4 inhibitors: Reduce FARYDAK dose. (<linkHtml href="#s7p1">7.1</linkHtml>)</item>
+                           <item>Strong CYP3A4 inducers:  Avoid concomitant use with FARYDAK. (<linkHtml href="#s7p2">7.2</linkHtml>)</item>
+                           <item>Sensitive CYP2D6 substrates:  Avoid concomitant use with FARYDAK. (<linkHtml href="#s7p3">7.3</linkHtml>)</item>
+                           <item>Anti-arrhythmic drugs/QT-prolonging drugs: Avoid concomitant use. (<linkHtml href="#s7p4">7.4</linkHtml>) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s7p1">
+                     <id root="307a8187-f5f2-41f2-a698-be411b6c8168"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1     Agents that May Increase FARYDAK Blood Concentrations
+							</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">CYP3A Inhibitors:</content> Coadministration of FARYDAK with a strong CYP3A inhibitor increased the C<sub>max</sub> and AUC of panobinostat by 62% and 73% respectively, compared to when FARYDAK was given alone <content styleCode="italics">[see Clinical Pharmacology (12.3)]</content>. </paragraph>
+                        <paragraph>Reduce dose to 10 mg when coadministered with strong CYP3A inhibitors (e.g., boceprevir, clarithromycin, conivaptan, indinavir, itraconazole, ketoconazole, lopinavir/ritonavir, nefazodone, nelfinavir, posaconazole, ritonavir, saquinavir, telaprevir, telithromycin, voriconazole) <content styleCode="italics">[see Dosage and Administration (2.5)]</content>. Instruct patients to avoid star fruit, pomegranate or pomegranate juice, and grapefruit or grapefruit juice because these foods are known to inhibit CYP3A enzymes.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s7p2">
+                     <id root="d1c6ee77-66aa-48d3-bacf-c46877d23a34"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.2     Agents that May Decrease FARYDAK Plasma Concentrations 
+							</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">CYP3A Inducers:</content> Coadministration of FARYDAK with strong CYP3A inducers was not evaluated in vitro or in a clinical trial however, a reduction in panobinostat exposure is likely. An approximately 70% decrease in the systemic exposure of panobinostat in the presence of strong inducers of CYP3A was observed in simulations using mechanistic models. Therefore, the concomitant use of strong CYP3A inducers should be avoided <content styleCode="italics">[see Clinical Pharmacology (12.3)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s7p3">
+                     <id root="d155204f-e919-4cd3-9a3b-c70619e99557"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.3     Agents whose Plasma Concentrations May be Increased by FARYDAK
+							</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">CYP2D6 Substrates:</content> FARYDAK increased the median C<sub>max</sub> and AUC of a sensitive substrate of CYP2D6 by approximately 80% and  60%, respectively; however this was highly variable <content styleCode="italics">[see Clinical Pharmacology (12.3)]</content>. Avoid coadministrating FARYDAK with sensitive CYP2D6 substrates (i.e., atomoxetine, desipramine, dextromethorphan, metoprolol, nebivolol, perphenazine, tolterodine, and venlafaxine) or CYP2D6 substrates that have a narrow therapeutic index (i.e., thioridazine, pimozide). If concomitant use of CYP2D6 substrates is unavoidable, monitor patients frequently for adverse reactions.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s7p4">
+                     <id root="c3ee9a92-83dd-44a2-ba66-d7348b294049"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.4     Drugs that Prolong QT interval
+							</title>
+                     <text>
+                        <paragraph>Concomitant use of anti-arrhythmic medicines (including, but not limited to amiodarone, disopyramide, procainamide, quinidine and sotalol) and other drugs that are known to prolong the QT interval (including, but not limited to chloroquine, halofantrine, clarithromycin, methadone, moxifloxacin, bepridil and pimozide) is not recommended. Anti-emetic drugs with known QT prolonging risk, such as dolasetron, ondansetron, and tropisetron can be used with frequent ECG monitoring <content styleCode="italics">[see Warnings and Precautions (5.2)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s8">
+               <id root="5bc2925a-69a7-4ba4-8164-16861e1976d6"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="43684-0" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8     USE IN SPECIFIC POPULATIONS
+					</title>
+               <effectiveTime value="20160606"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Hepatic Impairment: Hepatic impairment can increase panobinostat exposure.  Reduce FARYDAK dose in patients with mild or moderate hepatic impairment. Avoid use in patients with severe hepatic impairment. (<linkHtml href="#s8p6">8.6</linkHtml>)<br/>
+                           <br/>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s8p1">
+                     <id root="150e338c-93a9-4b5c-a7f1-29517405c547"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42228-7" displayName="PREGNANCY SECTION"/>
+                     <title>8.1     Pregnancy
+							</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>FARYDAK can cause fetal harm when administered to a pregnant woman. Panobinostat was teratogenic in rats and rabbits.  If FARYDAK is used during pregnancy or if the patient becomes pregnant while taking this drug, apprise the patient of the potential hazard to the fetus.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>In embryofetal development studies, panobinostat was administered orally 3 times per week during the period of organogenesis to pregnant rats (30, 100, and 300 mg/kg) and rabbits (10, 40, and 80 mg/kg).  In rats, maternal toxicity including death was observed at doses greater than or equal to 100 mg/kg/day.  Embryofetal toxicities occurred at 30 mg/kg (the only dose with live fetuses) and consisted of fetal malformations and anomalies, such as cleft palate, short tail, extra presacral vertebrae, and extra ribs.  The dose of 30 mg/kg resulted in exposures (AUCs) approximately 3-fold the human exposure at the human dose of 20 mg.  In rabbits, maternal toxicity including death was observed at doses greater than or equal to 80 mg/kg.  Increased pre- and/or post-implantation loss occurred at all doses tested.  Embryofetal toxicities included decreased fetal weights at doses greater than or equal to 40 mg/kg and malformations (absent digits, cardiac interventricular septal defects, aortic arch interruption, missing gallbladder, and irregular ossification of skull) at 80 mg/kg. The dose of 40 mg/kg in rabbits results in systemic exposure approximately 4-fold the human exposure and the dose of 80 mg/kg results in exposure 7-fold the human exposure, at the human dose of 20 mg.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s8p2">
+                     <id root="50ff3d22-dcf8-489e-995a-e2876db6e331"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.2     Lactation
+							</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>It is not known whether FARYDAK is excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious adverse drug reactions in nursing infants, decide whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s8p3">
+                     <id root="2a412b9a-29db-4d20-bd61-c8a1e9649667"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.3     Females and Males of Reproductive Potential
+							</title>
+                     <text>
+                        <paragraph>Embryofetal toxicity including malformations occurred in embryofetal development studies in rats <content styleCode="italics">[see Pregnancy (8.1)]</content>. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Pregnancy Testing</content>
+                        </paragraph>
+                        <paragraph>Perform pregnancy testing in women of childbearing potential prior to starting treatment with FARYDAK and intermittently during treatment with FARYDAK.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Contraception</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Females</content>
+                        </paragraph>
+                        <paragraph>FARYDAK can cause fetal harm. Advise females of reproductive potential to avoid becoming pregnant while taking FARYDAK.  Advise sexually-active females of reproductive potential to use effective contraception while taking FARYDAK and for at least 3 months after the last dose of FARYDAK.  Advise patients to contact their healthcare provider if they become pregnant, or if pregnancy is suspected, while taking FARYDAK <content styleCode="italics">[see Use in Specific Populations (8.1)]</content>. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Males</content>
+                        </paragraph>
+                        <paragraph>Advise sexually active men to use condoms while on treatment and for at least 6 months after their last dose of FARYDAK.</paragraph>
+                     </text>
+                     <effectiveTime value="20160606"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s8p4">
+                     <id root="f87417c0-ac84-4bbd-aaea-983f1859382d"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34081-0" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4     Pediatric Use
+							</title>
+                     <text>
+                        <paragraph>The safety and efficacy of FARYDAK in children has not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s8p5">
+                     <id root="3b0a1265-4a56-46f2-9a93-51d49559edfb"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34082-8" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5     Geriatric Use
+							</title>
+                     <text>
+                        <paragraph>In clinical trials of FARYDAK in patients with multiple myeloma, 42% of patients were 65 years of age or older.</paragraph>
+                        <paragraph>Patients over 65 years of age had a higher frequency of selected adverse events and of discontinuation of treatment due to adverse events.  In patients over 65 years of age, the incidence of deaths not related to disease progression was 9% in patients ≥65 years of age compared to 5 % in patients &lt;65.</paragraph>
+                        <paragraph>In the randomized clinical trial in patients with relapsed multiple myeloma, no major differences in effectiveness were observed in older patients compared to younger patients. Adverse reactions leading to permanent discontinuation occurred in 45% of patients ≥65 years of age in the FARYDAK treatment arm compared to 30% of patients &lt;65 years age in the FARYDAK treatment arm. Monitor for toxicity more frequently in patients over 65 years of age, especially for gastrointestinal toxicity, myelosuppression, and cardiac toxicity <content styleCode="italics">[see Warnings and Precautions (5.1, 5.4)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s8p6">
+                     <id root="025c9f0a-d610-4629-8f69-a31da1ee3a30"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.6     Hepatic Impairment
+							</title>
+                     <text>
+                        <paragraph>The safety and efficacy of FARYDAK in patients with hepatic impairment has not been evaluated.</paragraph>
+                        <paragraph>In a pharmacokinetic trial, patients with mild (bilirubin ≤1xULN and AST &gt;1xULN, or bilirubin &gt;1.0 to 1.5x ULN and any AST) or moderate (bilirubin &gt;1.5x to 3.0x ULN, any AST) hepatic impairment (NCI-ODWG criteria) had increased AUC of panobinostat by 43% and 105%, respectively. Reduce the starting dose of FARYDAK in patients with mild or moderate hepatic impairment.  Avoid use in patients with severe hepatic impairment.  Monitor patients with hepatic impairment frequently for adverse events <content styleCode="italics">[see Dosage and Administration (2.4), Warnings and Precautions (5.6), Clinical Pharmacology (12.3)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s8p7">
+                     <id root="c07b11d7-9042-4795-8409-48ce705018e8"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>8.7     Renal Impairment
+							</title>
+                     <text>
+                        <paragraph>Mild [creatinine clearance (CrCl) ≥50 to &lt;80 mL/min] to severe renal impairment (CrCl &lt;30 mL/min) did not impact the plasma exposure of panobinostat. FARYDAK has not been studied in patients with end stage renal disease (ESRD) or patients on dialysis. The dialyzability of panobinostat is unknown <content styleCode="italics">[see Clinical Pharmacology (12.3)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s10">
+               <id root="5c74bedb-67fb-4d75-b375-ce35ba48dfb5"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34088-5" displayName="OVERDOSAGE SECTION"/>
+               <title>10     OVERDOSAGE
+					</title>
+               <text>
+                  <paragraph>There is limited experience with overdosage. Expect exaggeration of adverse reactions observed during the clinical trial, including hematologic and gastrointestinal reactions such as thrombocytopenia, pancytopenia, diarrhea, nausea, vomiting and anorexia. Monitor cardiac status including ECGs, and assess and correct electrolytes. Consider platelet transfusions for thrombocytopenic bleeding. It is not known if FARYDAK is dialyzable.</paragraph>
+               </text>
+               <effectiveTime value="20150223"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s11">
+               <id root="b89163ea-fa6f-42ee-840f-f62a7e6b9ce7"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34089-3" displayName="DESCRIPTION SECTION"/>
+               <title>11     DESCRIPTION
+					</title>
+               <text>
+                  <paragraph>FARYDAK (panobinostat lactate) is a histone deacetylase inhibitor.</paragraph>
+                  <paragraph>The chemical name of panobinostat lactate is 2-Hydroxypropanoic acid, compd. with 2-(E)-N-hydroxy-3-[4-[[[2-(2-methyl-1H-indol-3-yl)ethyl]amino]methyl]phenyl]-2-propenamide (1:1).</paragraph>
+                  <paragraph>The structural formula is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000001"/>
+                  </paragraph>
+                  <paragraph>Panobinostat lactate anhydrous is a white to slightly yellowish or brownish powder. The molecular formula is C<sub>21</sub>H<sub>23</sub>N<sub>3</sub>O<sub>2</sub>•C<sub>3</sub>H<sub>6</sub>O<sub>3</sub> (lactate); its molecular weight is 439.51 (as a lactate), equivalent to 349.43 (free base). Panobinostat lactate anhydrous is light sensitive. Panobinostat lactate anhydrous is both chemically and thermodynamically a stable crystalline form with no polymorphic behavior. Panobinostat free base is not chiral and shows no specific optical rotation.  Panobinostat lactate anhydrous is slightly soluble in water.  Solubility of panobinostat lactate anhydrous is pH-dependent, with the highest solubility in buffer pH 3.0 (citrate).</paragraph>
+                  <paragraph>FARYDAK capsules contain 10 mg, 15 mg, or 20 mg panobinostat free base (equivalent to 12.58 mg, 18.86 mg, and 25.15 mg respectively of panobinostat lactate). The inactive ingredients are magnesium stearate, mannitol, microcrystalline cellulose and pregelatinized starch. The capsules contain gelatin, FD&amp;C Blue 1 (10 mg capsules), yellow iron oxide (10 mg and 15 mg capsules), red iron oxide (15 mg and 20 mg capsules) and titanium dioxide. </paragraph>
+               </text>
+               <effectiveTime value="20160217"/>
+               <component>
+                  <observationMedia ID="MM03000001">
+                     <text>FARIDAK chemical structure </text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="farydak-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s12">
+               <id root="f03e8b63-a8a5-4b33-aec1-52233bc204a0"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12     CLINICAL PHARMACOLOGY
+					</title>
+               <effectiveTime value="20150223"/>
+               <component>
+                  <section ID="s12p1">
+                     <id root="1e9c5ac7-a592-4396-9850-cfcf139773ea"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="43679-0" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1     Mechanism of Action
+							</title>
+                     <text>
+                        <paragraph>FARYDAK is a histone deacetylase (HDAC) inhibitor that inhibits the enzymatic activity of HDACs at nanomolar concentrations. HDACs catalyze the removal of acetyl groups from the lysine residues of histones and some non-histone proteins. Inhibition of HDAC activity results in increased acetylation of histone proteins, an epigenetic alteration that results in a relaxing of chromatin, leading to transcriptional activation. In vitro, panobinostat caused the accumulation of acetylated histones and other proteins, inducing cell cycle arrest and/or apoptosis of some transformed cells. Increased levels of acetylated histones were observed in xenografts from mice that were treated with panobinostat. Panobinostat shows more cytotoxicity towards tumor cells compared to normal cells. </paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s12p2">
+                     <id root="c9c26cb8-9e45-4301-88e6-0a48558c53bb"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="43681-6" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2     Pharmacodynamics
+							</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold italics">Cardiac Electrophysiology</content>
+                        </paragraph>
+                        <paragraph>FARYDAK may prolong cardiac ventricular repolarization (QT interval) <content styleCode="italics">[see Warnings and Precautions (5.2)]</content>. In the randomized multiple myeloma trial, QTc prolongation with values between 451 msec to 480 msec occurred in 10.8% of FARYDAK treated patients.  Events with values of 481 msec to 500 msec occurred in 1.3% of FARYDAK treated patients. A maximum QTcF increase from baseline of between 31 msec and 60 msec was reported in 14.5% of  FARYDAK treated patients. A maximum QTcF increase from baseline of  &gt;60 msec was reported in 0.8% of FARYDAK treated patients.  No episodes of QTcF prolongation &gt;500 msec have been reported with the dose of 20 mg FARYDAK in the randomized multiple myeloma trial conducted in combination with bortezomib and dexamethasone. Pooled clinical data from over 500 patients treated with single agent FARYDAK in multiple indications and at different dose levels has shown that the incidence of CTC Grade 3 QTc prolongation (QTcF &gt;500 msec) was approximately 1% overall and 5% or more at a dose of 60 mg or higher.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s12p3">
+                     <id root="fc4d016e-7d9f-4782-8db6-99a70c1a62e9"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="43682-4" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3     Pharmacokinetics
+							</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold italics">Absorption</content>
+                        </paragraph>
+                        <paragraph>The absolute oral bioavailability of FARYDAK is approximately 21%. Peak concentrations of panobinostat are observed within 2 hours (T<sub>max</sub>) of oral administration in patients with advanced cancer. FARYDAK exhibits an approximate dose proportional increase in both C<sub>max</sub> and AUC over the dosing range.</paragraph>
+                        <paragraph>Plasma panobinostat C<sub>max</sub> and AUC<sub>0–48</sub> were approximately 44% and 16% lower compared to fasting conditions, respectively, following ingestion of an oral FARYDAK dose 30 minutes after a high-fat meal by 36 patients with advanced cancer. The median T<sub>max</sub> was also delayed by 2.5 hours in these patients.</paragraph>
+                        <paragraph>The aqueous solubility of panobinostat is pH dependent, with higher pH resulting in lower solubility <content styleCode="italics">[see Description (11)]</content>. Coadministration of FARYDAK with drugs that elevate the gastric pH was not evaluated in vitro or in a clinical trial; however, altered panobinostat absorption was not observed in simulations using physiologically-based pharmacokinetic (PBPK) models.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold italics">Distribution</content>
+                        </paragraph>
+                        <paragraph>Panobinostat is approximately 90% bound to human plasma proteins in vitro and is independent of concentration. Panobinostat is a P-gp substrate.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold italics">Metabolism</content>
+                        </paragraph>
+                        <paragraph>Panobinostat is extensively metabolized. Pertinent metabolic pathways involved in the biotransformation of panobinostat are reduction, hydrolysis, oxidation, and glucuronidation processes. The fraction metabolized through CYP3A accounts for approximately 40% of the total hepatic panobinostat elimination. In vitro, additional contributions from the CYP2D6 and CYP2C19 pathways are minor. In vitro, UGT1A1, UGT1A3, UGT1A7, UGT1A8, UGT1A9, and UGT2B4 contribute to the glucuronidation of panobinostat.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold italics">Elimination</content>
+                        </paragraph>
+                        <paragraph>Twenty-nine percent to 51% of administered radioactivity is excreted in urine and 44% to 77% in the feces after a single oral dose of [<sup>14</sup>C] panobinostat in 4 patients with advanced cancer. Unchanged panobinostat accounted for &lt;2.5% of the dose in urine and &lt;3.5% of the dose in feces with the remainder consisting of metabolites.</paragraph>
+                        <paragraph>An oral clearance (CL/F) and terminal elimination half-life (t<sub>1/2</sub>) of approximately 160 L/hr and 37 hours, respectively, was estimated using a population based pharmacokinetic (pop-PK) model in patients with advanced cancer. An inter-subject variability 65% on the clearance estimate was also reported. Up to 2-fold accumulation was observed with chronic oral dosing in patients with advanced cancer.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold italics">Specific Populations</content>
+                        </paragraph>
+                        <paragraph>Population pharmacokinetic (PK) analyses of FARYDAK indicated that body surface area, gender, age, and race do not have a clinically meaningful influence on clearance.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Hepatic Impairment: </content>The effect of hepatic impairment on the pharmacokinetics of panobinostat was evaluated in a phase 1 study in 24 patients with advanced cancer with varying degrees of hepatic impairment. In patients with NCI-CTEP class mild (i.e., Group B) and moderate (i.e., Group C) hepatic impairment, AUC<sub>0-inf</sub> increased 43% and 105% compared to the group with normal hepatic function, respectively. The relative change in C<sub>max</sub> followed a similar pattern. The effect of severe hepatic impairment was indeterminate in this study due to the small sample size (n=1). A dose modification is recommended for patients with mild and moderate hepatic impairment <content styleCode="italics">[see Use in Specific Populations (8.6)]</content>.
+								</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Renal Impairment: </content>The effect of renal impairment on the pharmacokinetics of panobinostat was assessed in a phase 1 trial of 37 patients with advanced cancer and varying degrees of renal impairment. Panobinostat AUC<sub>0–inf</sub> in the mild, moderate and severe renal impairment groups were 64%, 99% and 59%, of the normal group, respectively. The relative change in C<sub>max</sub> followed a similar pattern <content styleCode="italics">[see Use in Specific Populations (8.7)]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Drug Interactions:</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Strong CYP3A Inhibitors: </content>Coadministration of a single 20 mg FARYDAK dose with ketoconazole (200 mg twice daily for 14 days) increased the C<sub>max</sub> and AUC<sub>0–48</sub> of panobinostat by 62% and 73% respectively, compared to when FARYDAK was given alone in 14 patients with advanced cancer. T<sub>max</sub> was unchanged. A modified starting dose is recommended <content styleCode="italics">[see Dose and Administration (2.4), Drug Interactions (7.1)]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Strong CYP3A Inducers: </content>The human oxidative metabolism of panobinostat via the cytochrome P450 system primarily involves CYP3A isozymes. Simulations using PBPK models, predicted an approximately 70% decrease in the systemic exposure of panobinostat in the presence of strong inducers of CYP3A.  Avoid coadministration of FARYDAK with strong CYP3A inducers <content styleCode="italics">[see Drug Interactions (7.2)]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">CYP2D6 Substrates: </content>Coadministration of a single 60 mg dextromethorphan (DM) dose with FARYDAK (20 mg once per day, on Days 3, 5, and 8) increased the C<sub>max</sub> and AUC<sub>0–∞</sub> of DM by 20% to 200% and 20% to 130% (interquartile ranges), respectively, compared to when DM was given alone in 14 patients with advanced cancer. These DM exposures were extremely variable (CV% &gt;150%). Avoid coadministration of FARYDAK with sensitive CYP2D6 substrates or CYP2D6 substrates that have a narrow therapeutic index <content styleCode="italics">[see Drug Interactions (7.3)]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">CYP3A Substrates: </content>Simulations using PBPK models predict that an exposure increase of less than 10% for the sensitive CYP3A substrate midazolam is likely following coadministration with panobinostat.  The clinical implications of this finding are not known.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro studies with CYP or UDPglucuronosyltransferase (UGT) substrates:</content>
+                        </paragraph>
+                        <paragraph>Panobinostat inhibits CYP2D6, CYP2C19 and CYP3A4 (time-dependent), but does not inhibit CYP1A2, CYP2C8, CYP2C9, and CYP2E.
+Panobinostat does not induce CYP1A1/2, CYP2B6, CYP2C8/9/19, CYP3A and UGT1A1.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In vitro studies with drug transporter system substrates:</content>
+                        </paragraph>
+                        <paragraph>Panobinostat inhibits OAT3, OCT1, OCT2, OATP1B1 and OATP1B3, but does not inhibit P-gp and breast cancer resistant protein (BCRP), or OAT1.</paragraph>
+                        <paragraph>Panobinostat does not induce P-gp and multidrug resistance protein 2 (MRP2) transporters.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s13">
+               <id root="16535e8f-8a4d-4c20-b7a8-b46f8057e825"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="43680-8" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13     NONCLINICAL TOXICOLOGY
+					</title>
+               <effectiveTime value="20150223"/>
+               <component>
+                  <section ID="s13p1">
+                     <id root="671b7dcf-15e5-449b-a8e2-c9aec82da8ee"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34083-6" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1     Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Carcinogenicity studies have not been conducted with panobinostat.</paragraph>
+                        <paragraph>Panobinostat was mutagenic in the Ames assay, and caused endo-reduplication (increased number of chromosomes) in human peripheral blood lymphocytes in vitro and DNA damage in an in vitro COMET assay in mouse lymphoma L5178Y cells.</paragraph>
+                        <paragraph>FARYDAK may impair male and female fertility.  In an oral fertility study conducted in rats, 10, 30, or 100 mg/kg doses of panobinostat were administered to females 3 times weekly (Days 1, 3, and 5) for 2 weeks prior to mating, then during the mating period, and on gestation Days 0, 3, and 6.  An increase in early resorption and/or post-implantation loss in female rats were observed at doses ≥10 mg/kg.  Number of pregnancies was reduced at doses ≥30 mg/kg.  Prostate atrophy accompanied by reduced secretory granules, and testicular degeneration, oligospermia and increased epididymal debris were observed in repeated dose oral toxicity studies in dogs, e.g., in the 4-week study at the dose of 1.5 mg/kg.  These effects were not completely reversed following a 4-week nondosing period. </paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s13p2">
+                     <id root="73a221b6-2005-4753-9c56-57d5f63e4b69"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34091-9" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION"/>
+                     <title>13.2     Animal Toxicology and/or Pharmacology
+							</title>
+                     <text>
+                        <paragraph>Adverse findings observed in animals and not reported (or reported with low incidence) in patients treated with panobinostat include thyroid, bone marrow, and skin findings.  Thyroid hormone changes in oral studies in rats and dogs included decreases in triodothyronine (T<sub>3</sub>), tetraiodothyronine (T<sub>4</sub>) and thyroid stimulating hormone (TSH). Histopathology changes of the thyroid included decreases in follicular colloid and epithelial vacuolation, and increases in thyroid follicular hypertrophy. A benign thyroid follicular cell adenoma was also seen in 1 rat in the 26-week study.  Bone marrow findings in one or both species included hyperostosis, plasmacytosis, increased number of granulocytic cells, and presence of abnormal cytoplasmic granulation.  Osseous metaplasia of the lung and skin hyperplasia and papilloma were observed in dogs in the 39-week study.</paragraph>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s14">
+               <id root="13d4cf2a-b8ef-4fc5-b5f7-affe31616212"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34092-7" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14     CLINICAL STUDIES
+					</title>
+               <effectiveTime value="20150223"/>
+               <component>
+                  <observationMedia ID="MM03000002">
+                     <text>Figure 1  Progression-free Survival (mEBMT criteria): Kaplan Meier Plot </text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="farydak-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <section ID="s14p1">
+                     <id root="b9f40620-8b7a-43c1-abf3-19c5bcee99e8"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="42229-5" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.1     Relapsed Multiple Myeloma</title>
+                     <text>
+                        <paragraph>The efficacy and safety of FARYDAK in combination with bortezomib and dexamethasone was evaluated in a randomized, double-blind, placebo-controlled, multicenter study in patients with relapsed multiple myeloma who had received 1 to 3 prior lines of therapy.</paragraph>
+                        <paragraph>Patients received bortezomib (1.3 mg/m<sup>2</sup> injected intravenously) with dexamethasone (20 mg) in addition to FARYDAK 20 mg (or placebo), taken orally every other day, for 3 doses per week in Weeks 1 and 2 of each 21-day cycle. Treatment was administered for a maximum of 16 cycles (48 weeks). </paragraph>
+                        <paragraph>A total of 768 patients were randomized in a 1:1 ratio to receive either the combination of FARYDAK, bortezomib, dexamethasone (n=387) or placebo, bortezomib, dexamethasone (n=381), stratified by prior use of bortezomib and the number of prior lines of anti-myeloma therapy. Demographics and baseline disease characteristics were balanced between arms. The median age was 63 years (range 28 to 84); 42% of patients were older than 65 years; 53% of patients were male; Caucasians comprised 65% of the study population, Asians 30%, and blacks 3%.  The ECOG performance status was 0 to 1 in 93% of patients. The median number of prior therapies was 1; 48% of patients received 2 or 3 prior lines of therapy. More than half (57%) of the patients had prior stem cell transplantation. The most common prior antineoplastic therapies were corticosteroids (90%), melphalan (80%), thalidomide (53%), cyclophosphamide (47%), bortezomib (44%), and lenalidomide (19%). The median duration of follow-up was 29 months in both arms.</paragraph>
+                        <paragraph>The primary endpoint was progression-free survival (PFS), using modified European Bone Marrow Transplant Group (EBMT) criteria, as assessed by the investigators. In the overall trial population, the median PFS (95% CI) was 12 months (10.3, 12.9) in the FARYDAK, bortezomib, dexamethasone arm and 8.1 months (7.6, 9.2) in the placebo, bortezomib, dexamethasone arm, [HR: 0.63 (95% CI: 0.52, 0.76)].  At the time of interim analysis, overall survival was not statistically different between arms. The approval of FARYDAK was based upon the efficacy and safety in a prespecified subgroup analysis of 193 patients who had received prior treatment with both bortezomib and an immunomodulatory agent and a median of 2 prior therapies as the benefit:risk appeared to be greater in this more heavily pretreated population than in the overall trial population.   Of these 193 patients, 76% of them had received ≥2 prior lines of therapy.  The median PFS (95% CI) was 10.6 months (7.6, 13.8) in the FARYDAK, bortezomib, and dexamethasone arm and 5.8 months (4.4, 7.1) in the placebo, bortezomib, and dexamethasone arm [HR: 0.52 (0.36, 0.76].  Efficacy results are summarized in Table 6 and the Kaplan- Meier curves for PFS are provided in Figure 1.</paragraph>
+                        <table>
+                           <caption>Table 6:  Efficacy Results from the Multiple Myeloma Trial in Patients who Received Prior Treatment with Bortezomib and an Immunomodulating Agent</caption>
+                           <col width="250"/>
+                           <col width="250"/>
+                           <col width="250"/>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="3">
+                                    <sup>1</sup> Hazard ratio obtained from stratified Cox model</td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule "/>
+                                 <td styleCode="Toprule " valign="bottom" align="center">
+                                    <content styleCode="bold">FARYDAK<br/>bortezomib and dexamethasone<br/>N=94</content>
+                                 </td>
+                                 <td styleCode="Toprule " valign="bottom" align="center">
+                                    <content styleCode="bold">Placebo<br/>bortezomib and dexamethasone<br/>N=99</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule ">Progression-free Survival</td>
+                                 <td styleCode="Toprule " align="center"/>
+                                 <td styleCode="Toprule " align="center"/>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule ">Median, months [95% CI]</td>
+                                 <td styleCode="Toprule " align="center">10.6 [7.6, 13.8]</td>
+                                 <td styleCode="Toprule " align="center">5.8 [4.4, 7.1]</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule ">Hazard ratio [95% CI]<sup>1</sup>
+                                 </td>
+                                 <td styleCode="Toprule " align="center" colspan="2">0.52 (0.36, 0.76)</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <renderMultiMedia referencedObject="MM03000002">
+                           <caption>Figure 1:  Kaplan-Meier Plot of Progression-Free Survival in Patients with Multiple Myeloma who Received Prior Treatment with Both Bortezomib and an Immunomodulatory Agent</caption>
+                        </renderMultiMedia>
+                        <paragraph>In the subgroup of patients who had received prior treatment with both bortezomib and an immunomodulatory agent (n=193), the overall response rate using modified EBMT criteria was 59% in the FARYDAK, bortezomib, and dexamethasone arm and 41% in the placebo,  bortezomib, and dexamethasone arm.  Response rates are summarized in Table 7.</paragraph>
+                        <table>
+                           <caption>Table 7:  Response Rates</caption>
+                           <col width="250"/>
+                           <col width="250"/>
+                           <col width="250"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule "/>
+                                 <td styleCode="Toprule " valign="bottom" align="center">
+                                    <content styleCode="bold">FARYDAK<br/>bortezomib and dexamethasone<br/>N=94</content>
+                                 </td>
+                                 <td styleCode="Toprule " valign="bottom" align="center">
+                                    <content styleCode="bold">Placebo<br/>bortezomib and dexamethasone<br/>N=99</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule ">Overall response</td>
+                                 <td styleCode="Toprule " align="center">55 (58.5%)</td>
+                                 <td styleCode="Toprule " align="center">41 (41.4%)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule ">[95% CI]</td>
+                                 <td styleCode="Toprule " align="center">(47.9, 68.6)</td>
+                                 <td styleCode="Toprule " align="center">(31.6, 51.8)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule ">     Complete response</td>
+                                 <td styleCode="Toprule " align="center">8 (8.5%)</td>
+                                 <td styleCode="Toprule " align="center">2 (2.0%)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule ">     Near complete response</td>
+                                 <td styleCode="Toprule " align="center">13 (13.8%)</td>
+                                 <td styleCode="Toprule " align="center">7 (7.1%)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule ">     Partial response</td>
+                                 <td styleCode="Toprule " align="center">34 (36.2%)</td>
+                                 <td styleCode="Toprule " align="center">32 (32.3%)</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20150223"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s15">
+               <id root="d84f100e-a499-46fa-9155-b89bcb2dc9ba"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34093-5" displayName="REFERENCES SECTION"/>
+               <title>15     REFERENCES
+					</title>
+               <text>
+                  <paragraph>1. OSHA Hazardous Drugs. <content styleCode="italics">OSHA. <linkHtml href="http://www.osha.gov/SLTC/hazardousdrugs/index.html">http://www.osha.gov/SLTC/hazardousdrugs/index.html</linkHtml>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20150223"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5e3b1272-1eef-4e5b-bece-879fd313c672"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34069-5" displayName="HOW SUPPLIED SECTION"/>
+               <title>16     HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <effectiveTime value="20160606"/>
+               <component>
+                  <section>
+                     <id root="40708f6b-783c-4c77-b72d-9f78d209db63"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="34069-5" displayName="HOW SUPPLIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">How Supplied</content>
+                        </paragraph>
+                        <paragraph>FARYDAK 10 mg panobinostat (equivalent to 12.58 mg of panobinostat lactate): Size # 3 light green opaque capsule, radial markings on cap with black ink “LBH 10 mg” and two radial bands with black ink on body, containing white to almost white powder.</paragraph>
+                        <paragraph>FARYDAK 15 mg panobinostat (equivalent to 18.86 mg of panobinostat lactate):  Size #1 orange opaque capsule, radial markings on cap with black ink “LBH 15 mg” and two radial bands with black ink on body, containing white to off-white powder.</paragraph>
+                        <paragraph>FARYDAK 20 mg panobinostat (equivalent to 25.15 mg of panobinostat lactate):  Size #1 red opaque capsule, radial markings on cap with black ink “LBH 20 mg” and two radial bands with black ink on body, containing white to off-white powder.</paragraph>
+                        <paragraph>FARYDAK capsules are packaged in PVC/PCTFE blister packs.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">10 mg</content>
+                        </paragraph>
+                        <paragraph>Blister packs containing 6 capsules ………………………….…….NDC 0078-0650-06</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">15 mg</content>
+                        </paragraph>
+                        <paragraph>Blister packs containing 6 capsules ………………………….…….NDC 0078-0651-06</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">20 mg</content>
+                        </paragraph>
+                        <paragraph>Blister packs containing 6 capsules ………………………….…….NDC 0078-0652-06</paragraph>
+                     </text>
+                     <effectiveTime value="20160217"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="a5294bad-8d3d-4ac2-b5b3-e92ef03b9b5d"/>
+                     <code codeSystem="2.16.840.1.113883.6.1" code="44425-7" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Storage and Handling</content>
+                        </paragraph>
+                        <paragraph>Store at 20°C to 25°C (68°F to 77°F), excursions permitted between 15°C and 30°C (59°F and 86°F). Store blister pack in original carton to protect from light. FARYDAK capsules should not be opened, crushed, or chewed.  Direct contact of the powder in FARYDAK capsules with the skin or mucous membranes should be avoided. If such contact occurs wash thoroughly. Personnel should avoid exposure to crushed and/or broken capsules.</paragraph>
+                        <paragraph>FARYDAK is a cytotoxic drug. Follow special handling and disposal procedures <content styleCode="italics">[see References (15)<sup>1</sup>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20160606"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s17">
+               <id root="fb3a1b2b-aad8-4994-8c8a-4d7243686205"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="34076-0" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17     PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Medication Guide).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Dosing and Administration</content>
+                  </paragraph>
+                  <paragraph>Instruct patients to take FARYDAK exactly as prescribed and not to change their dose or to stop taking FARYDAK unless they are told to do so by their healthcare provider. If a patient misses a dose, advise them to take their dose as soon possible and up to 12 hours after the specified dose time. If vomiting occurs advise the patient not to repeat the dose, but to take the next usual prescribed dose on schedule. </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiac Toxicity/Electrocardiographic Changes</content>
+                  </paragraph>
+                  <paragraph>Inform patients to report chest pain or discomfort, changes in heart beat (fast or slow), palpitations, lightheadedness, fainting, dizziness, blue discoloration of lips, shortness of breath, and swelling of lower limbs or skin as these may be warning signs of a heart problem.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Bleeding Risk</content>
+                  </paragraph>
+                  <paragraph>Inform patients that FARYDAK is associated with thrombocytopenia. Advise patients to contact their healthcare provider right away if they experience any signs of bleeding and inform patients that it might take longer than usual for them to stop bleeding. Advise patients of the need to monitor blood chemistry and hematology prior to the start of FARYDAK therapy and periodically thereafter.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Infections </content>
+                  </paragraph>
+                  <paragraph>Inform patients of the risk of neutropenia and severe and life-threatening infections. Instruct patients to contact their physician immediately if they develop a fever and/or any exhibit any signs of infection.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal Toxicities</content>
+                  </paragraph>
+                  <paragraph>Inform patients that FARYDAK can cause severe nausea, vomiting and diarrhea which may require medication for treatment. Advise patients to contact their physician at the start of diarrhea, for persistent vomiting, or signs of dehydration. Inform patients to consult with their physicians prior to using medications with laxative properties.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Pregnancy</content>
+                  </paragraph>
+                  <paragraph>Inform patients that FARYDAK can cause fetal harm. Advise women of reproductive potential to avoid pregnancy while taking FARYDAK.  Advise women of reproductive potential to use effective contraception while taking FARYDAK and for at least 3 months after the last dose of the drug.  </paragraph>
+                  <paragraph>Advise sexually active men to use condoms  while receiving FARYDAK and for at least 6 months following the last dose of the drug.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Lactation</content>
+                  </paragraph>
+                  <paragraph>Advise women not to breastfeed while taking FARYDAK.</paragraph>
+                  <paragraph>Distributed by:<br/>Novartis Pharmaceuticals Corporation<br/>East Hanover, New Jersey 07936</paragraph>
+                  <paragraph>© Novartis</paragraph>
+                  <paragraph>T2016-49<br/>June 2016</paragraph>
+               </text>
+               <effectiveTime value="20160606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6a43863b-a928-4a97-9560-21afb7e24491"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="42231-1" displayName="SPL MEDGUIDE SECTION"/>
+               <title/>
+               <text>
+                  <table width="100%">
+                     <col width="33%"/>
+                     <col width="33%"/>
+                     <col width="33%"/>
+                     <tfoot>
+                        <tr>
+                           <td colspan="2" align="left">This Medication Guide has been approved by the U.S. Food and Drug Administration. </td>
+                           <td align="right">Revised: June 2016</td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td colspan="3" align="center" styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold">MEDICATION GUIDE</content>
+                              <br/>
+                              <content styleCode="bold">FARYDAK<sup>®</sup> (FAYR-ah-dak)<br/>(panobinostat) capsules</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Toprule Lrule Rrule">
+                              <content styleCode="bold">What is the most important information I should know about FARYDAK? </content>
+                              <br/>
+                              <content styleCode="bold">FARYDAK can cause serious side effects, including:</content>
+                              <br/>
+                              <br/>
+                              <content styleCode="bold">•	Diarrhea</content> is common with FARYDAK and can be severe. Tell your healthcare provider right away if you have abdominal (stomach) cramps, loose stool, diarrhea, or if you feel like you are becoming dehydrated. Your healthcare provider may prescribe medicines to help prevent or treat these side effects. Taking or using stool softeners or laxative medicines may worsen diarrhea, talk to your healthcare provider before taking or using these medicines.<br/>Your healthcare provider will do regular tests to check the levels of fluid and electrolytes in your blood during treatment with FARYDAK.<br/>
+                              <br/>
+                              <content styleCode="bold">•	Heart problems.</content> FARYDAK can cause severe heart problems which can lead to death. Your risk of heart problems may be increased if you have a condition called “long QT syndrome” or other heart problems. Your healthcare provider will do blood tests to check your electrolytes and do an electrocardiogram (ECG) tests before and during treatment with FARYDAK. Call your healthcare provider and get emergency medical help right away if you have any of the following symptoms of heart problems: 
+							</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	chest pain</td>
+                           <td>o	dizziness</td>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	faster or slower heart beat</td>
+                           <td>o	blue colored lips</td>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	palpitations (feel like your heart is racing)</td>
+                           <td>o	shortness of breath</td>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	feel lightheaded or faint</td>
+                           <td>o	swelling in your legs</td>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Lrule Rrule ">
+                              <content styleCode="bold">•	Bleeding.</content>  FARYDAK can cause severe bleeding which can lead to death. It may take you longer than usual to stop bleeding while you are taking FARYDAK. Your healthcare provider will check your platelet counts before you start FARYDAK and during your treatment with FARYDAK. Tell your healthcare provider right away if you get any of the following signs of bleeding: 
+								</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	blood in your stools or black stools (look like tar)</td>
+                           <td>o	increased bruising</td>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	pink or brown urine</td>
+                           <td>o	feeling dizzy or weak</td>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	unexpected bleeding or bleeding that is severe or that you cannot control</td>
+                           <td>o	confusion</td>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	vomit blood or vomit looks like coffee grounds</td>
+                           <td>o	change in your speech</td>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	cough up blood or blood clots</td>
+                           <td>o	headache that lasts a long time</td>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Toprule Lrule Rrule">
+                              <content styleCode="bold">What is FARYDAK? </content>
+                              <br/>
+                              <br/>FARYDAK is a prescription medicine used, in combination with bortezomib and dexamethasone, to treat people with a type of cancer called multiple myeloma after at least 2 other types of treatment have been tried.
+								<br/>It is not known if FARYDAK is safe and effective in children.</td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Toprule Lrule Rrule">
+                              <content styleCode="bold">What should I tell my healthcare provider before taking FARYDAK?</content>
+                              <br/>
+                              <br/>
+                              <content styleCode="bold">Before you take FARYDAK, tell your healthcare provider about all of your medical conditions, including if you:</content>
+                              <br/>
+                              <br/>•	have diarrhea 
+								<br/>•	have heart problems
+								<br/>•	have a history of bleeding problems
+								<br/>•	have an infection. You should not take FARYDAK if you have an infection.
+								<br/>•	have liver problems 
+								<br/>•	are pregnant or plan to become pregnant. FARYDAK can harm your unborn baby. You should not become pregnant during treatment with FARYDAK. 
+								<br/>•	If you become pregnant while taking FARYDAK, or think you may be pregnant, tell your healthcare provider right away. 
+								<br/>     o	Females who are able to become pregnant should use effective birth control during treatment with FARYDAK and for at least 3 months after the last dose of FARYDAK.
+								<br/>     o	Males who are sexually active should use a condom during treatment with FARYDAK and for at least 6 months after the last dose of FARYDAK. 
+								<br/>•	are breastfeeding or plan to breastfeed. It is not known if FARYDAK will pass into your breast milk. You and your healthcare provider should decide if you will take FARYDAK or breastfeed. You should not do both. <br/>
+                              <br/>
+                              <content styleCode="bold">Tell your healthcare provider about all of the medicines you take,</content> including prescription and over-the-counter medicines, vitamins, and herbal supplements.  Know the medicines you take. Keep a list of them to show your healthcare provider and pharmacist when you get a new medicine.</td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Toprule Lrule Rrule">
+                              <content styleCode="bold">How should I take FARYDAK?</content>
+                              <br/>
+                              <br/>•	Take FARYDAK exactly as your healthcare provider tells you to take it.
+								<br/>•	Your healthcare provider will tell you how much FARYDAK to take and when to take it.
+								<br/>•	Your healthcare provider may change your dose or stop treatment temporarily if you have side effects. Do not change your dose or stop taking FARYDAK without first talking with your healthcare provider.
+								<br/>•	Take FARYDAK 1 time on each scheduled day at about the same time.
+								<br/>•	FARYDAK can be taken with or without food. 
+								<br/>•	FARYDAK capsule should be swallowed whole with a cup of water. <content styleCode="bold">Do not open, crush, or chew FARYDAK.</content>
+                              <br/>•	Avoid contact of the powder in the FARYDAK capsules. If you accidentally get powder from the FARYDAK capsule on your skin, wash the area with soap and water. If you accidentally get powder from the FARYDAK capsule in your eyes, flush your eyes with water.
+								<br/>•	If you miss a dose of FARYDAK, take it as soon possible, up to 12 hours after the time the dose should have been taken. 
+								<br/>•	If you vomit after taking FARYDAK, do not take another capsule. Stay on your dosing schedule and take your next dose as usual.
+								<br/>•	If you take too much FARYDAK, call your healthcare provider.</td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Toprule Lrule Rrule">
+                              <content styleCode="bold">What should I avoid while taking FARYDAK? </content>
+                              <br/>
+                              <br/>•	Avoid eating star fruit, pomegranate or pomegranate juice, and grapefruit or grapefruit juice while taking FARYDAK. These foods may affect the amount of FARYDAK in your blood.</td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Toprule Lrule Rrule">
+                              <content styleCode="bold">What are the possible side effects of FARYDAK?</content>
+                              <br/>
+                              <br/>
+                              <content styleCode="bold">FARYDAK may cause serious side effects, including:</content>
+                              <br/>•	See <content styleCode="bold">“What is the most important information I should know about FARYDAK?”</content>
+                              <br/>•	<content styleCode="bold">Low blood cell counts</content> are common with FARYDAK and can be severe. Your healthcare provider will check your blood counts before you start FARYDAK and during your treatment with FARYDAK.  
+								<br/>     o	Low platelet count (thrombocytopenia) can cause unusual bleeding or bruising under your skin.
+								<br/>     o	Low white cell count (neutropenia) can cause you to get infections.
+								<br/>     o	Low red blood cell count (anemia) may make you feel weak, tired, or you may get tired easily, you look pale, or you feel short of breath.
+								<br/>•	<content styleCode="bold">Infections.</content> There is an increased risk of infection while taking FARYDAK. Contact your healthcare provider right away if you have a fever or have any signs of an infection: </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	sweats or chills</td>
+                           <td>o	blood in your phlegm</td>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	cough</td>
+                           <td>o	sores on your body</td>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	flu-like symptoms</td>
+                           <td>o	warm or painful areas on your body</td>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	shortness of breath</td>
+                           <td>o	feeling very tired</td>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Lrule Rrule">
+                              <content styleCode="bold">•	Liver problems </content> (hepatotoxicity).  Your healthcare provider should do blood tests to check your liver before you start taking FARYDAK and if you have symptoms of liver problems while you take FARYDAK. Call your healthcare provider  right away if you have the following symptoms of liver problems:</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	feel tired or weak</td>
+                           <td>o	upper abdominal (stomach) pain</td>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	loss of appetite</td>
+                           <td>o	yellowing of your skin or the white of your eyes</td>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule ">     o	Dark amber colored urine</td>
+                           <td/>
+                           <td/>
+                           <td styleCode="Rrule "/>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Lrule Rrule">The most common side effects of FARYDAK include tiredness, nausea, swelling in your arms or legs, decreased appetite, fever, and vomiting.<br/>
+                              <br/>Tell your healthcare provider if you have any side effect that bothers you or that does not go away.<br/>
+                              <br/>These are not all of the possible side effects of FARYDAK. For more information, ask your healthcare provider or pharmacist.<br/>
+                              <br/>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Toprule Lrule Rrule">
+                              <content styleCode="bold">How should I store FARYDAK?</content>
+                              <br/>•	Store FARYDAK between 68°F to 77°F (20°C to 25°C). Store blister pack in original  carton to protect from light.
+								<br/>
+                              <br/>
+                              <content styleCode="bold">Keep FARYDAK and all medicines out of the reach of children.</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Toprule Lrule Rrule">
+                              <content styleCode="bold">General information about the safe and effective use of FARYDAK</content>
+                              <br/>
+                              <br/>Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet. Do not use FARYDAK for a condition for which it was not prescribed. Do not give FARYDAK to other people, even if they have the same symptoms that you have. It may harm them. You can ask your healthcare provider or pharmacist for information about FARYDAK that is written for health professionals.</td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Toprule Lrule Rrule">
+                              <content styleCode="bold">What are the ingredients in FARYDAK? </content>
+                              <br/>
+                              <br/>
+                              <content styleCode="bold">Active ingredient:</content> panobinostat 
+												<br/>
+                              <content styleCode="bold">Inactive ingredients:</content> magnesium stearate, mannitol, microcrystalline cellulose, and pre-gelatinized starch
+													<br/>
+                              <content styleCode="bold">Capsule shell contains:</content> gelatin, FD&amp;C Blue 1 (10 mg capsules), yellow iron oxide (10 mg and 15 mg capsules), red iron oxide (15 mg and 20 mg capsules), and titanium dioxide
+													<br/>
+                              <br/>Distributed by: Novartis Pharmaceuticals Corporation, East Hanover, New Jersey 07936 <br/>For more information, go to <linkHtml href="www.FARYDAK.com">www.FARYDAK.com</linkHtml> or call 1-844-FARYDAK (1-844-327-9325).<br/>© Novartis <br/>T2016-50
+</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20160606"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="be7a1954-e369-473f-ba35-4929813f01bb"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+                  </paragraph>
+                  <paragraph>NDC 0078-0650-06</paragraph>
+                  <paragraph>6 capsules</paragraph>
+                  <paragraph>FARYDAK<sup>®</sup>
+                  </paragraph>
+                  <paragraph>(panobinostat)</paragraph>
+                  <paragraph>capsules</paragraph>
+                  <paragraph>10 mg</paragraph>
+                  <paragraph>equivalent to 12.58 mg of panobinostat  lactate</paragraph>
+                  <paragraph>Swallow Whole with Water and Do Not Open, Crush or Chew.</paragraph>
+                  <paragraph>Store blister pack in original carton to protect from light.</paragraph>
+                  <paragraph>ATTENTION: Dispense with enclosed Medication Guide</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000003"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160223"/>
+               <component>
+                  <observationMedia ID="MM03000003">
+                     <text>PRINCIPAL DISPLAY PANEL
+NDC 0078-0650-06
+6 capsules
+FARYDAK
+(panobinostat)
+capsules
+10 mg
+Swallow Whole with Water and Do Not Open, Crush or Chew.
+Store blister pack in original carton to protect from light.
+ATTENTION: Dispense with enclosed Medication Guide
+Rx only</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="farydak-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6b9a4a0b-2ec4-45cc-a2e0-84709dda4079"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+                  </paragraph>
+                  <paragraph>NDC 0078-0651-06</paragraph>
+                  <paragraph>6 capsules</paragraph>
+                  <paragraph>FARYDAK<sup>®</sup>
+                  </paragraph>
+                  <paragraph>(panobinostat)</paragraph>
+                  <paragraph>capsules</paragraph>
+                  <paragraph>15 mg</paragraph>
+                  <paragraph>equivalent to 18.86 mg of panobinostat  lactate</paragraph>
+                  <paragraph>Swallow Whole with Water and Do Not Open, Crush or Chew.</paragraph>
+                  <paragraph>Store blister pack in original carton to protect from light.</paragraph>
+                  <paragraph>ATTENTION: Dispense with enclosed Medication Guide</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000004"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160223"/>
+               <component>
+                  <observationMedia ID="MM03000004">
+                     <text>PRINCIPAL DISPLAY PANEL
+NDC 0078-0651-06
+6 capsules
+FARYDAK
+(panobinostat)
+capsules
+15 mg
+Swallow Whole with Water and Do Not Open, Crush or Chew.
+Store blister pack in original carton to protect from light.
+ATTENTION: Dispense with enclosed Medication Guide
+Rx only</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="farydak-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="eb5e96c3-4ac6-427e-9722-6670667d96f9"/>
+               <code codeSystem="2.16.840.1.113883.6.1" code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PRINCIPAL DISPLAY PANEL</content>
+                  </paragraph>
+                  <paragraph>NDC 0078-0652-06</paragraph>
+                  <paragraph>6 capsules</paragraph>
+                  <paragraph>FARYDAK<sup>®</sup>
+                  </paragraph>
+                  <paragraph>(panobinostat)</paragraph>
+                  <paragraph>capsules</paragraph>
+                  <paragraph>20 mg</paragraph>
+                  <paragraph>equivalent to 25.15 mg of panobinostat  lactate</paragraph>
+                  <paragraph>Swallow Whole with Water and Do Not Open, Crush or Chew.</paragraph>
+                  <paragraph>Store blister pack in original carton to protect from light.</paragraph>
+                  <paragraph>ATTENTION: Dispense with enclosed Medication Guide</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000005"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160223"/>
+               <component>
+                  <observationMedia ID="MM03000005">
+                     <text>PRINCIPAL DISPLAY PANEL
+NDC 0078-0652-06
+6 capsules
+FARYDAK
+(panobinostat)
+capsules
+20 mg
+Swallow Whole with Water and Do Not Open, Crush or Chew.
+Store blister pack in original carton to protect from light.
+ATTENTION: Dispense with enclosed Medication Guide
+Rx only</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="farydak-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="http://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:voc="urn:hl7-org:v3/voc" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="8cbb7338-0bf3-0df7-5e77-641bbca6cf32"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Melphalan USP </content>
+      <content styleCode="bold"/>
+   </title>
+   <effectiveTime value="20140612"/>
+   <setId root="5bc0a79d-eb07-9685-8e98-4f1979b84a48"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="008057330" root="1.3.6.1.4.1.519.1"/>
+            <name>Alvogen Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="989968644" root="1.3.6.1.4.1.519.1"/>
+                        <name>Eirgen Pharma Ltd.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="47781-200" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="47781-200" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pack"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="47781-200" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="098908572" root="1.3.6.1.4.1.519.1"/>
+                        <name>AndersonBrecon Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="pack"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="47781-200" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="0c5f6699-43be-ccfe-2b96-a87b11759616"/>
+               <code code="48780-1" displayName="SPL PRODUCT DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20140612"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="47781-200" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Melphalan </name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Melphalan USP, 2 mg</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="2"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="Q41OR9510P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MELPHALAN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q41OR9510P" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MELPHALAN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="68401960MK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSPOVIDONE (15 MPA.S AT 5%) </name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="50"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="47781-200-50"/>
+                              <formCode code="C43172" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, GLASS"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20170322"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20170322"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA207809" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="WHITE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" displayName="ROUND" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="6" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">A;2</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <section>
+                     <id root="bcd0e7b6-6b2f-9c5d-4167-b4e9a9bd7eca"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <effectiveTime value="20140612"/>
+                     <component>
+                        <observationMedia ID="MM537872007031">
+                           <text>structure</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="structure.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM911929958494">
+                           <text>bottle-label-50</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="50-count.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="BOXED_WARNING">
+               <id root="136c0645-1471-7f8e-314a-540bb7d8bbc7"/>
+               <code code="34066-1" displayName="BOXED WARNING SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>BOXED WARNING</title>
+               <text>
+                  <paragraph>Melphalan Tablets USP should be administered under the supervision of a qualified physician experienced in the use of cancer chemotherapeutic agents. Severe bone marrow suppression with resulting infection or bleeding may occur. Melphalan is leukemogenic in humans. </paragraph>
+                  <paragraph>Melphalan produces chromosomal aberrations in vitro and in vivo and, therefore, should be considered potentially mutagenic in humans. </paragraph>
+               </text>
+               <effectiveTime value="20140612"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_05d74570-6722-4bc2-e9eb-8ac2c2274812">
+               <id root="72268aac-6e4d-a1ee-e09d-6f3650a70dc6"/>
+               <code code="34089-3" displayName="DESCRIPTION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Melphalan, also known as L-phenylalanine mustard, phenylalanine mustard, L-PAM, or L-sarcolysin, is a phenylalanine derivative of nitrogen mustard. Melphalan is a bifunctional alkylating agent which is active against selective human neoplastic diseases. It is known chemically as 4-[bis(2-chloroethyl)amino]-L-phenylalanine. The molecular formula is C<sub>13</sub>H<sub>18</sub>Cl<sub>2</sub>N<sub>2</sub>O<sub>2</sub> and the molecular weight is 305.20. The structural formula is: </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM537872007031"/>
+                  </paragraph>
+                  <paragraph>Melphalan is the active L-isomer of the compound and was first synthesized in 1953 by Bergel and Stock; the D-isomer, known as medphalan, is less active against certain animal tumors, and the dose needed to produce effects on chromosomes is larger than that required with the L-isomer. The racemic (DL–) form is known as merphalan or sarcolysin. </paragraph>
+                  <paragraph>Melphalan is practically insoluble in water and has a pKa<sub>1</sub> of ∼2.5. </paragraph>
+                  <paragraph>Melphalan is available in tablet form for oral administration. Each film-coated tablet contains 2 mg melphalan USP and the inactive ingredients microcrystalline cellulose, colloidal silicon dioxide, crospovidone, magnesium stearate, hypromellose, titanium dioxide, and polyethylene glycol.</paragraph>
+               </text>
+               <effectiveTime value="20140612"/>
+            </section>
+         </component>
+         <component>
+            <section ID="CLINICAL_PHARMACOLOGY">
+               <id root="01484e74-8e9f-93f3-5866-7e8e1f4fe134"/>
+               <code code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N<sup>7</sup> position of guanine. Like other bifunctional alkylating agents, it is active against both resting and rapidly dividing tumor cells. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacokinetics:</content> The absorption of oral melphalan is highly variable with respect to both the time to first appearance of the drug in plasma (range: 0 to 6 hours) and peak plasma concentration (C<sub>max</sub>). The average absolute bioavailability of melphalan is also highly variable (range: 56% to 93%). These results may be due to incomplete intestinal absorption, a variable "first pass" hepatic metabolism, or to rapid hydrolysis. Oral administration of melphalan with a high fat meal may reduce melphalan exposure (AUC) by 36% to 54%. </paragraph>
+                  <paragraph>In 18 patients given a single oral dose of 0.6 mg/kg of Melphalan Tablets USP, the terminal elimination plasma half-life (t<sub>1/2</sub>) of parent drug was 1.5 ± 0.83 hours. The 24-hour urinary excretion of parent drug in these patients was 10% ± 4.5%, suggesting that renal clearance is not a major route of elimination of parent drug. In a separate study in 18 patients given single oral doses of 0.2 to 0.25 mg/kg of Melphalan Tablets USP, C<sub>max</sub> and plasma concentration-time curves (AUC), when dose adjusted to a dose of 14 mg, were (mean ± SD) 212 ± 74 ng/mL and 498 ± 137 ng•hr/mL, respectively. Elimination phase t<sub>½</sub> in these patients was approximately 1 hour and the median t<sub>max</sub> was 1 hour. </paragraph>
+                  <paragraph>One study using universally labeled. <sup>14</sup>C-melphalan, found substantially less radioactivity in the urine of patients given the drug by mouth (30% of administered dose in 9 days) than in the urine of those given it intravenously (35% to 65% in 7 days). Following either oral or IV administration, the pattern of label recovery was similar, with the majority being recovered in the first 24 hours. Following oral administration, peak radioactivity occurred in plasma at 2 hours and then disappeared with a half-life of approximately 160 hours. In 1 patient where parent drug (rather than just radiolabel) was determined, the melphalan half-disappearance time was 67 minutes. The steady-state volume of distribution of melphalan is 0.5 L/kg. Penetration into cerebrospinal fluid (CSF) is low. The average melphalan binding to plasma proteins is highly variable (range: 53% to 92%). Serum albumin is the major binding protein, accounting for approximately 40% to 60% of the plasma protein binding, while α<sub>1</sub>-acid glycoprotein accounts for about 20% of the plasma protein binding. Approximately 30% of melphalan is (covalently) irreversibly bound to plasma proteins. Interactions with immunoglobulins have been found to be negligible. </paragraph>
+                  <paragraph>Melphalan is eliminated from plasma primarily by chemical hydrolysis to monohydroxymelphalan and dihydroxymelphalan. Aside from these hydrolysis products, no other melphalan metabolites have been observed in humans. Although the contribution of renal elimination to melphalan clearance appears to be low, one pharmacokinetic study showed a significant positive correlation between the elimination rate constant for melphalan and renal function and a significant negative correlation between renal function and the area under the plasma melphalan concentration/time curve. </paragraph>
+               </text>
+               <effectiveTime value="20140612"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_48c68dc1-dd4d-9ba6-05aa-ba4fbbfdca80">
+               <id root="36466f63-803b-4fee-202f-baf91f4bce61"/>
+               <code code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Melphalan Tablets USP are indicated for the palliative treatment of multiple myeloma and for the palliation of non-resectable epithelial carcinoma of the ovary. </paragraph>
+               </text>
+               <effectiveTime value="20140612"/>
+            </section>
+         </component>
+         <component>
+            <section ID="CONTRAINDICATIONS">
+               <id root="1cd326c8-8e3b-c7af-8b2f-f8177129f95c"/>
+               <code code="34070-3" displayName="CONTRAINDICATIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Melphalan Tablets USP should not be used in patients whose disease has demonstrated a prior resistance to this agent. Patients who have demonstrated hypersensitivity to melphalan should not be given the drug.</paragraph>
+               </text>
+               <effectiveTime value="20140612"/>
+            </section>
+         </component>
+         <component>
+            <section ID="WARNINGS">
+               <id root="467ba775-e69a-80f2-25f6-a6de9e46f315"/>
+               <code code="34071-1" displayName="WARNINGS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Melphalan Tablets USP should be administered in carefully adjusted dosage by or under the supervision of experienced physicians who are familiar with the drug's actions and the possible complications of its use. </content>
+                  </paragraph>
+                  <paragraph>As with other nitrogen mustard drugs, excessive dosage will produce marked bone marrow suppression. Bone marrow suppression is the most significant toxicity associated with Melphalan in most patients. Therefore, the following tests should be performed at the start of therapy and prior to each subsequent course of Melphalan Tablets USP: platelet count, hemoglobin, white blood cell count, and differential. Thrombocytopenia and/or leukopenia are indications to withhold further therapy until the blood counts have sufficiently recovered. Frequent blood counts are essential to determine optimal dosage and to avoid toxicity (see <linkHtml href="#PRECAUTIONS">PRECAUTIONS</linkHtml>: Laboratory Tests). Dose adjustment on the basis of blood counts at the nadir and day of treatment should be considered. </paragraph>
+                  <paragraph>Hypersensitivity reactions, including anaphylaxis, have occurred rarely (see <linkHtml href="#_a05cfeb0-9590-8179-cda6-4fd52e7f924e">ADVERSE REACTIONS</linkHtml>). These reactions have occurred after multiple courses of treatment and have recurred in patients who experienced a hypersensitivity reaction to IV Melphalan. If a hypersensitivity reaction occurs, oral or IV Melphalan should not be readministered. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Carcinogenesis:</content> Secondary malignancies, including acute nonlymphocytic leukemia, myeloproliferative syndrome, and carcinoma have been reported in patients with cancer treated with alkylating agents (including melphalan). Some patients also received other chemotherapeutic agents or radiation therapy. Precise quantitation of the risk of acute leukemia, myeloproliferative syndrome, or carcinoma is not possible. Published reports of leukemia in patients who have received melphalan (and other alkylating agents) suggest that the risk of leukemogenesis increases with chronicity of treatment and with cumulative dose. In one study, the 10-year cumulative risk of developing acute leukemia or myeloproliferative syndrome after melphalan therapy was 19.5% for cumulative doses ranging from 730 mg to 9,652 mg. In this same study, as well as in an additional study, the 10-year cumulative risk of developing acute leukemia or myeloproliferative syndrome after melphalan therapy was less than 2% for cumulative doses under 600 mg. This does not mean that there is a cumulative dose below which there is no risk of the induction of secondary malignancy. The potential benefits from melphalan therapy must be weighed on an individual basis against the possible risk of the induction of a second malignancy. </paragraph>
+                  <paragraph>Adequate and well-controlled carcinogenicity studies have not been conducted in animals. However, i.p. administration of melphalan in rats (5.4 to 10.8 mg/m<sup>2</sup>) and in mice (2.25 to 4.5 mg/m<sup>2</sup>) 3 times per week for 6 months followed by 12 months post-dose observation produced peritoneal sarcoma and lung tumors, respectively. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Mutagenesis:</content> Melphalan has been shown to cause chromatid or chromosome damage in humans. Intramuscular administration of Melphalan at 6 and 60 mg/m<sup>2</sup> produced structural aberrations of the chromatid and chromosomes in bone marrow cells of Wistar rats. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Impairment of Fertility:</content> Melphalan causes suppression of ovarian function in premenopausal women, resulting in amenorrhea in a significant number of patients. Reversible and irreversible testicular suppression have also been reported. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy:</content> Pregnancy Category D. Melphalan may cause fetal harm when administered to a pregnant woman. Melphalan was embryolethal and teratogenic in rats following oral (6 to 18 mg/m<sup>2</sup>/day for 10 days) and intraperitoneal (18 mg/m<sup>2</sup>) administration. Malformations resulting from melphalan included alterations of the brain (underdevelopment, deformation, meningocele, and encephalocele) and eye (anophthalmia and microphthalmos), reduction of the mandible and tail, as well as hepatocele (exomphaly). </paragraph>
+                  <paragraph>There are no adequate and well-controlled studies in pregnant women. If this drug is used during pregnancy, or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to the fetus. Women of childbearing potential should be advised to avoid becoming pregnant. <content styleCode="bold"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140612"/>
+            </section>
+         </component>
+         <component>
+            <section ID="PRECAUTIONS">
+               <id root="21b38242-9927-cc2b-cf05-b9ec3f21cbb2"/>
+               <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20140612"/>
+               <component>
+                  <section ID="_06e587d5-af94-de44-84c6-dc01c70f8bc2">
+                     <id root="0a7b0900-a390-7db7-f0c6-e5e447e97b44"/>
+                     <code code="34072-9" displayName="GENERAL PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>In all instances where the use of Melphalan Tablets USP is considered for chemotherapy, the physician must evaluate the need and usefulness of the drug against the risk of adverse events. Melphalan Tablets USP should be used with extreme caution in patients whose bone marrow reserve may have been compromised by prior irradiation or chemotherapy, or whose marrow function is recovering from previous cytotoxic therapy. If the leukocyte count falls below 3,000 cells/mcL, or the platelet count below 100,000 cells/mcL, Melphalan Tablets USP should be discontinued until the peripheral blood cell counts have recovered. </paragraph>
+                        <paragraph>A recommendation as to whether or not dosage reduction should be made routinely in patients with renal insufficiency cannot be made because: </paragraph>
+                        <paragraph>a) There is considerable inherent patient-to-patient variability in the systemic availability of melphalan in patients with normal renal function. </paragraph>
+                        <paragraph>b) Only a small amount of the administered dose appears as parent drug in the urine of patients with normal renal function. </paragraph>
+                        <paragraph>Patients with azotemia should be closely observed, however, in order to make dosage reductions, if required, at the earliest possible time. </paragraph>
+                        <paragraph>Administration of live vaccines to immunocompromised patients should be avoided. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Information for Patients: </content>Patients should be informed that the major toxicities of Melphalan Tablets USP are related to bone marrow suppression, hypersensitivity reactions, gastrointestinal toxicity, and pulmonary toxicity. The major long-term toxicities are related to infertility and secondary malignancies. Patients should never be allowed to take the drug without close medical supervision and should be advised to consult their physician if they experience skin rash, vasculitis, bleeding, fever, persistent cough, nausea, vomiting, amenorrhea, weight loss, or unusual lumps/masses. Women of childbearing potential should be advised to avoid becoming pregnant. </paragraph>
+                     </text>
+                     <effectiveTime value="20140612"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_11c285d3-66f5-caed-1455-78fb3b57bf69">
+                     <id root="8b078859-24af-b6a4-f3da-d729039564ca"/>
+                     <code code="34075-2" displayName="LABORATORY TESTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Periodic complete blood counts with differentials should be performed during the course of treatment with Melphalan Tablets USP. At least one determination should be obtained prior to each treatment course. Patients should be observed closely for consequences of bone marrow suppression, which include severe infections, bleeding, and symptomatic anemia (see <linkHtml href="#WARNINGS">WARNINGS</linkHtml>). </paragraph>
+                     </text>
+                     <effectiveTime value="20140612"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_e8f0d69d-398d-9171-5c77-fe9df06729a9">
+                     <id root="3b21a0cf-de35-07c7-9433-978b27592f5a"/>
+                     <code code="34073-7" displayName="DRUG INTERACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>There are no known drug/drug interactions with oral Melphalan. </paragraph>
+                     </text>
+                     <effectiveTime value="20140612"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_fefac6d9-7b82-d43a-404b-6e51b87b424f">
+                     <id root="f31cbd88-0405-a2ca-7a9d-aefc8d705717"/>
+                     <code code="34083-6" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>See <linkHtml href="#WARNINGS">WARNINGS</linkHtml> section. </paragraph>
+                     </text>
+                     <effectiveTime value="20140612"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_9e15063f-af6d-4c35-e616-9b07b4365ccf">
+                     <id root="82a5dc18-c571-7442-6bed-fc7e48c74f86"/>
+                     <code code="42228-7" displayName="PREGNANCY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Pregnancy: Teratogenic Effects: Pregnancy: Category D.</title>
+                     <text>
+                        <paragraph>See <linkHtml href="#WARNINGS">WARNINGS</linkHtml> section. </paragraph>
+                     </text>
+                     <effectiveTime value="20140612"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_b022296e-84d3-b827-e5fb-9f1326289bba">
+                     <id root="79da5fd3-3b3a-6500-b1a7-9004daf608ff"/>
+                     <code code="34080-2" displayName="NURSING MOTHERS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>: It is not known whether this drug is excreted in human milk. Melphalan Tablets USP should not be given to nursing mothers. </paragraph>
+                     </text>
+                     <effectiveTime value="20140612"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_d2cd2089-02b6-b7f7-02f0-13b8e1b4af64">
+                     <id root="a1cea5d7-5ddc-d87c-6cf8-2877964ac5d8"/>
+                     <code code="34081-0" displayName="PEDIATRIC USE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of Melphalan Tablets USP in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20140612"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_f1f5e67c-ff55-edfd-1834-57e8f195a89c">
+                     <id root="1aea7a0b-54f9-45e3-45ec-da8911390f45"/>
+                     <code code="34082-8" displayName="GERIATRIC USE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of Melphalan Tablets USP did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. </paragraph>
+                     </text>
+                     <effectiveTime value="20140612"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_a05cfeb0-9590-8179-cda6-4fd52e7f924e">
+               <id root="bc56a946-d17c-b6b7-f5aa-5ebcf965b0dd"/>
+               <code code="34084-4" displayName="ADVERSE REACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Hematologic:</content> The most common side effect is bone marrow suppression leading to leukopenia, thrombocytopenia, and anemia. Although bone marrow suppression frequently occurs, it is usually reversible if melphalan is withdrawn early enough. However, irreversible bone marrow failure has been reported. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal:</content> Nausea, vomiting, diarrhea, and oral ulceration occur. Hepatic disorders ranging from abnormal liver function tests to clinical manifestations such as hepatitis and jaundice have been reported. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Miscellaneous:</content> Other reported adverse reactions include: pulmonary fibrosis (including fatal outcomes) and interstitial pneumonitis, skin hypersensitivity, maculopapular rashes, vasculitis, alopecia, and hemolytic anemia. Allergic reactions, including urticaria, edema, skin rashes, and rare anaphylaxis, have occurred after multiple courses of treatment. Cardiac arrest has also been reported rarely in association with such reports. </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20140612"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_50a3d391-d392-3856-412f-bbf6775e9ecb">
+               <id root="806c081a-8671-3cda-fcd4-5ee6b3347abe"/>
+               <code code="34088-5" displayName="OVERDOSAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Overdoses, including doses up to 50 mg/day for 16 days, have been reported. Immediate effects are likely to be vomiting, ulceration of the mouth, diarrhea, and hemorrhage of the gastrointestinal tract. The principal toxic effect is bone marrow suppression. Hematologic parameters should be closely followed for 3 to 6 weeks. An uncontrolled study suggests that administration of autologous bone marrow or hematopoietic growth factors (i.e., sargramostim, filgrastim) may shorten the period of pancytopenia. General supportive measures, together with appropriate blood transfusions and antibiotics, should be instituted as deemed necessary by the physician. This drug is not removed from plasma to any significant degree by hemodialysis. </paragraph>
+               </text>
+               <effectiveTime value="20140612"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_98b18912-755c-739a-9ef9-c56224ab70c6">
+               <id root="d4d88fe5-ff08-775a-6956-bc5bdc03d817"/>
+               <code code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Multiple Myeloma: </content>The usual oral dose is 6 mg (3 tablets) daily. The entire daily dose may be given at one time. The dose is adjusted, as required, on the basis of blood counts done at approximately weekly intervals. After 2 to 3 weeks of treatment, the drug should be discontinued for up to 4 weeks, during which time the blood count should be followed carefully. When the white blood cell and platelet counts are rising, a maintenance dose of 2 mg daily may be instituted. Because of the patient-to-patient variation in melphalan plasma levels following oral administration of the drug, several investigators have recommended that the dosage of Melphalan Tablets USP be cautiously escalated until some myelosuppression is observed in order to assure that potentially therapeutic levels of the drug have been reached. </paragraph>
+                  <paragraph>Other dosage regimens have been used by various investigators. Osserman and Takatsuki have used an initial course of 10 mg/day for 7 to 10 days. They report that maximal suppression of the leukocyte and platelet counts occurs within 3 to 5 weeks and recovery within 4 to 8 weeks. Continuous maintenance therapy with 2 mg/day is instituted when the white blood cell count is greater than 4,000 cells/mcL and the platelet count is greater than 100,000 cells/mcL. Dosage is adjusted to between 1 and 3 mg/day depending upon the hematological response. It is desirable to try to maintain a significant degree of bone marrow depression so as to keep the leukocyte count in the range of 3,000 to 3,500 cells/mcL. </paragraph>
+                  <paragraph>Hoogstraten et al have started treatment with 0.15 mg/kg/day for 7 days. This is followed by a rest period of at least 14 days, but it may be as long as 5 to 6 weeks. Maintenance therapy is started when the white blood cell and platelet counts are rising. The maintenance dose is 0.05 mg/kg/day or less and is adjusted according to the blood count. </paragraph>
+                  <paragraph>Available evidence suggests that about one third to one half of the patients with multiple myeloma show a favorable response to oral administration of the drug. </paragraph>
+                  <paragraph>One study by Alexanian et al has shown that the use of Melphalan Tablets USP in combination with prednisone significantly improves the percentage of patients with multiple myeloma who achieve palliation. One regimen has been to administer courses of Melphalan Tablets USP at 0.25 mg/kg/day for 4 consecutive days (or, 0.20 mg/kg/day for 5 consecutive days) for a total dose of 1 mg/kg/course. These 4- to 5-day courses are then repeated every 4 to 6 weeks if the granulocyte count and the platelet count have returned to normal levels. </paragraph>
+                  <paragraph>It is to be emphasized that response may be very gradual over many months; it is important that repeated courses or continuous therapy be given since improvement may continue slowly over many months, and the maximum benefit may be missed if treatment is abandoned too soon. </paragraph>
+                  <paragraph>In patients with moderate to severe renal impairment, currently available pharmacokinetic data do not justify an absolute recommendation on dosage reduction to those patients, but it may be prudent to use a reduced dose initially. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Epithelial Ovarian Cancer: </content>One commonly employed regimen for the treatment of ovarian carcinoma has been to administer Melphalan Tablets USP at a dose of 0.2 mg/kg daily for 5 days as a single course. Courses are repeated every 4 to 5 weeks depending upon hematologic tolerance. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Administration Precautions</content>: Procedures for proper handling and disposal of anticancer drugs should be considered. Several guidelines on this subject have been published.<sup> 1-8</sup> There is no general agreement that all of the procedures recommended in the guidelines are necessary or appropriate. </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20140612"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_da9d73b7-6964-00c6-0769-6ad008dc3daa">
+               <id root="79aaf094-bd95-f6fc-04ca-1d3d57d581bf"/>
+               <code code="34069-5" displayName="HOW SUPPLIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Melphalan Tablets USP are supplied as white to off white, round biconvex tablets containing 2 mg melphalan USP in amber glass bottles with child-resistant closures. Embossed with "A" on one side and "2" on reverse.</paragraph>
+                  <paragraph>Bottle of 50 (NDC 47781-200-50).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store in a refrigerator, 2°</content>
+                     <content styleCode="bold"> to 8</content>°<content styleCode="bold">C (36</content>°<content styleCode="bold"> to 46</content>°<content styleCode="bold">F). Protect from light. </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20140612"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_012482cb-0b0e-ddff-751b-e33602432db6">
+               <id root="11e42f57-b75a-1f55-3588-57315c573e8a"/>
+               <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">REFERENCES</content>
+                  </paragraph>
+                  <paragraph>1. NIOSH Alert: Preventing Occupational Exposures to Antineoplastic and Other Hazardous Drugs in Healthcare Settings. U.S. Department of Health and Human Services, Public Health Service. Centers for Disease Control and Prevention, National Institute for Occupational Safety and Health, DHHS (NIOSH) Publication No. 2004-165. </paragraph>
+                  <paragraph>2. OSHA Technical Manual, TED 1-0.15A, Section VI: Chapter 2. Controlling Occupational Exposure to Hazardous Drugs. OSHA, 1999. http://www.osha.gov/dts/osta/otm/otm_vi/otm_vi_2.html </paragraph>
+                  <paragraph>3. American Society of Health-System Pharmacists. (2006) ASHP Guidelines on Handling Hazardous Drugs. Am J Health-Syst Pharm. 2006;63:1172-1193. </paragraph>
+                  <paragraph>4. Polovich M, White JM, Kelleher LO (eds.) 2005. Chemotherapy and Biotherapy Guidelines and Recommendations for Practice. (2<sup>nd</sup>ed.) Pittsburgh, PA: Oncology Nursing Society. </paragraph>
+                  <paragraph/>
+                  <paragraph>Made in Ireland</paragraph>
+                  <paragraph>Distributed by:<br/>Alvogen, Inc.<br/>Pine Brook, NJ 07058 USA</paragraph>
+                  <paragraph>PI200-00<br/>Rev. 04/2016</paragraph>
+               </text>
+               <effectiveTime value="20140612"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_a4bfa2d9-97a6-674e-0334-c43cc1cad1c6">
+               <id root="b18693ec-dfed-af43-3f50-f97ed0194938"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title/>
+               <text>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">NDC </content>47781-<content styleCode="bold">200</content>-50 </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">MELPHALAN</content>
+                     <br/>
+                     <content styleCode="bold">TABLETS USP</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>2 mg </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">50 Film-Coated Tablets </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                     <content styleCode="bold">Alvogen<sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM911929958494"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20140612"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
