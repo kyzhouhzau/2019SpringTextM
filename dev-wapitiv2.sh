@@ -74,7 +74,7 @@ echo "================ Training $corpus_name (this may take some time) =========
 # training: create a MODEL based on PATTERNS and TRAINING-CORPUS
 # wapiti train -p PATTERNS TRAINING-CORPUS MODEL
 echo "wapiti train $training_options -p $pattern_file <(cat $input_dir/[A-S]*.tab) $output_dir/$patname-train-$corpus_name.mod" 1>&2
-wapiti train $training_options -p $pattern_file <(cat $input_dir/[A-S]*.tab) $output_dir/$patname-train-$corpus_name.mod
+../Wapiti/bin/wapiti train $training_options -p $pattern_file <(cat $input_dir/[A-S]*.tab) $output_dir/$patname-train-$corpus_name.mod
 # wapiti train -a bcd -t 2 -i 5 -p t.pat train-bio.tab t-train-bio.mod
 #
 # Note: The default algorithm, l-bfgs, stops early and does not succeed in annotating any token (all O)
