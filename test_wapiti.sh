@@ -78,13 +78,13 @@ echo "================ Training $corpus_name (this may take some time) =========
 # wapiti train -p PATTERNS TRAINING-CORPUS MODEL
 echo "wapiti train $training_options -p $pattern_file <(cat $1) $output_dir/$patname-train-$corpus_name-$3.mod" 1>&2
 
-../Wapiti/bin/wapiti dump $output_dir/$patname-train-$corpus_name.mod $output_dir/$patname-train-$corpus_name.txtwapiti train $training_options -p $pattern_file <(cat $traininput_dir/*.tab) $output_dir/$patname-train-$corpus_name.mod
+../Wapiti/bin/wapiti train $training_options -p $pattern_file <(cat $traininput_dir/*.tab) $output_dir/$patname-train-$corpus_name.mod
 # wapiti train -a bcd -t 2 -i 5 -p t.pat train-bio.tab t-train-bio.mod
 #
 # Note: The default algorithm, l-bfgs, stops early and does not succeed in annotating any token (all O)
 # sgd-l1 works; bcd works
 
-../Wapiti/bin/wapiti dump $output_dir/$patname-train-$corpus_name.mod $output_dir/$patname-train-$corpus_name.txtwapiti dump $output_dir/$patname-train-$corpus_name.mod $output_dir/$patname-train-$corpus_name.txt
+../Wapiti/bin/wapiti dump $output_dir/$patname-train-$corpus_name.mod $output_dir/$patname-train-$corpus_name.txt
 
 echo "================ Inference $corpus_name ================" 1>&2
 # inference (labeling): apply the MODEL to label the TEST-CORPUS, put results in TEST-RESULTS
@@ -92,7 +92,7 @@ echo "================ Inference $corpus_name ================" 1>&2
 # -c : check (= evaluate)
 # <(COMMAND ARGUMENTS ...) : runs COMMAND on ARGUMENTS ... and provides the results as if in a file
 echo "wapiti label -c -m $output_dir/$patname-train-$corpus_name-$3.mod <(cat $1) $output_dir/$patname-train-test-$corpus_name-$3.tab" 1>&2
-../Wapiti/bin/wapiti dump $output_dir/$patname-train-$corpus_name.mod $output_dir/$patname-train-$corpus_name.txtwapiti label -c -m $output_dir/$patname-train-$corpus_name.mod <(cat $testinput_dir/*) $output_dir/$patname-train-test-$corpus_name.tab
+../Wapiti/bin/wapiti label -c -m $output_dir/$patname-train-$corpus_name.mod <(cat $testinput_dir/*) $output_dir/$patname-train-test-$corpus_name.tab
 # wapiti label -c -m t-train-bio.mod test-bio.tab t-train-test-bio.tab
 #echo "================ Evaluation with conlleval.pl $corpus_name ================" 1>&2
 echo "Finished!"
