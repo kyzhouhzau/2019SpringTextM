@@ -96,4 +96,4 @@ echo "================ Evaluation with conlleval.pl $corpus_name ===============
 # evaluate the resulting entities
 # $'\t' is a way to obtain a tabulation in bash
 echo "sudo $BINDIR/conlleval.pl -d $'\t' <$output_dir/$patname-train-test-$corpus_name.tab | tee $output_dir/$patname-train-test-$corpus_name.eval" 1>&2
-sudo perl $BINDIR/conlleval.pl -d $'\t' <$output_dir/$patname-train-test-$corpus_name.tab | tee $output_dir/$patname-train-test-$corpus_name.eval
+perl $BINDIR/conlleval.pl -d $'\t' <$output_dir/$patname-train-test-$corpus_name.tab | tee $output_dir/$patname-train-test-$corpus_name.eval
